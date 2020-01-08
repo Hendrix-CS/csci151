@@ -9,6 +9,22 @@ layout: course-multi
 
 {{ site.description }}
 
+<div>
+{% if site.navigation[0] %}
+  {% for item in site.navigation %}
+    <h3>{{ item.title }}</h3>
+      {% if item.subfolderitems[0] %}
+        <ul>
+          {% for entry in item.subfolderitems %}
+              <li><a href="{{ entry.url }}">{{ entry.page }}</a>                
+              </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endfor %}
+{% endif %}
+</div>
+
 ## <a name="goals">Learning Goals</a>
 
 Upon completing this course, our goal is for you to be able to:

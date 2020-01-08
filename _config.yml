@@ -14,20 +14,45 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 description: >- # this means to ignore newlines until "baseurl:"
-  Builds on skills acquired in CSCI 150, placing emphasis on object-oriented
+  This course builds on skills acquired in CSCI 150, placing emphasis on object-oriented
   software design and data abstraction. Students are introduced to data
   structures (lists, stacks, queues, trees, heaps, hash tables, graphs) and
   programming techniques such as recursion and sorting algorithms. Other topics
   include analysis of algorithm complexity, automated unit testing, inheritance.
   Programming assignments focus on the design and implementation of algorithms
-  and data structures using the Java language. Laboratory course. Prerequisite:
-  CSCI 150 or consent of instructor.
+  and data structures using the Java language.
 baseurl: "/csci151" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 number: CSCI 151
 title: Data Structures
 semester: Spring 2020
+
+navigation:
+  - title: Overview
+    subfolderitems:
+      - page: Description
+        url: '#description'
+      - page: Learning Goals
+        url: '#goals'
+      - page: Resources
+        url: '#resources'
+  - page: In-Class Code
+    url: '#inclasscode'
+  - title: Coursework
+    subfolderitems:
+      - page: Homework and Quizzes
+        url: '#hwqz'
+      - page: Labs
+        url: '#labs'
+      - page: Projects
+        url: '#projects'
+      - page: Exams
+        url: '#exams'
+      - page: Scale
+        url: '#scale'
+  - page: Commitments
+    url: '#commitments'
 
 instructors:
   - id: yorgey
@@ -53,31 +78,24 @@ offerings:
     time: T 1:10pm - 4:00pm
     instructor: goadrich
 
-
 resources:
-  - name: Python 3
+  - name: Java
     image: assets/images/pythonlogo.png
     url: http://python.org
-  - name: Azure Notebooks
+  - name: IntelliJ
     image: assets/images/azure.png
     url: https://notebooks.azure.com/
-  - name: Pycharm
+  - name: JavaFX
     image: assets/images/pycharmlogo.png
     url: https://www.jetbrains.com/pycharm/
 
 extra-resources:
-  - name: "How to Think Like a Computer Scientist: Interactive Edition"
+  - name: Java4Python
     image: assets/images/runestone_logo.png
-    url: https://runestone.academy/runestone/books/published/thinkcspy/index.html
-  - name: Python Tutor
-    image: assets/images/python_tutor.png
-    url: http://pythontutor.com/
-  - name: CodingBat Python
+    url: https://runestone.academy/runestone/books/published/java4python/index.html
+  - name: CodingBat Java
     image: assets/images/codingbat.jpg
-    url: https://codingbat.com/python
-  - name: CheckiO Python Practice
-    image: assets/images/checkio_logo_small.png
-    url: https://py.checkio.org/
+    url: https://codingbat.com/
 
 # Build settings
 markdown: kramdown
