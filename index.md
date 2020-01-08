@@ -12,16 +12,20 @@ layout: course-multi
 <div>
 {% if site.navigation[0] %}
   {% for item in site.navigation %}
-    <h3>{{ item.title }}</h3>
-      {% if item.subfolderitems[0] %}
-        <ul>
-          {% for entry in item.subfolderitems %}
-              <li><a href="{{ entry.url }}">{{ entry.page }}</a>                
-              </li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    {% endfor %}
+    {% if item.title %}
+      <h3>{{ item.title }}</h3>
+        {% if item.subfolderitems[0] %}
+          <ul>
+            {% for entry in item.subfolderitems %}
+                <li><a href="{{ entry.url }}">{{ entry.page }}</a>                
+                </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+    {% else %}
+        <h3><a href="{{ item.url }}">{{ item.page }}</a></h3>
+    {% endif %}
+  {% endfor %}
 {% endif %}
 </div>
 
