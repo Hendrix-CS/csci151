@@ -9,26 +9,6 @@ layout: course-multi
 
 {{ site.description }}
 
-<div>
-{% if site.navigation[0] %}
-  {% for item in site.navigation %}
-    {% if item.title %}
-      <h3>{{ item.title }}</h3>
-        {% if item.subfolderitems[0] %}
-          <ul>
-            {% for entry in item.subfolderitems %}
-                <li><a href="{{ entry.url }}">{{ entry.page }}</a>                
-                </li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-    {% else %}
-        <h3><a href="{{ item.url }}">{{ item.page }}</a></h3>
-    {% endif %}
-  {% endfor %}
-{% endif %}
-</div>
-
 ## <a name="goals">Learning Goals</a>
 
 Upon completing this course, our goal is for you to be able to:
@@ -114,11 +94,12 @@ On these labs, you will work with a partner on the lab assignments. Their name m
 |:--:|-----||:------:|:--------:|:---:|
 |1 | [Sample Project]({{site.baseurl}}/projects/sample-project.html)  | 50  | Sep 21 | Sep 30 |
 |2 | [Sample Project]({{site.baseurl}}/projects/sample-project.html) | 100 | Oct 16 | Nov 1 |
-|3 | [Sample Project]({{site.baseurl}}/projects/sample-project.html) | 200 | Nov 18 | Final Exam Day |
+|3 | [Sample Project]({{site.baseurl}}/projects/sample-project.html) | 100 | Oct 16 | Nov 1 |
+|4 | [Final Project]({{site.baseurl}}/projects/sample-project.html) | 200 | Nov 18 | Final Exam Day |
 
 You will have three projects in this course, one about every five weeks. These projects will cover concepts we have discussed in class and in labs, and will be due approximately one week after they are assigned.
 
-**You must work individually on the first two projects.** You may discuss concepts and ideas with your classmates, but the code you turn in must be your own. You will be graded not only on correctness, but also technique, documentation and evaluation of your solution. Further details on the grading standards and handin instructions for each project will be given when they are assigned.
+**You must work individually on the first three projects.** You may discuss concepts and ideas with your classmates, but the code you turn in must be your own. You will be graded not only on correctness, but also technique, documentation and evaluation of your solution. Further details on the grading standards and handin instructions for each project will be given when they are assigned.
 
 ## <a name="exams">Exams</a>: 250 points
 
