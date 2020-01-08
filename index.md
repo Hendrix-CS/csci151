@@ -13,6 +13,8 @@ layout: course-multi
 
 Upon completing this course, our goal is for you to be able to:
 
+REWORK THESE!
+
 * Build computer programs to:
   * Effectively solve realistic problems.
   * Organize, analyze, and summarize realistic data sets.
@@ -63,18 +65,7 @@ exceptional circumstances (you get sick, travel for a game or family
 obligation, *etc.*). After you have used up your late days, late assignments
 will receive at most half credit.
 
-## <a name="hwqz">Homework and Quizzes</a>: 140 points
-
-| #  | Name | Assigned | Due |
-|:--:|-----||:--------:|:---:|
-|0 | [Info Sheet](https://docs.google.com/forms/d/e/1FAIpQLSdtxgmw2tL6IzzK0qq3Fw2h2FTFmGHoTRs8p6wTfTToUn7pZg/viewform?usp=sf_link) | W Aug 28 | F Aug 30 |
-|1 | [Sample Homework]({{site.baseurl}}/homework/function-reading.pdf) | F Sep 27 | W Oct 2 |
-|2 | [Sample Homework]({{site.baseurl}}/homework/function-reading.pdf) | F Sep 27 | W Oct 2 |
-|3 | [Sample Homework]({{site.baseurl}}/homework/function-reading.pdf) | F Sep 27 | W Oct 2 |
-
-There will often be short homework assignments to be completed over the weekend, assigned on Friday and due Wednesday, sometimes with a corresponding quiz at the beginning of class on Wednesday.
-
-## <a name="labs">Labs</a>: 260 points
+## <a name="labs">Labs</a>: 240 points
 
 | #  | Name | Assigned | Due |
 |:--:|-----||:--------:|:---:|
@@ -88,30 +79,42 @@ On these labs, you will work with a partner on the lab assignments. Their name m
 
 **Lab attendance is required**. Labs take place in the **Snoddy Computer Lab**, in the Bailey Library. As you go through the exterior door of the library, turn immediately to your left and enter the Snoddy Academic Resource Center. Continue through the door at the far end of the hall into the first computer lab, and then enter the second lab at the back.
 
-## <a name="projects">Projects</a>: 350 points
+## <a name="projects">Projects</a>: 420 points
 
 | #  | Name | Points | Assigned | Due |
 |:--:|-----||:------:|:--------:|:---:|
-|1 | [Sample Project]({{site.baseurl}}/projects/sample-project.html)  | 50  | Sep 21 | Sep 30 |
-|2 | [Sample Project]({{site.baseurl}}/projects/sample-project.html) | 100 | Oct 16 | Nov 1 |
-|3 | [Sample Project]({{site.baseurl}}/projects/sample-project.html) | 100 | Oct 16 | Nov 1 |
+|1 | [Java and Arrays]({{site.baseurl}}/projects/sample-project.html)  | 50  | Sep 21 | Sep 30 |
+|2 | [GUI and Animation]({{site.baseurl}}/projects/sample-project.html) | 100 | Oct 16 | Nov 1 |
+|3 | [Text Adventure]({{site.baseurl}}/projects/sample-project.html) | 120 | Oct 16 | Nov 1 |
 |4 | [Final Project]({{site.baseurl}}/projects/sample-project.html) | 200 | Nov 18 | Final Exam Day |
 
-You will have three projects in this course, one about every five weeks. These projects will cover concepts we have discussed in class and in labs, and will be due approximately one week after they are assigned.
+You will have four projects in this course, one about every four weeks. These projects will cover concepts we have discussed in class and in labs, and will be due approximately two weeks after they are assigned.
 
 **You must work individually on the first three projects.** You may discuss concepts and ideas with your classmates, but the code you turn in must be your own. You will be graded not only on correctness, but also technique, documentation and evaluation of your solution. Further details on the grading standards and handin instructions for each project will be given when they are assigned.
 
 ## <a name="exams">Exams</a>: 250 points
 
-There will be three in-class exams, the first worth 50 points and the second and
-third worth 100 of your final grade. They will consist of short answer
+There will be two in-class exams, the first worth 100 points and the second
+ worth 150 of your final grade. They will consist of short answer
 questions along with writing and debugging code.
 
 * Exam 1: Sep 20, covering functions, math, numerical data, conditionals, and binary encoding
 * Exam 2: Oct 16, covering input/output, while loops, lists, and strings
-* Exam 3: Nov 25, covering for loops, dictionaries, classes and objects
 
 There is no final exam; you will complete a final project instead, as described above under Projects.
+
+## <a name="checkins">Checkins and Participation</a>: At least 90 points
+
+Three times throughout the semester, you are expected to
+make an office hours appointment and check in with me about the course. Each checkin
+will count for 15 points.
+This will be conversation and feedback about your current progress and understanding.
+These should be scheduled during the week shown
+on the [course calendar](https://app.teamgantt.com/public/projects/calendar/2020-01-05?ids=1972972&projectIds=1972972&publicKeys=bWZU5DuRsTN4&userResourceIds=0).
+
+Also, there will be many opportunities to accumulate a small number of points
+throughout the semester by participating in classroom exercises and
+reflecting on the material. These will total at least 45 points, most likely more.
 
 ## <a name="scale">Grading Scale</a>
 

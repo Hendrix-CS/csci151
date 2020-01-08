@@ -39,16 +39,18 @@ navigation:
         url: '#resources'
   - page: In-Class Code
     url: '#inclasscode'
+  - page: Calendar
+    url: 'https://app.teamgantt.com/public/projects/calendar/2020-01-05?ids=1972972&projectIds=1972972&publicKeys=bWZU5DuRsTN4&userResourceIds=0'
   - title: Coursework
     subfolderitems:
-      - page: Homework and Quizzes
-        url: '#hwqz'
       - page: Labs
         url: '#labs'
       - page: Projects
         url: '#projects'
       - page: Exams
         url: '#exams'
+      - page: Checkins
+        url: '#checkins'
       - page: Scale
         url: '#scale'
   - page: Commitments
