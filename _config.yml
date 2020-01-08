@@ -14,19 +14,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 description: >- # this means to ignore newlines until "baseurl:"
-  Introduction to solving computational problems, including the fundamentals
-  of computer programming. Topics include imperative programming constructs
-  (variables, loops, conditionals, functions, recursion), basic
-  object-oriented constructs (classes, objects), and some fundamental
-  algorithms and data structures (dictionaries, arrays, linked lists).
-  Student learn these concepts through studying the Python programming
-  language.
-baseurl: "/csci000" # the subpath of your site, e.g. /blog
+  Builds on skills acquired in CSCI 150, placing emphasis on object-oriented
+  software design and data abstraction. Students are introduced to data
+  structures (lists, stacks, queues, trees, heaps, hash tables, graphs) and
+  programming techniques such as recursion and sorting algorithms. Other topics
+  include analysis of algorithm complexity, automated unit testing, inheritance.
+  Programming assignments focus on the design and implementation of algorithms
+  and data structures using the Java language. Laboratory course. Prerequisite:
+  CSCI 150 or consent of instructor.
+baseurl: "/csci151" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-number: CSCI 000
-title: Generic Computer Science Course
-semester: Fall 2019
+number: CSCI 151
+title: Data Structures
+semester: Spring 2020
 
 instructors:
   - id: yorgey
@@ -44,21 +45,14 @@ instructors:
 
 offerings:
   - name: LECTURE 01
-    loc: MCREY 110
-    time: MWF 8:10am - 9:00am
-    instructor: yorgey
-  - name: LECTURE 02
-    loc: MCREY 110
-    time: MWF 11:10am - 12:00pm
+    loc: WAC 249
+    time: MWF 9:10am - 10:00am
     instructor: goadrich
   - name: LAB 01
     loc: Snoddy Computer Lab
-    time: R 1:10pm - 4:00pm
-    instructor: yorgey
-  - name: LAB 02
-    loc: Snoddy Computer Lab
-    time: W 1:10pm - 4:00pm
+    time: T 1:10pm - 4:00pm
     instructor: goadrich
+
 
 resources:
   - name: Python 3
