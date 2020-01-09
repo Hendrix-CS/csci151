@@ -25,6 +25,26 @@ REWORK THESE!
 * Use modular components to decompose problems and assemble solutions.
 * Create abstract, generalized models from specific, complex examples.
 
+Write and thoroughly test a medium-sized program (400 lines minimum)
+State and apply a mathematical definition of algorithmic efficiency
+Analyze the running time of an algorithm or data structure operation using "big-O" notation
+Understand and apply common complexity categories to select the right data structure and algorithm for a given task
+Implement and analyze the following data structures:
+Linked lists
+Stacks
+Queues
+Priority Queues
+Hash tables
+Trees
+Graphs
+Implement and analyze different sorting algorithms
+Use classes to implement abstract data types
+Use interfaces and inheritance to implement subtype polymorphism
+Use generics to implement parametric polymorphism
+Use and understand recursion as an implementation technique
+Articulate the difference between static and dynamic type systems
+Employ automated unit testing to verify and document software functionality
+
 ## <a name="resources">Resources</a>
 
 {% include resources.html content=site.resources %}
@@ -118,7 +138,7 @@ There is no final exam; you will complete a final project instead, as described 
 
 Three times throughout the semester, you are expected to
 make an office hours appointment and check in with me about the course. Each checkin
-will count for 15 points.
+meeting will count for 15 points.
 This will be conversation and feedback about your current progress and understanding.
 These should be scheduled during the week shown
 on the [course calendar](https://app.teamgantt.com/public/projects/calendar/2020-01-05?ids=1972972&projectIds=1972972&publicKeys=bWZU5DuRsTN4&userResourceIds=0).

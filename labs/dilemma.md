@@ -16,7 +16,7 @@ Prisoner's Dilemma.
 1.  Download the [skeleton](../code/151-prisoner.zip) for this project.
 2.  Extract the file to your desired location.
 3.  Open IntelliJ.
-4.  Select `File` -> `Open` -> and the project directory.
+4.  Select `File` \> `Open` \> and the project directory.
 5.  Go to the Package Explorer, and make sure the desired files are in
     place.
 
