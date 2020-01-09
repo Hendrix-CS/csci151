@@ -82,14 +82,17 @@ offerings:
 
 resources:
   - name: Java
-    image: assets/images/pythonlogo.png
-    url: http://python.org
+    image: assets/images/java-logo.png
+    url: https://jdk.java.net/13/
   - name: IntelliJ
-    image: assets/images/azure.png
-    url: https://notebooks.azure.com/
+    image: assets/images/IntelliJ_IDEA_Logo.png
+    url: https://www.jetbrains.com/idea/
   - name: JavaFX
-    image: assets/images/pycharmlogo.png
-    url: https://www.jetbrains.com/pycharm/
+    image: assets/images/javafx.png
+    url: https://openjfx.io/
+  - name: SceneBuilder
+    image: assets/images/SceneBuilderLogo.png
+    url: https://gluonhq.com/products/scene-builder/
 
 extra-resources:
   - name: Java4Python

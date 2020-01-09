@@ -103,7 +103,7 @@ questions along with writing and debugging code.
 
 There is no final exam; you will complete a final project instead, as described above under Projects.
 
-## <a name="checkins">Checkins and Participation</a>: At least 90 points
+## <a name="checkins">Checkins and Participation</a>: 90+
 
 Three times throughout the semester, you are expected to
 make an office hours appointment and check in with me about the course. Each checkin
@@ -112,7 +112,7 @@ This will be conversation and feedback about your current progress and understan
 These should be scheduled during the week shown
 on the [course calendar](https://app.teamgantt.com/public/projects/calendar/2020-01-05?ids=1972972&projectIds=1972972&publicKeys=bWZU5DuRsTN4&userResourceIds=0).
 
-Also, there will be many opportunities to accumulate a small number of points
+Also, there will be many opportunities to accumulate small amounts of points
 throughout the semester by participating in classroom exercises and
 reflecting on the material. These will total at least 45 points, most likely more.
 
