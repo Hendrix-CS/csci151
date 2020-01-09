@@ -45,11 +45,13 @@ Exceptions may be made on a case-by-case basis if you can prove to me that you r
 
 When we write code together in class, it will be posted here!
 
+<!--
 | Date | Topic | Code |
 |:----:|------||-----||
 | F 30 Aug | Intro to Python | [Intro Notebook](https://pythonintro-yorgey.notebooks.azure.com/j/notebooks/PythonIntro.ipynb) |
 | W 4 Sep | More Math and Functions | [Box Math](https://boxmath-yorgey.notebooks.azure.com/j/notebooks/BoxMath.ipynb) |
 | F 6 Sep | Strings and Booleans | [Booleans](https://booleans-yorgey.notebooks.azure.com/j/notebooks/Strings%20and%20Booleans.ipynb)
+-->
 
 <hr>
 # Coursework
@@ -69,9 +71,18 @@ will receive at most half credit.
 
 | #  | Name | Assigned | Due |
 |:--:|-----||:--------:|:---:|
-|1 | [Sample Lab]({{site.baseurl}}/labs/sample-lab.html) | Aug 28-29 | Sep 4-5 |
-|2 | [Sample Lab]({{site.baseurl}}/labs/sample-lab.html) | Sep 4-5 | Sep 11-12 |
-|3 | [Sample Lab]({{site.baseurl}}/labs/sample-lab.html) | Sep 11-12 | Sep 18-19 |
+|1 | [CodingBat]({{site.baseurl}}/labs/codingbat.html) | Jan 21 | Jan 28 |
+|2 | [Prisoner's Dilemma]({{site.baseurl}}/labs/dilemma.html) | Jan 28 | Feb 4 |
+|3 | [Mazes: Enums and 2D Arrays]({{site.baseurl}}/labs/maze-enums.html) | Feb 4 | Feb 11 |
+|4 | [Mazes: Depth First Search]({{site.baseurl}}/labs/maze-dfs.html) | Feb 11 | Feb 18 |
+|5 | [Mazes: Breath First Search]({{site.baseurl}}/labs/maze-bfs.html) | Feb 18 | Feb 25 |
+|6 | [JavaFX and GUIs]({{site.baseurl}}/labs/javafx.html) | Feb 25 | Mar 3 |
+|7 | [Mazes: A* Search]({{site.baseurl}}/labs/maze-astar.html) | Mar 3 | Mar 10 |
+|8 | [Sortimator]({{site.baseurl}}/labs/sortimator.html) | Mar 10 | Mar 17 |
+|9 | [Skip Lists]({{site.baseurl}}/labs/skiplists.html) | Mar 31 | Apr 7 |
+|10 | [Binary Search Trees]({{site.baseurl}}/labs/binarysearchtrees.html) | Apr 7 | Apr 14 |
+|11 | [Text Prediction]({{site.baseurl}}/labs/text-prediction.html) | Apr 14 | Apr 21 |
+|12 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html) | Apr 21 | Apr 28 |
 
 Much of your experience with programming in this course will be through weekly labs. Each lab will be assigned in lab with time allotted to work through the materials, and will be due **by the start of the following lab**. All labs are weighted equally within the lab portion of your final grade.
 
@@ -83,10 +94,10 @@ On these labs, you will work with a partner on the lab assignments. Their name m
 
 | #  | Name | Points | Assigned | Due |
 |:--:|-----||:------:|:--------:|:---:|
-|1 | [Java and Arrays]({{site.baseurl}}/projects/sample-project.html)  | 50  | Sep 21 | Sep 30 |
-|2 | [GUI and Animation]({{site.baseurl}}/projects/sample-project.html) | 100 | Oct 16 | Nov 1 |
-|3 | [Text Adventure]({{site.baseurl}}/projects/sample-project.html) | 120 | Oct 16 | Nov 1 |
-|4 | [Final Project]({{site.baseurl}}/projects/sample-project.html) | 200 | Nov 18 | Final Exam Day |
+|1 | [Java and Arrays]({{site.baseurl}}/projects/arrays.html)  | 50  | Jan 31 | Feb 14 |
+|2 | [GUI and Animation]({{site.baseurl}}/projects/gui-animation.html) | 100 | Feb 26 | Mar 9 |
+|3 | [Text Adventure]({{site.baseurl}}/projects/adventure.html) | 120 | Mar 17 | Apr 9 |
+|4 | [Final Project]({{site.baseurl}}/projects/final-project.html) | 200 | Apr 17 | May 12 |
 
 You will have four projects in this course, one about every four weeks. These projects will cover concepts we have discussed in class and in labs, and will be due approximately two weeks after they are assigned.
 
@@ -98,12 +109,12 @@ There will be two in-class exams, the first worth 100 points and the second
  worth 150 of your final grade. They will consist of short answer
 questions along with writing and debugging code.
 
-* Exam 1: Sep 20, covering functions, math, numerical data, conditionals, and binary encoding
-* Exam 2: Oct 16, covering input/output, while loops, lists, and strings
+* Exam 1: Feb 24, covering basic Java commands, classes, objects, enums, 2D arrays, stacks, and queues
+* Exam 2: May 1, covering heaps, sorting algorithms, algorithmic analysis, lists, trees, and hash tables
 
 There is no final exam; you will complete a final project instead, as described above under Projects.
 
-## <a name="checkins">Checkins and Participation</a>: 90+
+## <a name="checkins">Checkins and Participation</a>: 90+ points
 
 Three times throughout the semester, you are expected to
 make an office hours appointment and check in with me about the course. Each checkin

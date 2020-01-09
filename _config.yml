@@ -101,6 +101,9 @@ extra-resources:
   - name: CodingBat Java
     image: assets/images/codingbat.jpg
     url: https://codingbat.com/
+  - name: CS2Mulch
+    image: assets/images/cs2mulch.png
+    url: https://mgoadric.github.io/cs2mulch/
 
 # Build settings
 markdown: kramdown
