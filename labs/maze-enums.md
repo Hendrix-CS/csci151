@@ -53,7 +53,7 @@ mazes.
 To start, run the code in MazeApp. After you click on "Reset Maze", you
 should see the GUI layout here.
 
-![](../images/mazegui1.png)
+![](../assets/images/mazegui1.png)
 
 The Clear/Fill selection allows a user to manually create a maze on the
 screen. This will be completed by you in steps 1 and 2 of this lab, and
@@ -113,7 +113,7 @@ Now, run the `MazeApp` class, and test out your code with the GUI. You
 should be able to select squares and open and close pathways in the
 maze.
 
-![](../images/mazegui2.png)
+![](../assets/images/mazegui2.png)
 
 ## Step 3 - Avoiding Rooms
 
@@ -157,7 +157,7 @@ Test out your code with the `MazeTest` and `PuzzleTest` suite.
 
 Run the GUI to interact with your code.
 
-![](../images/mazegui3.png)
+![](../assets/images/mazegui3.png)
 
 ## Step 4 - Explorer and Goal
 
@@ -213,7 +213,7 @@ Verify that your Puzzle is working with the PuzzleTest suite.
 
 Run the GUI to interact with your code.
 
-![](../images/mazegui4.png)
+![](../assets/images/mazegui4.png)
 
 ## What to Hand In
 

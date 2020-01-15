@@ -47,11 +47,8 @@ looking for something in the list: we can start by taking very big hops
 in the list until the next big hop would take us beyond what we are
 looking for; then we take slightly smaller hops; and so on.
 
-<div class="figure">
 
 ![](https://upload.wikimedia.org/wikipedia/commons/8/86/Skip_list.svg)
-
-</div>
 
 For example, the image above illustrates a skip list containing the
 numbers <span class="math inline">\\(1\\)</span> through <span

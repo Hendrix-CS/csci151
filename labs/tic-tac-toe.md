@@ -37,7 +37,7 @@ based on this play. Later board states will be influenced more than
 earlier board states, to account for the recency of the position and
 opportunity for alternate play choices.
 
-![](../images/tictactoe.png)
+![](../assets/images/tictactoe.png)
 
 As more games are recorded, the AI will build up a probabilistic picture
 of the game tree. The user can elect to train multiple iterations at

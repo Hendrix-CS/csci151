@@ -91,6 +91,7 @@ will receive at most half credit.
 
 | #  | Name | Assigned | Due |
 |:--:|-----||:--------:|:---:|
+|0 | [Survey](https://forms.gle/zy7McG4bJEevytSNA) | Jan 15 | Jan 21 |
 |1 | [CodingBat]({{site.baseurl}}/labs/codingbat.html) | Jan 21 | Jan 28 |
 |2 | [Prisoner's Dilemma]({{site.baseurl}}/labs/dilemma.html) | Jan 28 | Feb 4 |
 |3 | [Mazes: Enums and 2D Arrays]({{site.baseurl}}/labs/maze-enums.html) | Feb 4 | Feb 11 |

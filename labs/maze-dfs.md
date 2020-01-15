@@ -39,7 +39,7 @@ maze with either a depth-first search or breadth-first search.
 To start, run the code in MazeApp. After you click on "Randomize", you
 should see the GUI layout here.
 
-![](../images/mazegui7.png)
+![](../assets/images/mazegui7.png)
 
 There are a few new pieces to this GUI. First, you will see a way for
 you to select a search strategy, either a Stack or a Queue. For each
@@ -86,7 +86,7 @@ While the stack still has Positions:
     -   Clear this position
     -   Add the neighbors to the stack in a **random** order.
 
-![](../images/mazegui5.png)
+![](../assets/images/mazegui5.png)
 
 ### Step 6 - Solving Mazes
 
@@ -166,7 +166,6 @@ implementations, along with any additional files you created for your
 implementations.
 
 ## Grading
-
 
 * To earn a 3, complete Step 1
 * To earn a 10, do the above and Step 2
