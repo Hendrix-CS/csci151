@@ -111,7 +111,7 @@ On these labs, you will work with a partner on the lab assignments. Their name m
 
 **Lab attendance is required**. Labs take place in the **Snoddy Computer Lab**, in the Bailey Library. As you go through the exterior door of the library, turn immediately to your left and enter the Snoddy Academic Resource Center. Continue through the door at the far end of the hall into the first computer lab, and then enter the second lab at the back.
 
-## <a name="projects">Projects</a>: 420 points
+## <a name="projects">Projects</a>: 470 points
 
 | #  | Name | Points | Assigned | Due |
 |:--:|-----||:------:|:--------:|:---:|
@@ -124,11 +124,10 @@ You will have four projects in this course, one about every four weeks. These pr
 
 **You must work individually on the first three projects.** You may discuss concepts and ideas with your classmates, but the code you turn in must be your own. You will be graded not only on correctness, but also technique, documentation and evaluation of your solution. Further details on the grading standards and handin instructions for each project will be given when they are assigned.
 
-## <a name="exams">Exams</a>: 250 points
+## <a name="exams">Exams</a>: 200 points
 
-There will be two in-class exams, the first worth 100 points and the second
- worth 150 of your final grade. They will consist of short answer
-questions along with writing and debugging code.
+There will be two in-class exams, both worth 100 points of your final grade.
+They will consist of short answer questions along with writing and debugging code.
 
 * Exam 1: Feb 24, covering basic Java commands, classes, objects, enums, 2D arrays, stacks, and queues
 * Exam 2: May 1, covering heaps, sorting algorithms, algorithmic analysis, lists, trees, and hash tables
