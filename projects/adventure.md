@@ -378,10 +378,10 @@ when they drop an item in that item's goal location.
 A project which meets the Basic and Intermediate levels **and uses good
 code style and documentation** will receive a 85 points.
 
-Note that it is **not** a requirement to make your output look exactly
+{% include note.html content="It is **not** a requirement to make your output look exactly
 like mine in the example above! Use your creativity and judgment. If you
 have an idea of something you would like to do differently and are
-unsure whether it would meet the requirements, feel free to ask.
+unsure whether it would meet the requirements, feel free to ask." %}
 
 ### LEVEL 3: ADVANCED
 
@@ -633,3 +633,24 @@ For your final submission, you should turn in a `.zip` file containing:
     I should look for.
 
 ## Grading
+
+|Criteria|Score|
+||----|:---:|
+| Reads the provided world description file Hendrix.yaml, and loads the information into appropriate objects.  | **10**   |   
+| Keeps track of the player's current location, and prints out a description of the location.  |  **10**    |  
+| Allows the user to move around via the go command.  | **10**     |
+| Print out all the items at a new location | **5** |
+| Users can pick up and drop items | **10** |
+| Users can view their current inventory | **10** |
+| Keep track of the current score | **5** |
+| Includes a student-designed YAML file   |**10**      |
+| A look command takes the name of an item (either in the current location or in the player's inventory) and prints out a description of the item. |  **5**       |
+| By itself, the look command prints a description of the current location.   |   **5**     |  
+| Given a direction, the look command prints out the name of the location in that direction.  |   **5**       |
+| After visiting a location once, on subsequent visits print the desc instead of the longdesc.   |  **5**       |
+| Allow the user to pick up (portable) items.  | **5**       |
+| The user may refer to items by any of their listed aliases.  |   **5**       |
+| A help command lists all commands.  |  **5**       |
+| Includes at least one additional extension.   | **10**      |
+| Includes a helpful README    |  **5**       |
+| **Total**     |    **120**|

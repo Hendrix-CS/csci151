@@ -4,7 +4,7 @@ type: Project
 num: 5
 worktitle: Final Project
 designdue: Wednesday, December 4
-finaldue: Monday, December 16
+finaldue: Tuesday, May 12th, 8:30-11:30am
 ---
 
 ## Description
@@ -49,13 +49,19 @@ you encountered in creating your application.
 You will be presenting your final project to the rest of the students in
 the course. You will have at most **15 minutes** for your presentation,
 which must include a demonstration of your project. The final exam
-period for this course is Monday, December 16, 2019, from 2-5 pm.
+period for this course is {{page.finaldue}}.
 
 ## Grading
 
-Any project that demonstrates sufficient complexity will receive at
-least a B.
-
-To earn an A, the project must, in the instructor's judgement, have a
-clear purpose, exhibit some creativity and complexity, and have some
-interesting features.
+|Criteria|Score|
+||----|:---:|
+| Incorporates a GUI built with JavaFX and SceneBuilder  |  **20**  |   
+| Incorporates numerous classes and enums in a sensible organization, roughly at the level of the Maze or TicTacToe labs.  | **30**   |
+| The GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.  | **20**   |
+| Incorporates at least one data structure discussed in the course beyond a list.  | **30**  |    
+| Works as intended  |  **30**      |
+| Does something interesting that holds the attention of the user.    |      **20**      |
+| Evaluation document adequately describes the project   | **10**      |
+| Exhibits creativity and has some interesting features    | **20**    |  
+| Oral presentation clearly explains the project, its rationale, and demonstrates its capabilities.    |  **20**   |   
+| **Total**   |  **200** |
