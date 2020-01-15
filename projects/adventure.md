@@ -7,6 +7,8 @@ basicdue: Wednesday, April 1st
 finaldue: Thursday, April 9th
 ---
 
+## Overview
+
     You are in MC Reynolds 315.  Banks of desks stretch southwards
     and upwards into the gloom.  The blackboard broods, dark and empty,
     like a giant watchful eye.  The door is to the west.
@@ -45,8 +47,6 @@ finaldue: Thursday, April 9th
 
     ? drop eraser
     Dropped.
-
-## Overview
 
 In this project, you will implement an *adventure game engine*
 for [Interactive Fiction](https://en.wikipedia.org/wiki/Interactive_fiction)
