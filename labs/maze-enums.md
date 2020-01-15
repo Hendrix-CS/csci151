@@ -78,8 +78,7 @@ This class keeps track of an x and y coordinate. It has an accessor
 method for each of these two variables, and can determine if it is
 adjacent or equal to another Position.
 
-Step 1 - Maze
--------------
+## Step 1 - Maze
 
 The core storage of the pathways and walls in the maze is in the Maze
 class. It holds a 2D array of Cells as the only field.
@@ -93,8 +92,7 @@ You will need to write code for the following methods.
 Run the `MazeTest` suite, and ensure your above methods are passing
 these tests.
 
-Step 2 - Puzzle
----------------
+## Step 2 - Puzzle
 
 The Puzzle class is our central model for this program. It will hold a
 Maze, an Explorer, and a Position to represent the Goal in our maze. In
@@ -117,8 +115,7 @@ maze.
 
 ![](../images/mazegui2.png)
 
-Step 3 - Avoiding Rooms
------------------------
+## Step 3 - Avoiding Rooms
 
 We can add a restriction on the ability of the user to create mazes with
 large rooms. A room is defined as any four OPEN Cells that form a 2x2
@@ -162,8 +159,7 @@ Run the GUI to interact with your code.
 
 ![](../images/mazegui3.png)
 
-Step 4 - Explorer and Goal
---------------------------
+## Step 4 - Explorer and Goal
 
 Uncomment code labeled for this step in
 
@@ -219,19 +215,16 @@ Run the GUI to interact with your code.
 
 ![](../images/mazegui4.png)
 
-What to Hand In
----------------
+## What to Hand In
 
-Submit your Maze.java, Puzzle.java, Direction.java and Move.java
+Submit your `Maze.java`, `Puzzle.java`, `Direction.java` and `Move.java`
 implementations, along with any additional files you created for your
 implementations.
 
-Grading
--------
+## Grading
 
-  Cumulative Progress                                                              Points Earned
-  -------------------------------------------------------------------------------- ---------------
-  Step 1                                                                           5
-  Step 2                                                                           10
-  Step 3                                                                           15
-  Step 4                                                                           20
+
+* To earn a 5, complete Step 1
+* To earn a 10, do the above and Step 2
+* To earn a 15, do the above and Step 3
+* To earn a 20, do the above and Step 4
