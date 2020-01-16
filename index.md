@@ -19,7 +19,8 @@ Upon completing this course, our goal is for you to be able to:
 4. Use and justify appropriate programming algorithms for specific tasks.
 5. Decouple problem specification from program implementation through abstraction.
 6. Employ test-driven and empirical methods to understand the behavior of a program.
-7. Develop an aptitude and skills for independent learning.
+7. Discuss the ways programming languages employ distinct features to solve problems.
+8. Develop an aptitude and skills for independent learning.
 
 ## <a name="resources">Resources</a>
 
