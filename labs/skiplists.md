@@ -25,19 +25,19 @@ If we want to maintain a sorted list of items, from what we have seen so
 far we have two options:
 
 -   Keep a sorted array. Pro: we can use binary search, so finding
-    things takes <span class="math inline">\\(O(\\lg n)\\)</span> time.
+    things takes *O(lg n)* time.
     Con: in order to insert a new item we have to shift everything to
-    make room, which takes <span class="math inline">\\(O(n)\\)</span>.
+    make room, which takes *O(n)*.
 -   Keep a sorted linked list. Con: we have to use linear search, which
-    takes <span class="math inline">\\(O(n)\\)</span>. Pro: once we have
-    found the correct place, inserting can be done in <span
-    class="math inline">\\(O(1)\\)</span> time just by moving
+    takes *O(n)*. Pro: once we have
+    found the correct place, inserting can be done in
+    *O(1)* time just by moving
     references.
 
 A [**skip list**](https://en.wikipedia.org/wiki/Skip_list) is an
 intriguing structure which combines the benefits of both approaches, and
 allows us to keep a sorted list such that all operations (lookup,
-insert, remove) take <span class="math inline">\\(O(\\lg n)\\)</span>
+insert, remove) take *O(lg n)*
 time.
 
 Fundamentally, a skip list is like a normal (singly) linked list, but
@@ -51,54 +51,54 @@ looking for; then we take slightly smaller hops; and so on.
 ![](https://upload.wikimedia.org/wikipedia/commons/8/86/Skip_list.svg)
 
 For example, the image above illustrates a skip list containing the
-numbers <span class="math inline">\\(1\\)</span> through <span
-class="math inline">\\(10\\)</span>. Suppose we are looking for <span
-class="math inline">\\(8\\)</span>. We start at the node marked "head",
-at the topmost level, *i.e.* level 3 (the bottom level is level <span
-class="math inline">\\(0\\)</span>). Following the topmost link takes us
-to the node containing <span class="math inline">\\(1\\)</span>, which
-is smaller than <span class="math inline">\\(8\\)</span>, so we continue
+numbers *1* through
+*10*. Suppose we are looking for
+*8*. We start at the node marked "head",
+at the topmost level, *i.e.* level 3 (the bottom level is level
+*0*). Following the topmost link takes us
+to the node containing *1*, which
+is smaller than *8*, so we continue
 searching. The next link on the top level would take us beyond the end
 of the list (*i.e.* it is null, shown as NIL in the above picture), so
-we don't follow it. Instead, we stay on the node containing <span
-class="math inline">\\(1\\)</span> and move down one level, to level 2.
+we don't follow it. Instead, we stay on the node containing
+*1* and move down one level, to level 2.
 Now, we follow links on level 2 as long as the items we encounter are
-less than <span class="math inline">\\(8\\)</span>: the first link takes
-us to the node containing <span class="math inline">\\(4\\)</span>;
-another step takes us to <span class="math inline">\\(6\\)</span>; then
+less than *8*: the first link takes
+us to the node containing *4*;
+another step takes us to *6*; then
 the next step would take us past the end of the list, so we stop and
-move down to level <span class="math inline">\\(1\\)</span>. On level
-<span class="math inline">\\(1\\)</span>, the next step would take us to
-<span class="math inline">\\(9\\)</span>, which is too big. So instead
-we move down again to level <span class="math inline">\\(0\\)</span>,
-and then follow links to <span class="math inline">\\(7\\)</span> and
-finally to <span class="math inline">\\(8\\)</span>. The point is to
-notice how we were able to find <span class="math inline">\\(8\\)</span>
-without ever having to look at the nodes containing <span
-class="math inline">\\(2\\)</span>, <span
-class="math inline">\\(3\\)</span>, or <span
-class="math inline">\\(5\\)</span>.
+move down to level *1*. On level
+*1*, the next step would take us to
+*9*, which is too big. So instead
+we move down again to level *0*,
+and then follow links to *7* and
+finally to *8*. The point is to
+notice how we were able to find *8*
+without ever having to look at the nodes containing
+*2*,
+*3*, or
+*5*.
 
 How do we determine how "tall" each node should be? The answer is: by
 flipping a coin! Each time we create a node, we randomly decide how tall
 it should be by flipping a coin and seeing how many times in a row the
 coin comes up heads. We then add one level for each coin toss that came
-up heads. Every node has height at least <span
-class="math inline">\\(1\\)</span>; and then it has a 1/2 chance of
-having height at least <span class="math inline">\\(2\\)</span>; a 1/4
-chance of having height at least <span
-class="math inline">\\(3\\)</span>; a 1/8 chance of height at least
-<span class="math inline">\\(4\\)</span>; and so on. So on average, we
+up heads. Every node has height at least
+*1*; and then it has a 1/2 chance of
+having height at least *2*; a 1/4
+chance of having height at least
+*3*; a 1/8 chance of height at least
+*4*; and so on. So on average, we
 expect that at each level there will be half as many nodes as the
 previous level. Conversely, on the very top level, we expect to find
 only one or two nodes, so each step will cover about half the list; on
 the next level down, each step between nodes will cover about 1/4 the
 list; and so on. Thus, we expect searching for a given node to take
-<span class="math inline">\\(O(\\lg n)\\)</span> steps on average. As we
-will see, we also expect adding a new node to take <span
-class="math inline">\\(O(\\lg n)\\)</span> steps on average: we can find
-the right location for it in <span class="math inline">\\(O(\\lg
-n)\\)</span>, just as with a sorted array, but then we can quickly add
+*O(lg n)* steps on average. As we
+will see, we also expect adding a new node to take
+*O(lg n)* steps on average: we can find
+the right location for it in *O(lg
+n)*, just as with a sorted array, but then we can quickly add
 it just by shifting pointers around.
 
 ## Setup
@@ -177,11 +177,11 @@ Here is how `locate` should work:
 -   Create a new, empty stack of `SkipNode`s (you can use the standard
     Java `Stack` class).
 -   Keep track of our current `SkipNode`. Begin at `front`.
--   For each level <span class="math inline">\\(l\\)</span>, starting at
-    the highest level and proceeding to level <span
-    class="math inline">\\(0\\)</span>:
-    -   Keep following links at level <span
-        class="math inline">\\(l\\)</span> until following the next link
+-   For each level *l*, starting at
+    the highest level and proceeding to level
+    *0*:
+    -   Keep following links at level
+        *l* until following the next link
         would either take us off the end of the list, or would lead to a
         node containing a `data` item which is greater than **or equal
         to** the item we are looking for. That is, if you see that the
@@ -215,8 +215,8 @@ Here is how `insertSkipListNode` should work:
         `prev` was pointing to on level 0.
     -   Now set `prev` to point to the new node on level 0 instead.
 -   Now for the fun part: we have to decide how tall to make the newly
-    created node by flipping a coin (at this point it has height <span
-    class="math inline">\\(1\\)</span>).
+    created node by flipping a coin (at this point it has height
+    *1*).
 -   As long as a "coin flip" results in heads:
     -   Increment the current level (use a local variable to keep track)
     -   If the stack is empty, just add an `Optional.empty()` reference
