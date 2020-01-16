@@ -13,13 +13,13 @@ layout: course-multi
 
 Upon completing this course, our goal is for you to be able to:
 
-* Build substantial computer programs with graphical user interfaces to effectively solve realistic problems.
-* Understand and implement and fundamental data structures.
-* Explain the compromises necessary to develop efficient programs.
-* Use and justify appropriate programming algorithms for specific tasks.
-* Decouple problem specification from program implementation.
-* Employ test-driven, and empirical methods to eliminate programming errors.
-* Develop skills and an aptitude for independent learning.
+1. Build substantial computer programs with graphical user interfaces to effectively solve realistic problems.
+2. Understand and implement fundamental data structures to manage complexity.
+3. Explain the compromises necessary to develop efficient programs.
+4. Use and justify appropriate programming algorithms for specific tasks.
+5. Decouple problem specification from program implementation through abstraction.
+6. Employ test-driven and empirical methods to understand the behavior of a program.
+7. Develop an aptitude and skills for independent learning.
 
 ## <a name="resources">Resources</a>
 
