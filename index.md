@@ -13,37 +13,13 @@ layout: course-multi
 
 Upon completing this course, our goal is for you to be able to:
 
-REWORK THESE!
-
-* Build computer programs to:
-  * Effectively solve realistic problems.
-  * Organize, analyze, and summarize realistic data sets.
-* Read, understand, and explain a computer program.
-* Understand and explain computation through:
-  * Thinking logically and precisely.
-  * Making and testing hypotheses.
-* Use modular components to decompose problems and assemble solutions.
-* Create abstract, generalized models from specific, complex examples.
-
-Write and thoroughly test a medium-sized program (400 lines minimum)
-State and apply a mathematical definition of algorithmic efficiency
-Analyze the running time of an algorithm or data structure operation using "big-O" notation
-Understand and apply common complexity categories to select the right data structure and algorithm for a given task
-Implement and analyze the following data structures:
-Linked lists
-Stacks
-Queues
-Priority Queues
-Hash tables
-Trees
-Graphs
-Implement and analyze different sorting algorithms
-Use classes to implement abstract data types
-Use interfaces and inheritance to implement subtype polymorphism
-Use generics to implement parametric polymorphism
-Use and understand recursion as an implementation technique
-Articulate the difference between static and dynamic type systems
-Employ automated unit testing to verify and document software functionality
+* Build substantial computer programs with graphical user interfaces to effectively solve realistic problems.
+* Understand and implement and fundamental data structures.
+* Explain the compromises necessary to develop efficient programs.
+* Use and justify appropriate programming algorithms for specific tasks.
+* Decouple problem specification from program implementation.
+* Employ test-driven, and empirical methods to eliminate programming errors.
+* Develop skills and an aptitude for independent learning.
 
 ## <a name="resources">Resources</a>
 
