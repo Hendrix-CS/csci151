@@ -46,9 +46,6 @@ When we write code together in class, it will be posted here!
 |:----:|------||-----||
 | T 21 Jan | Python Review | [MindMap](https://app.mindmup.com/map/_free/2020/01/15478ce03cd611ea81c49b48f221938d) |
 | W 22 Jan | First Java Program | [Testing.java](inclass/Testing.java) |
-<!--| W 4 Sep | More Math and Functions | [Box Math](https://boxmath-yorgey.notebooks.azure.com/j/notebooks/BoxMath.ipynb) |
-| F 6 Sep | Strings and Booleans | [Booleans](https://booleans-yorgey.notebooks.azure.com/j/notebooks/Strings%20and%20Booleans.ipynb)
--->
 
 <hr>
 # Coursework
