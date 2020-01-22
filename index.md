@@ -42,11 +42,11 @@ Exceptions may be made on a case-by-case basis if you can prove to me that you r
 
 When we write code together in class, it will be posted here!
 
-<!--
 | Date | Topic | Code |
 |:----:|------||-----||
-| F 30 Aug | Intro to Python | [Intro Notebook](https://pythonintro-yorgey.notebooks.azure.com/j/notebooks/PythonIntro.ipynb) |
-| W 4 Sep | More Math and Functions | [Box Math](https://boxmath-yorgey.notebooks.azure.com/j/notebooks/BoxMath.ipynb) |
+| T 21 Jan | Python Review | [MindMap](https://app.mindmup.com/map/_free/2020/01/15478ce03cd611ea81c49b48f221938d) |
+| W 22 Jan | First Java Program | [Testing.java](inclass/Testing.java) |
+<!--| W 4 Sep | More Math and Functions | [Box Math](https://boxmath-yorgey.notebooks.azure.com/j/notebooks/BoxMath.ipynb) |
 | F 6 Sep | Strings and Booleans | [Booleans](https://booleans-yorgey.notebooks.azure.com/j/notebooks/Strings%20and%20Booleans.ipynb)
 -->
 
@@ -117,7 +117,7 @@ Three times throughout the semester, you are expected to
 make an office hours appointment and check in with me about the course. Each checkin
 meeting will count for 15 points.
 This will be conversation and feedback about your current progress and understanding.
-These should be scheduled during the week shown
+These should be scheduled during the weeks shown
 on the [course calendar](https://app.teamgantt.com/public/projects/calendar/2020-01-05?ids=1972972&projectIds=1972972&publicKeys=bWZU5DuRsTN4&userResourceIds=0).
 
 Also, there will be many opportunities to accumulate small amounts of points
