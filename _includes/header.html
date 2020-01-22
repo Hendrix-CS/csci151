@@ -20,7 +20,11 @@
                 {% endif %}
             {% else %}
             <li class="nav-item">
+              {% if item.url | slice: 0:7 == "http://" %}
+              <a class="nav-link" href="{{ item.url }}">{{ item.page }}</a>
+              {% else %}
               <a class="nav-link" href="{{ site.baseurl}}/{{ item.url }}">{{ item.page }}</a>
+              {% endif %}
             </li>
             {% endif %}
           {% endfor %}
