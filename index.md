@@ -47,6 +47,7 @@ When we write code together in class, it will be posted here!
 | T 21 Jan | Python Review | [MindMap](https://app.mindmup.com/map/_free/2020/01/15478ce03cd611ea81c49b48f221938d) |
 | W 22 Jan | First Java Program | [Testing.java](inclass/Testing.java) |
 | F 24 Jan | Classes and Objects | [JackInTheBox.java](inclass/JackInTheBox.java) |
+| M 27 Jan | Interfaces | [Light.java](inclass/Light.java), [ConditionalLight.java](inclass/ConditionalLight.java), [ArrayLight.java](inclass/ArrayLight.java) |
 
 <hr>
 # Coursework
@@ -121,6 +122,10 @@ on the [course calendar](https://app.teamgantt.com/public/projects/calendar/2020
 Also, there will be many opportunities to accumulate small amounts of points
 throughout the semester by participating in classroom exercises and
 reflecting on the material. These will total at least 45 points, most likely more.
+
+| #  | Name | Points | Due |
+|:--:|-----||:--------:|:---:|
+| 1 | [Making Toast]({{site.baseurl}}/homework/toaster.html) | 6 | Jan 29 |
 
 ## <a name="scale">Grading Scale</a>
 
