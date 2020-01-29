@@ -48,6 +48,7 @@ When we write code together in class, it will be posted here!
 | W 22 Jan | First Java Program | [Testing.java](inclass/Testing.java) |
 | F 24 Jan | Classes and Objects | [JackInTheBox.java](inclass/JackInTheBox.java) |
 | M 27 Jan | Interfaces | [Light.java](inclass/Light.java), [ConditionalLight.java](inclass/ConditionalLight.java), [ArrayLight.java](inclass/ArrayLight.java) |
+| W 29 Jan | 2D Arrays and User Input | [LightsOut.java](inclass/LightsOut.java) |
 
 <hr>
 # Coursework
