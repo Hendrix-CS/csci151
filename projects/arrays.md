@@ -25,9 +25,7 @@ Write a Java application. Your program can do anything you like, subject
 to the following requirements:
 
 -   You must use Java, with input and output in a `Main` class.
--   You must use an array or
-    [`ArrayList`](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/util/ArrayList.html)
-    somewhere in your program.
+-   You must use an array somewhere in your program.
 -   Your program should use at least one class besides `Main`.
 -   The program should do something useful, interesting, or fun. It need
     not be complex, but it should be something that someone would
