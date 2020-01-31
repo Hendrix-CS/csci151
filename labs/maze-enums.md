@@ -60,28 +60,27 @@ screen. This will be completed by you in steps 1 and 2 of this lab, and
 augmented in step 3. The Place Explorer and Place Goal selections will
 be implemented in step 4, which will also incorporate the movement
 buttons Left, Forward and Right, found on the bottom of the screen.
-Steps 5 and 6 will implement code for the Randomize and Solve buttons.
 
 There are two important elements already present in the code for this
 project
 
 #### Cell
 
-This enum records the state of a Cell in the Maze. A cell can be OPEN,
-CLOSED, or VISITED. Each cell knows its color, what state of the cell
+This enum records the state of a `Cell` in the `Maze`. A cell can be `OPEN`,
+`CLOSED`, or `VISITED`. Each cell knows its color, what state of the cell
 should occur when the cell is flipped, and if it can be entered by an
-Explorer.
+`Explorer`.
 
 #### Position
 
 This class keeps track of an x and y coordinate. It has an accessor
 method for each of these two variables, and can determine if it is
-adjacent or equal to another Position.
+adjacent or equal to another `Position`.
 
 ## Step 1 - Maze
 
-The core storage of the pathways and walls in the maze is in the Maze
-class. It holds a 2D array of Cells as the only field.
+The core storage of the pathways and walls in the maze is in the `Maze`
+class. It holds a 2D array of `Cells` as the only field.
 
 ### Step 1.1 - Implementation
 
@@ -94,9 +93,9 @@ these tests.
 
 ## Step 2 - Puzzle
 
-The Puzzle class is our central model for this program. It will hold a
-Maze, an Explorer, and a Position to represent the Goal in our maze. In
-this step, you will complete the code for interacting with the Maze.
+The `Puzzle` class is our central model for this program. It will hold a
+`Maze`, an `Explorer`, and a `Position` to represent the goal in our maze.
+In this step, you will complete the code for interacting with the Maze.
 
 ### Step 2.1 - Implementation
 
@@ -118,36 +117,37 @@ maze.
 ## Step 3 - Avoiding Rooms
 
 We can add a restriction on the ability of the user to create mazes with
-large rooms. A room is defined as any four OPEN Cells that form a 2x2
+large rooms. A room is defined as any four OPEN `Cells` that form a 2x2
 square.
 
 Uncomment code labeled for this step in
 
--   MazeTest
--   PuzzleTest
+-   `MazeTest`
+-   `PuzzleTest`
 
 ### Step 3.1 - Direction
 
 You will add the implementations for the `getClockwise`,
 `getCounterClockwise` and `getRotation` methods of the `Direction` enum.
-Use the standard compass rose to map each Direction to its clockwise and
+Use the standard compass rose to map each `Direction` to its clockwise and
 counterclockwise neighbor. For the rotation, you should return the angle
 in degrees for each orientation, where SOUTH is at 0 degrees, WEST is
 90, NORTH is 180, and EAST is -90.
 
 ### Step 3.2 - Direction Testing
 
-Verify that your Direction is working with the DirectionTest suite.
+Verify that your `Direction` is working with the `DirectionTest` suite.
 
 ### Step 3.3 - Maze Updates
 
-In the `Maze` class, implement the following method
+In the `Maze` class, implement the method `public boolean inRoom(Position p)`.
+This method will return `true` if the requested `Position` is part of a room, as defined above.
 
 ### Step 3.4 - Puzzle Updates
 
-You will need to update your `clear` method of the Puzzle. It should now
-be the case that the only Cells that can be cleared are those in the
-Maze that will not cause a room to be formed.
+You will need to update your `clear` method of the `Puzzle`. It should now
+be the case that the only `Cell`s that can be cleared are those in the
+`Maze` that will not cause a room to be formed.
 
 ### Step 3.5 - Testing
 
@@ -163,51 +163,48 @@ Run the GUI to interact with your code.
 
 Uncomment code labeled for this step in
 
--   MoveTest
--   MazeTest
--   PuzzleTest
--   Explorer
--   MazeController
+-   `MoveTest`
+-   `MazeTest`
+-   `PuzzleTest`
+-   `Explorer`
+-   `MazeController`
 
-The Explorer code is completed for you, and an Explorer can move around
-the maze and look ahead according to their internal Position and
-Direction. There are three pieces of code we will need to complete for
-the Explorer and Goal portions of the Puzzle class.
+The `Explorer` code is completed for you, and an `Explorer` can move around
+the maze and look ahead according to their internal `Position` and
+`Direction`. There are three pieces of code we will need to complete for
+the `Explorer` and goal portions of the `Puzzle` class.
 
 ### Step 4.1 - Update Maze
 
-Write a new method for Maze.
-
-#### `public int numOpenNeighbors(Position p)`
-
+Write a new method for `Maze` called `public int numOpenNeighbors(Position p)`.
 This method returns the number of neighbors for a given position that
 are open. This does not include the given position, only its four
-neighbors, one in each Direction.
+neighbors, one in each `Direction`.
 
 ### Step 4.2 - Move
 
-Fill in the code for the Move enum. Create three elements, FORWARD, LEFT
-and RIGHT. Add two abstract methods for `newPosition` and `newDirection`
+Fill in the code for the `Move` enum. Create three elements, `FORWARD`, `LEFT`
+and `RIGHT`. Add two abstract methods for `newPosition` and `newDirection`
 as shown below, and then provide an implementation for each of the three
 directions.
 
 ### Step 4.3 - Move Testing
 
-Verify that your Move is working with the MoveTest suite.
+Verify that your Move is working with the `MoveTest` suite.
 
 ### Step 4.4 - Puzzle Explorer
 
-More methods are now required in the Puzzle class. Complete the
+More methods are now required in the `Puzzle` class. Complete the
 implementation of the following methods.
 
 ### Step 4.5 - Puzzle Goal
 
-Finally, add two more methods to Puzzle to allow for a Goal Position to
-be placed in the Puzzle.
+Finally, add two more methods to `Puzzle` to allow for a goal `Position` to
+be placed in the `Puzzle`.
 
 ### Step 4.6 - Puzzle Testing
 
-Verify that your Puzzle is working with the PuzzleTest suite.
+Verify that your Puzzle is working with the `PuzzleTest` suite.
 
 ### Step 4.7 - GUI
 
