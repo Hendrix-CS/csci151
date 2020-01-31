@@ -86,6 +86,31 @@ class. It holds a 2D array of `Cells` as the only field.
 
 You will need to write code for the following methods.
 
+* `public Maze(int width, int height)`
+
+  This constructor brings in a width and height, and initializes the 2D array to be of this size. All `Cells` are initially `CLOSED`.
+
+* `public int getWidth()`
+
+  Returns the width of the grid of `Cells`.
+
+* `public int getHeight()`
+
+  Returns the height of the grid of `Cells`.
+
+* `public boolean inMaze(Position p)`
+
+  A method to determine if a `Position` within the bounds of the grid of `Cells`.
+
+* `public Cell getStateFor(Position p)`
+
+  If the requested `Position` is in the maze, this method will return the corresponding `Cell`. Otherwise, it will always return the `CLOSED` `Cell`.
+
+* `public void setStateFor(Position p, Cell state)`
+
+  If the given `Position` is in the maze, this method will set the corresponding location to the given `Cell`.
+
+
 ### Step 1.2 - Testing
 
 Run the `MazeTest` suite, and ensure your above methods are passing
@@ -94,12 +119,41 @@ these tests.
 ## Step 2 - Puzzle
 
 The `Puzzle` class is our central model for this program. It will hold a
-`Maze`, an `Explorer`, and a `Position` to represent the goal in our maze.
-In this step, you will complete the code for interacting with the Maze.
+`Maze`, an `Explorer`, and a `Position` to represent the `goal` in our maze.
+In this step, you will complete the code for interacting with the `Maze`.
 
 ### Step 2.1 - Implementation
 
 You will need to write code for the following methods.
+
+* `public Puzzle(int width, int height)`
+
+  The constructor should make a `Maze` of the specified width and height. It should leave the `Explorer` and `goal` null.
+
+* `public int getWidth()`
+
+  Returns the width of the maze.
+
+* `public int getHeight()`
+
+  Returns the height of the maze.
+
+* `public Color getColorFor(Position p)`
+
+  Returns the color of the `Cell` at the requested `Position` in the maze.
+
+* `public boolean canEnter(Position p)`
+
+  Determines if the `Cell` at the `Position` given in the maze can be entered, i.e. is it an `OPEN` pathway.
+
+* `public void fill(Position p)`
+
+  Sets the `Cell` in the maze at the given `Position` to be `CLOSED` up as a wall.
+
+* `public boolean clear(Position p)`
+
+  Sets the `Cell` in the maze at the given `Position` to be `OPEN` for a pathway. This will return `true` if it was successful, and `false` otherwise. Positions outside the `Maze` can never be cleared.
+
 
 ### Step 2.2 - Testing
 
@@ -140,8 +194,11 @@ Verify that your `Direction` is working with the `DirectionTest` suite.
 
 ### Step 3.3 - Maze Updates
 
-In the `Maze` class, implement the method `public boolean inRoom(Position p)`.
-This method will return `true` if the requested `Position` is part of a room, as defined above.
+In the `Maze` class, implement the following method:
+
+* `public boolean inRoom(Position p)`.
+
+  This method will return `true` if the requested `Position` is part of a room, as defined above.
 
 ### Step 3.4 - Puzzle Updates
 
@@ -176,17 +233,31 @@ the `Explorer` and goal portions of the `Puzzle` class.
 
 ### Step 4.1 - Update Maze
 
-Write a new method for `Maze` called `public int numOpenNeighbors(Position p)`.
-This method returns the number of neighbors for a given position that
-are open. This does not include the given position, only its four
-neighbors, one in each `Direction`.
+Write a new method for `Maze`.
+
+* `public int numOpenNeighbors(Position p)`
+
+  This method returns the number of neighbors for a given position that
+  are open. This does not include the given position, only its four
+  neighbors, one in each `Direction`.
 
 ### Step 4.2 - Move
 
-Fill in the code for the `Move` enum. Create three elements, `FORWARD`, `LEFT`
-and `RIGHT`. Add two abstract methods for `newPosition` and `newDirection`
+You will need to create three elements, `FORWARD`, `LEFT`
+and `RIGHT`.
+
+Add two abstract methods for `newPosition` and `newDirection`
 as shown below, and then provide an implementation for each of the three
 directions.
+
+* `public Position newPosition(Position p, Direction d)`
+
+  Given a `Position` and a `Direction`, return the new `Position` found by going in the `Direction`. When going `FORWARD`, this should make use of the `getNeighbor` method found in `Direction`, otherwise the `Position` should remain the same.
+
+* `public Direction newDirection(Direction d)`
+
+  Given a `Direction`, return a new `Direction`. `LEFT` should rotate counterclockwise, while `RIGHT` rotates clockwise, and `FORWARD` does not change the direction.
+
 
 ### Step 4.3 - Move Testing
 
@@ -197,10 +268,38 @@ Verify that your Move is working with the `MoveTest` suite.
 More methods are now required in the `Puzzle` class. Complete the
 implementation of the following methods.
 
+* `public boolean hasExplorer()`
+
+  Returns `false` if the `hero` is `null`, otherwise returns `true`.
+
+* `public void placeExplorer(Position p)`
+
+  Creates a new `Explorer` at the given `Position` and saves it in the `hero` field.
+
+* `public void moveExplorer(Move m)`
+
+  Calls the `move` method on the `hero` if the `Puzzle` has an `Explorer`.
+
+* `public Position getExplorerPosition()`
+
+  Returns the `Position` of the `Explorer`.
+
+* `public Direction getExplorerHeading()`
+
+  Returns the `Direction` of the `Explorer`.
+
 ### Step 4.5 - Puzzle Goal
 
 Finally, add two more methods to `Puzzle` to allow for a goal `Position` to
 be placed in the `Puzzle`.
+
+* `public void placeGoal(Position p)`
+
+  Saves the given `Position` as the `goal` position.
+
+* `public Position getGoal()`
+
+  Returns the `goal` position.
 
 ### Step 4.6 - Puzzle Testing
 
