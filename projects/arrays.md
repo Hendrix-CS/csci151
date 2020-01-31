@@ -113,7 +113,7 @@ to give feedback along the way.
 ||----|:---:|
 |Has a Main class performing keyboard input                     |**3**|      
 |Has a Main class performing screen output                      |**2**|       
-|Uses an array or ArrayList                                     |**5**|       
+|Uses an array                                                  |**5**|       
 |Uses at least one class besides Main                           |**3**|       
 |Additional class has a natural mapping to the problem domain   |**2**|       
 |Works as intended                                              |**15**|      
