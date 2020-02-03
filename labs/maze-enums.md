@@ -221,14 +221,6 @@ Run the GUI to interact with your code.
 
 ## Step 4 - Explorer and Goal
 
-Uncomment code labeled for this step in
-
--   `MoveTest`
--   `MazeTest`
--   `PuzzleTest`
--   `Explorer`
--   `MazeController`
-
 The `Explorer` code is completed for you, and an `Explorer` can move around
 the maze and look ahead according to their internal `Position` and
 `Direction`. There are three pieces of code we will need to complete for
@@ -244,6 +236,14 @@ Write a new method for `Maze`.
   are open. This does not include the given position, only its four
   neighbors, one in each `Direction`.
 
+### Step 4.2 - Maze Testing
+
+Uncomment code labeled for this step in
+
+-   `MazeTest`
+
+Verify that your Maze is working with the `MazeTest` suite.
+
 ### Step 4.2 - Move
 
 You will need to create three elements, `FORWARD`, `LEFT`
@@ -253,16 +253,19 @@ Add two abstract methods for `newPosition` and `newDirection`
 as shown below, and then provide an implementation for each of the three
 directions.
 
-* `public Position newPosition(Position p, Direction d)`
+* `public abstract Position newPosition(Position p, Direction d)`
 
   Given a `Position` and a `Direction`, return the new `Position` found by going in the `Direction`. When going `FORWARD`, this should make use of the `getNeighbor` method found in `Direction`, otherwise the `Position` should remain the same.
 
-* `public Direction newDirection(Direction d)`
+* `public abstract Direction newDirection(Direction d)`
 
   Given a `Direction`, return a new `Direction`. `LEFT` should rotate counterclockwise, while `RIGHT` rotates clockwise, and `FORWARD` does not change the direction.
 
-
 ### Step 4.3 - Move Testing
+
+Uncomment code labeled for this step in
+
+-   `MoveTest`
 
 Verify that your Move is working with the `MoveTest` suite.
 
@@ -306,6 +309,12 @@ be placed in the `Puzzle`.
 
 ### Step 4.6 - Puzzle Testing
 
+Uncomment code labeled for this step in
+
+-   `PuzzleTest`
+-   `Explorer`
+-   `MazeController`
+
 Verify that your Puzzle is working with the `PuzzleTest` suite.
 
 ### Step 4.7 - GUI
@@ -325,5 +334,5 @@ implementations.
 
 * To earn a 5, complete Step 1
 * To earn a 10, do the above and Step 2
-* To earn a 15, do the above and Step 3
+* To earn a 16, do the above and Step 3
 * To earn a 20, do the above and Step 4
