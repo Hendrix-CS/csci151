@@ -53,7 +53,7 @@ mazes.
 To start, run the code in MazeApp. After you click on "Reset Maze", you
 should see the GUI layout here.
 
-![](../assets/images/mazegui1.png)
+![](../assets/images/mazegui1.png){: .img-fluid}
 
 The Clear/Fill selection allows a user to manually create a maze on the
 screen. This will be completed by you in steps 1 and 2 of this lab, and
@@ -166,18 +166,13 @@ Now, run the `MazeApp` class, and test out your code with the GUI. You
 should be able to select squares and open and close pathways in the
 maze.
 
-![](../assets/images/mazegui2.png)
+![](../assets/images/mazegui2.png){: .img-fluid}
 
 ## Step 3 - Avoiding Rooms
 
 We can add a restriction on the ability of the user to create mazes with
 large rooms. A room is defined as any four OPEN `Cells` that form a 2x2
 square.
-
-Uncomment code labeled for this step in
-
--   `MazeTest`
--   `PuzzleTest`
 
 ### Step 3.1 - Direction
 
@@ -194,6 +189,10 @@ Verify that your `Direction` is working with the `DirectionTest` suite.
 
 ### Step 3.3 - Maze Updates
 
+Uncomment code labeled for this step in
+
+-   `MazeTest`
+
 In the `Maze` class, implement the following method:
 
 * `public boolean inRoom(Position p)`.
@@ -201,6 +200,10 @@ In the `Maze` class, implement the following method:
   This method will return `true` if the requested `Position` is part of a room, as defined above.
 
 ### Step 3.4 - Puzzle Updates
+
+Uncomment code labeled for this step in
+
+-   `PuzzleTest`
 
 You will need to update your `clear` method of the `Puzzle`. It should now
 be the case that the only `Cell`s that can be cleared are those in the
@@ -214,7 +217,7 @@ Test out your code with the `MazeTest` and `PuzzleTest` suite.
 
 Run the GUI to interact with your code.
 
-![](../assets/images/mazegui3.png)
+![](../assets/images/mazegui3.png){: .img-fluid}
 
 ## Step 4 - Explorer and Goal
 
@@ -309,7 +312,7 @@ Verify that your Puzzle is working with the `PuzzleTest` suite.
 
 Run the GUI to interact with your code.
 
-![](../assets/images/mazegui4.png)
+![](../assets/images/mazegui4.png){: .img-fluid}
 
 ## What to Hand In
 
