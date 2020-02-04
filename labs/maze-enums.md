@@ -162,8 +162,10 @@ these tests.
 
 ### Step 2.3 - GUI
 
-Now, run the `MazeApp` class, and test out your code with the GUI. You
-should be able to select squares and open and close pathways in the
+Now, run the `MazeApp` class, and test out your code with the GUI.
+
+Click <kbd>Reset Maze</kbd> to see a maze with all closed (red) `Cells`.
+Now, you should be able to click on squares to open and close pathways in the
 maze.
 
 ![](../assets/images/mazegui2.png){: .img-fluid}
@@ -307,17 +309,20 @@ be placed in the `Puzzle`.
 
   Returns the `goal` position.
 
-### Step 4.6 - Puzzle Testing
+### Step 4.6 - Explorer and Puzzle Testing
 
 Uncomment code labeled for this step in
 
--   `PuzzleTest`
 -   `Explorer`
--   `MazeController`
+-   `PuzzleTest`
 
-Verify that your Puzzle is working with the `PuzzleTest` suite.
+Verify that your Puzzle and Explorer are working with the `PuzzleTest` suite.
 
 ### Step 4.7 - GUI
+
+Uncomment code labeled for this step in
+
+-   `MazeController`
 
 Run the GUI to interact with your code.
 
