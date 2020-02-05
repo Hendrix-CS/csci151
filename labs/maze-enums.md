@@ -88,7 +88,8 @@ You will need to write code for the following methods.
 
 * `public Maze(int width, int height)`
 
-  This constructor brings in a width and height, and initializes the 2D array to be of this size. All `Cells` are initially `CLOSED`.
+  This constructor brings in a width and height, and initializes the 2D array to be of this size.
+  Also, you need to set each individual `Cell` to be `CLOSED`.
 
 * `public int getWidth()`
 
@@ -108,7 +109,7 @@ You will need to write code for the following methods.
 
 * `public void setStateFor(Position p, Cell state)`
 
-  If the given `Position` is in the maze, this method will set the corresponding location to the given `Cell`.
+  If the given `Position` is in the maze, this method will set the corresponding grid location to the given `Cell`.
 
 
 ### Step 1.2 - Testing
@@ -191,31 +192,37 @@ Verify that your `Direction` is working with the `DirectionTest` suite.
 
 ### Step 3.3 - Maze Updates
 
-Uncomment code labeled for this step in
-
--   `MazeTest`
-
 In the `Maze` class, implement the following method:
 
 * `public boolean inRoom(Position p)`.
 
   This method will return `true` if the requested `Position` is part of a room, as defined above.
 
-### Step 3.4 - Puzzle Updates
+{% include note.html content="Use the `getNeighbor(Position p)` method of the `Direction` Enum." %}
+
+### Step 3.4 - Testing
 
 Uncomment code labeled for this step in
 
--   `PuzzleTest`
+-   `MazeTest`
+
+Test out your code with the `MazeTest` suite.
+
+### Step 3.5 - Puzzle Updates
 
 You will need to update your `clear` method of the `Puzzle`. It should now
 be the case that the only `Cell`s that can be cleared are those in the
 `Maze` that will not cause a room to be formed.
 
-### Step 3.5 - Testing
+### Step 3.6 - Testing
 
-Test out your code with the `MazeTest` and `PuzzleTest` suite.
+Uncomment code labeled for this step in
 
-### Step 3.6 - GUI
+-   `PuzzleTest`
+
+Test out your code with the `PuzzleTest` suite.
+
+### Step 3.7 - GUI
 
 Run the GUI to interact with your code.
 
@@ -246,7 +253,7 @@ Uncomment code labeled for this step in
 
 Verify that your Maze is working with the `MazeTest` suite.
 
-### Step 4.2 - Move
+### Step 4.3 - Move
 
 You will need to create three elements, `FORWARD`, `LEFT`
 and `RIGHT`.
@@ -263,7 +270,7 @@ directions.
 
   Given a `Direction`, return a new `Direction`. `LEFT` should rotate counterclockwise, while `RIGHT` rotates clockwise, and `FORWARD` does not change the direction.
 
-### Step 4.3 - Move Testing
+### Step 4.4 - Move Testing
 
 Uncomment code labeled for this step in
 
@@ -271,7 +278,7 @@ Uncomment code labeled for this step in
 
 Verify that your Move is working with the `MoveTest` suite.
 
-### Step 4.4 - Puzzle Explorer
+### Step 4.5 - Puzzle Explorer
 
 More methods are now required in the `Puzzle` class. Complete the
 implementation of the following methods.
@@ -296,7 +303,7 @@ implementation of the following methods.
 
   Returns the `Direction` of the `Explorer`.
 
-### Step 4.5 - Puzzle Goal
+### Step 4.6 - Puzzle Goal
 
 Finally, add two more methods to `Puzzle` to allow for a goal `Position` to
 be placed in the `Puzzle`.
@@ -309,7 +316,7 @@ be placed in the `Puzzle`.
 
   Returns the `goal` position.
 
-### Step 4.6 - Explorer and Puzzle Testing
+### Step 4.7 - Explorer and Puzzle Testing
 
 Uncomment code labeled for this step in
 
@@ -318,7 +325,7 @@ Uncomment code labeled for this step in
 
 Verify that your Puzzle and Explorer are working with the `PuzzleTest` suite.
 
-### Step 4.7 - GUI
+### Step 4.8 - GUI
 
 Uncomment code labeled for this step in
 
