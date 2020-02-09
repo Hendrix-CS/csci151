@@ -198,7 +198,7 @@ In the `Maze` class, implement the following method:
 
   This method will return `true` if the requested `Position` is part of a room, as defined above.
 
-{% include note.html content="Use the `getNeighbor(Position p)` method of the `Direction` Enum." %}
+{% include tip.html content="Use the `getNeighbor(Position p)` and `values()` methods of the `Direction` Enum." %}
 
 ### Step 3.4 - Testing
 
