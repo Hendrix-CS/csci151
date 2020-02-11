@@ -109,8 +109,8 @@ first task is to implement the generic `ListNode` class.
 ### Step 2.1 - ListNode
 
 You will first need to create a file called `ListNode.java` that
-implements the Node class we discussed. It should have an `E value`, and
-a `ListNode next` reference as components, along with get and set
+implements the Node class we discussed. It should have an `E value` and
+a `ListNode next` reference as private components, along with public get and set
 methods for the value and next fields. You should make two constructors.
 The first brings in and stores only an `E value`, and leaves the `ListNode next` as `null`.
 The second brings in both an `E value`, and a `ListNode next`, storing both.

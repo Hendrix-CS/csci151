@@ -52,6 +52,7 @@ When we write code together in class, it will be posted here!
 | F 31 Jan | Enums | [Currency.java](inclass/Currency.java), [ChangeMaker.java](inclass/ChangeMaker.java) |
 | W 5 Feb | Stacks | [Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation) |
 
+
 <hr>
 # Coursework
 
@@ -129,6 +130,9 @@ reflecting on the material. These will total at least 45 points, most likely mor
 | #  | Name | Points | Due |
 |:--:|-----||:--------:|:---:|
 | 1 | [Making Toast]({{site.baseurl}}/homework/toaster.html) | 6 | Jan 29 |
+| 2 | Solving Mazes | 6 | Feb 3 |
+| 3 | Stack Quiz | 6 | Feb 10 |
+| 4 | Maze Solving with Stacks | 6 | Feb 11 |
 
 ## <a name="scale">Grading Scale</a>
 
