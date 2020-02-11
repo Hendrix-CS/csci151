@@ -192,7 +192,6 @@ While the stack still has Positions:
 -   Pop the top `Position` from the stack.
 -   Try to `clear` this `Position`.
 -   If the clear was successful (returned `true`):
-    -   Clear this `Position`
     -   Add the `CLOSED` neighbors of this `Position` to the stack in a **random** order.
 
 {% include tip.html content="You should
