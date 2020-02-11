@@ -96,7 +96,14 @@ Return the item in the `top - 1` spot of the `stuff` array.
 
 Return the number of items in `stuff`.
 
-### Step 1.5 - Testing
+### Step 1.5 - `public String toString()`
+
+Return a `String` representing the elements in the stack separated
+by spaces. For example, a stack of integers with 3 on top of 2 on top of 1
+should return "1 2 3". The oldest element in the stack should be the first
+in the string.
+
+### Step 1.6 - Testing
 
 Run the `ArrayStackTest` suite, and ensure your above methods are passing
 these tests.
@@ -155,7 +162,14 @@ Return the value stored in the `top` `ListNode`.
 If `top` is `null`, return 0. Otherwise,
 return the number of `ListNode` that are chained from the `top` node.
 
-### Step 2.8 - Testing
+### Step 2.8 - `public String toString()`
+
+Return a `String` representing the elements in the stack separated
+by spaces. For example, a stack of integers with 3 on top of 2 on top of 1
+should return "1 2 3". The oldest element in the stack should be the first
+in the string.
+
+### Step 2.9 - Testing
 
 Run the `ListStackTest` suite, and ensure your above methods are passing
 these tests.
@@ -176,9 +190,10 @@ Create an `ArrayStack` of `Positions`, and push (0,0) onto the stack.
 While the stack still has Positions:
 
 -   Pop the top `Position` from the stack.
--   If this `Position` is in the maze, is filled, and has no more than one open neighbor,
+-   Try to `clear` this `Position`.
+-   If the clear was successful (returned `true`):
     -   Clear this `Position`
-    -   Add the neighbors to the stack in a **random** order.
+    -   Add the `CLOSED` neighbors of this `Position` to the stack in a **random** order.
 
 {% include tip.html content="You should
     use the `randomDirections` method of
