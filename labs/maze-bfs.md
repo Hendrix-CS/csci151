@@ -38,12 +38,6 @@ expanded next.
 In this lab, you will create the necessary data structures to search a
 maze with breadth-first search.
 
-To start, run the code in MazeApp. After you click on "Randomize", you
-should see the GUI layout here.
-
-![](../images/mazegui7.png)
-
-
 {% include note.html content="This project contains a working implementation of the Maze
 Enum and Array Lab, so you do not have to revise any of your earlier code to add
 this functionality." %}
