@@ -63,9 +63,6 @@ Write a class called `ListQueue<E>`. This will need to implement the
 `Queue<E>` interface, and have at least a `ListNode<E>` called `front`
 and another called `back` as fields.
 
-Note that there is an additional method to implement. For ListNode
-implementations, the `capacity` method should return the size.
-
 ### Step 1.2 - `public void add(E item)`
 
 Create a new `ListNode<E>` that stores the `item`.
@@ -115,8 +112,8 @@ will need to add the necessary `int`s to track the data. I recommend
 starting with `front` and `size` both equal to 0.
 
 {% include note.html content="As we discussed, if you use the
-fields of `front` and `size`, you can always
-calculate the `back` of the queue using `(front + size - 1) % stuff.length`." %}
+fields of front and size, you can always
+calculate the back of the queue using (front + size - 1) % stuff.length ." %}
 
 ### Step 2.1 - `public void add(E item)`
 
@@ -144,9 +141,9 @@ Decrement the value of `size`.
 Return the item you stored.
 
 {% include note.html content="Note that we should
-always *increment* `front` with the caveat that our new value might exceed the length
-of the `stuff` array. Use modular arithmetic to ensure that `front` will always
-be a valid index. %}
+always *increment* front with the caveat that our new value might exceed the length
+of the stuff array. Use modular arithmetic to ensure that front will always
+be a valid index." %}
 
 ### Step 2.3 - `public E element()`
 
