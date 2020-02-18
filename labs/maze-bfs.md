@@ -107,7 +107,7 @@ starting with `front` and `size` both equal to 0.
 
 {% include note.html content="As we discussed, if you use the
 fields of front and size, you can always
-calculate the back of the queue using (front + size - 1) % stuff.length ." %}
+calculate the back of the queue using (front + size) % stuff.length ." %}
 
 ### Step 2.1 - `public void add(E item)`
 
@@ -117,6 +117,7 @@ If there is no more room in the `stuff` array, you will need to **resize**.
 * Copy over each item into the new array, *taking care to reorder the elements so that the front
 is at index 0*.
 * Redirect the `stuff` reference to the new array.
+* Reset `front` to be 0.
 
 Now, you can always add the new item to the `back` spot in the `stuff` array,
 and increment the `size`.
@@ -152,7 +153,7 @@ Return the `size` field.
 
 ### Step 2.5 - Testing
 
-Run the `ArrayStackTest` suite, and ensure your above methods are passing
+Run the `ArrayQueueTest` suite, and ensure your above methods are passing
 these tests.
 
 {% include important.html content="Your code needs to be efficient in terms of the space used. You should
