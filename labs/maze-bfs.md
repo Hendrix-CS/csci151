@@ -19,7 +19,7 @@ Materials
 Setup
 -----
 
-1.  Download the [skeleton](../code/mazelabbfs.zip) for this project.
+1.  Download the [skeleton](../code/maze151bfs.zip) for this project.
 2.  Unpack the code into a new IntelliJ Java project.
 
 Description
