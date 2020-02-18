@@ -19,7 +19,7 @@ Materials
 Setup
 -----
 
-1.  Download the [skeleton](../code/mazelabqs.zip) for this project.
+1.  Download the [skeleton](../code/mazelabbfs.zip) for this project.
 2.  Unpack the code into a new IntelliJ Java project.
 
 Description
@@ -36,151 +36,159 @@ breadth-first search approach, where the oldest potential trail is
 expanded next.
 
 In this lab, you will create the necessary data structures to search a
-maze with either a depth-first search or breadth-first search.
+maze with breadth-first search.
 
 To start, run the code in MazeApp. After you click on "Randomize", you
 should see the GUI layout here.
 
 ![](../images/mazegui7.png)
 
-There are a few new pieces to this GUI. First, you will see a way for
-you to select a search strategy, either a Stack or a Queue. For each
-strategy, you will see a list of implementations available. To start,
-you will find the code for the ArrayStack included in the
-`maze.searchers` directory.
 
-Second, you will notice that there are statistics in the lower portion
-of the GUI, recording the number of OPEN, CLOSED, and VISITED squares.
+{% include note.html content="This project contains a working implementation of the Maze
+Enum and Array Lab, so you do not have to revise any of your earlier code to add
+this functionality." %}
 
-Third, there is an error box underneath the Solve button, to report when
-things go wrong with the underlying implementations. It will also report
-the number of steps taken when a solution trail is found through
-searching.
+## Step 1 - ListQueue\<E\>
 
-This project contains a working implementation of the Maze Lab and
-Project, so you do not have to revise any of your earlier code to add
-this functionality.
+To implement the generic version of a Stack with nodes, you
+should use the generic `ListNode<E>` class we implemented last lab.
 
-Step 1 - ListNode\<E\>
-----------------------
-
-To implement the generic version of a Stack and Queue with nodes, your
-first task is to reimplement the Node class to be Generic. All of your
+{% include important.html content="All of your
 implementations for this lab will be located in the `maze.searchers`
-directory.
+directory." %}
 
 ### Step 1.1 - Implementation
 
-You will first need to create a file called `ListNode.java` that
-implements the Node class we discussed. It should have an `E value`, and
-a `ListNode next` reference as components, along with get and set
-methods for the value and next fields.
-
-While the name of the file is `ListNode.java`, the name of your class
-should be `ListNode<E>`.
-
-Step 2 - ListStack\<E\>
------------------------
-
-We next revise your earlier ListIntStack code to be a generic
-implementation.
-
-### Step 2.1 - Implementation
-
-Write a class called `ListStack<E>`. This will need to implement the
-`Stack<E>` interface, and have at least a `ListNode<E>` called top as a
-field.
+Write a class called `ListQueue<E>`. This will need to implement the
+`Queue<E>` interface, and have at least a `ListNode<E>` called `front`
+and another called `back` as fields.
 
 Note that there is an additional method to implement. For ListNode
 implementations, the `capacity` method should return the size.
 
-### Step 2.2 - Testing
+### Step 1.2 - `public void add(E item)`
 
-Run the `ListStackTest` suite, and ensure your above methods are passing
+Create a new `ListNode<E>` that stores the `item`.
+
+If the queue `isEmpty`, then set `front` to this new `ListNode<E>`.
+
+Otherwise, the current `back` should refer to this new `ListNode<E>` as its `next`.
+
+Finally, redirect `back` to reference this new `ListNode<E>`.
+
+### Step 1.3 - `public E remove()`
+
+Call the `emptyCheck` method. This will throw an `IllegalStateException`
+if the queue is empty.
+
+Save the value stored in `front`, and redirect `front` to point to the `next` `ListNode<E>`.
+
+Return the value you stored.
+
+### Step 1.4 - `public E element()`
+
+Call the `emptyCheck` method. This will throw an `IllegalStateException`
+if the queue is empty.
+
+Return the value stored in the `front` `ListNode<E>`.
+
+### Step 1.5 - `public int size()`
+
+If `front` is `null`, return 0.
+
+Otherwise, return the number of `ListNode<E>` that are chained from the `front` node.
+
+### Step 1.6 - Testing
+
+Run the `ListQueueTest` suite, and ensure your above methods are passing
 these tests.
 
-### Step 2.3 - GUI
-
-Now, run the `MazeApp` class, and test out your code with the GUI. You
-should be able to select between the ArrayStack and ListStack
-implementations.
-
-Step 3 - ListQueue\<E\>
------------------------
-
-Now that you are comfortable with generic implementations, write a Queue
-using the `ListNode<E>` from Step 1.
-
-### Step 3.1 - Implementation
-
-Your implementation will have two fields as discussed in class, a head
-and a tail. Create a new Class, implementing the `Queue<E>` interface
-and completing all of the necessary methods.
-
-While the name of the file is `ListQueue.java`, the name of your class
-should be `ListQueue<E>`.
-
-### Step 3.2 - Testing
-
-Test out your code with the `ListQueueTest` suite
-
-### Step 3.3 - GUI
-
-Run the GUI to interact with your code. There should be an available
-implementation in the Queue section.
-
-Step 4 - ArrayQueue\<E\>
-------------------------
-
-Finally, write a Queue using an array-based implementation.
-
-### Step 4.1 - Implementation
-
-Your implementation will have three fields as discussed in class, a head
-index field and a size field, plus a generic array of type E elements.
-Create a new Class, implementing the `Queue<E>` interface and completing
-all of the necessary methods.
-
-While the name of the file is `ArrayQueue.java`, the name of your class
-should be `ArrayQueue<E>`.
-
-Your code needs to be efficient in terms of the space used. You should
-treat your array of elements as a circular array, and only resize the
-array when all positions are full of valid elements in the queue.
-
-The `capacity` of the Array implementations is the length of the array
-used to store the elements.
-
-### Step 4.2 - Testing
-
-Verify that your ArrayQueue is working with the `ArrayQueueTest` suite.
-
-### Step 4.3 - GUI
+### Step 1.7 - GUI
 
 Run the GUI to interact with your code.
 
-## Step 5 - Evaluation
+## Step 2 - ArrayQueue\<E\>
 
-Create 10 mazes of size 30x30 and for each maze and strategy (Stack and
-Queue), record the number of visited nodes as a percentage of the total
-number of open spaces in the initial maze. You can choose either
-implementation for each data type.
+Write a class called `ArrayQueue<E>`. This will need to implement the
+`Queue<E>` interface. The `E[] stuff` field is provided for you, you
+will need to add the necessary `int`s to track the data. I recommend
+starting with `front` and `size` both equal to 0.
 
-Use this data to compare the Stack versus Queue search strategies. Does
+{% include note.html content="As we discussed, if you use the
+fields of `front` and `size`, you can always
+calculate the `back` of the queue using `(front + size - 1) % stuff.length`." %}
+
+### Step 2.1 - `public void add(E item)`
+
+If there is no more room in the `stuff` array, you will need to **resize**.
+
+* Create a new array twice as big as `stuff`.
+* Copy over each item into the new array, *taking care to reorder the elements so that the front
+is at index 0*.
+* Redirect the `stuff` reference to the new array.
+
+Now, you can always add the new item to the `back` spot in the `stuff` array,
+and increment the `size`.
+
+### Step 2.2 - `public E remove()`
+
+Call the `emptyCheck` method. This will throw an `IllegalStateException`
+if the queue is empty.
+
+Save the value in the `front` index of the array.
+
+Increment the value of `front`.
+
+Decrement the value of `size`.
+
+Return the item you stored.
+
+{% include note.html content="Note that we should
+always *increment* `front` with the caveat that our new value might exceed the length
+of the `stuff` array. Use modular arithmetic to ensure that `front` will always
+be a valid index. %}
+
+### Step 2.3 - `public E element()`
+
+Call the `emptyCheck` method. This will throw an `IllegalStateException`
+if the queue is empty.
+
+Return the item in the `front` spot of the `stuff` array.
+
+### Step 2.4 - `public int size()`
+
+Return the `size` field.
+
+### Step 2.5 - Testing
+
+Run the `ArrayStackTest` suite, and ensure your above methods are passing
+these tests.
+
+{% include important.html content="Your code needs to be efficient in terms of the space used. You should
+treat your array of elements as a circular array, and only resize the
+array when all positions are full of valid elements in the queue." %}
+
+### Step 2.6 - GUI
+
+Run the GUI to interact with your code.
+
+## Step 3 - Evaluation
+
+Create 10 mazes of size 30x30 and for each maze, record the number of visited
+nodes as a percentage of the total
+number of open spaces in the initial maze.
+
+Use this data to compare the Stack (from your previous lab) versus Queue search strategies. Does
 either strategy have any clear strengths or weaknesses?
 
 ## What to Hand In
 
-Submit your ListNode.java, ListStack.java, ListQueue.java and
+Submit your ListQueue.java and
 ArrayQueue.java implementations, along with a document for your
-evaluation in Step 5.
+evaluation in Step 3.
 
 ## Grading
 
-  Cumulative Progress   Points Earned
-  --------------------- ---------------
-  Step 1                5
-  Step 2                10
-  Step 3                15
-  Step 4                17
-  Step 5                20
+* To earn a 8, complete Step 1
+* To earn a 16, do the above and Step 2
+* To earn a 20, do the above and Step 3
