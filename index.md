@@ -110,6 +110,7 @@ There will be two in-class exams, both worth 100 points of your final grade.
 They will consist of short answer questions along with writing and debugging code.
 
 * Exam 1: Feb 24, covering basic Java commands, classes, objects, enums, 2D arrays, stacks, and queues
+  [Practice Exam](inclass/exam1-151-s16.pdf)
 * Exam 2: May 1, covering heaps, sorting algorithms, algorithmic analysis, lists, trees, and hash tables
 
 There is no final exam; you will complete a final project instead, as described above under Projects.
