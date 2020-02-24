@@ -7,8 +7,7 @@ worktitle: JavaFX and GUIs
 
 ## Overview
 
-
-In this lab, we learn how to create GUI components to an application
+In this lab, we learn how to create GUI components for an application
 using JavaFX.
 
 ## Materials
@@ -64,21 +63,20 @@ first application we will create a tip calculator.
 Now, we need to add in the View, describing how the GUI will look on the
 screen and the components available to the program.
 
--   Select File → New → Other → New FXML Document
--   For "Root Element" select BorderPane.
+-   Select File → New → New FXML Document
 -   For "Name" enter `TipGUI`
 -   Then click "Finish".
-
-Make sure you have created this file in the package, and not in the src
-directory.
 
 Editing the raw XML document can be extremely tedious. Luckily, there is
 a extension called SceneBuilder that you can use to graphically add
 components.
 
--   Go to Package Explorer.
--   Open TipGUI.fxml with SceneBuilder.
--   Go to Containers and drag a VBox into "insert CENTER".
+-   Right-click on the TipGUI.fxml file, and select "Open in SceneBuilder".
+-   Right-click and delete the default AnchorPane layout.
+-   Go to Containers and drag a BorderPane into the center.
+    -   Select the BorderPane and pick the Layout menu.
+    -   Change Pref Width and Pref Height to USE\_COMPUTED\_SIZE.
+-   Drag a VBox into "insert CENTER".
     -   Select the VBox and pick the Layout menu.
     -   Change Pref Width and Pref Height to USE\_COMPUTED\_SIZE.
 -   Drag an HBox into the VBox.
@@ -95,19 +93,22 @@ components.
     -   Add a Label and a TextField.
     -   Fix the layout as described above.
     -   Then change the Label to "Total".
+    -   Select the TextField and pick Properties.
+    -   Uncheck the Editable box.
 
 Your GUI should look like this
 
-![](../images/tipgui1.png)
+![](../assets/images/tipgui1.png){: .img-fluid}
 
-Now, save the GUI and close SceneBuilder. Refresh the FXML document in
-Eclipse to see the changes you made in SceneBuilder.
+Now, save the GUI and close SceneBuilder. 
 
 ## Step 3 - Service Enum
 
 We would like to tip based on three perceived levels of service. This is
 an excellent opportunity for an Enum. Create a new Enum called
 `Service`. Add the following code:
+
+    package tip;
 
     public enum Service {
       POOR {
@@ -120,7 +121,7 @@ an excellent opportunity for an Enum. Create a new Enum called
         public double tip() {
           return 0.15;
         }
-      }, GREAT {
+      }, EXCELLENT {
         @Override
         public double tip() {
           return 0.2;
@@ -142,6 +143,8 @@ Notice the calculate method, which will compute the tip amount based on
 the selected options in the app.
 
 Add the following code:
+
+    package tip;
 
     import javafx.fxml.FXML;
     import javafx.scene.control.ChoiceBox;
@@ -184,8 +187,8 @@ according to our choices. In this step we are setting up the wiring
 between the View and Controller portions of the app. Open up TipGUI.fxml
 again in SceneBuilder.
 
-Add a Button to the VBox between the second and third HBox elements.
-Change the text to "Calculate Total".
+-   Add a Button to the VBox between the second and third HBox elements.
+-   Change the text to "Calculate Total".
 
 On the left side, go to Document → Controller. Select
 `tip.TipController` in the drop-down menu.
@@ -201,23 +204,24 @@ Save the GUI in SceneBuilder and close SceneBuilder.
 
 Your GUI should look like this
 
-![](../images/tipgui2.png)
+![](../assets/images/tipgui2.png){: .img-fluid}
 
 Run Tip and test the program.
 
-## Step 6 - Extensions
+## Step 6 - Tip Extensions
 
 Now, edit the program and interface as follows:
 
-1.  Add an EXCELLENT category to service, tipped at 18%.
+1.  Add an GREAT category to `Service`, tipped at 18%.
 2.  Add a way for the user to enter the number of people dining. Then,
     add a field to display the amount of money each individual
     separately owes.
+3.  Read about [spacing and padding](https://www.vojtechruzicka.com/javafx-layouts-basic/) and
+    use them to improve your GUI.
 
 ## Step 7 - Animation
 
 What animation can we add??????????
-
 
 ## What to Hand In
 

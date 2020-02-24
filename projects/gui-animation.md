@@ -14,7 +14,8 @@ Interface (GUI) and animation built using JavaFX and Scene Builder.
 
 -   IntelliJ, JavaFX and SceneBuilder
 -   **This project must be completed independently, without a partner**
--   [Java 13 API](https://docs.oracle.com/en/java/javase/13/docs/api/index.html)
+-   [Java 11 API](https://docs.oracle.com/en/java/javase/11/docs/api/index.html)
+-   [JavaFX Layout Tutorial](https://www.vojtechruzicka.com/javafx-layouts-basic/)
 <!-- -   [Sample Pig Game Project](../code/151-pig.zip) -->
 
 ## Description
@@ -34,7 +35,7 @@ to the following requirements
     be complex, but it should be something that someone would
     conceivably want to use.
 
-Feel free to use the [Java 13 API](https://docs.oracle.com/en/java/javase/13/docs/api/index.html) as a reference for any
+Feel free to use the [Java 11 API](https://docs.oracle.com/en/java/javase/11/docs/api/index.html) as a reference for any
 piece of Java you might need.
 
 ## What to Hand In
