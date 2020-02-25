@@ -240,21 +240,29 @@ start moving again.
 Now you will make additions to this demo, to solidify your understanding from
 the earlier steps and learn the particulars of animation.
 
-1. Add two Buttons to the GUI that will Start and Stop the AnimationTimer. You will
-  need to add two functions to the DemoController with an @FXML annotation, and map
-  the buttons to these functions. These functions should call `clock.start()` and
-  `clock.stop` respectively.
-1. Allow the `Pane` in DemoController to accept MousePressed events. When the
-  pane is pressed, call the `makeCircle` method. You will notice that new balls
-  appear! However, they also appear when you try to pick up and move the
-  other balls. To prevent this, both of the MousePressed callback methods will need
-  to consume the events they handle, through calling `event.consume()`.
-1.  Augment the Movement private class to slowly grow and shrink the
-    balls. First, you should add a `setRadius(double radius)` method to the `Ball`
-    class that sets the radius. Then, add in two fields to the private `Movement` class,
-    one for the current radius, initialized at 25, and one for the rate of change,
-    initialized at 0.1. In the for loop, set the radius of each `Ball` b to the current
-    radius. Following the for loop, add the following lines:
+### Step 8.1 - Start and Stop Buttons
+
+Add two Buttons to the GUI that will Start and Stop the AnimationTimer. You will
+need to add two functions to the DemoController with @FXML annotations, and map
+the buttons to these functions. These functions should call `clock.start()` and
+`clock.stop` respectively.
+
+### Step 8.2 - Add New Balls
+
+Allow the `Pane` in DemoController to accept MousePressed events. When the
+pane is pressed, call the `makeCircle` method. You will notice that new balls
+appear! However, they also appear when you try to pick up and move the
+other balls. To prevent this, both of the MousePressed callback methods will need
+to consume the events they handle, through calling `event.consume()`.
+
+### Step 8.3 - Change Radius
+
+Augment the Movement private class to slowly grow and shrink the
+balls. First, you should add a `setRadius(double radius)` method to the `Ball`
+class that sets the radius. Then, add in two fields to the private `Movement` class,
+one for the current `radius`, initialized at 25, and one called `dr` for the rate of change,
+initialized at 0.1. In the for loop, set the radius of each `Ball` b to the current
+radius. Following the for loop, add the following lines:
 
 <!-- -->
 
@@ -263,6 +271,10 @@ the earlier steps and learn the particulars of animation.
     if (radius > 40 || radius < 25) {
         dr *= -1;
     }
+
+### Step 8.4 - Your Choice
+
+Make one more alteration to the AnimationDemo project of your choice.
 
 ## What to Hand In
 
