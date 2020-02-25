@@ -239,6 +239,15 @@ Our FXML view consists of a `BorderPane` with a `Pane` in the center.
 The `DemoController` class
 coordinates between the events collected in the `Pane` view and the `Ball` model.
 
+In the src folder, create a file called `module-info.java`. Add this code into that file.
+
+    module AnimationDemo {
+        requires javafx.fxml;
+        requires javafx.controls;
+        exports demo;
+        opens demo;
+    }
+
 Run the GUI to see 5 balls drawn and move on the pane with random directions and
 speeds. When you select a ball, it will change color to red and stop moving. You can
 drag the ball to a new location. When you drop the ball, it will turn blue and
