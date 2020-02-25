@@ -240,22 +240,16 @@ start moving again.
 Now you will make additions to this demo, to solidify your understanding from
 the earlier steps and learn the particulars of animation.
 
-### Step 8.1 - Start and Stop Buttons
-
 Add two Buttons to the GUI that will Start and Stop the AnimationTimer. You will
 need to add two functions to the DemoController with @FXML annotations, and map
 the buttons to these functions. These functions should call `clock.start()` and
 `clock.stop` respectively.
-
-### Step 8.2 - Add New Balls
 
 Allow the `Pane` in DemoController to accept MousePressed events. When the
 pane is pressed, call the `makeCircle` method. You will notice that new balls
 appear! However, they also appear when you try to pick up and move the
 other balls. To prevent this, both of the MousePressed callback methods will need
 to consume the events they handle, through calling `event.consume()`.
-
-### Step 8.3 - Change Radius
 
 Augment the Movement private class to slowly grow and shrink the
 balls. First, you should add a `setRadius(double radius)` method to the `Ball`
@@ -272,12 +266,7 @@ radius. Following the for loop, add the following lines:
         dr *= -1;
     }
 
-### Step 8.4 - Your Choice
-
-Using the skills you have learned today,
-make one more alteration to the AnimationDemo project of your choice.
-
-What??
+Make one more alteration to the AnimationDemo project, of your choice.
 
 ## What to Hand In
 
