@@ -274,7 +274,8 @@ radius. Following the for loop, add the following lines:
 
 ### Step 8.4 - Your Choice
 
-Make one more alteration to the AnimationDemo project of your choice.
+Using the skills you have learned today,
+make one more alteration to the AnimationDemo project of your choice.
 
 ## What to Hand In
 
