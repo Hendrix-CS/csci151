@@ -100,7 +100,7 @@ Your GUI should look like this
 
 ![](../assets/images/tipgui1.png){: .img-fluid}
 
-Now, save the GUI and close SceneBuilder. 
+Now, save the GUI and close SceneBuilder.
 
 ## Step 3 - Service Enum
 
@@ -217,22 +217,64 @@ Now, edit the program and interface as follows:
     add a field to display the amount of money each individual
     separately owes.
 3.  Read about [spacing and padding](https://www.vojtechruzicka.com/javafx-layouts-basic/) and
-    use them to improve your GUI.
+    use them to improve the appearance of your GUI.
 
 ## Step 7 - Animation
 
-What animation can we add??????????
+1.  Download the [skeleton](../code/animationdemo.zip) for the next two steps.
+2.  Unpack the code into a new IntelliJ Java project.
+
+In this demo, you will find a `Ball` class, the Model portion of our application,
+that controls a bouncing ball in a javafx `Pane`.
+Our FXML view consists of a `BorderPane` with a `Pane` in the center.
+The `DemoController` class
+coordinates between the events collected in the `Pane` view and the `Ball` model.
+
+Run the GUI to see 5 balls drawn and move on the pane with random directions and
+speeds. When you select a ball, it will change color to red and stop moving. You can
+drag the ball to a new location. When you drop the ball, it will turn blue and
+start moving again.
+
+## Step 8 - Animation Extensions
+
+Now you will make additions to this demo, to solidify your understanding from
+the earlier steps and learn the particulars of animation.
+
+1. Add two Buttons to the GUI that will Start and Stop the AnimationTimer. You will
+  need to add two functions to the DemoController with an @FXML annotation, and map
+  the buttons to these functions. These functions should call `clock.start()` and
+  `clock.stop` respectively.
+1. Allow the `Pane` in DemoController to accept MousePressed events. When the
+  pane is pressed, call the `makeCircle` method. You will notice that new balls
+  appear! However, they also appear when you try to pick up and move the
+  other balls. To prevent this, both of the MousePressed callback methods will need
+  to consume the events they handle, through calling `event.consume()`.
+1.  Augment the Movement private class to slowly grow and shrink the
+    balls. First, you should add a `setRadius(double radius)` method to the `Ball`
+    class that sets the radius. Then, add in two fields to the private `Movement` class,
+    one for the current radius, initialized at 25, and one for the rate of change,
+    initialized at 0.1. In the for loop, set the radius of each `Ball` b to the current
+    radius. Following the for loop, add the following lines:
+
+<!-- -->
+
+
+    radius += dr;
+    if (radius > 40 || radius < 25) {
+        dr *= -1;
+    }
 
 ## What to Hand In
 
-Create a zip file of your project. Submit the zip file to Moodle. (To
-create the zip file, select File -\> Export -\> General -\> Archive
-File -\> Save in Zip Format.)
+Create a zip file of your Tip project. Submit the zip file to Moodle. (To
+create the zip file, select File -\> Export to Zipfile..)
+
+Create a zip file of your edited AnimationDemo project. Submit the zip file to Moodle.
 
 ## Grading
 
-* To earn a 3, complete Step 1
-* To earn a 10, do the above and Step 2
-* To earn a 14, do the above and Step 3
-* To earn a 17, do the above and Step 4
-* To earn a 20, do the above and Step 5
+* To earn a 10, complete Steps 1-4
+* To earn a 12, do the above and Step 5
+* To earn a 14, do the above and Step 6
+* To earn a 15, do the above and Step 7
+* To earn a 20, do the above and Step 8
