@@ -202,6 +202,15 @@ On the left side, go to Document → Controller. Select
 
 Save the GUI in SceneBuilder and close SceneBuilder.
 
+In the src folder, create a file called `module-info.java`. Add this code into that file.
+
+    module tip {
+        requires javafx.fxml;
+        requires javafx.controls;
+        exports tip;
+        opens tip;
+    }
+
 Your GUI should look like this
 
 ![](../assets/images/tipgui2.png){: .img-fluid}
