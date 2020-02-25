@@ -277,6 +277,8 @@ radius. Following the for loop, add the following lines:
 Using the skills you have learned today,
 make one more alteration to the AnimationDemo project of your choice.
 
+What??
+
 ## What to Hand In
 
 Create a zip file of your Tip project. Submit the zip file to Moodle. (To
