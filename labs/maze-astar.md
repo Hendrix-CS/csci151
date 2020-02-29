@@ -48,37 +48,44 @@ We will be implementing a Heap where the **minimum** node will be the
 root of the Heap. Our implementation will use an ArrayList to store all
 the elements of our Heap. Complete the `isHeap()` method so that it will
 check that all of the properties of a Heap are present. Namely, you must
-verify that each element is smaller than its children elements. Because
-of our use of an ArrayList to track the elements, we will always assume
+verify that each element is *smaller* than its children elements.
+
+To compare elements, we will be using the
+[Comparator](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Comparator.html)
+class in Java. You can assume a call to `comparator.compare(t, t1)` will return -1 if `t` is less than `t1`,
+0 if they are equal, and 1 if `t` is
+greater than `t1`.
+
+Because of our use of an ArrayList to track the elements, we will always assume
 that the elements form a Heap that is as compact as possible.
 
 If your implementation is correct, it should pass all four `testIsHeap`
 test cases.
 
-## Step 3 - swap
+## Step 3 - `swap`
 
 Swapping two elements in an array is an extremely common operation, and
 useful for both adding and removing elements from a heap. Implement the
 `swap()` method, and make sure `testSwap()` passes.
 
-## Step 4 - peek and add
+## Step 4 - `element` and `add`
 
-The next method to implement is `peek`. This should return the root
+The next method to implement is `element`. This should return the **root**
 element, which will always be stored in the first position of the
 ArrayList.
 
 Then, you should implement the `add` method. New elements are added to
 the end of the ArrayList, and then filtered up repeatedly when the
 element is found to be less than its parent. Use the Comparator object
-to calculate if an element is greater or less than another element. It
-is recommended to create a helper method to determine the index of the
-parent of a heap element. This will help in creating a cleaner
-implementation of `add`.
+to calculate if an element is greater or less than another element.
+
+{% include note.html content="Using the `parent` method will help in creating a cleaner
+implementation of `add`." %}
 
 Once these methods are implemented, the `testAdd1()` and `testAdd2()`
 test cases should pass.
 
-## Step 5 - indexOfLowestInFamily
+## Step 5 - `indexOfLowestInFamily`
 
 This method considers a parent index and its two children. Given the
 index of a parent, this method checks the value at that index against
@@ -90,7 +97,7 @@ index is returned.
 Once this method is implemented the three `testLowestInFamily` tests
 should all pass.
 
-## Step 6 - remove
+## Step 6 - `remove`
 
 Elements can be removed from the heap through a filtering process
 similar to adding to a heap. First, swap the first and last elements.
@@ -104,36 +111,34 @@ further. Finally, when a swap was made, repeatedly check the subsequent
 descendents to guarantee that the Heap property is always preserved.
 
 Once this method is implemented, the `testRemove()` test case should
-pass. Using the `indexOfLowestInFamily()` method makes it **much**
-easier to write this method correctly!
+pass.
 
-## Step 7 - TrailEstimator
+{% include note.html content="Using the `indexOfLowestInFamily()` method makes it **much**
+easier to write this method correctly!" %}
+
+## Step 7 - `TrailEstimator`
 
 Our penultimate step is to create the heuristic function for comparing
-trails. We are familiar with using a `compareTo` method in sorting
-algorithms, but a Trail cannot be properly compared to another trail
+trails. A `Trail` cannot be properly compared to another trail
 without the context of a puzzle. Java lets us compare in another way for
 this circumstance. In the `TrailEstimator` class, you will find two
-methods. This class is a Comparator for the Trail objects, which will
-have the proper Puzzle object available.
+methods. This class is a `Comparator` for the `Trail` objects, which will
+have the proper `Puzzle` object available.
 
-The `estimateFor` method should return the length of the given Trail,
+The `estimateFor` method should return the length of the given `Trail`,
 plus an estimate for the remaining length of the trail. This estimate
 should be calculated using the `manhattanDistanceTo` method of the
-Position class.
+`Position` class.
 
-The `compare` method will then be able to compare two Trail objects,
-using using the estimate for each Trail calculated in the above method.
-Return -1 if the first Trail estimate is less than the second, 0 if they
-are equal, and 1 if the first Trail estimate is greater than the second.
+The `compare` method will then be able to compare two `Trail` objects,
+using using the estimate for each `Trail` calculated in the above method.
+Return -1 if the first `Trail` estimate is less than the second, 0 if they
+are equal, and 1 if the first `Trail` estimate is greater than the second.
 
 ## Step 8 - Evaluation
 
 Compare the new Heap Searcher to the earlier Stack and Queue
-implementations. You will need to place one of your Queue
-implementations from a previous lab in the `maze.searchers` package.
-Create 10 random mazes of size 50x50. For each maze, use the new
-*Shotgun* button to remove some of the walls. Now, for each maze and
+implementations. Create 10 random mazes of size 50x50. Now, for each maze and
 strategy (Stack, Queue, and Heap), record the number of visited nodes as
 a percentage of the total number of open spaces in the initial maze.
 Discuss the differences you see between the Stack, Queue, and Heap.
