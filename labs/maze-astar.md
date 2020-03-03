@@ -17,7 +17,7 @@ search of a maze.
 
 ## Setup
 
-1.  Download the [skeleton](../code/heap_maze.zip) for this project.
+1.  Download the [skeleton](../code/maze151astar.zip) for this project.
 2.  Unpack the code into a new Eclipse Java project.
 
 ## Description
