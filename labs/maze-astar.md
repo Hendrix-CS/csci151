@@ -18,7 +18,7 @@ search of a maze.
 ## Setup
 
 1.  Download the [skeleton](../code/maze151astar.zip) for this project.
-2.  Unpack the code into a new Eclipse Java project.
+2.  Unpack the code into a new IntelliJ Java project.
 
 ## Description
 
