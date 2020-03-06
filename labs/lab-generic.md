@@ -16,6 +16,8 @@ worktitle: BLAH BLAH BLAH
 
 ### Step 1
 
+{% include note.html content="blahblahblah" %}
+
 ## Evaluation
 
 ## What to Hand In

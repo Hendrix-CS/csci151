@@ -15,19 +15,21 @@ their perfomance.
 -   IntelliJ
 -   Lab partner
 
-## Step 1 - Setup
+## Setup
 
-1.  Download the [skeleton](../code/sortimator.zip) for this project.
+1.  Download the [skeleton](../code/151sortimator.zip) for this project.
 2.  Unpack the code into a new InteliJ Java project.
-3.  Add in the JUnit library to your project settings if necessary.
+3.  Add in the JUnit and JavaFX libraries to your project settings if necessary.
 4.  Run the Sortimator.java file in the `sorting.gui` package and verify
     that the GUI is displayed.
 5.  Click the Scramble and then Sort buttons to watch an animation of
     the GnomeSort algorithm.
 
+## Step 1 - GnomeSort
+
 Take a look at the code inside `GnomeSorter.java`. This is an example
 algorithm demonstrating elements that you should use in your
-implementations below. Each algorithm will need to implement the
+implementations below. Each algorithm below will need to implement the
 `sortAlgorithm` method, which brings in an `ArrayList` to be sorted.
 
 First, we can access the elements in the list with the `get` method, and
@@ -35,8 +37,11 @@ determine its size with the `size` method. However, notice that we do
 not use the `set` element of the list. Instead, we call our own `set`
 method, which takes the list to be set, the index that will be set, and
 the element to set in the index location. This roundabout method is used
-to assist with the animation. You will need to use this method in all of
-your implementations.
+to assist with the animation.
+
+{% include important.html content="You will need to use this
+roundabout `set` method in all of
+your implementations." %}
 
 Next, since we have an `ArrayList` of generic elements, we need to call
 the `compareTo` method. This will return an integer, equal to 0 if the
@@ -45,13 +50,13 @@ and positive if the first is larger than the second, according to
 whatever ordering scheme is defined. We will want our resulting array to
 be sorted from smallest to largest.
 
-Also note that there is a swap going on in this algorithm. You might
-consider implementing a swap method as you code below to make your life
-easier.
+{% include note.html content="There is a swap going on in this algorithm. You might
+consider implementing a `swap` method as you code below to make your life
+easier." %}
 
 ## Step 2 - InsertionSorter
 
-Your first sorting algorithm to implement is Insertion Sort. You will
+Your first sorting algorithm to implement is Insertion Sort. You will be
 incrementally placing elements into a sorted array.
 
 Create a new class called `InsertionSorter`. To fit into the Sortimator
@@ -106,7 +111,7 @@ implementation has the correct behavior.
 
 ## Step 4 - MergeSorter
 
-Merge sort uses recursion to repeatedly split the given list into
+MergeSort uses recursion to repeatedly split the given list into
 smaller lists, sort the smaller lists, and then combine the sorted
 sublists into one sorted list.
 
@@ -116,39 +121,40 @@ The name of your class should be
 
 ### Step 4.1 - Implementation
 
-First, you will need to create a `mergeSortHelper` method. In order to
-do recursion, we will need to track the start and end indices of our
-sublists. The start and end should be additional parameters along with
-the list. Use end as we have in other contexts, to be the stopping
-index, going up to but not including this index. So, our sortAlgorithm
-will call the mergeSortHelper method with start as 0 and end as the size
-of the list.
+First, you will need to create a
+`mergeSortHelper(ArrayList<E> array, int start, int end)` method. In order to
+do recursion, we will need to track the `start` and `end` indices of our
+sublists. The `start` and `end` should be additional parameters along with
+the list. Use `end` as we have in other contexts, to be the stopping
+index, going up to but not including this index.
+
+So, our sortAlgorithm will call the `mergeSortHelper` method with
+`start` as 0 and `end` as the size of the list.
 
 `mergeSortHelper` has the following structure:
 
--   If the start and end are at least one element apart
-    -   Find the midpoint index between start and end. The midpoint
-        index should divide start and end in half.
+-   If the `start` and `end` are at least one element apart
+    -   Find the `midpoint` index between `start` and `end`. The `midpoint`
+        index should divide `start` and `end` in half.
     -   Call `mergeSortHelper` recursively twice; once on the first half
-        of the array, and once on the second half. Use the start, end,
-        and midpoint indices to structure the recursive calls properly.
+        of the array, and once on the second half. Use the `start`, `end`,
+        and `midpoint` indices to structure the recursive calls properly.
     -   Merge together the two sorted subarrays.
 
-To complete this method, we need a `merge` method, which brings in the
-same parameters as above. The most straightforward implementation
-involves the use of either `ArrayQueue` or `ListQueue` from [Lab
-5](lab5.html):
+To complete this method, we need a `merge(ArrayList<E> array, int start, int end)` method.
+The most straightforward implementation
+involves the use of either `ArrayQueue` or `ListQueue` from [Lab 5](maze-bfs.html):
 
 -   Add each element of the first half of the array into a queue.
 -   Add each element of the second half of the array into a different
     queue.
 -   For each element of the array
     -   if the second queue is empty, or if the first queue is not empty
-        and its `peek()` value is less than or equal to the `peek()`
-        value of the second queue, dequeue the value from the first
-        queue and store it at this location in the array.
-    -   Otherwise, dequeue the value from the second queue and store it
-        at this location in the array.
+        and its `element()` value is less than or equal to the `element()`
+        value of the second queue, remove the value from the first
+        queue and store it at this location in the array with `set`.
+    -   Otherwise, remove the value from the second queue and store it
+        at this location in the array with `set`.
 
 ### Step 4.2 - Testing
 
@@ -172,34 +178,34 @@ The name of your class should be
 ### Step 5.1 - Implementation
 
 Again, we will need a recursive helper function, augmenting with the
-start and end of the sublist. `quickSortHelper` has the following
-structure
+start and end of the sublist. `quickSortHelper(ArrayList<E> array, int start, int end)`
+has the following structure:
 
--   If the start and end are at least one element apart
+-   If the `start` and `end` are at least one element apart
     -   Partition the elements
     -   Recursively apply `quickSortHelper` to the partitioned subarrays
 
-The `partition` method should have the same parameters as the
-`quickSortHelper` method.
+The `partition(ArrayList<E> array, int start, int end)` method should have the
+same parameters as the `quickSortHelper` method.
 
 -   Select the last element of the subarray as the `pivot` element.
 -   Initialize a variable to track the total number of elements smaller
-    than the pivot.
--   For each list element prior to the pivot:
-    -   If the element is less than the pivot:
+    than the `pivot`.
+-   For each subarray element prior to the `pivot`:
+    -   If the element is less than the `pivot`:
         -   Swap it so that it winds up early in the subarray, by using
             the total number of smaller elements we have seen so far to
             determine its destination index.
         -   Increase by one the number of total elements seen that is
-            smaller than the pivot.
--   Calculate the final position of the pivot using the total number of
+            smaller than the `pivot`.
+-   Calculate the final position of the `pivot` using the total number of
     elements smaller than it.
--   Move the pivot to that final position, and then return that final
+-   Move the `pivot` to that final position, and then return that final
     position, as it represents the division point between the subarrays
     that must now be recursively sorted.
 
-To speed up your algorithm, avoid making swaps when the two locations
-being swapped are the exact same index.
+{% include note.html content="To speed up your algorithm, avoid making swaps when the two locations
+being swapped are the exact same index." %}
 
 ### Step 5.2 - Testing
 
@@ -221,7 +227,8 @@ evaluation in Step 6.
 
 ## Grading
 
-20 points total:
-
--   Each sorting algorithm that passes the tests is worth 4 points.
--   The evaluation document is also worth 4 points.
+* To earn a 4, complete Step 1 and 2
+* To earn a 8, do the above and Step 3
+* To earn a 12, do the above and Step 4
+* To earn a 16, do the above and Step 5
+* To earn a 20, do the above and Step 6
