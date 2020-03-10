@@ -71,10 +71,10 @@ name of your class should be
 InsertionSort can be implemented with the following algorithm.
 
 -   For each element in the list
-    -   If the current element is smaller than the element to its left,
-        swap them.
-    -   Until you stop making swaps, repeat this check for the next two
-        elements to the left.
+    -   While the current element is smaller than the element to its left
+        -   Swap them
+        -   Move one element to the left, so that you keep following the current
+            element down.
 
 ### Step 2.2 - Testing
 
@@ -124,7 +124,7 @@ The name of your class should be
 First, you will need to create a
 `mergeSortHelper(ArrayList<E> array, int start, int end)` method. In order to
 do recursion, we will need to track the `start` and `end` indices of our
-sublists. The `start` and `end` should be additional parameters along with
+subarrays. The `start` and `end` should be additional parameters along with
 the list. Use `end` as we have in other contexts, to be the stopping
 index, going up to but not including this index.
 
@@ -133,7 +133,7 @@ So, our sortAlgorithm will call the `mergeSortHelper` method with
 
 `mergeSortHelper` has the following structure:
 
--   If the `start` and `end` are at least one element apart
+-   If the `start` and `end` are more than one element apart
     -   Find the `midpoint` index between `start` and `end`. The `midpoint`
         index should divide `start` and `end` in half.
     -   Call `mergeSortHelper` recursively twice; once on the first half
@@ -145,16 +145,20 @@ To complete this method, we need a `merge(ArrayList<E> array, int start, int end
 The most straightforward implementation
 involves the use of either `ArrayQueue` or `ListQueue` from [Lab 5](maze-bfs.html):
 
--   Add each element of the first half of the array into a queue.
--   Add each element of the second half of the array into a different
+-   Add each element of the first half of the subarray into a queue.
+-   Add each element of the second half of the subarray into a different
     queue.
--   For each element of the array
+-   For each element of the subarray
     -   if the second queue is empty, or if the first queue is not empty
         and its `element()` value is less than or equal to the `element()`
         value of the second queue, remove the value from the first
         queue and store it at this location in the array with `set`.
     -   Otherwise, remove the value from the second queue and store it
         at this location in the array with `set`.
+
+{% include important.html content="For the `merge` method, you will need to find the
+`midpoint` in the exact same way as discussed in  `mergeSortHelper` so you can
+place the first half and second half of the subarray into queues." %}
 
 ### Step 4.2 - Testing
 
@@ -168,7 +172,7 @@ merging back up, QuickSort reverse this scheme. Before recursing,
 QuickSort partitions the elements of the list, hopefully into two
 equal-sized portions, placing the elements smaller than a randomly
 chosen pivot element to the left and those elements larger to the right.
-These sublists will be semi-sorted, and then repeatedly partitioned
+These subarrays will be semi-sorted, and then repeatedly partitioned
 until all elements are in the correct order.
 
 The name of your class should be
@@ -178,10 +182,10 @@ The name of your class should be
 ### Step 5.1 - Implementation
 
 Again, we will need a recursive helper function, augmenting with the
-start and end of the sublist. `quickSortHelper(ArrayList<E> array, int start, int end)`
+start and end of the subarray. `quickSortHelper(ArrayList<E> array, int start, int end)`
 has the following structure:
 
--   If the `start` and `end` are at least one element apart
+-   If the `start` and `end` are more than one element apart
     -   Partition the elements
     -   Recursively apply `quickSortHelper` to the partitioned subarrays
 
