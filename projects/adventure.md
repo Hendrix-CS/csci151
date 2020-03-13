@@ -72,19 +72,7 @@ The goals of this project are to:
 
 ## Materials
 
--   Start by making a new IntelliJ project. Then download each of these
-    `.java` files and copy them into the default package in your
-    project:
-    -   [`Direction.java`](../code/Direction.java)
-    -   [`Verb.java`](../code/Verb.java)
-    -   [`Command.java`](../code/Command.java)
-    -   [`AdventureDemo.java`](../code/AdventureDemo.java)
--   Download [`Hendrix.yaml`](../code/Hendrix.yaml) and copy it into the
-    top level of your project.
--   Download [`snakeyaml-1.18.jar`](../code/snakeyaml-1.18.jar) and copy
-    it into the top level of your project as well. Then go to
-    `Project` \> `Properties` \> `Java Build Path`, select `Add JARs...`
-    and navigate to `snakeyaml-1.18.jar`.
+-   Download the [skeleton](../code/Adventure.zip) for this project.
 
 {% include note.html content="**Read this project description carefully!** There are a lot of moving
 parts to this project and a lot of things that have to be explained. You
@@ -138,16 +126,16 @@ words like `"at"` are simply ignored.
 There is a bit more you can do with `Command`; take a look at the
 comments in `Command.java` for more info.
 
-### `Hendrix.yaml`
+### `Hendrix.yml`
 
-The provided `Hendrix.yaml` file describes a simple world centered
+The provided `Hendrix.yml` file describes a simple world centered
 around the third floor of MC Reynolds. Note that **you do not have to
-write code to read `Hendrix.yaml` (or any other `.yaml` files)!**
+write code to read `Hendrix.yml` (or any other `.yml` files)!**
 Instead, you should use the provided SnakeYAML library to read them for
 you. See the section below on `snakeyaml` and `AdventureDemo.java` for
 an explanation of how to do this.
 
-`Hendrix.yaml` uses the standard [YAML format](http://yaml.org/), which
+`Hendrix.yml` uses the standard [YAML format](http://yaml.org/), which
 is intended to be a simple, human-readable format for describing
 structured data.
 
