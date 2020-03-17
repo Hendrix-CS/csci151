@@ -79,11 +79,11 @@ will receive at most half credit.
 |5 | [Mazes: Breath First Search]({{site.baseurl}}/labs/maze-bfs.html) | Feb 18 | Feb 25 |
 |6 | [JavaFX and GUIs]({{site.baseurl}}/labs/javafx.html) | Feb 25 | Mar 3 |
 |7 | [Mazes: A* Search]({{site.baseurl}}/labs/maze-astar.html) | Mar 3 | Mar 10 |
-|8 | [Sortimator]({{site.baseurl}}/labs/sortimator.html) | Mar 10 | Mar 17 |
-|9 | [Skip Lists]({{site.baseurl}}/labs/skiplists.html) | Mar 31 | Apr 7 |
+|8 | [Sortimator]({{site.baseurl}}/labs/sortimator.html) | Mar 10 | Mar 31 |
 |10 | [Binary Search Trees]({{site.baseurl}}/labs/binarysearchtrees.html) | Apr 7 | Apr 14 |
-|11 | [Text Prediction]({{site.baseurl}}/labs/text-prediction.html) | Apr 14 | Apr 21 |
-|12 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html) | Apr 21 | Apr 28 |
+|12 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html) | Apr 14 | Apr 21 |
+|9 | [~~Skip Lists~~]({{site.baseurl}}/labs/skiplists.html) | N/A | N/A |
+|11 | [~~Text Prediction~~]({{site.baseurl}}/labs/text-prediction.html) | N/A | N/A |
 
 Much of your experience with programming in this course will be through weekly labs. Each lab will be assigned in lab with time allotted to work through the materials, and will be due **by the start of the following lab**. All labs are weighted equally within the lab portion of your final grade.
 
@@ -99,7 +99,7 @@ On these labs, you will work with a partner on the lab assignments. Their name m
 |:--:|-----||:------:|:--------:|:---:|
 |1 | [Java and Arrays]({{site.baseurl}}/projects/arrays.html)  | 50  | Jan 31 | Feb 14 |
 |2 | [GUI and Animation]({{site.baseurl}}/projects/gui-animation.html) | 100 | Feb 26 | Mar 9 |
-|3 | [Text Adventure]({{site.baseurl}}/projects/adventure.html) | 120 | Mar 17 | Apr 9 |
+|3 | [Text Adventure]({{site.baseurl}}/projects/adventure.html) | 120 | Mar 31 | Apr 7 |
 |4 | [Final Project]({{site.baseurl}}/projects/final-project.html) | 200 | Apr 17 | May 12 |
 
 You will have four projects in this course, one about every four weeks. These projects will cover concepts we have discussed in class and in labs, and will be due approximately two weeks after they are assigned.
@@ -141,8 +141,8 @@ reflecting on the material. These will total at least 45 points, most likely mor
 
 | Score  | Grade  |
 |:------:|:------:|
-| 900-1000  | A   |
-| 800-899   | B   |
-| 700-799   | C   |
-| 600-699   | D   |
-| 0-599     | F   |
+| 850-1000  | A   |
+| 750-849   | B   |
+| 650-749   | C   |
+| 550-649   | D   |
+| 0-549     | F   |
