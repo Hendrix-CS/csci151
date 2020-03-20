@@ -9,6 +9,10 @@ layout: course-multi
 
 {{ site.description }}
 
+## Everything's Not Awesome
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m4BXikJi7c8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## <a name="goals">Learning Goals</a>
 
 Upon completing this course, our goal is for you to be able to:

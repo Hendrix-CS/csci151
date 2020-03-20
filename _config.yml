@@ -95,15 +95,21 @@ resources:
     url: https://gluonhq.com/products/scene-builder/
 
 extra-resources:
-  - name: Java4Python
-    image: assets/images/runestone_logo.png
-    url: https://runestone.academy/runestone/books/published/java4python/index.html
-  - name: CodingBat Java
-    image: assets/images/codingbat.jpg
-    url: https://codingbat.com/
+#  - name: Java4Python
+#    image: assets/images/runestone_logo.png
+#    url: https://runestone.academy/runestone/books/published/java4python/index.html
+#  - name: CodingBat Java
+#    image: assets/images/codingbat.jpg
+#    url: https://codingbat.com/
   - name: CS2Mulch
     image: assets/images/cs2mulch.png
     url: https://mgoadric.github.io/cs2mulch/
+  - name: Algorithms (Chapter 3)
+    image: assets/images/algorithms.png
+    url: https://algs4.cs.princeton.edu/30searching/
+  - name: CUVids (Sections 8, 9, and 11)
+    image: assets/images/cuvids.png
+    url: https://cuvids.io/app/course/2/
 
 # Build settings
 markdown: kramdown
