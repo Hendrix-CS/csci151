@@ -3,8 +3,8 @@ layout: work
 type: Project
 num: 3
 worktitle: Text Adventure
-basicdue: Wednesday, April 1st
-finaldue: Thursday, April 9th
+basicdue: Thursday, April 2nd
+finaldue: Tuesday, April 7th
 ---
 
 ## Overview
@@ -129,11 +129,9 @@ comments in `Command.java` for more info.
 ### `Hendrix.yml`
 
 The provided `Hendrix.yml` file describes a simple world centered
-around the third floor of MC Reynolds. Note that **you do not have to
-write code to read `Hendrix.yml` (or any other `.yml` files)!**
-Instead, you should use the provided SnakeYAML library to read them for
-you. See the section below on `snakeyaml` and `AdventureDemo.java` for
-an explanation of how to do this.
+around the third floor of MC Reynolds, as shown in the figure below.
+
+![](../assets/images/adventuremap.png){: .img-fluid}
 
 `Hendrix.yml` uses the standard [YAML format](http://yaml.org/), which
 is intended to be a simple, human-readable format for describing
@@ -190,7 +188,7 @@ one:
 
 -   The `type` specifies what kind of thing is being described by this
     entry (a location, an item, a monster, a magic spell, ...?, etc.).
-    The only `type` in the provided `Hendrix.yaml` file is `location`,
+    The only `type` in the provided `Hendrix.yml` file is `location`,
     but you could extend it with your own new kinds of entries. (Note
     that if you make your own new kinds of entries, you can use whatever
     keys make sense for that entry: everything else in the list below is
@@ -268,7 +266,7 @@ A few miscellaneous notes:
         the same long description over and over every time they come
         back to a location).
 
--   One last feature present in `Hendrix.yaml` is that some locations
+-   One last feature present in `Hendrix.yml` is that some locations
     have the key `article`. This is a grammatical aid to make the output
     flow better, and indicates an article which can be prepended to the
     name of the location when using it in a sentence. For example, since
@@ -309,9 +307,23 @@ also demonstrates how to read user input and parse it using the provided
 `Command` class. Feel free to use `AdventureDemo.java` as the basis for
 your own implementation.
 
+## A Note on Dictionaries and Sets
+
+In this project you will almost certainly use a lot of dictionaries. For
+a fast Java dictionary implementation, you should use the [`HashMap`
+class](https://docs.oracle.com/javase/11/docs/api/java/util/HashMap.html).
+We don't yet know how it is implemented (we will learn how to implement it in
+a later lab) but you already know how to use it.
+
+In addition, you can use `HashSet` if you want to keep a collection of
+things in no particular order, and be able to easily add and remove
+items. For example, this sort of structure is ideal for keeping track of
+the player's inventory.
+
 ## Requirements
 
-This project must be completed **individually**.
+This project must be completed individually, but you can communicate with
+your lab partner and Dr. Goadrich.
 
 There are four levels of implementation for your project, Basic,
 Intermediate, Advanced, and Expert.
@@ -325,7 +337,7 @@ following minimum requirements:
 
 #### 1.1 Read YAML Files
 
-Accept the provided world description file `Hendrix.yaml`, or any
+Accept the provided world description file `Hendrix.yml`, or any
 other file using the same format. Keep in mind that you are not writing a program to
 let the user play a *particular* adventure, but an *engine* which
 will allow the user to explore any world described in a file of the
@@ -364,7 +376,7 @@ Keep track of the user's current score, and increase their score
 when they drop an item in that item's goal location.
 
 A project which meets the Basic and Intermediate levels **and uses good
-code style and documentation** will receive a 85 points.
+code style and documentation** will receive 60 points.
 
 {% include note.html content="It is **not** a requirement to make your output look exactly
 like mine in the example above! Use your creativity and judgment. If you
@@ -373,7 +385,7 @@ unsure whether it would meet the requirements, feel free to ask." %}
 
 ### LEVEL 3: ADVANCED
 
-In order to get an A on the project, you should implement all the Advanced
+In order to earn more points on the project, you should implement all the Advanced
 features *in addition to* at least one Expert feature.
 
 #### 3.1 New YAML world
@@ -571,19 +583,6 @@ them.
     item; certain messages might change depending on what has happened
     so far.
 
-## A Note on Dictionaries and Sets
-
-In this project you will almost certainly use a lot of dictionaries. For
-a fast Java dictionary implementation, you should use the [`HashMap`
-class](https://docs.oracle.com/javase/13/docs/api/java/util/HashMap.html).
-We don't yet know how it is implemented (we will learn how to implement it in
-a later lab) but you already know how to use it.
-
-In addition, you can use `HashSet` if you want to keep a collection of
-things in no particular order, and be able to easily add and remove
-items. For example, this sort of structure is ideal for keeping track of
-the player's inventory.
-
 ## Don't Panic
 
 This project might at first glance appear huge, and there is certainly a
@@ -612,25 +611,28 @@ For your final submission, you should turn in a `.zip` file containing:
     include** even the provided starter code, even if you did not change
     them, to make it as easy as possible for me to run your code.
 
--   Any `.yaml` world files you created (you must create at least one).
+-   Any `.yml` world files you created (you must create at least one).
     If you added any special features to your engine, this is your
     opportunity to show them off.
 
 -   A `README.txt` file containing a description of your engine, any
-    `.yaml` files you submitted, and any special features you added that
+    `.yml` files you submitted, and any special features you added that
     I should look for.
 
 ## Grading
 
 |Criteria|Score|
 ||----|:---:|
+| BASIC ||
 | Reads the provided world description file Hendrix.yaml, and loads the information into appropriate objects.  | **10**   |   
 | Keeps track of the player's current location, and prints out a description of the location.  |  **10**    |  
 | Allows the user to move around via the go command.  | **10**     |
+| INTERMEDIATE ||
 | Print out all the items at a new location | **5** |
 | Users can pick up and drop items | **10** |
 | Users can view their current inventory | **10** |
 | Keep track of the current score | **5** |
+| ADVANCED ||
 | Includes a student-designed YAML file   |**10**      |
 | A look command takes the name of an item (either in the current location or in the player's inventory) and prints out a description of the item. |  **5**       |
 | By itself, the look command prints a description of the current location.   |   **5**     |  
@@ -639,6 +641,7 @@ For your final submission, you should turn in a `.zip` file containing:
 | Allow the user to pick up (portable) items.  | **5**       |
 | The user may refer to items by any of their listed aliases.  |   **5**       |
 | A help command lists all commands.  |  **5**       |
-| Includes at least one additional extension.   | **10**      |
 | Includes a helpful README    |  **5**       |
+| EXPERT ||
+| Includes at least one additional extension.   | **10**      |
 | **Total**     |    **120**|

@@ -68,8 +68,10 @@ partial late days; turning in an assignment 2 hours late or 20 hours late will
 both use 1 late day. Note that late days are intended to cover both normal
 circumstances (you simply want more time to work on the assignment) and
 exceptional circumstances (you get sick, travel for a game or family
-obligation, *etc.*). After you have used up your late days, late assignments
-will receive at most half credit.
+obligation, *etc.*). After you have used up your late days, ~~late assignments
+will receive at most half credit.~~ **you will be given more, because this is a
+crazy semester. All work must be completed the day before final grades are due,
+and you must be in communication with me when assignments are late.**
 
 ## <a name="labs">Labs</a>: 240 points
 
