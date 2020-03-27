@@ -143,7 +143,7 @@ structured data.
 -   Dictionaries and lists can be nested using indentation.
 
 Entries in the file are separated by three hyphens `---`. Let's look at
-a single entry from `Hendrix.yaml` as an example.
+a single entry from `Hendrix.yml` as an example.
 
     type: location
     id: MC317
@@ -202,7 +202,7 @@ one:
     (`HashMap`) mapping `id`s to locations!)
 
 -   The `name` is a short name for the location. Unlike the `id`, it
-    does not have to be unique (for example, in `Hendrix.yaml` there are
+    does not have to be unique (for example, in `Hendrix.yml` there are
     multiple locations which are all named `Hallway`).
 
 -   The `desc` is a short (one-line) description of the location which
@@ -302,7 +302,7 @@ Using SnakeYAML has several advantages:
     what to do with.
 
 `AdventureDemo.java` provides an example of how to use SnakeYAML to
-parse a `.yaml` file, and how to extract information from its output. It
+parse a `.yml` file, and how to extract information from its output. It
 also demonstrates how to read user input and parse it using the provided
 `Command` class. Feel free to use `AdventureDemo.java` as the basis for
 your own implementation.
@@ -373,7 +373,8 @@ view their current inventory with the `inventory` command.
 #### 2.4 Track Score
 
 Keep track of the user's current score, and increase their score
-when they drop an item in that item's goal location.
+when they drop an item in that item's goal location. Display the score
+to the user when they type `score`.
 
 A project which meets the Basic and Intermediate levels **and uses good
 code style and documentation** will receive 60 points.
@@ -388,13 +389,7 @@ unsure whether it would meet the requirements, feel free to ask." %}
 In order to earn more points on the project, you should implement all the Advanced
 features *in addition to* at least one Expert feature.
 
-#### 3.1 New YAML world
-
-Design your own world (by making another `.yaml` file) and submit it
-along with your project. These will be collected and published for
-the whole class (and future classes!) to enjoy.
-
-#### 3.2 Look Command
+#### 3.1 Look Command
 
 -   The basic version of `look` takes the name of an item and simply prints
     out a description of the item. Note you should only print a
@@ -439,7 +434,7 @@ the whole class (and future classes!) to enjoy.
         There's nothing to see that way.
 
 
-#### 3.3 Short Description
+#### 3.2 Short Description
 
 After visiting a location once, on subsequent visits just print the
 `desc` instead of the `longdesc`.
@@ -472,7 +467,7 @@ After visiting a location once, on subsequent visits just print the
         There is an eraser here.
 
 
-#### 3.4 Portable Items
+#### 3.3 Portable Items
 
 Distinguish between portable and non-portable items; only allow the
 user to pick up portable items. In addition, non-portable items
@@ -490,7 +485,7 @@ particular location.
         You can't take that!
 
 
-#### 3.5 Item Aliases
+#### 3.4 Item Aliases
 
 Allow the user to refer to items by any of their listed `aliases`.
 
@@ -503,7 +498,7 @@ Allow the user to refer to items by any of their listed `aliases`.
         been recently washed.
 
 
-#### 3.6 Help
+#### 3.5 Help
 
 Implement a `help` command. For example, it might look like this
 (but might be different depending on what other features you add to
@@ -528,9 +523,15 @@ your engine):
         Available directions:
           north south east west northeast northwest southeast southwest up down in out
 
+#### 3.6 New YAML world
+
+Design your own world (by making another `.yml` file) and submit it
+along with your project. These will be collected and published for
+the whole class (and future classes!) to enjoy.
+
 ### LEVEL 4: EXPERT
 
-Most Expert extensions will require you to extend the `.yaml` file format
+Most Expert extensions will require you to extend the `.yml` file format
 with additional keys or entry types. Fortunately, that is as easy as
 simply adding them, and then looking for the new key or entry type in
 your engine. For example, suppose you wanted to add a `weight` key to
@@ -543,7 +544,7 @@ something like
 
 In this example, I chose to use a default weight of 5 if the value `w`
 is `null` (meaning the key `weight` was not found). This means my engine
-will still be compatible with `.yaml` files that do not specify a
+will still be compatible with `.yml` files that do not specify a
 `weight` key for items; it will simply use a default weight.
 
 Here are some ideas for other ways you could extend your engine and the
@@ -624,7 +625,7 @@ For your final submission, you should turn in a `.zip` file containing:
 |Criteria|Score|
 ||----|:---:|
 | BASIC ||
-| Reads the provided world description file Hendrix.yaml, and loads the information into appropriate objects.  | **10**   |   
+| Reads the provided world description file Hendrix.yml, and loads the information into appropriate objects.  | **10**   |   
 | Keeps track of the player's current location, and prints out a description of the location.  |  **10**    |  
 | Allows the user to move around via the go command.  | **10**     |
 | INTERMEDIATE ||
@@ -633,7 +634,6 @@ For your final submission, you should turn in a `.zip` file containing:
 | Users can view their current inventory | **10** |
 | Keep track of the current score | **5** |
 | ADVANCED ||
-| Includes a student-designed YAML file   |**10**      |
 | A look command takes the name of an item (either in the current location or in the player's inventory) and prints out a description of the item. |  **5**       |
 | By itself, the look command prints a description of the current location.   |   **5**     |  
 | Given a direction, the look command prints out the name of the location in that direction.  |   **5**       |
@@ -641,6 +641,7 @@ For your final submission, you should turn in a `.zip` file containing:
 | Allow the user to pick up (portable) items.  | **5**       |
 | The user may refer to items by any of their listed aliases.  |   **5**       |
 | A help command lists all commands.  |  **5**       |
+| Includes a student-designed YAML file   |**10**      |
 | Includes a helpful README    |  **5**       |
 | EXPERT ||
 | Includes at least one additional extension.   | **10**      |

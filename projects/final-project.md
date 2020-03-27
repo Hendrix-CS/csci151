@@ -32,11 +32,11 @@ subject to the following requirements
     organization. Use the Maze or TicTacToe labs as a goal to strive for
     in your project.
 -   You must incorporate at least one of the data structures discussed
-    in this course beyond a List (Stack, Queue, Binary Search Tree,
-    Trie, HashTable, Heap).
+    in this course beyond a List (Stack, Queue, Set,
+    Map, Heap).
 
-Feel free to use the [Java 13
-API](https://docs.oracle.com/en/java/javase/13/docs/api/index.html) as a
+Feel free to use the [Java 11
+API](https://docs.oracle.com/en/java/javase/11/docs/api/index.html) as a
 reference for any piece of Java you might need.
 
 ## What to Hand In
@@ -47,7 +47,7 @@ and interesting features in your application, and any joys or struggles
 you encountered in creating your application.
 
 You will be presenting your final project to the rest of the students in
-the course. You will have at most **15 minutes** for your presentation,
+the course. You will have at most **5 minutes** for your presentation,
 which must include a demonstration of your project. The final exam
 period for this course is {{page.finaldue}}.
 
