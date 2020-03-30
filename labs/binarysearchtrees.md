@@ -17,7 +17,7 @@ processes of insertion, deletion, and rotation.
 
 ## Setup
 
-1.  Download the [skeleton](../code/binarySearchTrees.zip) for this
+1.  Download the [skeleton](../code/151bst.zip) for this
     project.
 2.  Unpack the code into a new IntelliJ Java project.
 
@@ -57,7 +57,7 @@ marked with TODO for easy identification.
 ## Step 1: `insert()` and `contains()`
 
 Use recursion to complete the `insert()` and `contains()` methods in the `TreeNode`
-class. Both of them will need to use the result of `this.value.compareTo(value)` method
+class. Both of them will need to use the result of `value.compareTo(this.value)` method
 to determine if the parameter is less than, equal to, or greater than the value
 at the current `TreeNode`.
 
