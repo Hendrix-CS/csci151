@@ -97,7 +97,7 @@ On these labs, you will work with a partner on the lab assignments. Their name m
 
 **Lab attendance is required**. Labs take place in the **Snoddy Computer Lab**, in the Bailey Library. As you go through the exterior door of the library, turn immediately to your left and enter the Snoddy Academic Resource Center. Continue through the door at the far end of the hall into the first computer lab, and then enter the second lab at the back.
 
-{% include note.html content="The TAs for CSCI 151 will be available in the Snoddy Computer Lab on Sunday and Monday nights from 8-10pm." %}
+{% include note.html content="The TAs for CSCI 151 will be available for meetings via Team Chat. Please make an appointment with [Kate](https://sanderskm.youcanbook.me/) or [Andrew](https://andreweveld-hendrixcollege.youcanbook.me) to set up a time to talk." %}
 
 ## <a name="projects">Projects</a>: 470 points
 
