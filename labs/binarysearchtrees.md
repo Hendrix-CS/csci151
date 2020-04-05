@@ -29,9 +29,10 @@ each element if the data is not sorted. At best, sorting will take *O(n
 log n)*, and so we explore an alternative here which incorporates the
 idea of binary search into a linked structure of nodes.
 
-Our items to be stored and compared in this lab will be strings. For
+{% include note.html content="Our items to be stored and compared in this lab will be strings. For
 testing purposes, I recommend using single letters as entry, however,
-full words can also be used.
+full words can also be used. If you use numbers, they will be sorted in alphabetic
+order, not numerical order." %}
 
 ![](../assets/images/bstlab.png){: .img-fluid}
 
@@ -48,8 +49,10 @@ class can be used in lieu of `null`, so you know exactly what error you are
 getting and why. We wrap all of our `TreeNode` objects in an
 `Optional` object. So, instead of saying `left == null`, we would
 ask 'left.isPresent()'. If `left` exists, then we can get the `TreeNode` by
-saying `left.get()`. To make a new child, we would say something like
-`left = Optional.of(new TreeNode(value))`.
+saying `left.get()`.
+
+{% include important.html content="To make a new child, we would say something like
+`left = Optional.of(new TreeNode(value))`." %}
 
 Methods that remain to be implemented in the `TreeNode` class have been
 marked with TODO for easy identification.
