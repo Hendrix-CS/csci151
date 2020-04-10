@@ -78,11 +78,6 @@ matching key or the end of the chain where a new `HashNode` can be added.
 Only when a new `HashNode` is created should the size counter be
 incremented.
 
-When the load factor of the `HashTable`, determined by the size of the
-`HashTable` divided by the capacity of the array, exceeds 0.75, the `put`
-method should double the side of the array and reput all the entries
-into the new array.
-
 ## Step 3 - get
 
 This method finds the associated index into the allocated array using
@@ -93,7 +88,7 @@ value of this node, or we encounter a `null` position and the method
 returns `Optional.empty()`.
 
 A successful solution for Steps 2 and 3 will pass `testPutGet`,
-`testCapacityIncrease`, `testDuplicate`, and `testVeryBad`.
+`testDuplicate`, and `testVeryBad`.
 
 ## Step 4 - allKeys
 
@@ -104,6 +99,15 @@ list, not just the key of the first element. Store each key when found
 in an `ArrayList`, and return this list.
 
 A successful solution will pass `testKeys`.
+
+## Step 5 - resizing
+
+When the load factor of the `HashTable`, determined by the size of the
+`HashTable` divided by the capacity of the array, exceeds 0.75, the `put`
+method should double the side of the array and reput all the entries
+into the new array.
+
+A successful solution will pass `testCapacityIncrease`.
 
 ## Step 5 - Playing Tic-Tac-Toe
 
@@ -117,11 +121,12 @@ necessary for the AI to never be defeated when you play against it.
 ## What to Hand In
 
 Submit your `HashTable.java` implementation on Moodle, along with your
-class hierarchy and interaction diagrams and your Evaluation Document.
+Evaluation Document.
 
 ## Grading
 
 * To earn a 6, complete Step 1
 * To earn a 12, do the above and Step 2 & 3
 * To earn a 16, do the above and Step 4
-* To earn a 20, do the above and Step 5
+* To earn a 18, do the above and Step 5
+* To earn a 20, do the above and Step 6
