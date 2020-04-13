@@ -120,7 +120,7 @@ the array has changed).
 
 A successful solution will pass `testCapacityIncrease`.
 
-## Step 5 - Playing Tic-Tac-Toe
+## Step 6 - Playing Tic-Tac-Toe
 
 Once your implementation passes the unit tests, you are ready to play
 Tic-Tac-Toe. Record the following in a Evaluation Document.
@@ -137,7 +137,7 @@ Evaluation Document.
 ## Grading
 
 * To earn a 6, complete Step 1
-* To earn a 12, do the above and Step 2
-* To earn a 16, do the above and Step 3
-* To earn a 18, do the above and Step 4
-* To earn a 20, do the above and Step 5
+* To earn a 12, do the above and Step 2 & 3
+* To earn a 16, do the above and Step 4
+* To earn a 18, do the above and Step 5
+* To earn a 20, do the above and Step 6
