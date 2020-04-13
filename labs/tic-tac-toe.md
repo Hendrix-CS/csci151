@@ -17,7 +17,7 @@ algorithm for Tic-Tac-Toe.
 
 ## Setup
 
-1.  Download the [skeleton](../code/hashtictactoe.zip) for this project.
+1.  Download the [skeleton](../code/151hashtictactoe.zip) for this project.
 2.  Unpack the code into a new IntelliJ Java project.
 
 ## Description
@@ -59,7 +59,9 @@ and abstracting this pattern into a private method.
 The first method we must implement for the `HashTable` is the `index`
 method. When passed a key, it will return the appropriate HashTable
 index for that key using the `hashcode()` of the key modded by the length
-of the array, **then taking the absolute value**. A successful solution
+of the array, **then taking the absolute value**.
+
+A successful solution
 for this step will pass the `testIndex` test case.
 
 ## Step 2 - put
@@ -72,16 +74,19 @@ If there is no entry at the found location, a new `HashNode` is created to
 store the key and value. However, if there already exists a `HashNode` at
 that location, we first check to see if the keys match. If a match is
 found, the new value replaces the old value for that node. If the keys
-do not match, then a collision has occurred and must be resolved. Walk
+do not match, then a collision has occurred and must be resolved.
+
+To resolve the collision, use the separate chaining algorithm to walk
 the linked list of `HashNodes` at that location, looking for either a
 matching key or the end of the chain where a new `HashNode` can be added.
+
 Only when a new `HashNode` is created should the size counter be
 incremented.
 
 ## Step 3 - get
 
 This method finds the associated index into the allocated array using
-the `index` method from Step 1. Then, following to the collision
+the `index` method from Step 1. Then, following the separate chaining collision
 resolution method described above, we walk through the `HashNodes` found,
 until either a matching key is identified and the method returns the
 value of this node, or we encounter a `null` position and the method
@@ -102,10 +107,16 @@ A successful solution will pass `testKeys`.
 
 ## Step 5 - resizing
 
+As we add more items to our Map, the efficiency will degrade. We need to revise
+the `put` method to account for this.
+
 When the load factor of the `HashTable`, determined by the size of the
 `HashTable` divided by the capacity of the array, exceeds 0.75, the `put`
-method should double the side of the array and reput all the entries
-into the new array.
+method should double the side of the array.
+
+Once the array is doubled, 'reput' all the entries into the new array
+(you will need to `index()` them again since the length of
+the array has changed).
 
 A successful solution will pass `testCapacityIncrease`.
 
@@ -126,7 +137,7 @@ Evaluation Document.
 ## Grading
 
 * To earn a 6, complete Step 1
-* To earn a 12, do the above and Step 2 & 3
-* To earn a 16, do the above and Step 4
-* To earn a 18, do the above and Step 5
-* To earn a 20, do the above and Step 6
+* To earn a 12, do the above and Step 2
+* To earn a 16, do the above and Step 3
+* To earn a 18, do the above and Step 4
+* To earn a 20, do the above and Step 5
