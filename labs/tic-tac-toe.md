@@ -78,7 +78,10 @@ do not match, then a collision has occurred and must be resolved.
 
 To resolve the collision, use the separate chaining algorithm to walk
 the linked list of `HashNodes` at that location, looking for either a
-matching key or the end of the chain where a new `HashNode` can be added.
+matching key or the end of the chain. If the end of the chain is
+reached without find a match for the key, add a new `HashNode`
+at the beginning of the list, using the current array entry as the `next`
+in the constructor.
 
 Only when a new `HashNode` is created should the size counter be
 incremented.
