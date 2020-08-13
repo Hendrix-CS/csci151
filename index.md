@@ -108,7 +108,7 @@ make an office hours appointment and check in with me about the course. Each che
 meeting will count for 15 points.
 This will be conversation and feedback about your current progress and understanding.
 These should be scheduled during the weeks shown
-on the [course calendar](https://app.teamgantt.com/public/projects/calendar/2020-01-05?ids=1972972&projectIds=1972972&publicKeys=bWZU5DuRsTN4&userResourceIds=0).
+on the [course calendar](https://prod.teamgantt.com/gantt/schedule/?ids=2235546&public_keys=ty2vnztEzbNN&zoom=d100&font_size=12&estimated_hours=0&assigned_resources=0&percent_complete=0&documents=0&comments=0&col_width=355&hide_header_tabs=0&menu_view=1&resource_filter=1&name_in_bar=0&name_next_to_bar=0&resource_names=1&resource_hours=1#user=&company=&custom=&date_filter=&hide_completed=false&color_filter=).
 
 Also, there will be many opportunities to accumulate small amounts of points
 throughout the semester by participating in classroom exercises and
