@@ -87,7 +87,7 @@ On these labs, you will work with a partner on the lab assignments. Their name m
 |2 | [GUI and Animation]({{site.baseurl}}/projects/gui-animation.html) | 100 |
 |3 | [Final Project]({{site.baseurl}}/projects/final-project.html) | 250 |
 
-You will have four projects in this course, one about every four weeks. These projects will cover concepts we have discussed in class and in labs, and will be due approximately two weeks after they are assigned.
+You will have three projects in this course, one about every five weeks. These projects will cover concepts we have discussed in class and in labs, and will be due approximately two weeks after they are assigned.
 
 **You must work individually on the first two projects.** You may discuss concepts and ideas with your classmates, but the code you turn in must be your own. You will be graded not only on correctness, but also technique, documentation and evaluation of your solution. Further details on the grading standards and handin instructions for each project will be given when they are assigned.
 

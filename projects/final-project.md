@@ -1,10 +1,10 @@
 ---
 layout: work
 type: Project
-num: 4
+num: 3
 worktitle: Final Project
 designdue: Wednesday, December 4
-finaldue: Tuesday, May 12th, 8:30-11:30am
+finaldue: Monday, Dec 7th, 2:00-5:00pm
 ---
 
 ## Description
@@ -15,8 +15,8 @@ incorporating elements of data structures in your implementation.
 ## Materials
 
 -   IntelliJ, JavaFX and SceneBuilder
--   [Java 13
-    API](https://docs.oracle.com/en/java/javase/13/docs/api/index.html)
+-   [Java 11
+    API](https://docs.oracle.com/en/java/javase/11/docs/api/index.html)
 
 ## Description
 
@@ -55,13 +55,13 @@ period for this course is {{page.finaldue}}.
 
 |Criteria|Score|
 ||----|:---:|
-| Incorporates a GUI built with JavaFX and SceneBuilder  |  **20**  |   
+| Incorporates a GUI built with JavaFX and SceneBuilder  |  **30**  |   
 | Incorporates numerous classes and enums in a sensible organization, roughly at the level of the Maze or TicTacToe labs.  | **30**   |
-| The GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.  | **20**   |
+| The GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.  | **30**   |
 | Incorporates at least one data structure discussed in the course beyond a list.  | **30**  |    
-| Works as intended  |  **30**      |
+| Works as intended  |  **40**      |
 | Does something interesting that holds the attention of the user.    |      **20**      |
-| Evaluation document adequately describes the project   | **10**      |
-| Exhibits creativity and has some interesting features    | **20**    |  
+| Evaluation document adequately describes the project   | **20**      |
+| Exhibits creativity and has some interesting features    | **30**    |  
 | Oral presentation clearly explains the project, its rationale, and demonstrates its capabilities.    |  **20**   |   
-| **Total**   |  **200** |
+| **Total**   |  **250** |
