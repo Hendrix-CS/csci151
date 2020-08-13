@@ -97,9 +97,9 @@ We will run a simulation competition during class the following Wednesday.
 ## Grading
 
 * To earn a 4, write one strategy
-* To earn a 7, write two strategies
-* To earn a 10, write three strategies
-* To earn a 13, write four strategies
-* To earn a 16, write five strategies
-* To earn a 18, do the above and use an array in one of your strategies
-* To earn a 20, do the above and place in the top *10* strategies in the tournament, or use a very creative strategy.
+* To earn a 8, write two strategies
+* To earn a 11, write three strategies
+* To earn a 15, write four strategies
+* To earn a 18, write five strategies
+* To earn a 22, do the above and use an array in one of your strategies
+* To earn a 25, do the above and place in the top *10* strategies in the tournament, or use a very creative strategy.

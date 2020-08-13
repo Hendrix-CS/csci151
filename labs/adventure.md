@@ -1,10 +1,10 @@
 ---
 layout: work
-type: Project
-num: 3
+type: Lab
+num: 9
 worktitle: Text Adventure
-basicdue: Thursday, April 2nd
-finaldue: Tuesday, April 7th
+basicdue: Thursday, Oct 22nd
+finaldue: Tuesday, Oct 27th
 ---
 
 ## Overview
@@ -625,24 +625,24 @@ For your final submission, you should turn in a `.zip` file containing:
 |Criteria|Score|
 ||----|:---:|
 | BASIC ||
-| Reads the provided world description file Hendrix.yml, and loads the information into appropriate objects.  | **10**   |   
-| Keeps track of the player's current location, and prints out a description of the location.  |  **10**    |  
-| Allows the user to move around via the go command.  | **10**     |
+| Reads the provided world description file Hendrix.yml, and loads the information into appropriate objects.  | **2**   |   
+| Keeps track of the player's current location, and prints out a description of the location.  |  **2**    |  
+| Allows the user to move around via the go command.  | **2**     |
 | INTERMEDIATE ||
-| Print out all the items at a new location | **5** |
-| Users can pick up and drop items | **10** |
-| Users can view their current inventory | **10** |
-| Keep track of the current score | **5** |
+| Print out all the items at a new location | **1** |
+| Users can pick up and drop items | **2** |
+| Users can view their current inventory | **2** |
+| Keep track of the current score | **1** |
 | ADVANCED ||
-| A look command takes the name of an item (either in the current location or in the player's inventory) and prints out a description of the item. |  **5**       |
-| By itself, the look command prints a description of the current location.   |   **5**     |  
-| Given a direction, the look command prints out the name of the location in that direction.  |   **5**       |
-| After visiting a location once, on subsequent visits print the desc instead of the longdesc.   |  **5**       |
-| Allow the user to pick up (portable) items.  | **5**       |
-| The user may refer to items by any of their listed aliases.  |   **5**       |
-| A help command lists all commands.  |  **5**       |
-| Includes a student-designed YAML file   |**10**      |
-| Includes a helpful README    |  **5**       |
+| A look command takes the name of an item (either in the current location or in the player's inventory) and prints out a description of the item. |  **1**       |
+| By itself, the look command prints a description of the current location.   |   **1**     |  
+| Given a direction, the look command prints out the name of the location in that direction.  |   **1**       |
+| After visiting a location once, on subsequent visits print the desc instead of the longdesc.   |  **1**       |
+| Allow the user to pick up (portable) items.  | **1**       |
+| The user may refer to items by any of their listed aliases.  |   **1**       |
+| A help command lists all commands.  |  **1**       |
+| Includes a student-designed YAML file   |**2**      |
+| Includes a helpful README    |  **2**       |
 | EXPERT ||
-| Includes at least one additional extension.   | **10**      |
-| **Total**     |    **120**|
+| Includes at least one additional extension.   | **2**      |
+| **Total**     |    **25**|

@@ -1,7 +1,7 @@
 ---
 layout: work
 type: Lab
-num: 12
+num: 11
 worktitle: Playing Tic-Tac-Toe
 ---
 
@@ -140,7 +140,7 @@ Evaluation Document.
 ## Grading
 
 * To earn a 6, complete Step 1
-* To earn a 12, do the above and Step 2 & 3
-* To earn a 16, do the above and Step 4
-* To earn a 18, do the above and Step 5
-* To earn a 20, do the above and Step 6
+* To earn a 13, do the above and Step 2 & 3
+* To earn a 18, do the above and Step 4
+* To earn a 22, do the above and Step 5
+* To earn a 25, do the above and Step 6

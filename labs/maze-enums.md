@@ -29,9 +29,6 @@ Enums, and test them with JUnit.
     -   Select all of the \*.jar files within that directory. Click OK.
     -   Rename the library javafx11 instead of javafx-sdk. Then Click
         Apply and OK.
-    -   Go back to Project Structure and Global Libraries.
-    -   Right-click on javafx11, and select Add to Modules. Click Apply
-        and OK.
     -   Try running MazeApp. If a small window appears, everything
         works!
 
@@ -344,7 +341,7 @@ implementations.
 ## Grading
 
 
-* To earn a 5, complete Step 1
-* To earn a 10, do the above and Step 2
-* To earn a 16, do the above and Step 3
-* To earn a 20, do the above and Step 4
+* To earn a 6, complete Step 1
+* To earn a 12, do the above and Step 2
+* To earn a 21, do the above and Step 3
+* To earn a 25, do the above and Step 4

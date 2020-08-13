@@ -273,7 +273,7 @@ implementations.
 ## Grading
 
 * To earn a 8, complete Step 1
-* To earn a 13, do the above and Step 2
-* To earn a 16, do the above and Step 3
-* To earn a 18, do the above and Step 4
-* To earn a 20, do the above and Step 5
+* To earn a 14, do the above and Step 2
+* To earn a 18, do the above and Step 3
+* To earn a 21, do the above and Step 4
+* To earn a 25, do the above and Step 5

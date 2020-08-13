@@ -296,7 +296,7 @@ Create a zip file of your edited AnimationDemo project. Submit the zip file to M
 ## Grading
 
 * To earn a 10, complete Steps 1-4
-* To earn a 12, do the above and Step 5
-* To earn a 14, do the above and Step 6
-* To earn a 15, do the above and Step 7
-* To earn a 20, do the above and Step 8
+* To earn a 13, do the above and Step 5
+* To earn a 16, do the above and Step 6
+* To earn a 20, do the above and Step 7
+* To earn a 25, do the above and Step 8

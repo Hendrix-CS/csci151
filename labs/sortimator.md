@@ -231,8 +231,8 @@ evaluation in Step 6.
 
 ## Grading
 
-* To earn a 4, complete Step 1 and 2
-* To earn a 8, do the above and Step 3
-* To earn a 12, do the above and Step 4
-* To earn a 16, do the above and Step 5
-* To earn a 20, do the above and Step 6
+* To earn a 5, complete Step 1 and 2
+* To earn a 10, do the above and Step 3
+* To earn a 15, do the above and Step 4
+* To earn a 20, do the above and Step 5
+* To earn a 25, do the above and Step 6

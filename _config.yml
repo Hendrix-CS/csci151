@@ -26,7 +26,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 number: CSCI 151
 title: Data Structures
-semester: Spring 2020
+semester: Fall 2020
 
 navigation:
   - title: Overview
@@ -67,16 +67,15 @@ instructors:
     name: Dr. Mark Goadrich
     email: goadrich@hendrix.edu
     web: http://mark.goadrich.com
-    phone: (501) 450-1367
-    officehours: http://mark.goadrich.com/schedule.html
+    officehours: http://markgoadrich.youcanbook.me
 
 offerings:
   - name: LECTURE 01
-    loc: WAC 249
-    time: MWF 9:10am - 10:00am
+    loc: Microsoft Teams
+    time: MWF 8:10am - 9:00am
     instructor: goadrich
   - name: LAB 01
-    loc: Snoddy Computer Lab
+    loc: Microsoft Teams
     time: T 1:10pm - 4:00pm
     instructor: goadrich
 
@@ -104,10 +103,10 @@ extra-resources:
   - name: CS2Mulch
     image: assets/images/cs2mulch.png
     url: https://mgoadric.github.io/cs2mulch/
-  - name: Algorithms (Chapter 3)
+  - name: Algorithms
     image: assets/images/algorithms.png
-    url: https://algs4.cs.princeton.edu/30searching/
-  - name: CUVids (Sections 8, 9, and 11)
+    url: https://algs4.cs.princeton.edu/
+  - name: CUVids
     image: assets/images/cuvids.png
     url: https://cuvids.io/app/course/2/
 
