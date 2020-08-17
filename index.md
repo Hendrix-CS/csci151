@@ -71,7 +71,7 @@ will receive at most half credit. All work must be completed the day before fina
 
 | #  | Name |
 |:--:|-----|
-|0 | [Survey](https://forms.gle/zy7McG4bJEevytSNA) |
+|0 | [Survey](https://forms.gle/9MBCMbJe1THhxX3n6) |
 |1 | [CodingBat]({{site.baseurl}}/labs/codingbat.html) |
 |2 | [Prisoner's Dilemma]({{site.baseurl}}/labs/dilemma.html) |
 |3 | [Mazes: Enums and 2D Arrays]({{site.baseurl}}/labs/maze-enums.html) |
