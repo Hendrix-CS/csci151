@@ -32,6 +32,18 @@ Upon completing this course, our goal is for you to be able to:
 
 <hr>
 
+# Attendance
+
+We will be meeting this semester through Microsoft Teams.
+This course will be using all of our scheduled time slots (10:10 - 11:00am MWF) for synchronous meetings
+throughout the semester. I expect you to be present and participating in our discussions
+and small group work sessions, with video and audio turned on for at least part of
+each class. There will be regular attendance polls and the chat feature for additional
+forms of course participation. If you have difficulties meeting these expectations,
+please contact me, the Office of Academic Success, the IT HelpDesk, and the Provost's Office
+to discuss alternate accomodations.
+
+
 # <a name="inclasscode">In-Class Code</a>
 
 When we write code together in class, it will be posted here!
