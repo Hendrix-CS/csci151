@@ -82,7 +82,7 @@ offerings:
 resources:
   - name: Java
     image: assets/images/java-logo.png
-    url: https://jdk.java.net/13/
+    url: https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
   - name: IntelliJ
     image: assets/images/IntelliJ_IDEA_Logo.png
     url: https://www.jetbrains.com/idea/
