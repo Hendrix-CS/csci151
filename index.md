@@ -22,11 +22,11 @@ Upon completing this course, our goal is for you to be able to:
 7. Discuss the ways programming languages employ distinct features to solve problems.
 8. Develop an aptitude and skills for independent learning.
 
-## <a name="resources">Resources</a>
+## <a name="resources">Software</a>
 
 {% include resources.html content=site.resources %}
 
-## <a name="additional-resources">Optional Resources</a>
+## <a name="additional-resources">Resources</a>
 
 {% include resources.html content=site.extra-resources %}
 
