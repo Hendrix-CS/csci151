@@ -13,24 +13,21 @@ structure.
 ## Materials
 
 *   [CodingBat](http://codingbat.com/java)
-*   Lab partner
+*   Lab partners
 
-As you work with a
-partner today, be sure that you:
+As you work with
+partners today, be sure that you:
 
 *   Create a single, shared account (Step 1 below)
-*   Put both your names on the shared account
-*   **Alternate who has the keyboard with each new problem.**
+*   Put all your names on the shared account in the Memo section
+*   **Rotate who has the keyboard with each new problem.**
 
 ## Description
 ### Step 1
 
 Go to [CodingBat](http://codingbat.com/java) and click on "create
-account" in the top right. Use your Hendrix email as your account id,
-and choose a password. Fill both your names.
-
-{% include important.html content="You must fill in your name
-and/or your partner's name in order to get credit for the lab." %}
+account" in the top right. Use one of your Hendrix emails as your account id,
+and choose a password.
 
 ### Step 2
 
@@ -38,6 +35,8 @@ Once you are logged in, click on "prefs" in the top right. In the box at the
 bottom labelled "Share To", fill in the Hendrix email address of your
 lab instructor (`goadrich@hendrix.edu`), then click "Share". This will
 allow your instructor to see your progress.
+
+Fill all of your names in the Memo section.
 
 {% include important.html content="You must do this step to get credit for the lab!" %}
 
@@ -61,16 +60,16 @@ red; fix your function and try again.
 
 ### Step 4
 
-Work with your partner to complete the problems described below in
+Work with your partners to complete the problems described below in
 the grading section.
 
 ## Academic Integrity
 
-You must write the solutions with your partner and
+You must write the solutions with your partners and
 work together. You may ask other students for advice, but remember
 that
 
-*   You **may not look at any other student's code**.
+*   You **may not look at any other groups's code**.
 *   You **may not show your code to any other students**.
 *   You **may not look at or copy any solutions you find on the
     Internet**. This includes solutions on the CodingBat site itself.

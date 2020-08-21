@@ -92,6 +92,9 @@ resources:
   - name: SceneBuilder
     image: assets/images/SceneBuilderLogo.png
     url: https://gluonhq.com/products/scene-builder/
+  - name: CS2Mulch
+    image: assets/images/cs2mulch.png
+    url: https://mgoadric.github.io/cs2mulch/
 
 extra-resources:
 #  - name: Java4Python
@@ -100,9 +103,6 @@ extra-resources:
 #  - name: CodingBat Java
 #    image: assets/images/codingbat.jpg
 #    url: https://codingbat.com/
-  - name: CS2Mulch
-    image: assets/images/cs2mulch.png
-    url: https://mgoadric.github.io/cs2mulch/
   - name: Algorithms
     image: assets/images/algorithms.png
     url: https://algs4.cs.princeton.edu/
