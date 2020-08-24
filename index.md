@@ -51,6 +51,7 @@ When we write code together in class, it will be posted here!
 | Date | Topic | Code |
 |:----:|------||-----||
 | F 21 Aug | Python Review | |
+| M 24 Aug | Intro to Java | [MondaySample.java]({{site.baseurl}}/code/MondaySample.java) |
 
 <hr>
 # Coursework
