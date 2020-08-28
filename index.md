@@ -53,6 +53,7 @@ When we write code together in class, it will be posted here!
 | F 21 Aug | Python Review | |
 | M 24 Aug | Intro to Java | [MondaySample.java]({{site.baseurl}}/code/MondaySample.java) |
 | W 26 Aug | Java Memory and Arrays | [StackHeap1]({{site.baseurl}}/inclass/StackHeap1.pdf) [StackHeap2]({{site.baseurl}}/inclass/StackHeap2.pdf) |
+| F 28 Aug | Instantiable Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/JackInTheBox.java) |
 
 <hr>
 # Coursework

@@ -10,11 +10,6 @@ public class JackInTheBox {
         current = 0;
     }
 
-    public JackInTheBox() {
-        threshold = 4;
-        current = 0;
-    }
-
     public boolean isOpen() {
         return current == threshold;
     }
@@ -39,8 +34,7 @@ public class JackInTheBox {
     }
 
     public static void main(String[] args) {
-        JackInTheBox jack;
-        jack = new JackInTheBox(5);
+        JackInTheBox jack = new JackInTheBox(5);
 
         for (int i = 0; i < 7; i++) {
             System.out.println(jack.crank());
@@ -49,7 +43,5 @@ public class JackInTheBox {
         for (int i = 0; i < 3; i++) {
             System.out.println(jack.crank());
         }
-
-        JackInTheBox jane = new JackInTheBox();
     }
 }
