@@ -1,6 +1,6 @@
 package holiday;
 
-public class ConditionalLight implements Light{
+public class ConditionalLight implements HolidayLight{
 
     private String current;
 
@@ -18,8 +18,8 @@ public class ConditionalLight implements Light{
         if (current.equals("RED")) {
             current = "GREEN";
         } else if (current.equals("GREEN")) {
-            current = "YELLOW";
-        } else if (current.equals("YELLOW")) {
+            current = "BLUE";
+        } else if (current.equals("BLUE")) {
             current = "RED";
         }
     }

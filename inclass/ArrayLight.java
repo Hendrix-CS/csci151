@@ -1,16 +1,16 @@
 package holiday;
 
-public class ArrayLight implements Light {
+public class ArrayLight implements HolidayLight {
 
     private String[] colors;
     private int current;
 
     public ArrayLight() {
-        //colors = new String[]{"RED", "GREEN", "YELLOW"};
         colors = new String[3];
         colors[0] = "RED";
         colors[1] = "GREEN";
-        colors[2] = "YELLOW";
+        colors[2] = "BLUE";
+        colors[3] = "YELLOW";
         current = 0;
     }
 

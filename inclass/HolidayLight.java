@@ -1,6 +1,6 @@
 package holiday;
 
-public interface Light {
+public interface HolidayLight {
 
     public String getColor();
 
