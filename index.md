@@ -55,6 +55,7 @@ When we write code together in class, it will be posted here!
 | W 26 Aug | Java Memory and Arrays | [StackHeap1]({{site.baseurl}}/inclass/StackHeap1.pdf) [StackHeap2]({{site.baseurl}}/inclass/StackHeap2.pdf) |
 | F 28 Aug | Instantiable Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/JackInTheBox.java) |
 | M 31 Aug | Interfaces | [HolidayLight.java]({{site.baseurl}}/inclass/HolidayLight.java) [ConditionalLight.java]({{site.baseurl}}/inclass/ConditionalLight.java) [ArrayLight.java]({{site.baseurl}}/inclass/ArrayLight.java) |
+| F 4 Sep | 2D Arrays User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut.java) [Main.java]({{site.baseurl}}/inclass/Main.java) |
 
 <hr>
 # Coursework
