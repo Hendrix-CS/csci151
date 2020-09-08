@@ -27,9 +27,18 @@ Enums, and test them with JUnit.
     -   Press the + sign to add a library. (Select "Java".)
     -   Go to the "lib" directory within JavaFX.
     -   Select all of the \*.jar files within that directory. Click OK.
-    -   Rename the library javafx11 instead of javafx-sdk. Then Click
+    -   Rename the library **javafx11** instead of javafx-sdk. Then Click
         Apply and OK.
-    -   Try running MazeApp. If a small window appears, everything
+5.  To set up JUnit:
+    -   Select Project Structure from the File menu.
+    -   Select Libraries
+    -   Press the + sign to add a library. (Select "Maven".)
+    -   Type "junit" and click the magnifying glass to Search
+    -   Scroll in the dropdown to find "junit:junit:4.13"
+    -   Click OK
+    -   Click OK on the popup window to Add this to the selected module.
+    -   Click OK to close Project Structure.
+6. Try running MazeApp. If a small window appears, everything
         works!
 
 ## Description
