@@ -6,31 +6,43 @@ public enum Currency {
         public String getColor() {
             return "copper";
         }
-    }, NICKLE(5){
+    },
+    NICKLE(5) {
         @Override
         public String getColor() {
-            return "purble";
+            return "nickle";
         }
-    }, DIME(10){
+    },
+    DIME(10) {
         @Override
         public String getColor() {
             return "silver";
         }
-    }, QUARTER(25){
+    },
+    FLARGLE(17) {
+        @Override
+        public String getColor() {
+            return "purple";
+        }
+    },
+    QUARTER(25) {
         @Override
         public String getColor() {
             return "silver";
         }
     };
 
+    // Field
     private int value;
 
-    public int getValue(){
-        return value;
-    }
-
+    // Constructor
     private Currency(int value) {
         this.value = value;
+    }
+
+    // Methods
+    public int getValue() {
+        return value;
     }
 
     public abstract String getColor();
