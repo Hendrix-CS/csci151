@@ -57,6 +57,7 @@ When we write code together in class, it will be posted here!
 | M 31 Aug | Interfaces | [HolidayLight.java]({{site.baseurl}}/inclass/HolidayLight.java) [ConditionalLight.java]({{site.baseurl}}/inclass/ConditionalLight.java) [ArrayLight.java]({{site.baseurl}}/inclass/ArrayLight.java) |
 | F 4 Sep | 2D Arrays User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut.java) [Main.java]({{site.baseurl}}/inclass/Main.java) |
 | M 7 Sep | Enums | [Currency.java]({{site.baseurl}}/inclass/Currency.java) [ChangeMaker.java]({{site.baseurl}}/inclass/ChangeMaker.java) |
+| W 9 Sep | ArrayStack | [DirectionInRoom.pdf]({{site.baseurl}}/inclass/DirectionInRoom.pdf) [PostFixCalculator.pdf]({{site.baseurl}}/inclass/PostFixCalculator.pdf) [ArrayStack.pdf]({{site.baseurl}}/inclass/ArrayStack.pdf) |
 
 <hr>
 # Coursework
