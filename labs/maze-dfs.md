@@ -131,17 +131,14 @@ Write a class called `ListStack<E>`. This will need to implement the
 `Stack<E>` interface, and have at least a `ListNode<E>` called `top` as a
 field.
 
-Note that there is an additional method to implement. For ListNode
-implementations, the `capacity` method should return the size.
+### Step 2.3 - `public void push(E data)`
 
-### Step 2.4 - `public void push(E item)`
-
-Create a new `ListNode` that stores the `item`, and has the current `top`
+Create a new `ListNode` that stores the `data`, and has the current `top`
 as its `next`.
 
 Redirect `top` to reference this new `ListNode`.
 
-### Step 2.5 - `public E pop()`
+### Step 2.4 - `public E pop()`
 
 Call the `emptyCheck` method. This will throw an `IllegalStateException`
 if the stack is empty.
@@ -150,26 +147,26 @@ Save the value stored in `top`, and redirect `top` to point to the `next` `ListN
 
 Return the value you stored.
 
-### Step 2.6 - `public E peek()`
+### Step 2.5 - `public E peek()`
 
 Call the `emptyCheck` method. This will throw an `IllegalStateException`
 if the stack is empty.
 
 Return the value stored in the `top` `ListNode`.
 
-### Step 2.7 - `public int size()`
+### Step 2.6 - `public int size()`
 
 If `top` is `null`, return 0. Otherwise,
 return the number of `ListNode` that are chained from the `top` node.
 
-### Step 2.8 - `public String toString()`
+### Step 2.7 - `public String toString()`
 
 Return a `String` representing the elements in the stack separated
 by spaces. For example, a stack of integers with 3 on top of 2 on top of 1
 should return "1 2 3". The oldest element in the stack should be the first
 in the string.
 
-### Step 2.9 - Testing
+### Step 2.8 - Testing
 
 Run the `ListStackTest` suite, and ensure your above methods are passing
 these tests.
@@ -198,8 +195,7 @@ While the stack still has Positions:
     use the `randomDirections` method of
     `Direction` in the code above." %}
 
-
-### Step 4.3 - GUI
+### Step 3.2 - GUI
 
 Run the GUI to interact with your code and make random mazes. You should
 see mazes similar to the image below.
