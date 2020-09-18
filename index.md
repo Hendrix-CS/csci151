@@ -60,6 +60,7 @@ When we write code together in class, it will be posted here!
 | W 9 Sep | ArrayStack | [DirectionInRoom.pdf]({{site.baseurl}}/inclass/DirectionInRoom.pdf) [PostFixCalculator.pdf]({{site.baseurl}}/inclass/PostFixCalculator.pdf) [ArrayStack.pdf]({{site.baseurl}}/inclass/ArrayStack.pdf) |
 | M 14 Sep | ListStack and Generics | [StacksAndGenerics.pdf]({{site.baseurl}}/inclass/StacksAndGenerics.pdf) |
 | W 16 Sep | ListQueue | [ListQueue.pdf]({{site.baseurl}}/inclass/ListQueue.pdf) |
+| W 16 Sep | ArrayQueue | [ListQueue.pdf]({{site.baseurl}}/inclass/ArrayQueue.pdf) |
 
 <hr>
 # Coursework
