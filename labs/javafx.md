@@ -48,6 +48,7 @@ first application we will create a tip calculator.
             (BorderPane)loader.load(getClass().getResource("TipGUI.fxml").openStream());
           primaryStage.setScene(new Scene(root));
           primaryStage.show();
+          root.requestFocus();
         } catch (Exception e) {
           e.printStackTrace();
           System.exit(1);
@@ -230,7 +231,7 @@ Now, edit the program and interface as follows:
 
 ## Step 7 - Animation
 
-1.  Download the [skeleton](../code/animationdemo.zip) for the next two steps.
+1.  Download the [skeleton](../code/AnimationDemo.zip) for the next two steps.
 2.  Unpack the code into a new IntelliJ Java project.
 
 In this demo, you will find a `Ball` class, the Model portion of our application,
@@ -238,15 +239,6 @@ that controls a bouncing ball in a javafx `Pane`.
 Our FXML view consists of a `BorderPane` with a `Pane` in the center.
 The `DemoController` class
 coordinates between the events collected in the `Pane` view and the `Ball` model.
-
-In the src folder, create a file called `module-info.java`. Add this code into that file.
-
-    module AnimationDemo {
-        requires javafx.fxml;
-        requires javafx.controls;
-        exports demo;
-        opens demo;
-    }
 
 Run the GUI to see 5 balls drawn and move on the pane with random directions and
 speeds. When you select a ball, it will change color to red and stop moving. You can
@@ -258,16 +250,22 @@ start moving again.
 Now you will make additions to this demo, to solidify your understanding from
 the earlier steps and learn the particulars of animation.
 
+### Step 8.1
+
 Add two Buttons to the GUI that will Start and Stop the AnimationTimer. You will
 need to add two functions to the DemoController with @FXML annotations, and map
 the buttons to these functions. These functions should call `clock.start()` and
-`clock.stop` respectively.
+`clock.stop()` respectively.
+
+### Step 8.2
 
 Allow the `Pane` in DemoController to accept MousePressed events. When the
 pane is pressed, call the `makeCircle` method. You will notice that new balls
 appear! However, they also appear when you try to pick up and move the
 other balls. To prevent this, both of the MousePressed callback methods will need
 to consume the events they handle, through calling `event.consume()`.
+
+### Step 8.3
 
 Augment the Movement private class to slowly grow and shrink the
 balls. First, you should add a `setRadius(double radius)` method to the `Ball`
@@ -283,6 +281,8 @@ radius. Following the for loop, add the following lines:
     if (radius > 40 || radius < 25) {
         dr *= -1;
     }
+
+### Step 8.4
 
 Make one more alteration to the AnimationDemo project, of your choice.
 
