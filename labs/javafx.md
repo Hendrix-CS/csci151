@@ -203,6 +203,9 @@ On the left side, go to Document → Controller. Select
 
 Save the GUI in SceneBuilder and close SceneBuilder.
 
+### Step 5.1 module-info.java
+
+One final piece is needed to get the program ready to run.
 In the src folder, create a file called `module-info.java`. Add this code into that file.
 
     module tip {
@@ -222,7 +225,7 @@ Run Tip and test the program.
 
 Now, edit the program and interface as follows:
 
-1.  Add an GREAT category to `Service`, tipped at 18%.
+1.  Add a GREAT category to `Service`, tipped at 18%.
 2.  Add a way for the user to enter the number of people dining. Then,
     add a field to display the amount of money each individual
     separately owes.
