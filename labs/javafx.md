@@ -234,7 +234,7 @@ Now, edit the program and interface as follows:
 
 ## Step 7 - Animation
 
-1.  Download the [skeleton](../code/AnimationDemo.zip) for the next two steps.
+1.  Download the [skeleton](../code/animationdemo.zip) for the next two steps.
 2.  Unpack the code into a new IntelliJ Java project.
 
 In this demo, you will find a `Ball` class, the Model portion of our application,
