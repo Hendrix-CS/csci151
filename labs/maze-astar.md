@@ -94,13 +94,15 @@ the index of the smallest child is returned. If no children are present,
 or the parent has the lowest value among the three, the parent's own
 index is returned.
 
-Once this method is implemented the three `testLowestInFamily` tests
+Once this method is implemented the four `testLowestInFamily` tests
 should all pass.
 
 ## Step 6 - `remove`
 
 Elements can be removed from the heap through a filtering process
-similar to adding to a heap. First, swap the first and last elements.
+similar to adding to a heap. First, perform the emptyCheck, which will
+throw an exception if there are no elements to be removed.
+Then, swap the first and last elements.
 Next, remove the last element, and save its value to be returned at the
 end of the method. The swap could cause a violation of the Heap property
 that all parents must be smaller than their children. If the element is
@@ -108,7 +110,7 @@ less than only one of its children, swap these two elements. If the
 element is less than both of its children, swap the smaller of the two
 children with the element, so that we don't break the Heap property any
 further. Finally, when a swap was made, repeatedly check the subsequent
-descendents to guarantee that the Heap property is always preserved.
+descendants to guarantee that the Heap property is always preserved.
 
 Once this method is implemented, the `testRemove()` test case should
 pass.
