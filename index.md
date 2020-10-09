@@ -62,6 +62,10 @@ When we write code together in class, it will be posted here!
 | W 16 Sep | ListQueue | [ListQueue.pdf]({{site.baseurl}}/inclass/ListQueue.pdf) |
 | F 18 Sep | ArrayQueue | [ArrayQueue.pdf]({{site.baseurl}}/inclass/ArrayQueue.pdf) |
 | M 21 Sep | Lists | [Lists.pdf]({{site.baseurl}}/inclass/Lists.pdf) |
+| F 2 Oct | Heaps | [PriorityQueueInsert.pdf]({{site.baseurl}}/inclass/PriorityQueueInsert.pdf) |
+| M 5 Oct |  | [HeapRemove.pdf]({{site.baseurl}}/inclass/HeapRemove.pdf) |
+| W 7 Oct | Selection and Bubble Sort | [SortingAlgorithms.pdf]({{site.baseurl}}/inclass/SortingAlgorithms.pdf) |
+| F 9 Oct | Merge Sort | [MergeSort.pdf]({{site.baseurl}}/inclass/MergeSort.pdf) |
 
 <hr>
 # Coursework
