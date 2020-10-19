@@ -48,37 +48,29 @@ finaldue: Tuesday, Oct 27th
     ? drop eraser
     Dropped.
 
-In this project, you will implement an *adventure game engine*
+In this lab, you will implement an *adventure game engine*
 for [Interactive Fiction](https://en.wikipedia.org/wiki/Interactive_fiction)
 which can read in a description of a *world* and allow the user to explore it, as
 shown in the example above. Famous examples of this type of game
 are [Zork](http://www.web-adventures.org/cgi-bin/webfrotz?s=ZorkDungeon&n=1468)
 and [Adventure](http://www.web-adventures.org/cgi-bin/webfrotz?s=Adventure&n=1469).
 
-The goals of this project are to:
+The goals of this lab are to:
 
 -   give you more experience using common data structures such as lists,
     maps/dictionaries, and sets;
 -   and to give you experience putting together a medium-size
     application with multiple interacting classes.
 
-## Timeline
-
--   You are required to turn in a Basic and Itermediate working version
-    by **{{page.basicdue}}**; see below for the requirements.
--   The final version, which includes the Advanced features
-    and at least one Expert feature is due on **{{page.finaldue}}**, which should
-    give you plenty of time. Get started early!
-
 ## Materials
 
--   Download the [skeleton](../code/Adventure.zip) for this project.
+-   Download the [skeleton](../code/Adventure.zip) for this lab.
 
-{% include note.html content="**Read this project description carefully!** There are a lot of moving
-parts to this project and a lot of things that have to be explained. You
+{% include note.html content="**Read this lab description carefully!** There are a lot of moving
+parts to this lab and a lot of things that have to be explained. You
 will certainly not be able to remember everything and will need to refer
 back to this document frequently. I strongly suggest **printing this
-project description on paper** so you can more easily refer to it, write
+lab description on paper** so you can more easily refer to it, write
 notes, and so on." %}
 
 ## Skeleton Code Description
@@ -94,7 +86,7 @@ keyword, which is like a special class that provides a list of possible
 values. You can refer to these special values by prefixing the name of
 the enumeration: for example, `Direction.SOUTHEAST` or `Verb.GO`. Adding
 a new direction or a new kind of action (if you decide to do so while
-making your own extensions to the project) is as simple as adding a new
+making your own extensions to the lab) is as simple as adding a new
 name to the appropriate list.
 
 Both `Direction` and `Verb` also provide a `parse` method, which can be
@@ -309,7 +301,7 @@ your own implementation.
 
 ## A Note on Dictionaries and Sets
 
-In this project you will almost certainly use a lot of dictionaries. For
+In this lab you will almost certainly use a lot of dictionaries. For
 a fast Java dictionary implementation, you should use the [`HashMap`
 class](https://docs.oracle.com/javase/11/docs/api/java/util/HashMap.html).
 We don't yet know how it is implemented (we will learn how to implement it in
@@ -322,15 +314,10 @@ the player's inventory.
 
 ## Requirements
 
-This project must be completed individually, but you can communicate with
-your lab partner and Dr. Goadrich.
-
-There are four levels of implementation for your project, Basic,
+There are four levels of implementation for your lab, Basic,
 Intermediate, Advanced, and Expert.
 
 ### LEVEL 1: BASIC
-
-By {{page.basicdue}} you must submit a Basic and Intermediate working version.
 
 A Basic version handles the
 following minimum requirements:
@@ -376,8 +363,8 @@ Keep track of the user's current score, and increase their score
 when they drop an item in that item's goal location. Display the score
 to the user when they type `score`.
 
-A project which meets the Basic and Intermediate levels **and uses good
-code style and documentation** will receive 60 points.
+A lab which meets the Basic and Intermediate levels **and uses good
+code style and documentation** will receive 12 points.
 
 {% include note.html content="It is **not** a requirement to make your output look exactly
 like mine in the example above! Use your creativity and judgment. If you
@@ -386,7 +373,7 @@ unsure whether it would meet the requirements, feel free to ask." %}
 
 ### LEVEL 3: ADVANCED
 
-In order to earn more points on the project, you should implement all the Advanced
+To complete the lab, you should implement all the Advanced
 features *in addition to* at least one Expert feature.
 
 #### 3.1 Look Command
@@ -526,7 +513,7 @@ your engine):
 #### 3.6 New YAML world
 
 Design your own world (by making another `.yml` file) and submit it
-along with your project. These will be collected and published for
+along with your lab. These will be collected and published for
 the whole class (and future classes!) to enjoy.
 
 ### LEVEL 4: EXPERT
@@ -586,7 +573,7 @@ them.
 
 ## Don't Panic
 
-This project might at first glance appear huge, and there is certainly a
+This lab might at first glance appear huge, and there is certainly a
 lot to read and understand before you can get started. But
 
 1. it is not
@@ -608,7 +595,7 @@ boring getter/setter methods.
 
 For your final submission, you should turn in a `.zip` file containing:
 
--   All the `.java` files necessary to run your project. **Please
+-   All the `.java` files necessary to run your lab. **Please
     include** even the provided starter code, even if you did not change
     them, to make it as easy as possible for me to run your code.
 
