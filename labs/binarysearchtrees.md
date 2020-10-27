@@ -69,8 +69,10 @@ your solutions are correct.
 
 ## Step 2: Tree Statistics and Visualization
 
-Complete the `height()`, `size()`, `getMin()`, and `getMax()` methods in
+Complete the `size()`, `getMin()`, `getMax()`, and `height()` methods in
 the `TreeNode` class.
+
+{% include note.html content="You should complete these methods in the order above, this is the order they are accessed in the GUI for display." %}
 
 Then run `BinaryTreeApp`. As you insert nodes into your
 tree, you should see the statistics updated on the right. Make sure the
