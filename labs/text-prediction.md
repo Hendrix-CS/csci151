@@ -12,7 +12,7 @@ to predict words as they are being typed.
 
 ## Setup
 
--   Download the [skeleton](../code/triepredict.zip) for this project.
+-   Download the [skeleton](../code/trie151.zip) for this project.
 
 ## Description
 
@@ -59,8 +59,10 @@ Implement `getChildWith` and `find`.
 -   `find` is another helper method you may find useful later. It
     follows an entire `String` through the trie, taking one step down
     per character. It returns a stack of `Trie` nodes that trace the
-    path that corresponds to the prefix. If the prefix is not present,
-    the stack will contain all of the leading characters from the prefix
+    path that corresponds to the prefix, pushing the `Trie`s onto
+    the stack as it descends. If the prefix is not present,
+    the stack will contain `Trie`s for all of the leading
+    characters from the prefix
     that are present. The stack is implemented using an object of the
     [`ArrayDeque`](https://docs.oracle.com/javase/9/docs/api/java/util/ArrayDeque.html)
     class. It does not matter whether `isMember` is set or not.
@@ -78,20 +80,20 @@ if `find` is employed as a helper method.
 -   Implement a simple version of `remove`, which simply finds the end
     of the word to remove and then sets `isMember` to `false`. This will
     pass all the tests but leaves lots of useless `Trie` nodes lying
-    around; see Step 5.
+    around; you will fix this in Step 5.
 
 ## Step 4: inorder, successorsTo
 
 Implement `inorder` and `successorsTo`. See the comments in the code for
-descriptions of what they should do. Coming up with a good way to
-organize `inorder` is tricky. Feel free to ask me for hints. Once you
-have written `inorder`, it should be possible to write `successorsTo` in
-a concise way that reuses several previous pieces.
+descriptions of what they should do.
+
+The implementation of `successorsTo` will be *much* simpler
+if `find` is employed as a helper method.
 
 ## Step 5: better remove
 
 Implement a better version of `remove`, which actually deletes any
-unneeded `Trie` nodes. The stack of nodes returned by `find` may be
+unneeded `Trie` nodes. The stack of nodes returned by `find` will be
 helpful in this task.
 
 ## Grading
