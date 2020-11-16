@@ -29,7 +29,7 @@ project: a `Trie` to store the tree of strings, and a `SortedArrayMap`
 to map characters to child `Trie`s. `SortedArrayMap` in turn is
 implemented in terms of a `SortedArray` class.
 
-![](../assets/images/predictor.png)
+![](../assets/images/predictor.png){: .img-fluid}
 
 You will only have to write code in the `Trie` class, but you will need
 to also look at the other classes to see what methods are available.
