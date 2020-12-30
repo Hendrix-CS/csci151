@@ -26,7 +26,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 number: CSCI 151
 title: Data Structures
-semester: Fall 2020
+semester: Spring 2020
 
 navigation:
   - title: Overview
@@ -71,12 +71,12 @@ instructors:
 
 offerings:
   - name: LECTURE 01
-    loc: Microsoft Teams
+    loc: MCAcxiom 119
     time: MWF 8:10am - 9:00am
     instructor: goadrich
   - name: LAB 01
-    loc: Microsoft Teams
-    time: T 1:10pm - 4:00pm
+    loc: Snoddy Lab / Microsoft Teams
+    time: T 1:35pm - 4:25pm
     instructor: goadrich
 
 resources:
