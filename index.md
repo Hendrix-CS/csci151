@@ -137,7 +137,7 @@ There is no final exam; you will complete a final project instead, as described 
 
 ## <a name="checkins">Checkins and Participation</a>: 100+ points
 
-Three times throughout the semester, you are expected to
+Four times throughout the semester, you are expected to
 make an office hours appointment and check in with me about the course. Each checkin
 meeting will count for 15 points.
 This will be conversation and feedback about your current progress and understanding.
