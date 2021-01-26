@@ -49,14 +49,13 @@ to discuss alternate accomodations.
 When we write code together in class, it will be posted here!
 
 
-<!--
+
 | Date | Topic | Code |
 |:----:|------||-----||
-| F 21 Aug | Python Review | |
-| M 24 Aug | Intro to Java | [MondaySample.java]({{site.baseurl}}/code/MondaySample.java) |
-| W 26 Aug | Java Memory and Arrays | [StackHeap1]({{site.baseurl}}/inclass/StackHeap1.pdf) [StackHeap2]({{site.baseurl}}/inclass/StackHeap2.pdf) |
-| F 28 Aug | Instantiable Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/JackInTheBox.java) |
-| M 31 Aug | Interfaces | [HolidayLight.java]({{site.baseurl}}/inclass/HolidayLight.java) [ConditionalLight.java]({{site.baseurl}}/inclass/ConditionalLight.java) [ArrayLight.java]({{site.baseurl}}/inclass/ArrayLight.java) |
+| F 22 Jan | Instantiable Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/JackInTheBox.java) |
+| M 25 Jan | Interfaces | [HolidayLight.java]({{site.baseurl}}/inclass/HolidayLight.java) [ConditionalLight.java]({{site.baseurl}}/inclass/ConditionalLight.java) [ArrayLight.java]({{site.baseurl}}/inclass/ArrayLight.java) |
+
+<!--
 | F 4 Sep | 2D Arrays User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut.java) [Main.java]({{site.baseurl}}/inclass/Main.java) |
 | M 7 Sep | Enums | [Currency.java]({{site.baseurl}}/inclass/Currency.java) [ChangeMaker.java]({{site.baseurl}}/inclass/ChangeMaker.java) |
 | W 9 Sep | ArrayStack | [DirectionInRoom.pdf]({{site.baseurl}}/inclass/DirectionInRoom.pdf) [PostFixCalculator.pdf]({{site.baseurl}}/inclass/PostFixCalculator.pdf) [ArrayStack.pdf]({{site.baseurl}}/inclass/ArrayStack.pdf) |
@@ -142,7 +141,7 @@ make an office hours appointment and check in with me about the course. Each che
 meeting will count for 15 points.
 This will be conversation and feedback about your current progress and understanding.
 These should be scheduled during the weeks shown
-on the [course calendar](https://app.teamgantt.com/public/projects/calendar/2020-12-27?ids=2460416&prefs=P2lkcz0yNDYwNDE2JnB1YmxpY19rZXlzPTFJWXJncWM1N3ludyZ6b29tPWQxMDAmZm9udF9zaXplPTEyJmVzdGltYXRlZF9ob3Vycz0wJmFzc2lnbmVkX3Jlc291cmNlcz0wJnBlcmNlbnRfY29tcGxldGU9MCZkb2N1bWVudHM9MCZjb21tZW50cz0wJmNvbF93aWR0aD0zNTUmaGlkZV9oZWFkZXJfdGFicz0wJm1lbnVfdmlldz0xJnJlc291cmNlX2ZpbHRlcj0xJm5hbWVfaW5fYmFyPTAmbmFtZV9uZXh0X3RvX2Jhcj0wJnJlc291cmNlX25hbWVzPTEmcmVzb3VyY2VfaG91cnM9MQ%3D%3D&projectIds=2460416&publicKeys=1IYrgqc57ynw).
+on the [course calendar](https://prod.teamgantt.com/gantt/schedule/?ids=2460416&public_keys=1IYrgqc57ynw&zoom=d100&font_size=12&estimated_hours=0&assigned_resources=0&percent_complete=0&documents=0&comments=0&col_width=355&hide_header_tabs=0&menu_view=1&resource_filter=1&name_in_bar=0&name_next_to_bar=0&resource_names=1&resource_hours=1#user=&company=&custom=&date_filter=&hide_completed=false&color_filter=).
 
 Also, there will be many opportunities to accumulate small amounts of points
 throughout the semester by participating in classroom exercises and
