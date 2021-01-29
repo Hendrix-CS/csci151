@@ -54,10 +54,11 @@ When we write code together in class, it will be posted here!
 |:----:|------||-----||
 | F 22 Jan | Instantiable Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/JackInTheBox.java) |
 | M 25 Jan | Interfaces | [HolidayLight.java]({{site.baseurl}}/inclass/HolidayLight.java) [ConditionalLight.java]({{site.baseurl}}/inclass/ConditionalLight.java) [ArrayLight.java]({{site.baseurl}}/inclass/ArrayLight.java) |
+| F 29 Jan | 2D Arrays User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut.java) [Main.java]({{site.baseurl}}/inclass/Main.java) |
+| F 29 Jan | Enums | [Currency.java]({{site.baseurl}}/inclass/Currency.java) [ChangeMaker.java]({{site.baseurl}}/inclass/ChangeMaker.java) |
 
 <!--
-| F 4 Sep | 2D Arrays User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut.java) [Main.java]({{site.baseurl}}/inclass/Main.java) |
-| M 7 Sep | Enums | [Currency.java]({{site.baseurl}}/inclass/Currency.java) [ChangeMaker.java]({{site.baseurl}}/inclass/ChangeMaker.java) |
+
 | W 9 Sep | ArrayStack | [DirectionInRoom.pdf]({{site.baseurl}}/inclass/DirectionInRoom.pdf) [PostFixCalculator.pdf]({{site.baseurl}}/inclass/PostFixCalculator.pdf) [ArrayStack.pdf]({{site.baseurl}}/inclass/ArrayStack.pdf) |
 | M 14 Sep | ListStack and Generics | [StacksAndGenerics.pdf]({{site.baseurl}}/inclass/StacksAndGenerics.pdf) |
 | W 16 Sep | ListQueue | [ListQueue.pdf]({{site.baseurl}}/inclass/ListQueue.pdf) |
