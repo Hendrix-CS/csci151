@@ -182,7 +182,7 @@ First, you will be creating random mazes by implementing the
 
 ### Step 3.1 - `public void tunnelRandomly()`
 
-Create an `ArrayStack` of `Positions`, and push (0,0) onto the stack.
+Create an `ArrayStack` of `Positions`, and push `new Position(0,0)` onto the stack.
 
 While the stack still has Positions:
 
