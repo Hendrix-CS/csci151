@@ -58,6 +58,7 @@ When we write code together in class, it will be posted here!
 | F 29 Jan | Enums | [Currency.java]({{site.baseurl}}/inclass/Currency.java) [ChangeMaker.java]({{site.baseurl}}/inclass/ChangeMaker.java) |
 | M 1 Feb | Mazes | [Maze Project Setup Discussion]({{site.baseurl}}/inclass/MazeStructure.pdf) |
 | W 3 Feb | Stacks| [Array Stacks]({{site.baseurl}}/inclass/StackIntro.pdf) |
+| M 8 Feb | Stacks| [List Stacks]({{site.baseurl}}/inclass/ListStack.pdf) |
 
 <!--
 
