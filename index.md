@@ -59,7 +59,8 @@ When we write code together in class, it will be posted here!
 | M 1 Feb | Mazes | [Maze Project Setup Discussion]({{site.baseurl}}/inclass/MazeStructure.pdf) |
 | W 3 Feb | Stacks| [Array Stacks]({{site.baseurl}}/inclass/StackIntro.pdf) |
 | M 8 Feb | Stacks| [List Stacks]({{site.baseurl}}/inclass/ListStack.pdf) |
-| W 10 Feb | Queues| [List Queus]({{site.baseurl}}/inclass/ListQueueMods.pdf) |
+| W 10 Feb | Queues| [List Queues]({{site.baseurl}}/inclass/ListQueueMods.pdf) |
+| W 10 Feb | Queues| [Array Queues]({{site.baseurl}}/inclass/ArrayQueueFull.pdf) |
 
 <!--
 
