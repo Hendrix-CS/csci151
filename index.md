@@ -60,7 +60,8 @@ When we write code together in class, it will be posted here!
 | W 3 Feb | Stacks| [Array Stacks]({{site.baseurl}}/inclass/StackIntro.pdf) |
 | M 8 Feb | Stacks| [List Stacks]({{site.baseurl}}/inclass/ListStack.pdf) |
 | W 10 Feb | Queues| [List Queues]({{site.baseurl}}/inclass/ListQueueMods.pdf) |
-| W 10 Feb | Queues| [Array Queues]({{site.baseurl}}/inclass/ArrayQueueFull.pdf) |
+| F 12 Feb | Queues| [Array Queues]({{site.baseurl}}/inclass/ArrayQueueFull.pdf) |
+| M 15 Feb | Queues and Lists| [Queue Review]({{site.baseurl}}/inclass/QueuePractice.pdf) |
 
 <!--
 
