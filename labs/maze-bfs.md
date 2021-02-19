@@ -7,7 +7,7 @@ worktitle: Mazes - Breadth First Search
 
 ## Overview
 
-In this lab, we will implement generic version of the Queue
+In this lab, we will implement a generic version of the Queue
 data type within the context of searching a maze.
 
 Materials

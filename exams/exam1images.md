@@ -13,7 +13,7 @@ In case the images don't load on the exam, here they are.
 
 # ArrayQueue Choices Diagram
 
-![ArrayQueue Choices](../assets/images/exam1/QueueAnswers.png){: .img-fluid}
+![ArrayQueue Choices](../assets/images/exam1/arrayqueue.png){: .img-fluid}
 
 # ArrayStack Starting Diagram
 
@@ -21,12 +21,12 @@ In case the images don't load on the exam, here they are.
 
 # ArrayStack Choices Diagram
 
-![ArrayQueue Start](../assets/images/exam1/StackAnswers.png){: .img-fluid}
+![ArrayQueue Start](../assets/images/exam1/arraystack.png){: .img-fluid}
 
 # ListNode Starting Diagram
 
-![ArrayQueue Start](../assets/images/exam1/ListNodeStart.png){: .img-fluid}
+![ArrayQueue Start](../assets/images/exam1/linkedstart.png){: .img-fluid}
 
 # ListNode Choices Diagram
 
-![ArrayQueue Start](../assets/images/exam1/ListNodeAnswers.png){: .img-fluid}
+![ArrayQueue Start](../assets/images/exam1/linkedoptions.png){: .img-fluid}
