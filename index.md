@@ -154,11 +154,11 @@ Also, there will be many opportunities to accumulate small amounts of points
 throughout the semester by participating in classroom exercises and
 reflecting on the material. These will total at least 40 points, most likely more.
 
-<!--
+
 | #  | Name | Points |
 |:--:|-----||:--------:|
-| 1 | Making Toast | 6 |
--->
+|1 | [Instantiable Classes]({{site.baseurl}}/homework/classes.html) | 20 |
+
 
 ## <a name="scale">Grading Scale</a>
 
