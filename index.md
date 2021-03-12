@@ -64,6 +64,9 @@ When we write code together in class, it will be posted here!
 | M 15 Feb | Queues and Lists| [Queue Review]({{site.baseurl}}/inclass/QueuePractice.pdf) |
 | F 26 Feb | Priority Queues| [Heap Insertion]({{site.baseurl}}/inclass/HeapIntroduction.pdf) |
 | M 1 Mar || [Heap Removal]({{site.baseurl}}/inclass/HeapWrapup.pdf) |
+| F 5 Mar | Sorting Algorithms| [QuickSort]({{site.baseurl}}/inclass/SortingSummary.pdf) |
+| M 8 Mar | | [MergeSort]({{site.baseurl}}/inclass/SortingSummary.pdf) |
+| W 10 Mar | Time Complexity| [Counting Steps]({{site.baseurl}}/inclass/StartingToCountSteps.pdf) |
 
 <!--
 
