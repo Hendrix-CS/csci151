@@ -67,6 +67,14 @@ When we write code together in class, it will be posted here!
 | F 5 Mar | Sorting Algorithms| [QuickSort]({{site.baseurl}}/inclass/SortingSummary.pdf) |
 | M 8 Mar | | [MergeSort]({{site.baseurl}}/inclass/SortingSummary.pdf) |
 | W 10 Mar | Time Complexity| [Counting Steps]({{site.baseurl}}/inclass/StartingToCountSteps.pdf) |
+| F 12 Mar | | [Big O, Omega, Theta]({{site.baseurl}}/inclass/BigO.pdf) |
+| M 15 Mar | Maps | [Map Interface]({{site.baseurl}}/inclass/MapIntro.pdf) |
+| W 17 Mar | Binary Search Trees | [BST Introduction]({{site.baseurl}}/inclass/BST-Intro.pdf) |
+| F 19 Mar |  | [BST Remove]({{site.baseurl}}/inclass/BSTRemove.pdf) |
+| F 26 Mar | Hash Tables | [Separate Chaining]({{site.baseurl}}/inclass/HashOverview.pdf) |
+| M 29 Mar |  | [Linear Probing]({{site.baseurl}}/inclass/HashOmnibus.pdf) |
+| M 12 Apr | Tries | [Trie Overview]({{site.baseurl}}/inclass/TrieOverview.pdf) |
+| W 14 Apr | | [Trie Remove]({{site.baseurl}}/inclass/TrieRemove.pdf) |
 
 <!--
 
