@@ -45,6 +45,8 @@ navigation:
     subfolderitems:
       - page: Labs
         url: '#labs'
+      - page: Homework
+        url: '#hw'
       - page: Projects
         url: '#projects'
       - page: Exams

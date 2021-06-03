@@ -7,7 +7,7 @@ worktitle: Planting a Garden
 
 ## Garden
 
-Write a class called `Garden` to represent a plot of land that can be
+Write a class called `Garden` to represent a dividable plot of land that can be
 planted, watered, and harvested.
 
 Assume you have a `Enum` available called `Dirt`, with three elements: `EMPTY`, `SEED`, `PLANT`, as described here:
@@ -16,8 +16,7 @@ Assume you have a `Enum` available called `Dirt`, with three elements: `EMPTY`, 
          EMPTY, SEED, PLANT
     }
 
-You will have two components, a `String` for the flavor and an `int` for the number of licks.
-an array of `Dirt` for the plots, and a `String` to hold the type of crop planted in this plot;
+You will have two components, an array of `Dirt` for the plots, and a `String` to hold the type of crop planted in this plot;
 
 Your constructor method will bring in an initial number of plots and a crop type.
 It should initialize the plots so there are the required available spaces, and set them all to EMPTY. Also save the crop type of plants grown.
