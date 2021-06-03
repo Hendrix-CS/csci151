@@ -134,12 +134,12 @@ so we can find accomodations.
 
 ## <a name="hw">Homework</a>: 100 points
 
-There will often be short homework assignments to be completed over the weekend, assigned on Friday and due Wednesday.
-
 | #  | Name | Points |
 |:--:|-----||:--------:|
 |1 | [Instantiable Classes]({{site.baseurl}}/homework/candy.html) | 10 |
 |2 | [Making Toast]({{site.baseurl}}/homework/toaster.html) | 10 |
+
+There will often be short homework assignments to be completed over the weekend, assigned on Friday and due Wednesday.
 
 ## <a name="projects">Projects</a>: 400 points
 
