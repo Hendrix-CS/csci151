@@ -2,7 +2,7 @@
 layout: work
 type: Homework
 num: 1
-worktitle: Instantiable Classes
+worktitle: Eating Candy
 ---
 
 ## Tootsie Pops
