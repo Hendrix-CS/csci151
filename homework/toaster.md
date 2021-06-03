@@ -1,7 +1,7 @@
 ---
 layout: work
 type: Homework
-num: 1
+num: 2
 worktitle: Making Toast
 ---
 
@@ -28,5 +28,4 @@ will return the item back to the user.
 the toaster at a time. If there are no items, it will return the string `“NONE”`.
 
 You may use IntelliJ to test your code. Turn in a copy of your
-work at the beginning of class
-on Wednesday, January 29th.
+`Toaster.java` file through Teams by the due date.

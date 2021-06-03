@@ -105,7 +105,7 @@ obligation, *etc.*). After you have used up your late days, late assignments
 will receive at most half credit. All work must be completed the day before final grades are due.
 **You must be in communication with me when assignments are late.**
 
-## <a name="labs">Labs</a>: 300 points
+## <a name="labs">Labs</a>: 200 points
 
 | #  | Name |
 |:--:|-----|
@@ -132,6 +132,15 @@ stationed in the Snoddy Computer Lab in the library for our lab times. If you
 need to use computing resources on campus for these labs, please contact me
 so we can find accomodations.
 
+## <a name="hw">Homework</a>: 100 points
+
+There will often be short homework assignments to be completed over the weekend, assigned on Friday and due Wednesday.
+
+| #  | Name | Points |
+|:--:|-----||:--------:|
+|1 | [Instantiable Classes]({{site.baseurl}}/homework/candy.html) | 10 |
+|2 | [Making Toast]({{site.baseurl}}/homework/toaster.html) | 10 |
+
 ## <a name="projects">Projects</a>: 400 points
 
 | #  | Name | Points |
@@ -154,7 +163,7 @@ They will consist of short answer questions along with writing and debugging cod
 
 There is no final exam; you will complete a final project instead, as described above under Projects.
 
-## <a name="checkins">Checkins and Participation</a>: 100+ points
+## <a name="checkins">Checkins and Participation</a>: 100 points
 
 Four times throughout the semester, you are expected to
 make an office hours appointment and check in with me about the course. Each checkin
@@ -163,15 +172,7 @@ This will be conversation and feedback about your current progress and understan
 These should be scheduled during the weeks shown
 on the [course calendar](https://prod.teamgantt.com/gantt/schedule/?ids=2460416&public_keys=1IYrgqc57ynw&zoom=d100&font_size=12&estimated_hours=0&assigned_resources=0&percent_complete=0&documents=0&comments=0&col_width=355&hide_header_tabs=0&menu_view=1&resource_filter=1&name_in_bar=0&name_next_to_bar=0&resource_names=1&resource_hours=1#user=&company=&custom=&date_filter=&hide_completed=false&color_filter=).
 
-Also, there will be many opportunities to accumulate small amounts of points
-throughout the semester by participating in classroom exercises and
-reflecting on the material. These will total at least 40 points, most likely more.
-
-
-| #  | Name | Points |
-|:--:|-----||:--------:|
-|1 | [Instantiable Classes]({{site.baseurl}}/homework/classes.html) | 20 |
-
+The remaining 40 points will be assigned based on classroom attendance and participation in classroom activities.
 
 ## <a name="scale">Grading Scale</a>
 
