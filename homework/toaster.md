@@ -1,7 +1,7 @@
 ---
 layout: work
 type: Homework
-num: 2
+num: 3
 worktitle: Making Toast
 ---
 

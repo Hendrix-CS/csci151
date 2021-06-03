@@ -136,8 +136,9 @@ so we can find accomodations.
 
 | #  | Name | Points |
 |:--:|-----||:--------:|
-|1 | [Instantiable Classes]({{site.baseurl}}/homework/candy.html) | 10 |
-|2 | [Making Toast]({{site.baseurl}}/homework/toaster.html) | 10 |
+|1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) | 10 |
+|2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) | 10 |
+|3 | [Making Toast]({{site.baseurl}}/homework/toaster.html) | 10 |
 
 There will often be short homework assignments to be completed over the weekend, assigned on Friday and due Wednesday.
 
