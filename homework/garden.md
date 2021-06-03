@@ -5,8 +5,6 @@ num: 2
 worktitle: Planting a Garden
 ---
 
-## Garden
-
 Write a class called `Garden` to represent a dividable plot of land that can be
 planted, watered, and harvested.
 
@@ -35,6 +33,8 @@ You will need three additional methods:
 set the space to `EMPTY` and return the type of plant grown in this garden.
 If there is a `SEED`,
 return the string `"Needs Water!"`. Otherwise return `"Nothing but Dirt..."`.
+
+Also, include a `public static void main(String[] args)` method that fully tests and demonstrates that your class is working.
 
 You may use IntelliJ to test your code. Turn in a copy of your
 `Garden.java` file through Teams by the due date.

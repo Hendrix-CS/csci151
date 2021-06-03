@@ -5,8 +5,6 @@ num: 1
 worktitle: Instantiable Classes
 ---
 
-## Tootsie Pops
-
 Write a class called `TootsiePop` to represent a hard candy lollipop filled with
 chocolate-flavored chewy candy.
 

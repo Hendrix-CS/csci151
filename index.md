@@ -142,7 +142,8 @@ so we can find accomodations.
 |2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) | 10 |
 |3 | [Making Toast]({{site.baseurl}}/homework/toaster.html) | 10 |
 
-There will often be short homework assignments to be completed over the weekend, assigned on Friday and due Wednesday.
+There will often be short homework assignments to be completed over the weekend, assigned on Friday and due the next week. These will be practice to
+help you solidify the concepts from class before labs and exams.
 
 ## <a name="projects">Projects</a>: 400 points
 

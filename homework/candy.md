@@ -5,8 +5,6 @@ num: 1
 worktitle: Eating Candy
 ---
 
-## Tootsie Pops
-
 Write a class called `TootsiePop` to represent a hard candy lollipop filled with
 chocolate-flavored chewy candy.
 
