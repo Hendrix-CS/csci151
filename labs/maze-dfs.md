@@ -115,15 +115,15 @@ first task is to implement the generic `ListNode` class.
 
 ### Step 2.1 - ListNode
 
-You will first need to create a file called `ListNode.java` that
+Look over the file called `ListNode.java`. This class
 implements the Node class we discussed. It should have an `E value` and
 a `ListNode next` reference as private components, along with public get and set
-methods for the value and next fields. You should make two constructors.
+methods for the value and next fields. There are two constructors.
 The first brings in and stores only an `E value`, and leaves the `ListNode next` as `null`.
 The second brings in both an `E value`, and a `ListNode next`, storing both.
 
-{% include note.html content="While the name of the file is `ListNode.java`, the name of your class
-should be `ListNode<E>`." %}
+{% include note.html content="While the name of the file is `ListNode.java`, the name of the class when used
+will be `ListNode<E>`." %}
 
 ### Step 2.2 - Implementation
 
