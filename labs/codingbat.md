@@ -87,15 +87,12 @@ will be able to see your progress.
 
 * To earn a 6, complete **five** Warmup-1 problems
 * To earn a 12, do the above and **seven** problems in **each** of
-    * [Array-1](http://codingbat.com/java/Array-1)
     * [Logic-1](http://codingbat.com/java/Logic-1)
     * [String-1](http://codingbat.com/java/String-1)
-* To earn a 17, do the above and **five** problems in **each** of
-    * [Array-2](http://codingbat.com/java/Array-2)
+    * [Array-1](http://codingbat.com/java/Array-1)
+* To earn a 20, do the above and **five** problems in **each** of
     * [Logic-2](http://codingbat.com/java/Logic-2)
     * [String-2](http://codingbat.com/java/String-2)
-* To earn a 22, do the above and **three** problems in **each** of
-    * [Array-3](http://codingbat.com/java/Array-3)
-    * [String-3](http://codingbat.com/java/String-3)
-* To earn a 25, do the above and **two** problems in
+    * [Array-2](http://codingbat.com/java/Array-2)
+* To earn a 25, do the above and **three** problems in
     * [AP-1](http://codingbat.com/java/AP-1)
