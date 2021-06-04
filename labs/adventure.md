@@ -612,9 +612,9 @@ For your final submission, you should turn in a `.zip` file containing:
 |Criteria|Score|
 ||----|:---:|
 | BASIC ||
-| Reads the provided world description file Hendrix.yml, and loads the information into appropriate objects.  | **2**   |   
-| Keeps track of the player's current location, and prints out a description of the location.  |  **2**    |  
-| Allows the user to move around via the go command.  | **2**     |
+| Reads the provided world description file Hendrix.yml, and loads the information into appropriate objects.  | **1**   |   
+| Keeps track of the player's current location, and prints out a description of the location.  |  **1**    |  
+| Allows the user to move around via the go command.  | **1**     |
 | INTERMEDIATE ||
 | Print out all the items at a new location | **1** |
 | Users can pick up and drop items | **2** |
@@ -629,7 +629,7 @@ For your final submission, you should turn in a `.zip` file containing:
 | The user may refer to items by any of their listed aliases.  |   **1**       |
 | A help command lists all commands.  |  **1**       |
 | Includes a student-designed YAML file   |**2**      |
-| Includes a helpful README    |  **2**       |
+| Includes a helpful README    |  **1**       |
 | EXPERT ||
-| Includes at least one additional extension.   | **2**      |
-| **Total**     |    **25**|
+| Includes at least one additional extension.   | **1**      |
+| **Total**     |    **20**|

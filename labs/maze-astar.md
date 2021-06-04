@@ -152,11 +152,11 @@ Moodle, along with your evaluation document.
 
 ## Grading
 
-* To earn a 5, complete Step 1
-* To earn a 10, do the above and Step 2
-* To earn a 12, do the above and Step 3
-* To earn a 14, do the above and Step 4
-* To earn a 16, do the above and Step 5
-* To earn a 18, do the above and Step 6
-* To earn a 21, do the above and Step 7
-* To earn a 25, do the above and Step 8
+* To earn a 4, complete Step 1
+* To earn a 6, do the above and Step 2
+* To earn a 8, do the above and Step 3
+* To earn a 11, do the above and Step 4
+* To earn a 13, do the above and Step 5
+* To earn a 15, do the above and Step 6
+* To earn a 16, do the above and Step 7
+* To earn a 20, do the above and Step 8

@@ -241,27 +241,9 @@ the maze and look ahead according to their internal `Position` and
 `Direction`. There are three pieces of code we will need to complete for
 the `Explorer` and goal portions of the `Puzzle` class.
 
-### Step 4.1 - Update Maze
+### Step 4.1 - Move
 
-Write a new method for `Maze`.
-
-* `public int numOpenNeighbors(Position p)`
-
-  This method returns the number of neighbors for a given position that
-  are open. This does not include the given position, only its four
-  neighbors, one in each `Direction`.
-
-### Step 4.2 - Maze Testing
-
-Uncomment code labeled for this step in
-
--   `MazeTest`
-
-Verify that your Maze is working with the `MazeTest` suite.
-
-### Step 4.3 - Move
-
-You will need to create three elements, `FORWARD`, `LEFT`
+In the `Move` enum, you will need to create three elements, `FORWARD`, `LEFT`
 and `RIGHT`.
 
 Add two abstract methods for `newPosition` and `newDirection`
@@ -276,15 +258,15 @@ directions.
 
   Given a `Direction`, return a new `Direction`. `LEFT` should rotate counterclockwise, while `RIGHT` rotates clockwise, and `FORWARD` does not change the direction.
 
-### Step 4.4 - Move Testing
+### Step 4.2 - Move Testing
 
 Uncomment code labeled for this step in
 
 -   `MoveTest`
 
-Verify that your Move is working with the `MoveTest` suite.
+Verify that your `Move` is working with the `MoveTest` suite.
 
-### Step 4.5 - Puzzle Explorer
+### Step 4.3 - Puzzle Explorer
 
 More methods are now required in the `Puzzle` class. Complete the
 implementation of the following methods.
@@ -309,7 +291,7 @@ implementation of the following methods.
 
   Returns the `Direction` of the `Explorer`.
 
-### Step 4.6 - Puzzle Goal
+### Step 4.4 - Puzzle Goal
 
 Finally, add two more methods to `Puzzle` to allow for a goal `Position` to
 be placed in the `Puzzle`.
@@ -322,7 +304,7 @@ be placed in the `Puzzle`.
 
   Returns the `goal` position.
 
-### Step 4.7 - Explorer and Puzzle Testing
+### Step 4.5 - Explorer and Puzzle Testing
 
 Uncomment code labeled for this step in
 
@@ -331,7 +313,7 @@ Uncomment code labeled for this step in
 
 Verify that your Puzzle and Explorer are working with the `PuzzleTest` suite.
 
-### Step 4.8 - GUI
+### Step 4.6 - GUI
 
 Uncomment code labeled for this step in
 
@@ -350,7 +332,7 @@ implementations.
 ## Grading
 
 
-* To earn a 6, complete Step 1
-* To earn a 12, do the above and Step 2
-* To earn a 21, do the above and Step 3
-* To earn a 25, do the above and Step 4
+* To earn a 5, complete Step 1
+* To earn a 10, do the above and Step 2
+* To earn a 15, do the above and Step 3
+* To earn a 20, do the above and Step 4

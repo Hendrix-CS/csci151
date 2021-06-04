@@ -104,7 +104,7 @@ Submit `TreeNode.java` as well as your evaluation document.
 
 ## Grading
 
-* To earn a 10, complete Step 1
-* To earn a 15, do the above and Step 2
-* To earn a 20, do the above and Step 3
-* To earn a 25, do the above and Step 4
+* To earn a 8, complete Step 1
+* To earn a 12, do the above and Step 2
+* To earn a 16, do the above and Step 3
+* To earn a 20, do the above and Step 4
