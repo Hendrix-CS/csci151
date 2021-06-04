@@ -128,6 +128,11 @@ so we can find accomodations.
 |2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) | 10 |
 |3 | [Making Toast]({{site.baseurl}}/homework/toaster.html) | 10 |
 |4 | [Cherished Memories]({{site.baseurl}}/homework/memory.html) | 15 |
+|5 | [Heaps]({{site.baseurl}}/homework/heaps.html) | 10 |
+|6 | [Sorting]({{site.baseurl}}/homework/sorting.html) | 15 |
+|7 | [Asymptotic Analysis]({{site.baseurl}}/homework/bigo.html) | 10 |
+|8 | [Binary Search Trees]({{site.baseurl}}/homework/trees.html) | 10 |
+|9 | [Hash Tables]({{site.baseurl}}/homework/hashtables.html) | 10 |
 
 There will often be short homework assignments to be completed over the weekend, assigned on Friday and due the next week. These will be practice to
 help you solidify the concepts from class before labs and exams.
