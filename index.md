@@ -97,7 +97,6 @@ will receive at most half credit. All work must be completed the day before fina
 
 | #  | Name |
 |:--:|-----|
-|0 | [Survey](https://forms.gle/3f36yr8WHxBShjHN7) |
 |1 | [CodingBat]({{site.baseurl}}/labs/codingbat.html) |
 |2 | [Prisoner's Dilemma]({{site.baseurl}}/labs/dilemma.html) |
 |3 | [Mazes: Enums and 2D Arrays]({{site.baseurl}}/labs/maze-enums.html) |
@@ -124,10 +123,11 @@ so we can find accomodations.
 
 | #  | Name | Points |
 |:--:|-----||:--------:|
+|0 | [Survey](https://forms.gle/3f36yr8WHxBShjHN7) |
 |1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) | 10 |
 |2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) | 10 |
 |3 | [Making Toast]({{site.baseurl}}/homework/toaster.html) | 10 |
-|3 | [Cherished Memories]({{site.baseurl}}/homework/memory.html) | 15 |
+|4 | [Cherished Memories]({{site.baseurl}}/homework/memory.html) | 15 |
 
 There will often be short homework assignments to be completed over the weekend, assigned on Friday and due the next week. These will be practice to
 help you solidify the concepts from class before labs and exams.

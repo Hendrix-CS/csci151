@@ -100,7 +100,7 @@ on the GUI, by clicking on nodes you wish to remove.
 
 ## What to Hand In
 
-Submit `TreeNode.java` as well as your evaluation document.
+Submit `TreeNode.java`.
 
 ## Grading
 
