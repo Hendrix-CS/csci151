@@ -32,18 +32,6 @@ Upon completing this course, our goal is for you to be able to:
 
 <hr>
 
-# Attendance
-
-We will be meeting this semester on campus. Remote learning will be accessible
-through Microsoft Teams and the OWL in the classroom.
-This course will be using all of our scheduled time slots (8:10 - 9:00am MWF) for synchronous meetings
-throughout the semester. I expect you to be present and participating in our discussions
-and small group work sessions. If you are remote for any reason, I expect you to participate with video and audio turned on for at least part of
-each class. If you have difficulties meeting these expectations,
-please contact me, the Office of Academic Success, the IT HelpDesk, and the Provost's Office
-to discuss alternate accomodations.
-
-
 # <a name="inclasscode">In-Class Code</a>
 
 When we write code together in class, it will be posted here!
