@@ -47,7 +47,9 @@ to discuss alternate accomodations.
 # <a name="inclasscode">In-Class Code</a>
 
 When we write code together in class, it will be posted here!
+
 <!--
+
 | Date | Topic | Code |
 |:----:|------||-----||
 | F 22 Jan | Instantiable Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/JackInTheBox.java) |
@@ -172,7 +174,7 @@ Four times throughout the semester, you are expected to
 make an office hours appointment and check in with me about the course. Each checkin
 meeting will count for 15 points.
 This will be conversation and feedback about your current progress and understanding.
-These should be scheduled during the weeks shown
+Ideally, these should be scheduled during the weeks shown
 on the [course calendar](https://prod.teamgantt.com/gantt/schedule/?ids=2650881&public_keys=zduoIG6gLuL1&zoom=d100&font_size=12&estimated_hours=0&assigned_resources=0&percent_complete=0&documents=0&comments=0&col_width=355&hide_header_tabs=0&menu_view=1&resource_filter=1&name_in_bar=0&name_next_to_bar=0&resource_names=1&resource_hours=1#user=&company=&custom=&date_filter=&hide_completed=false&color_filter=).
 
 ## <a name="scale">Grading Scale</a>
