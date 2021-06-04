@@ -163,7 +163,9 @@ They will consist of short answer questions along with writing and debugging cod
 
 There is no final exam; you will complete a final project instead, as described above under Projects.
 
-## <a name="checkins">Checkins and Participation</a>: 100 points
+If you earn less than 80 points on an exam, you may earn back up to an 80 by scheduling meetings with me to revisit missed questions and demonstrate your understanding on new and similar questions.
+
+## <a name="checkins">Checkins</a>: 60 points
 
 Four times throughout the semester, you are expected to
 make an office hours appointment and check in with me about the course. Each checkin
