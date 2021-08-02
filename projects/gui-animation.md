@@ -51,8 +51,8 @@ you encountered in creating your application.
 ||----|:---:|
 |Incorporates a GUI built with JavaFX and SceneBuilder       |      **10**  |    
 |At least two of the GUI components have event handlers that visibly change the GUI |   **20** |     
-|The program is an interactive animation that makes use of the various Shape classes.  |   **20**   |   
-|The GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.  | **10**      |
+|The program is an interactive animation that makes use of the various Shape classes.  |   **10**   |   
+|The GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.  | **20**      |
 |Works as intended   |   **15**     |
 |Is something that someone would conceivably want to use     |         **5**  |     
 |Evaluation document adequately describes the project  |   **5**       |
