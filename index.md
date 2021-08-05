@@ -98,7 +98,7 @@ will receive at most half credit. All work must be completed the day before fina
 | #  | Name |
 |:--:|-----|
 |1 | [CodingBat]({{site.baseurl}}/labs/codingbat.html) |
-|2 | [Prisoner's Dilemma]({{site.baseurl}}/labs/dilemma.html) |
+|2 | [How to Divide a Cake]({{site.baseurl}}/labs/cake.html) |
 |3 | [Mazes: Enums and 2D Arrays]({{site.baseurl}}/labs/maze-enums.html) |
 |4 | [Mazes: Depth First Search]({{site.baseurl}}/labs/maze-dfs.html) |
 |5 | [Mazes: Breath First Search]({{site.baseurl}}/labs/maze-bfs.html) |
@@ -123,13 +123,13 @@ so we can find accomodations.
 
 | #  | Name | Points |
 |:--:|-----||:--------:|
-|0 | [Survey](https://forms.gle/3f36yr8WHxBShjHN7) |
+|0 | [Survey](https://forms.gle/3f36yr8WHxBShjHN7) | 10 |
 |1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) | 10 |
 |2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) | 10 |
 |3 | [Making Toast]({{site.baseurl}}/homework/toaster.html) | 10 |
-|4 | [Cherished Memories]({{site.baseurl}}/homework/memory.html) | 15 |
+|4 | [Cherished Memories]({{site.baseurl}}/homework/memory.html) | 10 |
 |5 | [Heaps]({{site.baseurl}}/homework/heaps.html) | 10 |
-|6 | [Sorting]({{site.baseurl}}/homework/sorting.html) | 15 |
+|6 | [Sorting]({{site.baseurl}}/homework/sorting.html) | 10 |
 |7 | [Asymptotic Analysis]({{site.baseurl}}/homework/bigo.html) | 10 |
 |8 | [Binary Search Trees]({{site.baseurl}}/homework/trees.html) | 10 |
 |9 | [Hash Tables]({{site.baseurl}}/homework/hashtables.html) | 10 |

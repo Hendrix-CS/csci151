@@ -24,9 +24,9 @@ about dividing a cake.
 
 > Once upon a time two children, Ryan and Isla, found a cake. Ryan said: “Splendid! I will eat the cake.” Isla said: “No, that is not fair! We found the cake together, and we should share and share alike; half for you and half for me.” Ryan said, “No, I should have the whole cake!” Isla said, “No, we should share and share alike; half for you and half for me.” Ryan said, “No, I want the whole cake.” Isla said, “No, let us share it half and half.” Along came an adult who said: “You shouldn’t fight about this; you should compromise. So Ryan gets three quarters of the cake.”
 
-adapted from Raymond Smullyan’s *This Book Needs No Title: A Budget of Living Paradoxes*.
+adapted from Raymond Smullyan’s *[This Book Needs No Title: A Budget of Living Paradoxes](https://www.amazon.com/This-Book-Needs-Title-Touchstone/dp/0671628313/)*.
 
-The above quote is related to the [Prisoner's
+The above situation is related to the [Prisoner's
 Dilemma](https://en.wikipedia.org/wiki/Prisoner's_dilemma) a classic
 example in [Economic Game
 Theory](https://en.wikipedia.org/wiki/Game_theory). If the children
@@ -39,7 +39,7 @@ we will split the cake as above, 25% and 75%. However, because the adult had to 
 -   If they both ask for ALL the cake, then the cake will be split evenly between them as a compromise. However, again the adult gets their mediation cut, so each player ultimately gets 40% of the cake.
 
 It is temping to try and ask for ALL the cake when the other player does not, but they will have the same idea, and the rational end result is that both
-will get less. So much for cooperation.
+will get less.
 
 However, if we put the children in this situation repeatedly, without
 knowing when the process will end, a different outcome is possible. This
