@@ -134,7 +134,7 @@ necessary for the AI to never be defeated when you play against it.
 
 ## What to Hand In
 
-Submit your `HashTable.java` implementation on Moodle, along with your
+Submit your `HashTable.java` implementation via Teams, along with your
 Evaluation Document.
 
 ## Grading

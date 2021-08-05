@@ -82,8 +82,7 @@ any of the strategies you wrote? Why or why not?
 ## What to Hand In
 
 Submit all of your strategy files (**the .java files you wrote**) and your
-reflection document via
-[Moodle](http://moodle.hendrix.edu) by the next lab period.
+reflection document via Teams by the next lab period.
 
 We will run a simulation competition during class the following Wednesday.
 

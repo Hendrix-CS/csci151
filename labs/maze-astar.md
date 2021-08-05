@@ -147,8 +147,7 @@ Discuss the differences you see between the Stack, Queue, and Heap.
 
 ## What to Hand In
 
-Submit your `TrailEstimator.java` and `MinHeap.java` implementations on
-Moodle, along with your evaluation document.
+Submit your `TrailEstimator.java` and `MinHeap.java` implementations via Teams, along with your evaluation document.
 
 ## Grading
 

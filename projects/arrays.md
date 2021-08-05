@@ -96,7 +96,7 @@ As a reminder:
 
 ## What to Hand In
 
-Submit a zip file containing
+Submit a zip file via Teams containing
 
 -   your **whole project**, along with
 -   an **evaluation document** detailing the intent of your application,

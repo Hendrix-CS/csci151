@@ -291,10 +291,10 @@ Make one more alteration to the AnimationDemo project, of your choice.
 
 ## What to Hand In
 
-Create a zip file of your Tip project. Submit the zip file to Moodle. (To
+Create a zip file of your Tip project. Submit the zip file via Teams. (To
 create the zip file, select File -\> Export to Zipfile..)
 
-Create a zip file of your edited AnimationDemo project. Submit the zip file to Moodle.
+Create a zip file of your edited AnimationDemo project. Submit the zip via Teams.
 
 ## Grading
 

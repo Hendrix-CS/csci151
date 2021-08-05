@@ -593,7 +593,7 @@ boring getter/setter methods.
 
 ## What to Hand In
 
-For your final submission, you should turn in a `.zip` file containing:
+For your final submission, you should turn in a `.zip` file via Teams containing:
 
 -   All the `.java` files necessary to run your lab. **Please
     include** even the provided starter code, even if you did not change

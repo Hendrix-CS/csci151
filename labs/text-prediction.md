@@ -96,6 +96,10 @@ Implement a better version of `remove`, which actually deletes any
 unneeded `Trie` nodes. The stack of nodes returned by `find` will be
 helpful in this task.
 
+## What to Hand In
+
+Submit your `Trie.java` implementation via Teams.
+
 ## Grading
 
 * To earn a 4, complete Step 1

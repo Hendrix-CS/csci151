@@ -326,8 +326,7 @@ Run the GUI to interact with your code.
 ## What to Hand In
 
 Submit your `Maze.java`, `Puzzle.java`, `Direction.java` and `Move.java`
-implementations, along with any additional files you created for your
-implementations.
+implementations via Teams, along with any additional files you created for your implementations.
 
 ## Grading
 

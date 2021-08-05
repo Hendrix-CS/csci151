@@ -40,7 +40,7 @@ piece of Java you might need.
 
 ## What to Hand In
 
-Submit a zip file containing your whole project on Moodle, and an
+Submit a zip file containing your whole project via Teams, and an
 evaluation document detailing the intent of your application, any unique
 and interesting features in your application, and any joys or struggles
 you encountered in creating your application.

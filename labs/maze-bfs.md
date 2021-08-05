@@ -176,7 +176,7 @@ either strategy have any clear strengths or weaknesses?
 ## What to Hand In
 
 Submit your ListQueue.java and
-ArrayQueue.java implementations, along with a document for your
+ArrayQueue.java implementations via Teams, along with a document for your
 evaluation in Step 3.
 
 ## Grading

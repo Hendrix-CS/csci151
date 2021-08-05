@@ -263,7 +263,7 @@ You can choose either implementation for each data type.
 
 Submit your `Maze.java`, `Puzzle.java`, `ArrayStack.java`, `ListNode.java`, and
 `ListStack.java`
-implementations, along with your evaluation document and any additional files you created for your
+implementations via Teams, along with your evaluation document and any additional files you created for your
 implementations.
 
 ## Grading
