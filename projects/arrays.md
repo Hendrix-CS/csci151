@@ -72,9 +72,8 @@ last counter. Here is what part of an imaginary run of your program
 **Water Jugs.** Reimplement the [Water Jug game from CSCI
 150](http://hendrix-cs.github.io/csci150/labs/waterjug.html) in Java.
 
-**Tic-Tac-Toe or Connect 4.** Implement a classic grid-based two-player
-game such as Tic-Tac-Toe (perhaps on `n x n` boards instead of only
-`3 x 3`) or Connect 4.
+**Connect 4.** Implement a classic grid-based two-player
+game such as Connect 4.
 
 **Game of Life or other cellular automaton.** Implement the classic
 [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life),
