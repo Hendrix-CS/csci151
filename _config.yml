@@ -73,12 +73,12 @@ instructors:
 
 offerings:
   - name: LECTURE 01
-    loc: MCAcxiom 119
+    loc: MCReynolds 317
     time: MWF 8:10am - 9:00am
     instructor: goadrich
   - name: LAB 01
     loc: Snoddy Lab / Microsoft Teams
-    time: T 1:35pm - 4:25pm
+    time: T 1:10pm - 4:00pm
     instructor: goadrich
 
 resources:
