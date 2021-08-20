@@ -81,17 +81,9 @@ When we write code together in class, it will be posted here!
 <hr>
 # Coursework
 
-Each student has **four late days** to spend throughout the semester as they wish.
-Simply inform the instructor any time *prior* to the due date for an assignment
-that you wish to use a late day; you may then turn in the assignment up to 24
-hours late. Multiple late days may be used on the same assignment. There are no
-partial late days; turning in an assignment 2 hours late or 20 hours late will
-both use 1 late day. Note that late days are intended to cover both normal
-circumstances (you simply want more time to work on the assignment) and
-exceptional circumstances (you get sick, travel for a game or family
-obligation, *etc.*). After you have used up your late days, late assignments
-will receive at most half credit. All work must be completed the day before final grades are due.
-**You must be in communication with me when assignments are late.**
+Each student has **four late days** to spend throughout the semester as they wish. Simply inform the instructor any time *prior* to the due date for an assignment that you wish to use a late day; you may then turn in the assignment up to 24 hours late. Multiple late days may be used on the same assignment. There are no partial late days; turning in an assignment 2 hours late or 20 hours late will both use 1 late day. After you have used up your late days, late assignments will receive at most half credit. All work must be completed the day before final grades are due. **You must be in communication with me when assignments are late.**
+
+{% include note.html content="Note that late days are intended to cover both normal circumstances (you simply want more time to work on the assignment) and exceptional circumstances (you get sick, travel for a game or family obligation, *etc.*)." %}
 
 ## <a name="labs">Labs</a>: 240 points
 
@@ -114,10 +106,8 @@ Much of your experience with programming in this course will be through weekly l
 
 On these labs, you will work with a partner on the lab assignments. Their name must be listed on any code you hand in as joint work. A partnership should only turn in a **single copy** of the assignment. If students working as partners wish to turn in a lab late, all students must use a late day.
 
-**Lab attendance is required**. Labs take place on Microsoft Teams. I will be
-stationed in the Snoddy Computer Lab in the library for our lab times. If you
-need to use computing resources on campus for these labs, please contact me
-so we can find accomodations.
+{% include important.html content="Lab attendance is required. We will be
+stationed in the Snoddy Computer Lab in the library for our lab times." %}
 
 ## <a name="hw">Homework</a>: 100 points
 
@@ -137,6 +127,8 @@ so we can find accomodations.
 There will often be short homework assignments to be completed over the weekend, assigned on Friday and due the next week. These will be practice to
 help you solidify the concepts from class before labs and exams.
 
+{% include warning.html content="You must work individually on the homeworks. You may discuss concepts and ideas with your classmates, but the code you turn in must be your own." %}
+
 ## <a name="projects">Projects</a>: 400 points
 
 | #  | Name | Points |
@@ -147,7 +139,10 @@ help you solidify the concepts from class before labs and exams.
 
 You will have three projects in this course, one about every five weeks. These projects will cover concepts we have discussed in class and in labs, and will be due approximately two weeks after they are assigned.
 
-**You must work individually on the first two projects.** You may discuss concepts and ideas with your classmates, but the code you turn in must be your own. You will be graded not only on correctness, but also technique, documentation and evaluation of your solution. Further details on the grading standards and handin instructions for each project will be given when they are assigned.
+You will be graded not only on correctness, but also technique, documentation and evaluation of your solution. Further details on the grading standards and handin instructions for each project will be given when they are assigned.
+
+{% include warning.html content="You must work individually on the first two projects. You may discuss concepts and ideas with your classmates, but the code you turn in must be your own." %}
+
 
 ## <a name="exams">Exams</a>: 200 points
 
@@ -159,7 +154,7 @@ They will consist of short answer questions along with writing and debugging cod
 
 There is no final exam; you will complete a final project instead, as described above under Projects.
 
-If you earn less than 80 points on an exam, you may earn back up to an 80 by scheduling meetings with me to revisit missed questions and demonstrate your understanding on new and similar questions.
+{% include tip.html content="If you earn less than 80 points on an exam, you may earn back up to an 80 by scheduling meetings with me to revisit missed questions and demonstrate your understanding on new and similar questions." %}
 
 ## <a name="checkins">Checkins</a>: 60 points
 
