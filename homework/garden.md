@@ -29,7 +29,7 @@ You will need three additional methods:
 
 * `public void water()` which will check each plot, and if it is a `SEED`, set it equal to a `PLANT`.
 
-* `public void harvest(int plotNum)` which tries to harvest a plant at the specified garden plot. If you find a `PLANT` there,
+* `public String harvest(int plotNum)` which tries to harvest a plant at the specified garden plot. If you find a `PLANT` there,
 set the space to `EMPTY` and return the type of plant grown in this garden.
 If there is a `SEED`,
 return the string `"Needs Water!"`. Otherwise return `"Nothing but Dirt..."`.
