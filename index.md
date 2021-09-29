@@ -121,6 +121,7 @@ stationed in the Snoddy Computer Lab in the library for our lab times." %}
 |2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) | 10 |
 |3 | [Making Toast]({{site.baseurl}}/homework/toaster.html) | 10 |
 |4 | [Cherished Memories]({{site.baseurl}}/homework/memory.html) | 10 |
+|4.5 | [Clicking Buttons]({{site.baseurl}}/homework/buttons.html) | 10 |
 |5 | [Heaps]({{site.baseurl}}/homework/heaps.html) | 10 |
 |6 | [Sorting]({{site.baseurl}}/homework/sorting.html) | 10 |
 |7 | [Asymptotic Analysis]({{site.baseurl}}/homework/bigo.html) | 10 |
