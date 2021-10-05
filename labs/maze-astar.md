@@ -107,7 +107,7 @@ Next, remove the last element, and save its value to be returned at the
 end of the method. The swap could cause a violation of the Heap property
 that all parents must be smaller than their children. If the element is
 less than only one of its children, swap these two elements. If the
-element is less than both of its children, swap the smaller of the two
+element is greater than both of its children, swap the smaller of the two
 children with the element, so that we don't break the Heap property any
 further. Finally, when a swap was made, repeatedly check the subsequent
 descendants to guarantee that the Heap property is always preserved.
