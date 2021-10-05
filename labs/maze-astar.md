@@ -72,7 +72,7 @@ useful for both adding and removing elements from a heap. Implement the
 
 The next method to implement is `element`. This should return the **root**
 element, which will always be stored in the first position of the
-ArrayList.
+ArrayList. Make sure to do the EmptyCheck to throw an exception if there are no elements in the heap.
 
 Then, you should implement the `add` method. New elements are added to
 the end of the ArrayList, and then filtered up repeatedly when the
