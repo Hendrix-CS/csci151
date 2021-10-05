@@ -94,7 +94,7 @@ the index of the smallest child is returned. If no children are present,
 or the parent has the lowest value among the three, the parent's own
 index is returned.
 
-Once this method is implemented the five `testLowestInFamily` tests
+Once this method is implemented the six `testLowestInFamily` tests
 should all pass.
 
 ## Step 6 - `remove`
