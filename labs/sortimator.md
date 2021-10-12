@@ -143,7 +143,7 @@ So, our sortAlgorithm will call the `mergeSortHelper` method with
 
 To complete this method, we need a `merge(ArrayList<E> array, int start, int end)` method.
 The most straightforward implementation
-involves the use of either `ArrayQueue` or `ListQueue` from [Lab 5](maze-bfs.html):
+involves the use the [Deque](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Deque.html) a double-ended queue which can be found in the `java.util` package:
 
 -   Add each element of the first half of the subarray into a queue.
 -   Add each element of the second half of the subarray into a different
