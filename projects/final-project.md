@@ -4,7 +4,7 @@ type: Project
 num: 3
 worktitle: Final Project
 designdue: Monday, Nov 15
-finaldue: Monday, Dec 7th, 2:00-5:00pm
+finaldue: Friday, Dec 10th, 2:00-5:00pm
 ---
 
 ## Description
