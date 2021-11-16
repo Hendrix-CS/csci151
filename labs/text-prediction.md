@@ -47,25 +47,11 @@ nodes have `isMember` set to `true`. This can be done recursively:
 To iterate over all children, you can use a foreach loop, which depends
 on the `iterator()` method from `SortedArrayMap`.
 
-## Step 2: getChildWith and find
+## Step 2: find
 
-Implement `getChildWith` and `find`.
+Implement `find`, a helper method you may find useful later. It follows an entire `String` through the trie, taking one step down per character. It returns a stack of `Trie` nodes that trace the path that corresponds to the prefix, pushing the `Trie`s onto the stack as it descends. If the prefix is not present, the stack will contain `Trie`s for all of the leading characters from the prefix that are present. The stack is implemented using an object of the [`ArrayDeque`](https://docs.oracle.com/javase/9/docs/api/java/util/ArrayDeque.html) class. It does not matter whether `isMember` is set or not.
 
--   `getChildWith` is *not* recursive. It just gets the child
-    corresponding to a given letter one level down, or returns
-    `Optional.empty()` if no child corresponds to that letter. This
-    method is just for convenience when implementing the `find` method.
-
--   `find` is another helper method you may find useful later. It
-    follows an entire `String` through the trie, taking one step down
-    per character. It returns a stack of `Trie` nodes that trace the
-    path that corresponds to the prefix, pushing the `Trie`s onto
-    the stack as it descends. If the prefix is not present,
-    the stack will contain `Trie`s for all of the leading
-    characters from the prefix
-    that are present. The stack is implemented using an object of the
-    [`ArrayDeque`](https://docs.oracle.com/javase/9/docs/api/java/util/ArrayDeque.html)
-    class. It does not matter whether `isMember` is set or not.
+You might find the method `getChildWith` helpful as you write this method.
 
 ## Step 3: contains, add, remove
 
