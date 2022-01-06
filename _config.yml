@@ -26,7 +26,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 number: CSCI 151
 title: Data Structures
-semester: Spring 2021
+semester: Spring 2022
 
 navigation:
   - title: Overview
@@ -59,12 +59,6 @@ navigation:
     url: '#commitments'
 
 instructors:
-  - id: yorgey
-    name: Dr. Brent Yorgey
-    email: yorgey@hendrix.edu
-    web: http://ozark.hendrix.edu/~yorgey
-    phone: (501) 450-1377
-    officehours: https://byorgey.youcanbook.me
   - id: goadrich
     name: Dr. Mark Goadrich
     email: goadrich@hendrix.edu
@@ -73,7 +67,7 @@ instructors:
 
 offerings:
   - name: LECTURE 01
-    loc: MCReynolds 317
+    loc: MCReynolds 315
     time: MWF 8:10am - 9:00am
     instructor: goadrich
   - name: LAB 01
@@ -82,26 +76,20 @@ offerings:
     instructor: goadrich
 
 resources:
-  - name: Java
+  - name: Java 17
     image: assets/images/java-logo.png
-    url: https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
-  - name: IntelliJ
+    url: https://www.oracle.com/java/technologies/downloads/#java17
+  - name: IntelliJ IDEA Community
     image: assets/images/IntelliJ_IDEA_Logo.png
     url: https://www.jetbrains.com/idea/
-  - name: JavaFX
+  - name: JavaFX 17
     image: assets/images/javafx.png
     url: https://openjfx.io/
-  - name: SceneBuilder
+  - name: SceneBuilder 17
     image: assets/images/SceneBuilderLogo.png
     url: https://gluonhq.com/products/scene-builder/
 
 extra-resources:
-#  - name: Java4Python
-#    image: assets/images/runestone_logo.png
-#    url: https://runestone.academy/runestone/books/published/java4python/index.html
-#  - name: CodingBat Java
-#    image: assets/images/codingbat.jpg
-#    url: https://codingbat.com/
   - name: CS2Mulch
     image: assets/images/cs2mulch.png
     url: https://mgoadric.github.io/cs2mulch/
