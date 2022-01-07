@@ -250,7 +250,7 @@ create a random maze, add an `Explorer` and goal,
 and then click the <kbd>Solve</kbd> button, you should see something
 similar to the following image.
 
-![](../assets/images/mazegui7.png){: .img-fluid}
+![]({{site.baseurl}}/assets/images/mazegui7.png){: .img-fluid}
 
 ## Step 5 - Evaluation
 

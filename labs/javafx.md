@@ -232,74 +232,32 @@ Now, edit the program and interface as follows:
 3.  Read about [spacing and padding](https://www.vojtechruzicka.com/javafx-layouts-basic/) and
     use them to improve the appearance of your GUI.
 
-## Step 7 - Animation
+## Step 7 - Button Pressing
 
-1.  Download the [skeleton](../code/animationdemo.zip) for the next two steps.
-2.  Unpack the code into a new IntelliJ Java project.
+Create a new project using JavaFX to make a program that records how many times a button has been clicked.
 
-In this demo, you will find a `Ball` class, the Model portion of our application,
-that controls a bouncing ball in a javafx `Pane`.
-Our FXML view consists of a `BorderPane` with a `Pane` in the center.
-The `DemoController` class
-coordinates between the events collected in the `Pane` view and the `Ball` model.
+Your project should include at a minimum a `BorderPane` with a `Button` and a `Label`, created through `SceneBuilder`.
 
-Run the GUI to see 5 balls drawn and move on the pane with random directions and
-speeds. When you select a ball, it will change color to red and stop moving. You can
-drag the ball to a new location. When you drop the ball, it will turn blue and
-start moving again.
+The controller should link up these through fields, and include an additional integer field to track the number of times the button has been pressed. This value should not be parsed and updated purely by using the GUI `Label`.
 
-## Step 8 - Animation Extensions
+You should also attach a method to the `Button` which increments the counter field, and then writes this number to the label on the screen.
 
-Now you will make additions to this demo, to solidify your understanding from
-the earlier steps and learn the particulars of animation.
+Be sure to add spacing and padding to have a visually uncluttered and pleasing GUI layout.
 
-### Step 8.1
-
-Add two Buttons to the GUI that will Start and Stop the AnimationTimer. You will
-need to add two functions to the DemoController with @FXML annotations, and map
-the buttons to these functions. These functions should call `clock.start()` and
-`clock.stop()` respectively.
-
-### Step 8.2
-
-Allow the `Pane` in DemoController to accept MousePressed events. When the
-pane is pressed, call the `makeCircle` method. You will notice that new balls
-appear! However, they also appear when you try to pick up and move the
-other balls. To prevent this, both of the MousePressed callback methods will need
-to consume the events they handle, through calling `event.consume()`.
-
-### Step 8.3
-
-Augment the Movement private class to slowly grow and shrink the
-balls. First, you should add a `setRadius(double radius)` method to the `Ball`
-class that sets the radius. Then, add in two fields to the private `Movement` class,
-one for the current `radius`, initialized at 25, and one called `dr` for the rate of change,
-initialized at 0.1. In the for loop, set the radius of each `Ball` b to the current
-radius. Following the for loop, add the following lines:
-
-<!-- -->
-
-
-    radius += dr;
-    if (radius > 40 || radius < 25) {
-        dr *= -1;
-    }
-
-### Step 8.4
-
-Make one more alteration to the AnimationDemo project, of your choice.
+Use the code above as an example for creating this project. The goal of this step is to have you start from scratch and use the information above to test out your
+new JavaFX skills.
 
 ## What to Hand In
 
 Create a zip file of your Tip project. Submit the zip file via Teams. (To
 create the zip file, select File -\> Export to Zipfile..)
 
-Create a zip file of your edited AnimationDemo project. Submit the zip via Teams.
+Create a zip file of your Button project. Submit the zip via Teams.
 
 ## Grading
 
 * To earn a 7, complete Steps 1-4
 * To earn a 10, do the above and Step 5
-* To earn a 14, do the above and Step 6
+* To earn a 12, do the above and Step 6
 * To earn a 16, do the above and Step 7
 * To earn a 20, do the above and Step 8

@@ -36,6 +36,7 @@ Upon completing this course, our goal is for you to be able to:
 
 When we write code together in class, it will be posted here!
 
+<!--
 | Date | Topic | Code |
 |:----:|------||-----||
 | F 27 Aug | Instantiable Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/JackInTheBox.java) |
@@ -43,7 +44,7 @@ When we write code together in class, it will be posted here!
 | W 1 Sep | 2D Arrays User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut.java) [Main.java]({{site.baseurl}}/inclass/Main.java) |
 | F 3 Sep | Enums | [Currency.java]({{site.baseurl}}/inclass/Currency.java) [ChangeMaker.java]({{site.baseurl}}/inclass/ChangeMaker.java) |
 
-<!--
+
 | M 1 Feb | Mazes | [Maze Project Setup Discussion]({{site.baseurl}}/inclass/MazeStructure.pdf) |
 | W 3 Feb | Stacks| [Array Stacks]({{site.baseurl}}/inclass/StackIntro.pdf) |
 | M 8 Feb | | [List Stacks]({{site.baseurl}}/inclass/ListStack.pdf) |
@@ -97,10 +98,10 @@ Each student has **four late days** to spend throughout the semester as they wis
 |3 | [Mazes: Enums and 2D Arrays]({{site.baseurl}}/labs/maze-enums.html) |
 |4 | [Mazes: Depth First Search]({{site.baseurl}}/labs/maze-dfs.html) |
 |5 | [Mazes: Breadth First Search]({{site.baseurl}}/labs/maze-bfs.html) |
-|6 | [JavaFX and GUIs]({{site.baseurl}}/labs/javafx.html) |
+|6 | [JavaFX GUI]({{site.baseurl}}/labs/javafx.html) |
 |7 | [Mazes: A* Search]({{site.baseurl}}/labs/maze-astar.html) |
 |8 | [Sortimator]({{site.baseurl}}/labs/sortimator.html) |
-|9 | [Text Adventure]({{site.baseurl}}/labs/adventure.html) |
+|9 | [JavaFX Animation]({{site.baseurl}}/labs/animation.html) |
 |10 | [Binary Search Trees]({{site.baseurl}}/labs/binarysearchtrees.html) |
 |11 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html) |
 |12 | [Text Prediction]({{site.baseurl}}/labs/text-prediction.html) |
@@ -116,12 +117,11 @@ stationed in the Snoddy Computer Lab in the library for our lab times." %}
 
 | #  | Name | Points |
 |:--:|-----||:--------:|
-|0 | [Survey](https://forms.gle/3f36yr8WHxBShjHN7) | 10 |
+|0 | [Survey](https://forms.gle/QcKEsPYPYAfnsiAQ8) | 10 |
 |1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) | 10 |
 |2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) | 10 |
 |3 | [Making Toast]({{site.baseurl}}/homework/toaster.html) | 10 |
 |4 | [Cherished Memories]({{site.baseurl}}/homework/memory.html) | 10 |
-|4.5 | [Clicking Buttons]({{site.baseurl}}/homework/buttons.html) | 10 |
 |5 | [Heaps]({{site.baseurl}}/homework/heaps.html) | 10 |
 |6 | [Sorting]({{site.baseurl}}/homework/sorting.html) | 10 |
 |7 | [Asymptotic Analysis]({{site.baseurl}}/homework/bigo.html) | 10 |
@@ -138,14 +138,15 @@ help you solidify the concepts from class before labs and exams.
 | #  | Name | Points |
 |:--:|-----||:------:|
 |1 | [Java and Arrays]({{site.baseurl}}/projects/arrays.html)  | 50  |
-|2 | [GUI and Animation]({{site.baseurl}}/projects/gui-animation.html) | 100 |
-|3 | [Final Project]({{site.baseurl}}/projects/final-project.html) | 250 |
+|2 | [GUI]({{site.baseurl}}/projects/gui.html) | 75 |
+|3 | [Animation]({{site.baseurl}}/projects/animation.html) | 75 |
+|4 | [Final Project]({{site.baseurl}}/projects/final-project.html) | 200 |
 
-You will have three projects in this course, one about every five weeks. These projects will cover concepts we have discussed in class and in labs, and will be due approximately two weeks after they are assigned.
+You will have four projects in this course, one about every four weeks. These projects will cover concepts we have discussed in class and in labs, and will be due approximately two weeks after they are assigned.
 
 You will be graded not only on correctness, but also technique, documentation and evaluation of your solution. Further details on the grading standards and handin instructions for each project will be given when they are assigned.
 
-{% include warning.html content="You must work individually on the first two projects. You may discuss concepts and ideas with your classmates, but the code you turn in must be your own." %}
+{% include warning.html content="You must work individually on the first three projects. You may discuss concepts and ideas with your classmates, but the code you turn in must be your own." %}
 
 
 ## <a name="exams">Exams</a>: 200 points
@@ -167,7 +168,7 @@ make an office hours appointment and check in with me about the course. Each che
 meeting will count for 15 points.
 This will be conversation and feedback about your current progress and understanding.
 Ideally, these should be scheduled during the weeks shown
-on the [course calendar](https://prod.teamgantt.com/gantt/schedule/?ids=2650881&public_keys=zduoIG6gLuL1&zoom=d100&font_size=12&estimated_hours=0&assigned_resources=0&percent_complete=0&documents=0&comments=0&col_width=355&hide_header_tabs=0&menu_view=1&resource_filter=1&name_in_bar=0&name_next_to_bar=0&resource_names=1&resource_hours=1#user=&company=&custom=&date_filter=&hide_completed=false&color_filter=).
+on the [course calendar](https://prod.teamgantt.com/gantt/schedule/?ids=2925828&public_keys=yZRDqNRImyPE&zoom=d100&font_size=12&estimated_hours=0&assigned_resources=0&percent_complete=0&documents=0&comments=0&col_width=355&hide_header_tabs=0&menu_view=1&resource_filter=1&name_in_bar=0&name_next_to_bar=0&resource_names=1&resource_hours=1#user=&company=&custom=&date_filter=&hide_completed=false&color_filter=).
 
 ## <a name="scale">Grading Scale</a>
 

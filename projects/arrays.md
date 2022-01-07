@@ -16,13 +16,12 @@ your own.
 
 -   Eclipse or IntelliJ
 -   **This project must be completed independently, without a partner.**
--   [Java 11
-    API](https://docs.oracle.com/en/java/javase/11/docs/api/index.html)
+-   [Java 17
+    API](https://docs.oracle.com/en/java/javase/17/docs/api/index.html)
 
 ## Description
 
-Write a Java application. Your program can do anything you like, subject
-to the following requirements:
+Write a Java application. Your program can do anything you like, **except TicTacToe**, subject to the following requirements:
 
 -   You must use Java, with input and output in a `Main` class.
 -   You must use an array somewhere in your program.
@@ -31,8 +30,8 @@ to the following requirements:
     not be complex, but it should be something that someone would
     conceivably want to use.
 
-Feel free to use the [Java 11
-API](https://docs.oracle.com/en/java/javase/11/docs/api/index.html) as a
+Feel free to use the [Java 17
+API](https://docs.oracle.com/en/java/javase/17/docs/api/index.html) as a
 reference for any piece of Java you might need; you are not restricted
 to only things we have covered in class. You may incorporate any code
 you wish from previous projects, but the majority of your project should
