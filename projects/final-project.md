@@ -3,8 +3,8 @@ layout: work
 type: Project
 num: 3
 worktitle: Final Project
-designdue: Monday, Nov 15
-finaldue: Friday, Dec 10th, 2:00-5:00pm
+designdue: Tuesday, April 19
+finaldue: Friday, May 6th, 2:00-5:00pm
 ---
 
 ## Description
@@ -92,14 +92,14 @@ period for this course is {{page.finaldue}}.
 
 |Criteria|Score|
 ||----|:---:|
-| Design document that includes an overview, a description, a sketch, and a timeline | **50** |
+| Design document that includes an overview, a description, a sketch, and a timeline | **30** |
 | Incorporates a GUI built with JavaFX and SceneBuilder  |  **20**  |   
 | Incorporates numerous classes and enums in a sensible organization, roughly at the level of the Maze or TicTacToe labs.  | **25**   |
-| The GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.  | **25**   |
+| The GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.  | **20**   |
 | Incorporates at least one data structure discussed in the course beyond a list.  | **20**  |    
-| Works as intended  |  **30**      |
+| Works as intended  |  **20**      |
 | Does something interesting that holds the attention of the user.    |      **20**      |
-| Evaluation document adequately describes the project   | **20**      |
-| Exhibits creativity and has some interesting features    | **20**    |  
-| Oral presentation clearly explains the project, its rationale, and demonstrates its capabilities.    |  **20**   |   
-| **Total**   |  **250** |
+| Evaluation document adequately describes the project   | **15**      |
+| Exhibits creativity and has some interesting features    | **15**    |  
+| Oral presentation clearly explains the project, its rationale, and demonstrates its capabilities.    |  **15**   |   
+| **Total**   |  **200** |
