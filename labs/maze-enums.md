@@ -27,7 +27,7 @@ Enums, and test them with JUnit.
     -   Press the + sign to add a library. (Select "Java".)
     -   Go to the "lib" directory within JavaFX.
     -   Select all of the \*.jar files within that directory. Click OK.
-    -   Rename the library **javafx11** instead of javafx-sdk. Then Click
+    -   Rename the library **javafx17** instead of javafx-sdk. Then Click
         Apply and OK.
 5.  To set up JUnit:
     -   Select Project Structure from the File menu.

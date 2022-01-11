@@ -82,12 +82,11 @@ When we write code together in class, it will be posted here!
 <hr>
 # Coursework
 
-Each student has **four late days** to spend throughout the semester as they wish. Simply inform the instructor any time *prior* to the due date for an assignment that you wish to use a late day; you may then turn in the assignment up to 24 hours late. Multiple late days may be used on the same assignment. There are no partial late days; turning in an assignment 2 hours late or 20 hours late will both use 1 late day. After you have used up your late days, late assignments will receive at most half credit. All work must be completed the day before final grades are due.
+Assignments have due dates to help you make progress in the course and solidify your knowledge before moving on to something new. Your live and schedule may not perfectly coincide with the due dates I have chosen. Therefore, each student starts the course with **four late days** to spend throughout the semester as they wish. Simply inform me any time *prior* to the due date for an assignment that you wish to use a late day and the reason you need an extension; you may then turn in the assignment up to 24 hours late. Multiple late days may be used on the same assignment. There are no partial late days; turning in an assignment 2 hours late or 20 hours late will both use 1 late day. After you have used up your four late days, *you must schedule a meeting with me to earn more late days*, otherwise late assignments will receive at most half credit. All work must be completed the day before final grades are due.
 
 {% include note.html content="Late days are intended to cover both normal circumstances (you simply want more time to work on the assignment) and exceptional circumstances (you get sick, travel for a game or family obligation, *etc.*)." %}
 
-{% include important.html content="You must be in communication with me when assignments are late." %}
-
+{% include important.html content="You must be in communication with me anytime an assignment is late." %}
 
 ## <a name="labs">Labs</a>: 240 points
 
