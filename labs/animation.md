@@ -1,7 +1,7 @@
 ---
 layout: work
 type: Lab
-num: 6
+num: 9
 worktitle: JavaFX and Animation
 ---
 
@@ -79,7 +79,7 @@ radius. Following the for loop, add the following lines:
 
 Make one more alteration to the AnimationDemo project, of your choice.
 
-### Step 3
+### Step 3 - Rocket Launch?
 
 SOMETHING MORE!!!
 
