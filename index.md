@@ -36,9 +36,12 @@ Upon completing this course, our goal is for you to be able to:
 
 When we write code together in class, it will be posted here!
 
-<!--
+
 | Date | Topic | Code |
 |:----:|------||-----||
+| F 21 Jan | Java Translation | [Testing.java]({{site.baseurl}}/code/Testing.java) |
+
+<!--
 | F 27 Aug | Instantiable Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/JackInTheBox.java) |
 | M 30 Aug | Interfaces | [HolidayLight.java]({{site.baseurl}}/inclass/HolidayLight.java) [ConditionalLight.java]({{site.baseurl}}/inclass/ConditionalLight.java) [ArrayLight.java]({{site.baseurl}}/inclass/ArrayLight.java) |
 | W 1 Sep | 2D Arrays User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut.java) [Main.java]({{site.baseurl}}/inclass/Main.java) |
