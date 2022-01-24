@@ -40,6 +40,7 @@ When we write code together in class, it will be posted here!
 | Date | Topic | Code |
 |:----:|------||-----||
 | F 21 Jan | Java Translation | [Testing.java]({{site.baseurl}}/code/Testing.java) |
+| M 24 Jan |  | [Testing2.java]({{site.baseurl}}/inclass/Testing2.java) |
 
 <!--
 | F 27 Aug | Instantiable Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/JackInTheBox.java) |
