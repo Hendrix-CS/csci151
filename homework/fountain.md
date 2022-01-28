@@ -68,7 +68,7 @@ public class Main {
     f.add(-90);
     f.look();
     f.add(-200);
-    f.look()
+    f.look();
  }
 }
 ```
