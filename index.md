@@ -42,7 +42,8 @@ When we write code together in class, it will be posted here!
 | F 21 Jan | Java Translation | [Testing.java]({{site.baseurl}}/code/Testing.java) |
 | M 24 Jan |  | [Testing2.java]({{site.baseurl}}/inclass/Testing2.java) |
 | W 26 Jan | Instantiable Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/Jack/JackInTheBox.java)  [Main.java]({{site.baseurl}}/inclass/Jack/Main.java) |
-| F 28 Jan |  | [Fountains Exercise]({{site.baseurl}}/homework/fountain.html) |
+| F 28 Jan |  | [Fountains Exercise]({{site.baseurl}}/homework/fountain.html)
+[Fountain.java]({{site.baseurl}}/inclass/Fountain.java) |
 
 <!--
 | F 27 Aug | Instantiable Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/JackInTheBox.java) |

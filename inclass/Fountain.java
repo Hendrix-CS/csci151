@@ -15,8 +15,8 @@ public class Fountain {
     // Methods
     public void add(int liters) {
         amount += liters;
-        if (amount > 200) {
-            amount = 200;
+        if (amount > capacity) {
+            amount = capacity;
         } else if (amount <= 0) {
             amount = 0;
             running = false;
