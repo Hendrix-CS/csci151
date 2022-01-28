@@ -25,7 +25,7 @@ You will need four additional methods:
 
 * `public String toString()` which returns a String representation of the object, such as `"strawberry: 0"`.
 
-Also, include a `public static void main(String[] args)` method that fully tests and demonstrates that your class is working.
+Also, write a `Main` class that includes a `public static void main(String[] args)` method that fully tests and demonstrates that your class is working.
 
 You may use IntelliJ to test your code. Turn in a copy of your
-`TootsiePop.java` file through Teams by the due date.
+`TootsiePop.java` and `Main.java` files through Teams by the due date.

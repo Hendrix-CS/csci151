@@ -27,7 +27,7 @@ will return the item back to the user.
 * `public String extract()` - this will remove and return a single item from
 the toaster at a time. If there are no items, it will return the string `“NONE”`.
 
-Also, include a `public static void main(String[] args)` method that fully tests and demonstrates that your class is working.
+Also, write a `Main` class that includes a `public static void main(String[] args)` method that fully tests and demonstrates that your class is working.
 
 You may use IntelliJ to test your code. Turn in a copy of your
-`Toaster.java` file through Teams by the due date.
+`Toaster.java` and `Main.java` files through Teams by the due date.

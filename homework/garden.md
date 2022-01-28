@@ -34,7 +34,7 @@ set the space to `EMPTY` and return the type of plant grown in this garden.
 If there is a `SEED`,
 return the string `"Needs Water!"`. Otherwise return `"Nothing but Dirt..."`.
 
-Also, include a `public static void main(String[] args)` method that fully tests and demonstrates that your class is working.
+Also, write a `Main` class that includes a `public static void main(String[] args)` method that fully tests and demonstrates that your class is working.
 
 You may use IntelliJ to test your code. Turn in a copy of your
-`Garden.java` file through Teams by the due date.
+`Garden.java` and `Main.java` files through Teams by the due date.
