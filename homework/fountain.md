@@ -52,23 +52,23 @@ Here is a sample Main class in Java that tests the fountain.
 public class Main {
   public static void main(String[] args) {
     Fountain f = new Fountain(200);
-    f.look();  
+    System.out.println(f.look());  
     f.toggle();
-    f.look();
+    System.out.println(f.look());
     f.add(120);
-    f.look();
+    System.out.println(f.look());
     f.toggle();
-    f.look();
+    System.out.println(f.look());
     f.add(397);
-    f.look();
+    System.out.println(f.look());
     f.toggle();
-    f.look();
+    System.out.println(f.look());
     f.toggle();
-    f.look();
+    System.out.println(f.look());
     f.add(-90);
-    f.look();
+    System.out.println(f.look());
     f.add(-200);
-    f.look();
+    System.out.println(f.look());
  }
 }
 ```
