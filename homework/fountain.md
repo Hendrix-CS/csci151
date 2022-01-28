@@ -15,7 +15,7 @@ this class will have three component variables:
 Fountains start out empty, in the `off` state, with a given capacity.
 For example,
 
-`Fountain fountain = new Fountain(200)`
+`Fountain fountain = new Fountain(200);`
 
 should create a `Fountain` object representing an empty
 fountain which is not running and has a capacity of 200 liters of
