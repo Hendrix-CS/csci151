@@ -44,6 +44,7 @@ When we write code together in class, it will be posted here!
 | W 26 Jan | Instantiable Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/Jack/JackInTheBox.java)  [Main.java]({{site.baseurl}}/inclass/Jack/Main.java) |
 | F 28 Jan |  | [Fountains Exercise]({{site.baseurl}}/homework/fountain.html) [Fountain.java]({{site.baseurl}}/inclass/Fountain.java) |
 | M 31 Jan | Interfaces | [Light.java]({{site.baseurl}}/inclass/Lights/Light.java) [ConditionalLight.java]({{site.baseurl}}/inclass/Lights/ConditionalLight.java) [ArrayLight.java]({{site.baseurl}}/inclass/Lights/ArrayLight.java) [Main.java]({{site.baseurl}}/inclass/Lights/Main.java) |
+| W 2 Feb | 2D Arrays User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut.java) [Main.java]({{site.baseurl}}/inclass/Main.java) |
 
 <!--
 | F 27 Aug | Instantiable Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/JackInTheBox.java) |
