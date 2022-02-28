@@ -253,7 +253,7 @@ Also, create a `module-info.java` file as described in Step 1.6 earlier.
 
 ### Step 2.2 - GUI View
 
-Create a FXML document. In your GUI, your project should include at a minimum a `BorderPane` with a `Button` and a `Label`, created through `SceneBuilder`.
+Create a FXML document. In your GUI, your project should include at a minimum a `BorderPane` with a `Button` and a `Label`, created through `SceneBuilder`. You might need some `HBox` or `VBox` pieces to organize your GUI.
 
 {% include note.html content="Be sure to add spacing and padding to have a visually uncluttered and pleasing GUI layout." %}
 
@@ -281,9 +281,9 @@ Also, create a `module-info.java` file as described in Step 1.6 earlier.
 
 ### Step 3.2 - GUI View
 
-Create a FXML document. In your GUI, use `SceneBuilder` to include at a minimum a `BorderPane` with two `Button`s and a representation of a TootsiePop created with a
+Create a FXML document. In your GUI, use `SceneBuilder` to include at a minimum a `BorderPane` with two `Button`s and a visual representation of a TootsiePop created with a
 [Circle](https://openjfx.io/javadoc/17/javafx.graphics/javafx/scene/shape/Circle.html) and a
-[Rectangle](https://openjfx.io/javadoc/17/javafx.graphics/javafx/scene/shape/Rectangle.html)
+[Rectangle](https://openjfx.io/javadoc/17/javafx.graphics/javafx/scene/shape/Rectangle.html). You might need some `HBox` or `VBox` pieces to organize your GUI, and an `AnchorPane` could be helpful for designing the TootsiePop visuals.
 
 The two `Buttons` should be labeled `New` and `Bite`.
 
@@ -313,7 +313,7 @@ Create a Controller class. The controller should
 * attach an `onNew()` method to one `Button` which create a new `TootsiePop` with a random flavor and a size of 40.
 * attach an `onBite()` method to one `Button` which call bite on your `TootsiePop`.
 
-After each of the three interaction methods, the radius of the circle should be set to be proportional to the number of licks.
+After each of the three interaction methods, you should call a `updateView()` method. In this method, the radius of the `Circle` should be set to be proportional to the number of licks left in your TootsiePop, and the `Circle` should use `setFill` to update its `Color`.
 
 ### Step 3.5 - Testing
 
