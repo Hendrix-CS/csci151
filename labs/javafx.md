@@ -243,7 +243,7 @@ Now, edit the program and interface as follows:
 ## Step 2 - Button Pressing
 
 Now, start from scratch and use the information above to test out your
-new JavaFX skills to create a new project using JavaFX to make a program that records how many times a button has been clicked.
+new JavaFX skills. Create a new project using JavaFX to make a program that records how many times a button has been clicked.
 
 ### Step 2.1 - Application
 
@@ -256,6 +256,11 @@ Also, create a `module-info.java` file as described in Step 1.6 earlier.
 Create a FXML document. In your GUI, your project should include at a minimum a `BorderPane` with a `Button` and a `Label`, created through `SceneBuilder`. You might need some `HBox` or `VBox` pieces to organize your GUI.
 
 {% include note.html content="Be sure to add spacing and padding to have a visually uncluttered and pleasing GUI layout." %}
+
+You GUI could look like this for example:
+
+![](../assets/images/buttonClicker.png){: .img-fluid}
+
 
 ### Step 2.3 - Controller
 
@@ -289,6 +294,10 @@ The two `Buttons` should be labeled `New` and `Bite`.
 
 {% include note.html content="Be sure to add spacing and padding to have a visually uncluttered and pleasing GUI layout." %}
 
+You GUI could look like this for example:
+
+![](../assets/images/tootsiepop.png){: .img-fluid}
+
 ### Step 3.3 - Flavor Enum
 
 Create a `Flavor` Enum. You should define at least five flavors, each of which has a different [Color](https://openjfx.io/javadoc/17/javafx.graphics/javafx/scene/paint/Color.html) accessible through a `getColor()` method.
@@ -312,8 +321,7 @@ Create a Controller class. The controller should
 * attach an `onTap()` method to the `Circle` which call lick on your `TootsiePop`.
 * attach an `onNew()` method to one `Button` which create a new `TootsiePop` with a random flavor and a size of 40.
 * attach an `onBite()` method to one `Button` which call bite on your `TootsiePop`.
-
-After each of the three interaction methods, you should call a `updateView()` method. In this method, the radius of the `Circle` should be set to be proportional to the number of licks left in your TootsiePop, and the `Circle` should use `setFill` to update its `Color`.
+* write an `updateView()` method. In this method, the radius of the `Circle` should be set to be proportional to the number of licks left in your TootsiePop, and the `Circle` should use `setFill` to update its `Color`. You should call this method as the last command in each of the three previous interaction methods.
 
 ### Step 3.5 - Testing
 
