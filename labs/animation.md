@@ -98,7 +98,7 @@ Blast Off is clicked, and go back to the ground immediately when Launch is click
 Your job is to replace this with a slow animation, altering and adapting the code
 from the animation demonstration above. Below is a rough guide, it is vague on purpose, I would like you to explore and work with your partner to devise a good solution to this step.
 
-I recommend you start by deleting the if/else in the beginning of `update` in `RocketView`. Copy in the `Movement` class, and start slicing it up. It will be helpful to store a speed for the rocket, and a current Y value for the rocket, so you can update these variables in the `handle` loop. Be sure to make the buttons inactive while the rocket is moving.
+I recommend you start by deleting the if/else in the beginning of `update` in `RocketView`. Copy in the `Movement` class to the controller, and start slicing it up. It will be helpful to store a speed for the rocket, and a current Y value for the rocket, so you can update these variables in the `handle` loop. Be sure to make the buttons inactive while the rocket is moving.
 
 ## What to Hand In
 
