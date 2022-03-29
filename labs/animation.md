@@ -63,7 +63,7 @@ to consume the events they handle, through calling `event.consume()`.
 ### Step 2.3
 
 Augment the `Movement` private class to slowly grow and shrink the
-balls. First, you should add a `setRadius(double radius)` method to the `Ball`
+balls. First, you should add a `setRadius(double radius)` method to the `BouncyBall`
 class that sets the radius. Then, add in two fields to the private `Movement` class,
 one for the current `radius`, initialized at 25, and one called `dr` for the rate of change,
 initialized at 0.1. In the for loop, set the radius of each `BouncyBall` b to the current radius. Following the for loop, add the following lines:
