@@ -98,13 +98,31 @@ comments carefully.
 It should pass its unit tests and again is testable
 on the GUI, by clicking on nodes you wish to remove.
 
+## Step 5: Rotations
+
+Implement left and right rotations. When correct, they should pass their
+unit tests, and you can also test them in the GUI by clicking on the
+node that you wish to rotate. As with `remove()`, these methods return
+the rebuilt tree nodes.
+
+## Step 6: Evaluation
+
+Create trees with 3, 7, and 15 nodes. First, create a balanced tree.
+Next, erase the tree and create a degenerate tree that is completely
+linear. Then, use rotations to transform each linear tree into a
+balanced tree. Record in your evaluation document the number of
+rotations you needed to perform to balance each tree. Discuss how you
+identified the need for a rotation when examining each tree.
+
 ## What to Hand In
 
-Submit `TreeNode.java` via Teams.
+Submit `TreeNode.java` and your evaluation document via Teams.
 
 ## Grading
 
-* To earn a 8, complete Step 1
-* To earn a 12, do the above and Step 2
-* To earn a 16, do the above and Step 3
-* To earn a 20, do the above and Step 4
+* To earn a 6, complete Step 1
+* To earn a 9, do the above and Step 2
+* To earn a 11, do the above and Step 3
+* To earn a 14, do the above and Step 4
+* To earn a 16, do the above and Step 5
+* To earn a 20, do the above and Step 6
