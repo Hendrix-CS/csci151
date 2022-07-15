@@ -338,7 +338,5 @@ Create a zip file of your TootsiePop project. Submit the zip via Teams.
 
 ## Grading
 
-* To earn a 7, complete Steps 1.1-1.4
-* To earn a 12, do the above and Step 1.5-1.7
-* To earn a 16, do the above and Step 2
-* To earn a 20, do the above and Step 3
+* To **Partially Complete** this lab, complete Steps 1 and 2
+* To **Complete** this lab, do the above and Step 3

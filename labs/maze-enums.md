@@ -331,7 +331,5 @@ implementations via Teams, along with any additional files you created for your 
 ## Grading
 
 
-* To earn a 5, complete Step 1
-* To earn a 10, do the above and Step 2
-* To earn a 15, do the above and Step 3
-* To earn a 20, do the above and Step 4
+* To **Partially Complete** this lab, complete Steps 1, 2, and 3.
+* To **Complete** this lab, do the above and Step 4.

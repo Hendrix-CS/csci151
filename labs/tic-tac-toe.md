@@ -139,8 +139,5 @@ Evaluation Document.
 
 ## Grading
 
-* To earn a 6, complete Step 1
-* To earn a 12, do the above and Step 2 & 3
-* To earn a 15, do the above and Step 4
-* To earn a 17, do the above and Step 5
-* To earn a 20, do the above and Step 6
+* To **Partially Complete** this lab, complete Steps 1, 2, 3, and 4.
+* To **Complete** this lab, do the above and Steps 5 and 6.

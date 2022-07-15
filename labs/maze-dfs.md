@@ -268,8 +268,5 @@ implementations.
 
 ## Grading
 
-* To earn a 6, complete Step 1
-* To earn a 12, do the above and Step 2
-* To earn a 15, do the above and Step 3
-* To earn a 18, do the above and Step 4
-* To earn a 20, do the above and Step 5
+* To **Partially Complete** this lab, complete Steps 1, 2, and 3
+* To **Complete** this lab, do the above and Steps 4 and 5

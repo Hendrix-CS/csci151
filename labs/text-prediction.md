@@ -88,8 +88,5 @@ Submit your `Trie.java` implementation via Teams.
 
 ## Grading
 
-* To earn a 4, complete Step 1
-* To earn a 8, do the above and Step 2
-* To earn a 12, do the above and Step 3
-* To earn a 16, do the above and Step 4
-* To earn a 20, do the above and Step 5
+* To **Partially Complete** this lab, complete Steps 1, 2, and 3.
+* To **Complete** this lab, do the above and complete Steps 4 and 5.

@@ -181,6 +181,5 @@ evaluation in Step 3.
 
 ## Grading
 
-* To earn a 8, complete Step 1
-* To earn a 16, do the above and Step 2
-* To earn a 20, do the above and Step 3
+* To **Partially Complete** this lab, complete Step 1 or Step 2.
+* To **Complete** this lab, complete Steps 1, 2, and 3.

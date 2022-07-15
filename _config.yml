@@ -47,13 +47,13 @@ navigation:
         url: '#labs'
       - page: Homework
         url: '#hw'
-      - page: Projects
+      - page: Skills Projects
         url: '#projects'
-      - page: Exams
-        url: '#exams'
+      - page: Final Project
+        url: '#finalproject'
       - page: Checkins
         url: '#checkins'
-      - page: Scale
+      - page: Grading
         url: '#scale'
   - page: Commitments
     url: '#commitments'

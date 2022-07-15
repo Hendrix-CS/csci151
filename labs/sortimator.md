@@ -25,7 +25,7 @@ their perfomance.
 5.  Click the Scramble and then Sort buttons to watch an animation of
     the GnomeSort algorithm.
 
-## Step 1 - GnomeSort
+## GnomeSort
 
 Take a look at the code inside `GnomeSorter.java`. This is an example
 algorithm demonstrating elements that you should use in your
@@ -54,7 +54,7 @@ be sorted from smallest to largest.
 consider implementing a `swap` method as you code below to make your life
 easier." %}
 
-## Step 2 - InsertionSorter
+## Step 1 - InsertionSorter
 
 Your first sorting algorithm to implement is Insertion Sort. You will be
 incrementally placing elements into a sorted array.
@@ -66,7 +66,7 @@ name of your class should be
 
 `InsertionSorter<E extends Comparable<E>> extends Sorter<E>`
 
-### Step 2.1 - Implementation
+### Step 1.1 - Implementation
 
 InsertionSort can be implemented with the following algorithm.
 
@@ -76,12 +76,12 @@ InsertionSort can be implemented with the following algorithm.
         -   Move one element to the left, so that you keep following the current
             element down.
 
-### Step 2.2 - Testing
+### Step 1.2 - Testing
 
 Run your code through the `SorterTester` suite to make sure your
 implementation has the correct behavior.
 
-## Step 3 - BubbleSorter
+## Step 2 - BubbleSorter
 
 Bubble sort is known for its simplicity of code. Repeated passes through
 the data quickly push the largest elements to the end, and slowly drag
@@ -91,7 +91,7 @@ The name of your class should be
 
 `BubbleSorter<E extends Comparable<E>> extends Sorter<E>`
 
-### Step 3.1 - Implementation
+### Step 2.1 - Implementation
 
 BubbleSort can be implemented with the following algorithm.
 
@@ -104,12 +104,12 @@ since on the first pass, we can guarantee that the highest element
 will be in the right location, and on the second pass, the second-highest
 element will be in the right location, etc.
 
-### Step 3.2 - Testing
+### Step 2.2 - Testing
 
 Run your code through the `SorterTester` suite to make sure your
 implementation has the correct behavior.
 
-## Step 4 - MergeSorter
+## Step 3 - MergeSorter
 
 MergeSort uses recursion to repeatedly split the given list into
 smaller lists, sort the smaller lists, and then combine the sorted
@@ -119,7 +119,7 @@ The name of your class should be
 
 `MergeSorter<E extends Comparable<E>> extends Sorter<E>`
 
-### Step 4.1 - Implementation
+### Step 3.1 - Implementation
 
 First, you will need to create a
 `mergeSortHelper(ArrayList<E> array, int start, int end)` method. In order to
@@ -160,12 +160,12 @@ involves the use the [Deque](https://docs.oracle.com/en/java/javase/11/docs/api/
 `midpoint` in the exact same way as discussed in  `mergeSortHelper` so you can
 place the first half and second half of the subarray into queues." %}
 
-### Step 4.2 - Testing
+### Step 3.2 - Testing
 
 Run your code through the `SorterTester` suite to make sure your
 implementation has the correct behavior.
 
-## Step 5 - QuickSorter
+## Step 4 - QuickSorter
 
 Whereas MergeSort was an easy journey down the recursion but complicated
 merging back up, QuickSort reverse this scheme. Before recursing,
@@ -179,7 +179,7 @@ The name of your class should be
 
 `QuickSorter<E extends Comparable<E>> extends Sorter<E>`
 
-### Step 5.1 - Implementation
+### Step 4.1 - Implementation
 
 Again, we will need a recursive helper function, augmenting with the
 start and end of the subarray. `quickSortHelper(ArrayList<E> array, int start, int end)`
@@ -211,12 +211,12 @@ same parameters as the `quickSortHelper` method.
 {% include note.html content="To speed up your algorithm, avoid making swaps when the two locations
 being swapped are the exact same index." %}
 
-### Step 5.2 - Testing
+### Step 4.2 - Testing
 
 Run your code through the `SorterTester` suite to make sure your
 implementation has the correct behavior.
 
-## Step 6 - Evaluation
+## Step 5 - Evaluation
 
 Describe in your own words the strengths and weaknesses of each of the
 four implementations above. Use the `Sortimator` class to run each
@@ -227,12 +227,9 @@ Updates that each method executes, as found through the GUI.
 
 Submit your `InsertionSorter.java`, `BubbleSorter.java`, `MergeSorter.java` and
 `QuickSorter.java` implementations via Teams, along with a document for your
-evaluation in Step 6.
+evaluation in Step 5.
 
 ## Grading
 
-* To earn a 4, complete Step 1 and 2
-* To earn a 8, do the above and Step 3
-* To earn a 12, do the above and Step 4
-* To earn a 16, do the above and Step 5
-* To earn a 20, do the above and Step 6
+* To **Partially Complete** this lab, complete Steps 1 and 2, and either Step 3 or 4.
+* To **Complete** this lab, complete all 5 Steps.

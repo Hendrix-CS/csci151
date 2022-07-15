@@ -151,11 +151,5 @@ Submit your `TrailEstimator.java` and `MinHeap.java` implementations via Teams, 
 
 ## Grading
 
-* To earn a 4, complete Step 1
-* To earn a 6, do the above and Step 2
-* To earn a 8, do the above and Step 3
-* To earn a 11, do the above and Step 4
-* To earn a 13, do the above and Step 5
-* To earn a 15, do the above and Step 6
-* To earn a 16, do the above and Step 7
-* To earn a 20, do the above and Step 8
+* To **Partially Complete** this lab, complete Steps 1, 2, 3, 4, 5, and 6
+* To **Complete** this lab, do the above and Steps 7 and 8

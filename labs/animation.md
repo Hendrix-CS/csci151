@@ -23,7 +23,7 @@ There will often be a Model, View, Controller, and Application. For our
 animation example we will deconstruct and augment a bouncing ball demonstration,
 then apply these lessons to make a rocket launch and land.
 
-## Step 1 - Animation Demonstration
+## Animation Demonstration
 
 1.  Download the [skeleton](../code/animationdemo.zip) for the next two steps.
 2.  Unpack the code into a new IntelliJ Java project.
@@ -40,19 +40,19 @@ speeds. When you select a ball, it will change color to red and stop moving. You
 drag the ball to a new location. When you drop the ball, it will turn blue and
 start moving again.
 
-## Step 2 - Animation Extensions
+## Step 1 - Animation Extensions
 
 Now you will make additions to this demo, to solidify your understanding
 of GUI applications and learn the particulars of animation.
 
-### Step 2.1
+### Step 1.1
 
 Add two Buttons to the GUI that will Start and Stop the AnimationTimer. You will
 need to add two functions to the DemoController with @FXML annotations, and map
 the buttons to these functions. These functions should call `clock.start()` and
 `clock.stop()` respectively.
 
-### Step 2.2
+### Step 1.2
 
 Allow the `Pane` in DemoController to accept MousePressed events. When the
 pane is pressed, call the `makeBouncyBall` method. You will notice that new balls
@@ -60,7 +60,7 @@ appear! However, they also appear when you try to pick up and move the
 other balls. To prevent this, both of the MousePressed callback methods will need
 to consume the events they handle, through calling `event.consume()`.
 
-### Step 2.3
+### Step 1.3
 
 Augment the `Movement` private class to slowly grow and shrink the
 balls. First, you should add a `setRadius(double radius)` method to the `BouncyBall`
@@ -76,11 +76,11 @@ initialized at 0.1. In the for loop, set the radius of each `BouncyBall` b to th
         dr *= -1;
     }
 
-### Step 2.4
+### Step 1.4
 
 Make one more alteration to the AnimationDemo project, of your choice.
 
-### Step 3 - Rocket Launcher
+### Step 2 - Rocket Launcher
 
 Now, you will add an animation to an existing JavaFX program.
 
@@ -107,6 +107,5 @@ Create a zip file of your edited RocketLauncher project. Submit the zip via Team
 
 ## Grading
 
-* To earn a 5, complete Steps 1
-* To earn a 12, do the above and Step 2
-* To earn a 20, do the above and Step 3
+* To **Partially Complete** this lab, complete Step 1.
+* To **Complete** this lab, do the above and complete Step 2.
