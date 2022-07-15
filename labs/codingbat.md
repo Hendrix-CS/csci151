@@ -85,14 +85,14 @@ will be able to see your progress.
 
 ## Grading
 
-* To earn a 5, complete **five** Warmup-1 problems
-* To earn a 10, do the above and **seven** problems in **each** of
+* To **Partially Complete** this lab, complete **five** Warmup-1 problems
+* and **seven** problems in **each** of
     * [Logic-1](http://codingbat.com/java/Logic-1)
     * [String-1](http://codingbat.com/java/String-1)
     * [Array-1](http://codingbat.com/java/Array-1)
-* To earn a 15, do the above and **five** problems in **each** of
+* To **Complete** this lab, do the above and **five** problems in **each** of
     * [Logic-2](http://codingbat.com/java/Logic-2)
     * [String-2](http://codingbat.com/java/String-2)
     * [Array-2](http://codingbat.com/java/Array-2)
-* To earn a 20, do the above and **three** problems in
+* and **three** problems in
     * [AP-1](http://codingbat.com/java/AP-1)

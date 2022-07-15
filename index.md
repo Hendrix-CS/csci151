@@ -91,13 +91,7 @@ When we write code together in class, it will be posted here!
 <hr>
 # Coursework
 
-Assignments have due dates to help you make progress in the course and solidify your knowledge before moving on to something new. Your live and schedule may not perfectly coincide with the due dates I have chosen. Therefore, each student starts the course with **four late days** to spend throughout the semester as they wish. Simply inform me any time *prior* to the due date for an assignment that you wish to use a late day and the reason you need an extension; you may then turn in the assignment up to 24 hours late. Multiple late days may be used on the same assignment. There are no partial late days; turning in an assignment 2 hours late or 20 hours late will both use 1 late day. After you have used up your four late days, *you must schedule a meeting with me to earn more late days*, otherwise late assignments will receive at most half credit. All work must be completed the day before final grades are due.
-
-{% include note.html content="Late days are intended to cover both normal circumstances (you simply want more time to work on the assignment) and exceptional circumstances (you get sick, travel for a game or family obligation, *etc.*)." %}
-
-{% include important.html content="You must be in communication with me anytime an assignment is late." %}
-
-## <a name="labs">Labs</a>: 240 points
+## <a name="labs">Labs</a>
 
 | #  | Name |
 |:--:|-----|
@@ -114,76 +108,105 @@ Assignments have due dates to help you make progress in the course and solidify 
 |11 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html) |
 |12 | [Text Prediction]({{site.baseurl}}/labs/text-prediction.html) |
 
-Much of your experience with programming in this course will be through weekly labs. Each lab will be assigned in lab with time allotted to work through the materials, and will be due **by the start of the following lab**. All labs are weighted equally within the lab portion of your final grade.
+Much of your experience with programming in this course will be through weekly labs. Each lab will be assigned in lab with time allotted to work through the materials, and will be due **by the start of the following lab**. 
 
 On these labs, you will work with a partner on the lab assignments. Their name must be listed on any code you hand in as joint work. A partnership should only turn in a **single copy** of the assignment. If students working as partners wish to turn in a lab late, all students must use a late day.
 
 {% include important.html content="Lab attendance is required. We will be
 stationed in the Snoddy Computer Lab in the library for our lab times." %}
 
-## <a name="hw">Homework</a>: 100 points
+## <a name="hw">Homework</a>
 
-| #  | Name | Points |
-|:--:|-----||:--------:|
-|0 | [Survey](https://forms.gle/QcKEsPYPYAfnsiAQ8) | 10 |
-|1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) | 10 |
-|2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) | 10 |
-|3 | [Making Toast]({{site.baseurl}}/homework/toaster.html) | 10 |
-|4 | [Cherished Memories]({{site.baseurl}}/homework/memory.html) | 10 |
-|5 | [Heaps]({{site.baseurl}}/homework/heaps.html) | 10 |
-|6 | [Sorting]({{site.baseurl}}/homework/sorting.html) | 10 |
-|7 | [Asymptotic Analysis]({{site.baseurl}}/homework/bigo.html) | 10 |
-|8 | [Binary Search Trees]({{site.baseurl}}/homework/trees.html) | 10 |
-|9 | [Hash Tables]({{site.baseurl}}/homework/hashtables.html) | 10 |
+| #  | Name |
+|:--:|-----|
+|0 | [Survey](https://forms.gle/QcKEsPYPYAfnsiAQ8) |
+|1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) |
+|2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) |
+|3 | [Making Toast]({{site.baseurl}}/homework/toaster.html) |
+|4 | [Cherished Memories]({{site.baseurl}}/homework/memory.html) |
+|5 | [Heaps]({{site.baseurl}}/homework/heaps.html) |
+|6 | [Sorting]({{site.baseurl}}/homework/sorting.html) |
+|7 | [Asymptotic Analysis]({{site.baseurl}}/homework/bigo.html) |
+|8 | [Binary Search Trees]({{site.baseurl}}/homework/trees.html) |
+|9 | [Hash Tables]({{site.baseurl}}/homework/hashtables.html) |
 
-There will often be short homework assignments to be completed over the weekend, assigned on Friday and due the next week. These will be practice to
-help you solidify the concepts from class before labs and exams.
+There will often be short homework assignments to be completed individually, assigned on Friday and due the next week. These will be practice to
+help you solidify the concepts from class before labs and projects.
 
 {% include warning.html content="You must work individually on the homeworks. You may discuss concepts and ideas with your classmates, but the code you turn in must be your own." %}
 
-## <a name="projects">Projects</a>: 400 points
+## <a name="projects">Skills Projects</a>
 
 | #  | Name | Points |
 |:--:|-----||:------:|
-|1 | [Java and Arrays]({{site.baseurl}}/projects/arrays.html)  | 50  |
-|2 | [GUI]({{site.baseurl}}/projects/gui.html) | 75 |
-|3 | [Animation]({{site.baseurl}}/projects/animation.html) | 75 |
-|4 | [Final Project]({{site.baseurl}}/projects/final-project.html) | 200 |
+|1 | [Java and Arrays]({{site.baseurl}}/projects/arrays.html)  |
+|2 | [GUI]({{site.baseurl}}/projects/gui.html) |
+|3 | [Animation]({{site.baseurl}}/projects/animation.html) |
 
-You will have four projects in this course, one about every four weeks. These projects will cover concepts we have discussed in class and in labs, and will be due approximately two weeks after they are assigned.
+You will have three skills projects in this course, one about every four weeks. These projects will cover concepts we have discussed in class and in labs, and will be due approximately two weeks after they are assigned.
 
 You will be graded not only on correctness, but also technique, documentation and evaluation of your solution. Further details on the grading standards and handin instructions for each project will be given when they are assigned.
 
-{% include warning.html content="You must work individually on the first three projects. You may discuss concepts and ideas with your classmates, but the code you turn in must be your own." %}
+{% include warning.html content="You must work individually on these three projects. You may discuss concepts and ideas with your classmates, but the code you turn in must be your own." %}
 
+## <a name="finalproject">Final Project</a>
 
-## <a name="exams">Exams</a>: 200 points
+| #  | Name |
+|:--:|-----||:------:|
+|4 | [Final Project]({{site.baseurl}}/projects/final-project.html) |
 
-There will be two exams, both worth 100 points of your final grade.
-They will consist of short answer questions along with writing and debugging code.
-
-* Exam 1: covering basic Java commands, classes, objects, enums, 2D arrays, stacks, and queues
-* Exam 2: covering heaps, sorting algorithms, algorithmic analysis, lists, trees, and hash tables
-
-There is no final exam; you will complete a final project instead, as described above under Projects.
-
-{% include tip.html content="If you earn less than 80 points on an exam, you may earn back up to an 80 by scheduling meetings with me to revisit missed questions and demonstrate your understanding on new and similar questions." %}
-
-## <a name="checkins">Checkins</a>: 60 points
+## <a name="checkins">Checkins</a>
 
 Four times throughout the semester, you are expected to
-make an office hours appointment and check in with me about the course. Each checkin
-meeting will count for 15 points.
+make an office hours appointment and check in with me about the course. 
 This will be conversation and feedback about your current progress and understanding.
 Ideally, these should be scheduled during the weeks shown
 on the [course calendar](https://prod.teamgantt.com/gantt/schedule/?ids=2925828&public_keys=yZRDqNRImyPE&zoom=d100&font_size=12&estimated_hours=0&assigned_resources=0&percent_complete=0&documents=0&comments=0&col_width=355&hide_header_tabs=0&menu_view=1&resource_filter=1&name_in_bar=0&name_next_to_bar=0&resource_names=1&resource_hours=1#user=&company=&custom=&date_filter=&hide_completed=false&color_filter=).
 
-## <a name="scale">Grading Scale</a>
+## <a name="scale">Specifications Grading</a>
 
-| Score  | Grade  |
-|:------:|:------:|
-| 900-1000  | A   |
-| 800-899   | B   |
-| 700-799   | C   |
-| 600-699   | D   |
-| 0-599     | F   |
+Each assignment is assessed as **Complete**, **Partially Complete** or **Missing**. Criteria for the first two categories will be specified for each assignment. Final course grades are earned based on cumulative assignment outcomes:
+
+### A Level Work
+
+* Complete 11 of 12 Labs
+* Complete 11 of 12 Homeworks
+* Complete all 4 Office Hours checkins
+* Complete all 3 Skills projects
+* Complete the Final project
+
+### B Level Work
+
+* Complete 10 of 12 Labs + 1 Partially Complete
+* Complete 10 of 12 Homeworks
+* Complete 3 Office Hours checkins
+* Complete all 3 Skills projects
+* Partially Complete the Final project
+
+### C Level Work
+
+* Complete 8 of 12 Labs + 2 Partially Complete
+* Complete 8 of 12 Homeworks
+* Complete 2 Office Hours checkins
+* Complete 2 of 3 Skills projects + 1 Partially Complete
+
+### D Level Work
+
+* Complete 6 of 12 Labs + 3 Partially Complete
+* Complete 6 of 12 Homeworks
+* Complete 1 Office Hours checkin
+* Complete 1 of 3 Skills projects + 2 Partially Complete
+
+Assignments have due dates to help you make progress in the course and solidify your knowledge before moving on to something new. Your life and schedule may not perfectly coincide with the due dates I have chosen. Therefore, each student starts the course with **four late days** to spend throughout the semester as they wish. Simply inform me any time *prior* to the due date for an assignment that you wish to use a late day and the reason you need an extension; you may then turn in the assignment up to 24 hours late. Multiple late days may be used on the same assignment. There are no partial late days; turning in an assignment 2 hours late or 20 hours late will both use 1 late day. 
+
+After you have used up your four late days, **you must schedule a meeting with me to earn more late days**, otherwise late assignments will not be accepted. 
+
+{% include note.html content="Late days are intended to cover both normal circumstances (you simply want more time to work on the assignment) and exceptional circumstances (you get sick, travel for a game or family obligation, *etc.*)." %}
+
+{% include important.html content="You must be in communication with me anytime an assignment is late." %}
+
+If you would like to improve an assignment after it has been graded and improve your grade, you may revise and resubmit the assignment until you do. There is no deadline for resubmitted assignments.
+
+However, the above only applies if you **made a reasonable attempt at the assignment the first time**. You cannot turn in a half-finished assignment before the deadline and then “revise” it by completing the rest. If your assignment is only half-finished, you must request use late days as described above.
+
+All work and revisions must be completed the day of the final exam period for this course at 5pm.

@@ -88,10 +88,8 @@ We will run a simulation competition during class the following Wednesday.
 
 ## Grading
 
-* To earn a 3, write one strategy
-* To earn a 6, write two strategies
-* To earn a 8, write three strategies
-* To earn a 11, write four strategies
-* To earn a 14, write five strategies
-* To earn a 17, do the above and use an array in one of your strategies
-* To earn a 20, do the above and place in the top *10* strategies in the tournament, or use a very creative strategy.
+* To **Partially Complete** this lab, write five strategies.
+* To **Complete** this lab, do the above and
+    * use an array in one of your strategies
+    * place in the top *10* strategies in the tournament, or 
+    * use a very creative strategy.
