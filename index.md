@@ -119,26 +119,28 @@ stationed in the Snoddy Computer Lab in the library for our lab times." %}
 
 | #  | Name |
 |:--:|-----|
-|0 | [Survey](https://forms.gle/QcKEsPYPYAfnsiAQ8) |
-|1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) |
-|2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) |
-|3 | [Making Toast]({{site.baseurl}}/homework/toaster.html) |
-|4 | [Cherished Memories]({{site.baseurl}}/homework/memory.html) |
-|5 | [Heaps]({{site.baseurl}}/homework/heaps.html) |
-|6 | [Sorting]({{site.baseurl}}/homework/sorting.html) |
-|7 | [Asymptotic Analysis]({{site.baseurl}}/homework/bigo.html) |
-|8 | [Binary Search Trees]({{site.baseurl}}/homework/trees.html) |
-|9 | [Hash Tables]({{site.baseurl}}/homework/hashtables.html) |
+|1 | [Survey](https://forms.gle/QcKEsPYPYAfnsiAQ8) |
+|2 | [Eating Candy]({{site.baseurl}}/homework/candy.html) |
+|3 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) |
+|4 | [Making Toast]({{site.baseurl}}/homework/toaster.html) |
+|5 | [ArrayStack Memory]({{site.baseurl}}/homework/asmemory.html) |
+|6 | [ListNode Memory]({{site.baseurl}}/homework/lnmemory.html) |
+|7 | [ArrayQueue Memory]({{site.baseurl}}/homework/aqmemory.html) |
+|8 | [Heaps]({{site.baseurl}}/homework/heaps.html) |
+|9 | [Sorting]({{site.baseurl}}/homework/sorting.html) |
+|10 | [Asymptotic Analysis]({{site.baseurl}}/homework/bigo.html) |
+|11 | [Binary Search Trees]({{site.baseurl}}/homework/trees.html) |
+|12 | [Hash Tables]({{site.baseurl}}/homework/hashtables.html) |
 
 There will often be short homework assignments to be completed individually, assigned on Friday and due the next week. These will be practice to
 help you solidify the concepts from class before labs and projects.
 
-{% include warning.html content="You must work individually on the homeworks. You may discuss concepts and ideas with your classmates, but the code you turn in must be your own." %}
+{% include warning.html content="You must work individually on the homeworks. You may discuss concepts and ideas with your classmates, but the code or work you turn in must be your own." %}
 
 ## <a name="projects">Skills Projects</a>
 
-| #  | Name | Points |
-|:--:|-----||:------:|
+| #  | Name | 
+|:--:|-----|
 |1 | [Java and Arrays]({{site.baseurl}}/projects/arrays.html)  |
 |2 | [GUI]({{site.baseurl}}/projects/gui.html) |
 |3 | [Animation]({{site.baseurl}}/projects/animation.html) |
@@ -209,4 +211,4 @@ If you would like to improve an assignment after it has been graded and improve 
 
 However, the above only applies if you **made a reasonable attempt at the assignment the first time**. You cannot turn in a half-finished assignment before the deadline and then “revise” it by completing the rest. If your assignment is only half-finished, you must request use late days as described above.
 
-All work and revisions must be completed the day of the final exam period for this course at 5pm.
+{% include important.html content="All work and revisions must be completed the day of the final exam period for this course at 5pm." %}

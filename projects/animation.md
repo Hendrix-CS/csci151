@@ -48,14 +48,14 @@ you encountered in creating your application.
 
 ## Grading
 
-|Criteria|Score|
-||----|:---:|
-|Incorporates a GUI built with JavaFX and SceneBuilder       |      **5**  |    
-|At least one of the GUI components has an event handler that visibly changes the GUI |   **10** |     
-|The program is an interactive animation that makes use of the various Shape classes.  |   **10**   |   
-|The GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.  | **15**      |
-|Works as intended   |   **15**     |
-|Is something that someone would conceivably want to use     |         **5**  |     
-|Evaluation document adequately describes the project  |   **5**       |
-|Exhibits creativity and has some interesting features        |    **10**   |   
-|**Total**        |   **75**|
+To **Partially Complete** this project, your project must 
+* incorporate a GUI built with JavaFX and SceneBuilder,
+* include at least one GUI components with event handlers that visibly change the GUI, 
+* use an interactive animation that makes use of the various Shape classes, and                  
+* the GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.
+
+To **Complete** this project, the project must, 
+* work as intented (no bugs or missing elements)
+* be something that someone would conceivabley want to use,
+* exhibit some creativity and have some interesting features, and
+* include an evaluation document that adequately describes the project.

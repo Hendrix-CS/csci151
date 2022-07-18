@@ -103,19 +103,15 @@ Submit a zip file via Teams containing
 
 ## Grading
 
-To earn full credit, the project must, in the instructor's judgement,
-exhibit some creativity and have some interesting features; I am happy
-to give feedback along the way.
+To **Partially Complete** this project, your project must 
+* be free of syntactic errors preventing compilation,
+* have a Main class performing keyboard input,
+* have a Main class performing screen output,                    
+* use an array, and                                                    
+* use at least one class besides Main that has a natural mapping to the problem domain.
 
-|Criteria|Score|
-||----|:---:|
-|Has a Main class performing keyboard input                     |**3**|      
-|Has a Main class performing screen output                      |**2**|       
-|Uses an array                                                  |**5**|       
-|Uses at least one class besides Main                           |**3**|       
-|Additional class has a natural mapping to the problem domain   |**2**|       
-|Works as intended                                              |**15**|      
-|Is something that someone would conceivably want to use        |**5**|       
-|Evaluation document adequately describes the project           |**5**|       
-|Exhibits creativity and has some interesting features          |**10**|      
-|**Total**                                                      |**50**|
+To **Complete** this project, the project must, 
+* work as intented (no bugs or missing elements)
+* be something that someone would conceivabley want to use,
+* exhibit some creativity and have some interesting features, and
+* include an evaluation document that adequately describes the project.

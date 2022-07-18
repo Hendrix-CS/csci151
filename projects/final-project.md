@@ -90,6 +90,19 @@ period for this course is {{page.finaldue}}.
 
 ## Grading
 
+To **Partially Complete** this project, your project must 
+* be structured based on a design document that includes an overview, a description, a sketch, and a timeline,
+* incorporate a GUI built with JavaFX and SceneBuilder,
+* include at least one GUI components with event handlers that visibly change the GUI, 
+* use an interactive animation that makes use of the various Shape classes, and                  
+* the GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.
+
+To **Complete** this project, the project must, 
+* work as intented (no bugs or missing elements)
+* be something that someone would conceivabley want to use,
+* exhibit some creativity and have some interesting features, and
+* include an evaluation document that adequately describes the project.
+
 |Criteria|Score|
 ||----|:---:|
 | Design document that includes an overview, a description, a sketch, and a timeline | **30** |

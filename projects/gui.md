@@ -78,13 +78,13 @@ you encountered in creating your application.
 
 ## Grading
 
-|Criteria|Score|
-||----|:---:|
-|Incorporates a GUI built with JavaFX and SceneBuilder       |      **5**  |    
-|At least two of the GUI components have event handlers that visibly change the GUI |   **15** |     
-|The GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.  | **20**      |
-|Works as intended   |   **15**     |
-|Is something that someone would conceivably want to use     |         **5**  |     
-|Evaluation document adequately describes the project  |   **5**       |
-|Exhibits creativity and has some interesting features        |    **10**   |   
-|**Total**        |   **75**|
+To **Partially Complete** this project, your project must 
+* incorporate a GUI built with JavaFX and SceneBuilder,
+* include at least two GUI components with event handlers that visibly change the GUI, and                  
+* the GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.
+
+To **Complete** this project, the project must, 
+* work as intented (no bugs or missing elements)
+* be something that someone would conceivabley want to use,
+* exhibit some creativity and have some interesting features, and
+* include an evaluation document that adequately describes the project.
