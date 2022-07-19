@@ -3,8 +3,8 @@ layout: work
 type: Project
 num: 4
 worktitle: Final Project
-designdue: Tuesday, April 19
-finaldue: Friday, May 6th, 2:00-5:00pm
+designdue: Tuesday, November 22nd
+finaldue: Friday, December 9th, 2:00-5:00pm
 ---
 
 ## Description
@@ -15,8 +15,7 @@ incorporating elements of data structures in your implementation.
 ## Materials
 
 -   IntelliJ, JavaFX and SceneBuilder
--   [Java 11
-    API](https://docs.oracle.com/en/java/javase/11/docs/api/index.html)
+-   [Java 17 API](https://docs.oracle.com/en/java/javase/17/docs/api/index.html)
 
 ## Description
 
@@ -71,8 +70,8 @@ You should be as detailed as possible for full credit in your
 description. Time spent on the design will pay off immensely as you
 implement your project.
 
-Feel free to use the [Java 11
-API](https://docs.oracle.com/en/java/javase/11/docs/api/index.html) as a
+Feel free to use the [Java 17
+API](https://docs.oracle.com/en/java/javase/17/docs/api/index.html) as a
 reference for any piece of Java you might need.
 
 ## What to Hand In
@@ -105,17 +104,3 @@ To **Complete** this project, the project must,
 * be something that someone would conceivabley want to use,
 * exhibit some creativity and have some interesting features, and
 * include an evaluation document that adequately describes the project.
-
-|Criteria|Score|
-||----|:---:|
-| Design document that includes an overview, a description, a sketch, and a timeline | **30** |
-| Incorporates a GUI built with JavaFX and SceneBuilder  |  **20**  |   
-| Incorporates numerous classes and enums in a sensible organization, roughly at the level of the Maze or TicTacToe labs.  | **25**   |
-| The GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.  | **20**   |
-| Incorporates at least one data structure discussed in the course beyond a list.  | **20**  |    
-| Works as intended  |  **20**      |
-| Does something interesting that holds the attention of the user.    |      **20**      |
-| Evaluation document adequately describes the project   | **15**      |
-| Exhibits creativity and has some interesting features    | **15**    |  
-| Oral presentation clearly explains the project, its rationale, and demonstrates its capabilities.    |  **15**   |   
-| **Total**   |  **200** |

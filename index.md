@@ -162,7 +162,7 @@ Four times throughout the semester, you are expected to
 make an office hours appointment and check in with me about the course. 
 This will be conversation and feedback about your current progress and understanding.
 Ideally, these should be scheduled during the weeks shown
-on the [course calendar](https://prod.teamgantt.com/gantt/schedule/?ids=2925828&public_keys=yZRDqNRImyPE&zoom=d100&font_size=12&estimated_hours=0&assigned_resources=0&percent_complete=0&documents=0&comments=0&col_width=355&hide_header_tabs=0&menu_view=1&resource_filter=1&name_in_bar=0&name_next_to_bar=0&resource_names=1&resource_hours=1#user=&company=&custom=&date_filter=&hide_completed=false&color_filter=).
+on the [course calendar](https://app.teamgantt.com/public/projects/calendar/2022-08-23?&ids=3161216&projectIds=3161216&publicKeys=nxIJq9avVtbh&prefs=P2lkcz0zMTYxMjE2JnB1YmxpY19rZXlzPW54SUpxOWF2VnRiaCZ6b29tPWQxMDAmZm9udF9zaXplPTEyJmVzdGltYXRlZF9ob3Vycz0wJmFzc2lnbmVkX3Jlc291cmNlcz0wJnBlcmNlbnRfY29tcGxldGU9MCZkb2N1bWVudHM9MCZjb21tZW50cz0wJmNvbF93aWR0aD0zNTUmaGlkZV9oZWFkZXJfdGFicz0wJm1lbnVfdmlldz0xJnJlc291cmNlX2ZpbHRlcj0xJm5hbWVfaW5fYmFyPTAmbmFtZV9uZXh0X3RvX2Jhcj0wJnJlc291cmNlX25hbWVzPTEmcmVzb3VyY2VfaG91cnM9MQ%3D%3D).
 
 ## <a name="scale">Specifications Grading</a>
 
