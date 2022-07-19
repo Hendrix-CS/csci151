@@ -1,7 +1,7 @@
 ---
 layout: work
 type: Homework
-num: 6
+num: 7
 worktitle: Sorting
 ---
 

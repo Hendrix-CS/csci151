@@ -119,20 +119,19 @@ stationed in the Snoddy Computer Lab in the library for our lab times." %}
 
 | #  | Name |
 |:--:|-----|
-|1 | [Survey](https://forms.gle/QcKEsPYPYAfnsiAQ8) |
-|2 | [Eating Candy]({{site.baseurl}}/homework/candy.html) |
-|3 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) |
-|4 | [Making Toast]({{site.baseurl}}/homework/toaster.html) |
-|5 | [ArrayStack Memory]({{site.baseurl}}/homework/asmemory.html) |
-|6 | [ListNode Memory]({{site.baseurl}}/homework/lnmemory.html) |
-|7 | [ArrayQueue Memory]({{site.baseurl}}/homework/aqmemory.html) |
-|8 | [Heaps]({{site.baseurl}}/homework/heaps.html) |
-|9 | [Sorting]({{site.baseurl}}/homework/sorting.html) |
-|10 | [Asymptotic Analysis]({{site.baseurl}}/homework/bigo.html) |
-|11 | [Binary Search Trees]({{site.baseurl}}/homework/trees.html) |
-|12 | [Hash Tables]({{site.baseurl}}/homework/hashtables.html) |
+|0 | [Survey](https://forms.gle/QcKEsPYPYAfnsiAQ8) |
+|1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) |
+|2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) |
+|3 | [ArrayStack Memory]({{site.baseurl}}/homework/asmemory.html) |
+|4 | [ListNode Memory]({{site.baseurl}}/homework/lnmemory.html) |
+|5 | [ArrayQueue Memory]({{site.baseurl}}/homework/aqmemory.html) |
+|6 | [Heaps]({{site.baseurl}}/homework/heaps.html) |
+|7 | [Sorting]({{site.baseurl}}/homework/sorting.html) |
+|8 | [Asymptotic Analysis]({{site.baseurl}}/homework/bigo.html) |
+|9 | [Binary Search Trees]({{site.baseurl}}/homework/trees.html) |
+|10 | [Hash Tables]({{site.baseurl}}/homework/hashtables.html) |
 
-There will often be short homework assignments to be completed individually, assigned on Friday and due the next week. These will be practice to
+There will often be short homework assignments to be completed individually, due in one week. These will be practice to
 help you solidify the concepts from class before labs and projects.
 
 {% include warning.html content="You must work individually on the homeworks. You may discuss concepts and ideas with your classmates, but the code or work you turn in must be your own." %}

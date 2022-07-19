@@ -1,7 +1,7 @@
 ---
 layout: work
 type: Homework
-num: 5
+num: 6
 worktitle: Heaps
 ---
 

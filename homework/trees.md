@@ -1,7 +1,7 @@
 ---
 layout: work
 type: Homework
-num: 8
+num: 9
 worktitle: Trees
 ---
 
