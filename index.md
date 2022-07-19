@@ -36,7 +36,7 @@ Upon completing this course, our goal is for you to be able to:
 
 When we write code together in class, it will be posted here!
 
-
+<!--
 | Date | Topic | Code |
 |:----:|------||-----||
 | F 21 Jan | Java Translation | [Testing.java]({{site.baseurl}}/code/Testing.java) |
@@ -46,6 +46,7 @@ When we write code together in class, it will be posted here!
 | M 31 Jan | Interfaces | [Light.java]({{site.baseurl}}/inclass/Lights/Light.java) [ConditionalLight.java]({{site.baseurl}}/inclass/Lights/ConditionalLight.java) [ArrayLight.java]({{site.baseurl}}/inclass/Lights/ArrayLight.java) [Main.java]({{site.baseurl}}/inclass/Lights/Main.java) |
 | W 2 Feb | 2D Arrays User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut.java) [Main.java]({{site.baseurl}}/inclass/Main.java) |
 | M 7 Feb | Enums | [Coin.java]({{site.baseurl}}/inclass/ChangeMaker/Coin.java) [BetterCoin.java]({{site.baseurl}}/inclass/ChangeMaker/BetterCoin.java) [ChangeMaker.java]({{site.baseurl}}/inclass/ChangeMaker/Main.java) |
+-->
 
 <!--
 | F 27 Aug | Instantiable Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/JackInTheBox.java) |
