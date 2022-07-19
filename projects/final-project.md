@@ -93,11 +93,14 @@ period for this course is {{page.finaldue}}.
 To **Partially Complete** this project, your project must 
 * be structured based on a design document that includes an overview, a description, a sketch, and a timeline,
 * incorporate a GUI built with JavaFX and SceneBuilder,
+* incorporate at least two original classes or enums,
+* be free of syntactic errors preventing compilation,
 * include at least one GUI components with event handlers that visibly change the GUI, 
-* use an interactive animation that makes use of the various Shape classes, and                  
 * the GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.
 
 To **Complete** this project, the project must, 
+* incorporate numerous classes and enums in a sensible organization, roughly at the level of the Maze or TicTacToe labs,
+* incorporate at least one data structure discussed in the course beyond a list,
 * work as intented (no bugs or missing elements)
 * be something that someone would conceivabley want to use,
 * exhibit some creativity and have some interesting features, and

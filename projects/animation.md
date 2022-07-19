@@ -50,6 +50,7 @@ you encountered in creating your application.
 
 To **Partially Complete** this project, your project must 
 * incorporate a GUI built with JavaFX and SceneBuilder,
+* be free of syntactic errors preventing compilation,
 * include at least one GUI components with event handlers that visibly change the GUI, 
 * use an interactive animation that makes use of the various Shape classes, and                  
 * the GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.

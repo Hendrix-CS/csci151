@@ -171,7 +171,7 @@ Each assignment is assessed as **Complete**, **Partially Complete** or **Missing
 ### A Level Work
 
 * Complete 11 of 12 Labs
-* Complete 11 of 12 Homeworks
+* Complete 9 of 10 Homeworks
 * Complete all 4 Office Hours checkins
 * Complete all 3 Skills projects
 * Complete the Final project
@@ -179,7 +179,7 @@ Each assignment is assessed as **Complete**, **Partially Complete** or **Missing
 ### B Level Work
 
 * Complete 10 of 12 Labs + 1 Partially Complete
-* Complete 10 of 12 Homeworks
+* Complete 8 of 10 Homeworks
 * Complete 3 Office Hours checkins
 * Complete all 3 Skills projects
 * Partially Complete the Final project
@@ -187,14 +187,14 @@ Each assignment is assessed as **Complete**, **Partially Complete** or **Missing
 ### C Level Work
 
 * Complete 8 of 12 Labs + 2 Partially Complete
-* Complete 8 of 12 Homeworks
+* Complete 6 of 10 Homeworks
 * Complete 2 Office Hours checkins
 * Complete 2 of 3 Skills projects + 1 Partially Complete
 
 ### D Level Work
 
 * Complete 6 of 12 Labs + 3 Partially Complete
-* Complete 6 of 12 Homeworks
+* Complete 5 of 10 Homeworks
 * Complete 1 Office Hours checkin
 * Complete 1 of 3 Skills projects + 2 Partially Complete
 
