@@ -120,7 +120,7 @@ stationed in the Snoddy Computer Lab in the library for our lab times." %}
 
 | #  | Name |
 |:--:|-----|
-|0 | [Survey](https://forms.gle/QcKEsPYPYAfnsiAQ8) |
+|0 | [Survey](https://forms.gle/Qxv1awsVXyj2iH487) |
 |1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) |
 |2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) |
 |3 | [ArrayStack Memory]({{site.baseurl}}/homework/asmemory.html) |

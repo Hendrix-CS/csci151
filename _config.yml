@@ -68,7 +68,7 @@ instructors:
 offerings:
   - name: LECTURE 01
     loc: MCReynolds 315
-    time: MWF 8:10am - 9:00am
+    time: MWF 10:10am - 11:00am
     instructor: goadrich
   - name: LAB 01
     loc: Snoddy Lab
