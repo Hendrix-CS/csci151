@@ -38,7 +38,7 @@ When we write code together in class, it will be posted here!
 
 | Date | Topic | Code |
 |:----:|------||-----||
-| F 26 Jan | Java Translation | [Warmup.java]({{site.baseurl}}/code/Warmup.java) |
+| F 26 Jan | Java Translation | [Warmups.java]({{site.baseurl}}/code/Warmups.java) |
 
 <!--
 | M 24 Jan |  | [Testing2.java]({{site.baseurl}}/inclass/Testing2.java) |
