@@ -36,10 +36,11 @@ Upon completing this course, our goal is for you to be able to:
 
 When we write code together in class, it will be posted here!
 
-<!--
 | Date | Topic | Code |
 |:----:|------||-----||
-| F 21 Jan | Java Translation | [Testing.java]({{site.baseurl}}/code/Testing.java) |
+| F 26 Jan | Java Translation | [Warmup.java]({{site.baseurl}}/code/Warmup.java) |
+
+<!--
 | M 24 Jan |  | [Testing2.java]({{site.baseurl}}/inclass/Testing2.java) |
 | W 26 Jan | Instantiable Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/Jack/JackInTheBox.java)  [Main.java]({{site.baseurl}}/inclass/Jack/Main.java) |
 | F 28 Jan |  | [Fountains Exercise]({{site.baseurl}}/homework/fountain.html) [Fountain.java]({{site.baseurl}}/inclass/Fountain.java) |
