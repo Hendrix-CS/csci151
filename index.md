@@ -32,6 +32,13 @@ Upon completing this course, our goal is for you to be able to:
 
 <hr>
 
+## Peer Tutoring
+
+| Time | Mon |	Tue	 | Thur |
+|:----:|:---:|:-----:|:----:| 
+|6-8	|Mason Mason	|Trey Hoopchuk	|Simon Reid |
+|8-10	|Daniel Burnett	|Zoie Keys	 | Ted Bjurlin |
+
 # <a name="inclasscode">In-Class Code</a>
 
 When we write code together in class, it will be posted here!
