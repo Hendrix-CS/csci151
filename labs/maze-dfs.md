@@ -133,8 +133,8 @@ field.
 
 ### Step 2.3 - `public void push(E data)`
 
-Create a new `ListNode` that stores the `data`, and has the current `top`
-as its `next`.
+Study the code provided. It will create a new `ListNode` that stores the `data`, 
+and has the current `top`as its `next`.
 
 Redirect `top` to reference this new `ListNode`.
 
