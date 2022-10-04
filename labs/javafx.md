@@ -238,7 +238,7 @@ Now, edit the program and interface as follows:
 
 1.  Add a GREAT category to `Service`, tipped at 18%.
 2.  Add a way for the user to enter the number of people dining. Then, add a field to display the amount of money each individual separately owes.
-3.  Read about [spacing and padding](https://www.vojtechruzicka.com/javafx-layouts-basic/) and use them to improve the appearance of your GUI.
+3.  Read about [spacing and padding](https://www.vojtechruzicka.com/javafx-layouts-basic/) and use them in SceneBuilder to improve the appearance of your GUI.
 
 ## Step 2 - Button Pressing
 
