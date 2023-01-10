@@ -26,7 +26,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 number: CSCI 151
 title: Data Structures
-semester: Spring 2022
+semester: Spring 2023
 
 navigation:
   - title: Overview
@@ -59,6 +59,12 @@ navigation:
     url: '#commitments'
 
 instructors:
+  - id: ferrer
+    name: Dr. Gabriel Ferrer
+    email: ferrer@hendrix.edu
+    web: https://gjf2a.github.io/
+    phone: (501) 450-3879
+    officehours: https://drferrer.youcanbook.me/
   - id: goadrich
     name: Dr. Mark Goadrich
     email: goadrich@hendrix.edu
@@ -69,7 +75,7 @@ offerings:
   - name: LECTURE 01
     loc: MCReynolds 315
     time: MWF 10:10am - 11:00am
-    instructor: goadrich
+    instructor: ferrer
   - name: LAB 01
     loc: Snoddy Lab
     time: T 1:10pm - 4:00pm
