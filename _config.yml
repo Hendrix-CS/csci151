@@ -82,16 +82,16 @@ offerings:
     instructor: goadrich
 
 resources:
-  - name: Java 17
+  - name: Java 19
     image: assets/images/java-logo.png
-    url: https://www.oracle.com/java/technologies/downloads/#java17
+    url: https://www.oracle.com/java/technologies/downloads/#java19
   - name: IntelliJ IDEA Community
     image: assets/images/IntelliJ_IDEA_Logo.png
     url: https://www.jetbrains.com/idea/
-  - name: JavaFX 17
+  - name: JavaFX 19
     image: assets/images/javafx.png
     url: https://openjfx.io/
-  - name: SceneBuilder 17
+  - name: SceneBuilder 19
     image: assets/images/SceneBuilderLogo.png
     url: https://gluonhq.com/products/scene-builder/
 

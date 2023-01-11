@@ -39,6 +39,72 @@ Upon completing this course, our goal is for you to be able to:
 |6-8	|Mason Mason	|Trey Hoopchuk	|Simon Reid |
 |8-10	|Daniel Burnett	|Zoie Keys	 | Ted Bjurlin |
 
+# Calendar
+
+| Date | Day | Topic                                                       | Assigned             | Due       |
+| ---  | --- | -----                                                       | ------------         | --------- |
+| 1/18 | Wed | Introduction to Java                                        | Hw0: Survey
+| 1/20 | Fri | Introduction to Java                                        |                      | HW0       |
+|      |
+| 1/23 | Mon | Arrays, Memory, Mutation     
+| 1/25 | Wed | Designing Classes            
+| 1/27 | Fri | Interfaces                                                  | Hw1: Eating Candy |
+|      |
+| 1/30 | Mon | User Input                                
+| 2/1  | Wed | 2D Arrays                                                   | Project 1            | Hw1       |
+| 2/3  | Fri | Enums                                                       | Hw2: Garden          |
+|      |
+| 2/6  | Mon | 
+| 2/8  | Wed | Stack Abstraction<br>Array Implementation                   |                      | Hw2       |
+| 2/10 | Fri | Linked List Implementation                                  | Hw3: ArrayStack Memory
+|      |
+| 2/13 | Mon | Generics                                  
+| 2/15 | Wed | Queue Abstraction<br>Linked List Implementation             |                      | Hw3       |
+| 2/17 | Fri | Array Implementation                                        | Hw4: ListNode Memory | Project 1 |
+|      |
+| 2/20 | Mon | Winter Break<br>No Class |
+| 2/22 | Wed | ArrayList                                                   |                      |           |
+| 2/24 | Fri | JavaFX GUI                                                  |                      | Hw4
+|      |
+| 2/27 | Mon | JavaFX GUI                                                  | Hw5: ArrayQueue Memory
+| 3/1  | Wed | Priority Queue Abstraction<br>Insertion Sort Implementation | Project 2            |
+| 3/3  | Fri | Heap Abstraction                                            |                      | Hw5
+|      |
+| 3/6  | Mon | Array Implementation of Heaps                               | Hw6: Heaps
+| 3/8  | Wed | Selection Sort<br>Heapsort
+| 3/10 | Fri | Bubble Sort<br>Merge Sort                                   | Hw7: Sorting         | Hw6
+|      |
+| 3/13 | Mon | Quicksort                                                   | 
+| 3/15 | Wed | Big O                                                       |                      | Hw7
+| 3/17 | Fri | Big Omega, Big Theta                                        |                      | Project 2
+|      |
+| 3/20 | Mon | Spring Break <br>No Class |
+| 3/22 | Wed | Spring Break <br>No Class |
+| 3/24 | Fri | Spring Break <br>No Class |
+|      |
+| 3/27 | Mon | Asymptotic Analysis                                         | Hw8: Big O
+| 3/29 | Wed | Map and Set Interfaces<br>Binary Search Tree Implementation | Project 3
+| 3/31 | Fri | Removal from Binary Search Trees                            |                      | Hw8
+|      |
+| 4/3  | Mon | Tree Traversals<br>Tree Balancing<br>Tree Rotations         | Hw9: Trees
+| 4/5  | Wed | Balanced Trees
+| 4/7  | Fri | Hash Tables<br>Separate Chaining Implementation             |                      | Hw9
+|      |
+| 4/10 | Mon | Open Addressing Implementation                              | Hw10: Hash Tables    | Project 3
+| 4/12 | Wed | Cuckoo Implementation
+| 4/14 | Fri | Tries                                                       |                      | Hw10
+|      |
+| 4/17 | Mon | Tries
+| 4/19 | Wed | Designing the Final Project                                 | Project 4            
+| 4/21 | Fri | Bloom Filters
+|      |
+| 4/24 | Mon | Skip Lists
+| 4/26 | Wed | B-Trees
+| 4/28 | Fri | Retrospective
+|      |
+| 5/3  | Thu 8:30-11:30 am | Project 4 Presentations
+
+<!--
 # <a name="inclasscode">In-Class Code</a>
 
 When we write code together in class, it will be posted here!
@@ -50,6 +116,7 @@ When we write code together in class, it will be posted here!
 | F 2 Sep | Interfaces | [Light.java]({{site.baseurl}}/inclass/Lights/Light.java) [ConditionalLight.java]({{site.baseurl}}/inclass/Lights/ConditionalLight.java) [ArrayLight.java]({{site.baseurl}}/inclass/Lights/ArrayLight.java) [Main.java]({{site.baseurl}}/inclass/Lights/Main.java) |
 | W 7 Sep | 2D Arrays User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut.java) [Main.java]({{site.baseurl}}/inclass/Main.java) |
 | M 12 Sep | Enums | [Coin.java]({{site.baseurl}}/inclass/ChangeMaker/Coin.java) [BetterCoin.java]({{site.baseurl}}/inclass/ChangeMaker/BetterCoin.java) [ChangeMaker.java]({{site.baseurl}}/inclass/ChangeMaker/Main.java) |
+-->
 
 <!--
 | M 24 Jan |  | [Testing2.java]({{site.baseurl}}/inclass/Testing2.java) |
@@ -106,20 +173,21 @@ When we write code together in class, it will be posted here!
 
 ## <a name="labs">Labs</a>
 
-| #  | Name |
-|:--:|-----|
-|1 | [CodingBat]({{site.baseurl}}/labs/codingbat.html) |
-|2 | [How to Divide a Cake]({{site.baseurl}}/labs/cake.html) |
-|3 | [Mazes: Enums and 2D Arrays]({{site.baseurl}}/labs/maze-enums.html) |
-|4 | [Mazes: Depth First Search]({{site.baseurl}}/labs/maze-dfs.html) |
-|5 | [Mazes: Breadth First Search]({{site.baseurl}}/labs/maze-bfs.html) |
-|6 | [JavaFX GUI]({{site.baseurl}}/labs/javafx.html) |
-|7 | [Mazes: A* Search]({{site.baseurl}}/labs/maze-astar.html) |
-|8 | [Sortimator]({{site.baseurl}}/labs/sortimator.html) |
-|9 | [JavaFX Animation]({{site.baseurl}}/labs/animation.html) |
-|10 | [Binary Search Trees]({{site.baseurl}}/labs/binarysearchtrees.html) |
-|11 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html) |
-|12 | [Text Prediction]({{site.baseurl}}/labs/text-prediction.html) |
+| #  | Name                                                               | Date | Due  |
+|:--:|-----                                                               | ---- | ---- |
+|1 | [CodingBat]({{site.baseurl}}/labs/codingbat.html)                    | 1/24 | 1/31 |
+|2 | [How to Divide a Cake]({{site.baseurl}}/labs/cake.html)              | 1/31 | 2/7  |
+|3 | [Mazes: Enums and 2D Arrays]({{site.baseurl}}/labs/maze-enums.html)  | 2/7  | 2/14 |
+|4 | [Mazes: Depth First Search]({{site.baseurl}}/labs/maze-dfs.html)     | 2/14 | 2/21 |
+|5 | [Mazes: Breadth First Search]({{site.baseurl}}/labs/maze-bfs.html)   | 2/21 | 2/28 |
+|6 | [JavaFX GUI]({{site.baseurl}}/labs/javafx.html)                      | 2/28 | 3/7  |
+|7 | [Mazes: A* Search]({{site.baseurl}}/labs/maze-astar.html)            | 3/7  | 3/14 |
+|8 | [Sortimator]({{site.baseurl}}/labs/sortimator.html)                  | 3/14 | 3/28 |
+|9 | [JavaFX Animation]({{site.baseurl}}/labs/animation.html)             | 3/28 | 4/4  |
+|10 | [Binary Search Trees]({{site.baseurl}}/labs/binarysearchtrees.html) | 4/4  | 4/11 |
+|11 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html)       | 4/11 | 4/18 |
+|12 | [Text Prediction]({{site.baseurl}}/labs/text-prediction.html)       | 4/18 | 4/25 |
+|P  | Final Project work day                                              | 4/25 | 5/3  |
 
 Much of your experience with programming in this course will be through weekly labs. Each lab will be assigned in lab with time allotted to work through the materials, and will be due **by the start of the following lab**. 
 
