@@ -295,11 +295,11 @@ Each assignment is assessed as **Complete**, **Partially Complete** or **Missing
 
 ## <a name="tokens">Tokens</a>
 * Each student starts the semester with three **tokens**.
-  * Send Dr. Ferrer a message on Teams to spend a token.
-  * A student may spend one token in order to:
-    * Submit a project after the posted deadline.
-    * Submit a revised version of a project in the event the submission receives
-      a **Partial** assessment.
+* Send Dr. Ferrer a message on Teams to spend a token.
+* A student may spend one token in order to:
+  * Submit a project after the posted deadline.
+  * Submit a revised version of a project in the event the submission receives
+    a **Partial** assessment.
 * Scheduling and attending an office hours meeting with 
 [Dr. Ferrer](https://drferrer.youcanbook.me) or 
 [Dr. Goadrich](https://markgoadrich.youcanbook.me) earns one additional token.
