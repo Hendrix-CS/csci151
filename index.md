@@ -36,8 +36,8 @@ Upon completing this course, our goal is for you to be able to:
 
 | Time | Mon |	Tue	 | Thur |
 |:----:|:---:|:-----:|:----:| 
-|6-8	|Mason Mason	|Trey Hoopchuk	|Simon Reid |
-|8-10	|Daniel Burnett	|Zoie Keys	 | Ted Bjurlin |
+|6-8	|TBA	|TBA	|TBA |
+|8-10	|TBA	|TBA | TBA |
 
 # Calendar
 
