@@ -299,8 +299,9 @@ Each assignment is assessed as **Complete**, **Partially Complete** or **Missing
     * Submit a project after the posted deadline.
     * Submit a revised version of a project in the event the submission receives
       a **Partial** assessment.
-* Scheduling and attending an [office hours meeting](https://drferrer.youcanbook.me)
-  with Dr. Ferrer earns one additional token.
+* Scheduling and attending an office hours meeting with 
+[Dr. Ferrer](https://drferrer.youcanbook.me) or 
+[Dr. Goadrich](https://markgoadrich.youcanbook.me) earns one additional token.
 * **Note**: All late submissions/revisions must be received before 5 pm on Tuesday, 
   May 9, the last day of the semester.
 
