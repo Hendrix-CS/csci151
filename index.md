@@ -39,7 +39,7 @@ Upon completing this course, our goal is for you to be able to:
 |6-8	|TBA	|TBA	|TBA |
 |8-10	|TBA	|TBA | TBA |
 
-# Calendar
+# <a name="calendar">Calendar</a>
 
 | Date | Day | Topic                                                       | Assigned             | Due       |
 | ---  | --- | -----                                                       | ------------         | --------- |
