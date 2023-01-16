@@ -237,6 +237,7 @@ You will be graded not only on correctness, but also technique, documentation an
 |:--:|-----||:------:|
 |4 | [Final Project]({{site.baseurl}}/projects/final-project.html) |
 
+<!--
 ## <a name="checkins">Checkins</a>
 
 Four times throughout the semester, you are expected to
@@ -244,6 +245,7 @@ make an office hours appointment and check in with me about the course.
 This will be conversation and feedback about your current progress and understanding.
 Ideally, these should be scheduled during the weeks shown
 on the [course calendar](https://app.teamgantt.com/public/projects/calendar/2022-08-23?&ids=3161216&projectIds=3161216&publicKeys=nxIJq9avVtbh&prefs=P2lkcz0zMTYxMjE2JnB1YmxpY19rZXlzPW54SUpxOWF2VnRiaCZ6b29tPWQxMDAmZm9udF9zaXplPTEyJmVzdGltYXRlZF9ob3Vycz0wJmFzc2lnbmVkX3Jlc291cmNlcz0wJnBlcmNlbnRfY29tcGxldGU9MCZkb2N1bWVudHM9MCZjb21tZW50cz0wJmNvbF93aWR0aD0zNTUmaGlkZV9oZWFkZXJfdGFicz0wJm1lbnVfdmlldz0xJnJlc291cmNlX2ZpbHRlcj0xJm5hbWVfaW5fYmFyPTAmbmFtZV9uZXh0X3RvX2Jhcj0wJnJlc291cmNlX25hbWVzPTEmcmVzb3VyY2VfaG91cnM9MQ%3D%3D).
+-->
 
 ## <a name="scale">Specifications Grading</a>
 
@@ -251,34 +253,58 @@ Each assignment is assessed as **Complete**, **Partially Complete** or **Missing
 
 ### A Level Work
 
-* Complete 11 of 12 Labs
-* Complete 9 of 10 Homeworks
-* Complete all 4 Office Hours checkins
 * Complete all 3 Skills projects
-* Complete the Final project
+* Complete the Final Project
+* Complete 11 of 12 Labs + 1 Partially Complete
+* Complete 9 of 10 Homeworks
 
 ### B Level Work
 
-* Complete 10 of 12 Labs + 1 Partially Complete
-* Complete 8 of 10 Homeworks
-* Complete 3 Office Hours checkins
-* Complete all 3 Skills projects
-* Partially Complete the Final project
+* Complete all 3 Skills Projects
+* One of these two options:
+  * Option 1:
+    * Partially Complete the Final Project
+    * Complete 11 of 12 Labs + 1 Partially Complete
+    * Complete 9 of 10 Homeworks
+  * Option 2:
+    * Complete the Final Project
+    * Complete 10 of 12 Labs + 1 Partially Complete
+    * Complete 8 of 10 Homeworks
 
 ### C Level Work
 
-* Complete 8 of 12 Labs + 2 Partially Complete
-* Complete 6 of 10 Homeworks
-* Complete 2 Office Hours checkins
 * Complete 2 of 3 Skills projects + 1 Partially Complete
+* One of these three options:
+  * Option 1:
+    * Complete 11 of 12 Labs + 1 Partially Complete
+    * Complete 9 of 10 Homeworks
+  * Option 2: 
+    * Partially Complete the Final Project
+    * Complete 10 of 12 Labs + 1 Partially Complete
+    * Complete 8 of 10 Homeworks
+  * Option 3:
+    * Complete the Final Project
+    * Complete 8 of 12 labs + 1 Partially Complete
+    * Complete 6 of 10 Homeworks
 
 ### D Level Work
 
 * Complete 6 of 12 Labs + 3 Partially Complete
 * Complete 5 of 10 Homeworks
-* Complete 1 Office Hours checkin
 * Complete 1 of 3 Skills projects + 2 Partially Complete
 
+## Tokens
+* Each student starts the semester with four **tokens**.
+  * A student may spend one token in order to:
+    * Submit a project after the posted deadline.
+    * Submit a revised version of a project in the event the submission receives
+      a **Partial** assessment.
+* Scheduling and attending an [office hours meeting](https://drferrer.youcanbook.me)
+  with Dr. Ferrer earns one additional token.
+* **Note**: All late submissions/revisions must be received before 5 pm on Tuesday, 
+  May 9, the last day of the semester.
+
+<!--
 Assignments have due dates to help you make progress in the course and solidify your knowledge before moving on to something new. Your life and schedule may not perfectly coincide with the due dates I have chosen. Therefore, each student starts the course with **four late days** to spend throughout the semester as they wish. Simply inform me any time *prior* to the due date for an assignment that you wish to use a late day and the reason you need an extension; you may then turn in the assignment up to 24 hours late. Multiple late days may be used on the same assignment. There are no partial late days; turning in an assignment 2 hours late or 20 hours late will both use 1 late day. 
 
 After you have used up your four late days, **you must schedule a meeting with me to earn more late days**, otherwise late assignments will not be accepted. 
@@ -291,4 +317,5 @@ If you would like to improve an assignment after it has been graded and improve 
 
 However, the above only applies if you **made a reasonable attempt at the assignment the first time**. You cannot turn in a half-finished assignment before the deadline and then “revise” it by completing the rest. If your assignment is only half-finished, you must request use late days as described above.
 
+-->
 {% include important.html content="All work and revisions must be completed the day of the final exam period for this course at 5pm." %}
