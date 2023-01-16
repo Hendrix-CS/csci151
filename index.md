@@ -293,8 +293,9 @@ Each assignment is assessed as **Complete**, **Partially Complete** or **Missing
 * Complete 5 of 10 Homeworks
 * Complete 1 of 3 Skills projects + 2 Partially Complete
 
-## Tokens
-* Each student starts the semester with four **tokens**.
+## <a name="tokens">Tokens</a>
+* Each student starts the semester with three **tokens**.
+  * Send Dr. Ferrer a message on Teams to spend a token.
   * A student may spend one token in order to:
     * Submit a project after the posted deadline.
     * Submit a revised version of a project in the event the submission receives
