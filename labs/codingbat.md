@@ -98,3 +98,4 @@ In Teams, write a one-paragraph reflection on your comfort level programming in 
     * [Array-2](http://codingbat.com/java/Array-2)
 * and **three** problems in
     * [AP-1](http://codingbat.com/java/AP-1)
+* and submit a reflection paragraph.
