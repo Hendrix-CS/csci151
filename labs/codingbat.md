@@ -79,9 +79,11 @@ the Hendrix Academic Integrity Policy." %}
 
 ## What to Hand In
 
-You do not need to hand anything in. If you have shared your account
-with your lab instructor as described in Step 2 above, your instructor
+Share your account
+with your lab instructor as described in Step 2 above, so your instructor
 will be able to see your progress.
+
+In Teams, write a one-paragraph reflection on your comfort level programming in Java after completing this lab, and discuss your experience of the process of repeately writing small programs and making mistakes.
 
 ## Grading
 
