@@ -34,10 +34,10 @@ Upon completing this course, our goal is for you to be able to:
 
 ## Peer Tutoring
 
-| Time | Mon |	Tue	 | Thur |
-|:----:|:---:|:-----:|:----:| 
-|6-8	|TBA	|TBA	|TBA |
-|8-10	|TBA	|TBA | TBA |
+| Time | Sun | Mon | Tue | Wed | Thur |
+|:----:|:---:|:-----:|:----:|:----:|:----:| 
+|6-8	|Ted	|Simon	|Matthew |  |  |
+|8-10	| 	|  | Riley |Ryan |Zoie |
 
 # <a name="calendar">Calendar</a>
 
