@@ -104,10 +104,12 @@ Submit a zip file via Teams containing
 
 To **Partially Complete** this project, your project must 
 * be free of syntactic errors preventing compilation,
-* have a Main class performing keyboard input,
-* have a Main class performing screen output,                    
+* have a `Main` class that:
+  * receives input from the keyboard and
+  * displays text output on the screen,
 * use an array, and                                                    
-* use at least one class besides Main that has a natural mapping to the problem domain.
+* use at least one class besides Main that has a natural mapping to the problem 
+  domain.
 
 To **Complete** this project, the project must, 
 * work as intented (no bugs or missing elements)
