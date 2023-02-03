@@ -14,10 +14,9 @@ your own.
 
 ## Materials
 
--   Eclipse or IntelliJ
+-   IntelliJ
 -   **This project must be completed independently, without a partner.**
--   [Java 17
-    API](https://docs.oracle.com/en/java/javase/17/docs/api/index.html)
+-   [Java 19 API](https://docs.oracle.com/en/java/javase/19/docs/api/index.html)
 
 ## Description
 
@@ -30,8 +29,8 @@ Write a Java application. Your program can do anything you like, **except TicTac
     not be complex, but it should be something that someone would
     conceivably want to use.
 
-Feel free to use the [Java 17
-API](https://docs.oracle.com/en/java/javase/17/docs/api/index.html) as a
+Feel free to use the [Java 19
+API](https://docs.oracle.com/en/java/javase/19/docs/api/index.html) as a
 reference for any piece of Java you might need; you are not restricted
 to only things we have covered in class. You may incorporate any code
 you wish from previous projects, but the majority of your project should
@@ -105,10 +104,12 @@ Submit a zip file via Teams containing
 
 To **Partially Complete** this project, your project must 
 * be free of syntactic errors preventing compilation,
-* have a Main class performing keyboard input,
-* have a Main class performing screen output,                    
+* have a `Main` class that:
+  * receives input from the keyboard and
+  * displays text output on the screen,
 * use an array, and                                                    
-* use at least one class besides Main that has a natural mapping to the problem domain.
+* use at least one class besides Main that has a natural mapping to the problem 
+  domain.
 
 To **Complete** this project, the project must, 
 * work as intented (no bugs or missing elements)
