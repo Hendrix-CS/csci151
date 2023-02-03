@@ -50,11 +50,11 @@ Upon completing this course, our goal is for you to be able to:
 | 1/25 | Wed | Designing Classes            
 | 1/27 | Fri | Interfaces                                                  | Hw1: Eating Candy |
 |      |
-| 1/30 | Mon | User Input                                
-| 2/1  | Wed | 2D Arrays                                                   | Project 1            | Hw1       |
-| 2/3  | Fri | Enums                                                       | Hw2: Garden          |
+| 1/30 | Mon | User Input, 2D Arrays                                
+| 2/1  | Wed | Ice-Pocalypse                                               | | Hw1       |
+| 2/3  | Fri | Project 1, Make-up Lab                                      | Project 1            
 |      |
-| 2/6  | Mon | 
+| 2/6  | Mon | Enums                                                       | Hw2: Garden          |
 | 2/8  | Wed | Stack Abstraction<br>Array Implementation                   |                      | Hw2       |
 | 2/10 | Fri | Linked List Implementation                                  | Hw3: ArrayStack Memory
 |      |
