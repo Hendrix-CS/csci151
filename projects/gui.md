@@ -82,10 +82,11 @@ To **Partially Complete** this project, your project must
 * incorporate a GUI built with JavaFX and SceneBuilder,
 * be free of syntactic errors preventing compilation,
 * include at least two GUI components with event handlers that visibly change the GUI, and                  
-* the GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.
+* the GUI has persistent state modeled by a pertinent class of the student’s creation, properly created by a constructor at the start of the program, representing an abstraction of the underlying data representation.
 
 To **Complete** this project, the project must, 
 * work as intented (no bugs or missing elements)
-* be something that someone would conceivabley want to use,
+* be something that someone would conceivably want to use,
+* use named constant values, enums, or computed values rather than magic numbers,
 * exhibit some creativity and have some interesting features, and
 * include an evaluation document that adequately describes the project.

@@ -113,7 +113,8 @@ To **Partially Complete** this project, your project must
 
 To **Complete** this project, the project must, 
 * work as intented (no bugs or missing elements)
-* correctly instantiates an object of the class besides `Main`.
-* be something that someone would conceivabley want to use,
+* correctly instantiate an object of a class besides `Main`,
+* be something that someone would conceivably want to use,
+* use named constant values, enums, or computed values rather than magic numbers,
 * exhibit some creativity and have some interesting features, and
 * include an evaluation document that adequately describes the project.
