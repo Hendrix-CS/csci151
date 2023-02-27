@@ -108,11 +108,12 @@ To **Partially Complete** this project, your project must
   * receives input from the keyboard and
   * displays text output on the screen,
 * use an array, and                                                    
-* use at least one class besides Main that has a natural mapping to the problem 
+* use at least one class besides `Main` that has a natural mapping to the problem 
   domain.
 
 To **Complete** this project, the project must, 
 * work as intented (no bugs or missing elements)
+* correctly instantiates an object of the class besides `Main`.
 * be something that someone would conceivabley want to use,
 * exhibit some creativity and have some interesting features, and
 * include an evaluation document that adequately describes the project.
