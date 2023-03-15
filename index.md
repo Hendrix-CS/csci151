@@ -37,7 +37,7 @@ Upon completing this course, our goal is for you to be able to:
 | Time | Sun | Mon | Tue | Wed | Thur |
 |:----:|:---:|:-----:|:----:|:----:|:----:| 
 |6-8	|Ted	|Simon	|Matthew |  |  |
-|8-10	| 	| Ryan | Riley | |Zoie |
+|8-10	| 	| Ryan | | Riley |Zoie |
 
 # <a name="calendar">Calendar</a>
 
