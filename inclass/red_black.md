@@ -14,32 +14,32 @@ Rivest, and Stein
 1.	Perform a binary-search-tree insertion to add the node. Call the node K.
 2.	Color the node Red.
 3.	Cases:
-    a.	Parent(K) is Black. No violations – we are done.
-    b.	Parent(K) is Red. We violate Rule 3 above. 
-        i.	Parent(K) is a left child. Let S be the right child of Parent(Parent(K)).
+    1.	Parent(K) is Black. No violations – we are done.
+    2.	Parent(K) is Red. We violate Rule 3 above. 
+        1.	Parent(K) is a left child. Let S be the right child of Parent(Parent(K)).
             1.	If S is Black or does not exist
-                a.	If K is a right child
+                1.	If K is a right child
                     i.	Let K = Parent(K)
                     ii.	Left-Rotate the new K
-                b.	Set Parent(K) to Black
-                c.	Set Parent(Parent(K)) to Red
-                d.	Right-Rotate Parent(Parent(K))
+                2.	Set Parent(K) to Black
+                3.	Set Parent(Parent(K)) to Red
+                4.	Right-Rotate Parent(Parent(K))
             2.	If S is Red
-                a.	Set Parent(K) to Black
-                b.	Set S to Black
-                c.	Set Parent(Parent(K)) to Red
-                d.	If Parent(Parent(K)) is in violation, let K=Parent(Parent(K)) and repeat the above
-        ii.	Parent(K) is a right child. Let S be the left child of Parent(Parent(K)).
+                1.	Set Parent(K) to Black
+                2.	Set S to Black
+                3.	Set Parent(Parent(K)) to Red
+                4.	If Parent(Parent(K)) is in violation, let K=Parent(Parent(K)) and repeat the above
+        2.	Parent(K) is a right child. Let S be the left child of Parent(Parent(K)).
             1.	If S is Black or does not exist
-                a.	If K is a left child
-                    i.	Let K = Parent(K)
-                    ii.	Right-Rotate the new K
-                b.	Set Parent(K) to Black
-                c.	Set Parent(Parent(K)) to Red
-                d.	Left-Rotate Parent(Parent(K))
+                1.	If K is a left child
+                    1.	Let K = Parent(K)
+                    2.	Right-Rotate the new K
+                2.	Set Parent(K) to Black
+                3.	Set Parent(Parent(K)) to Red
+                4.	Left-Rotate Parent(Parent(K))
             2.	If S is Red
-                a.	Set Parent(K) to Black
-                b.	Set S to Black
-                c.	Set Parent(Parent(K)) to Red
-                d.	If Parent(Parent(K)) is in violation, let K=Parent(Parent(K)) and repeat the above
+                1.	Set Parent(K) to Black
+                2.	Set S to Black
+                3.	Set Parent(Parent(K)) to Red
+                4.	If Parent(Parent(K)) is in violation, let K=Parent(Parent(K)) and repeat the above
 4.	Set root to Black	
