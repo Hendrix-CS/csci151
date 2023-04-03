@@ -81,6 +81,7 @@ InsertionSort can be implemented with the following algorithm.
 Run your code through the `SorterTester` suite to make sure your
 implementation has the correct behavior.
 
+<!--
 ## Step 2 - BubbleSorter
 
 Bubble sort is known for its simplicity of code. Repeated passes through
@@ -109,7 +110,9 @@ element will be in the right location, etc.
 Run your code through the `SorterTester` suite to make sure your
 implementation has the correct behavior.
 
-## Step 3 - MergeSorter
+-->
+
+## Step 2 - MergeSorter
 
 MergeSort uses recursion to repeatedly split the given list into
 smaller lists, sort the smaller lists, and then combine the sorted
@@ -119,7 +122,7 @@ The name of your class should be
 
 `MergeSorter<E extends Comparable<E>> extends Sorter<E>`
 
-### Step 3.1 - Implementation
+### Step 2.1 - Implementation
 
 First, you will need to create a
 `mergeSortHelper(ArrayList<E> array, int start, int end)` method. In order to
@@ -143,29 +146,30 @@ So, our sortAlgorithm will call the `mergeSortHelper` method with
 
 To complete this method, we need a `merge(ArrayList<E> array, int start, int end)` method.
 The most straightforward implementation
-involves the use the [Deque](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Deque.html) a double-ended queue which can be found in the `java.util` package:
+involves using a Queue. In Java 19, you should use the [ArrayDeque](https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/util/ArrayDeque.html) a double-ended queue which can be found in the `java.util` package:
 
--   Add each element of the first half of the subarray into a queue.
--   Add each element of the second half of the subarray into a different
+-   `add()` each element of the first half of the subarray into a queue.
+-   `add()` each element of the second half of the subarray into a different
     queue.
 -   For each element of the subarray
     -   if the second queue is empty, or if the first queue is not empty
         and its `element()` value is less than or equal to the `element()`
-        value of the second queue, remove the value from the first
-        queue and store it at this location in the array with `set`.
-    -   Otherwise, remove the value from the second queue and store it
+        value of the second queue
+        -   `remove()` the value from the first queue and store it at this 
+            location in the array with `set`.
+    -   Otherwise, `remove()` the value from the second queue and store it
         at this location in the array with `set`.
 
 {% include important.html content="For the `merge` method, you will need to find the
 `midpoint` in the exact same way as discussed in  `mergeSortHelper` so you can
 place the first half and second half of the subarray into queues." %}
 
-### Step 3.2 - Testing
+### Step 2.2 - Testing
 
 Run your code through the `SorterTester` suite to make sure your
 implementation has the correct behavior.
 
-## Step 4 - QuickSorter
+## Step 3 - QuickSorter
 
 Whereas MergeSort was an easy journey down the recursion but complicated
 merging back up, QuickSort reverse this scheme. Before recursing,
@@ -179,7 +183,7 @@ The name of your class should be
 
 `QuickSorter<E extends Comparable<E>> extends Sorter<E>`
 
-### Step 4.1 - Implementation
+### Step 3.1 - Implementation
 
 Again, we will need a recursive helper function, augmenting with the
 start and end of the subarray. `quickSortHelper(ArrayList<E> array, int start, int end)`
@@ -211,25 +215,25 @@ same parameters as the `quickSortHelper` method.
 {% include note.html content="To speed up your algorithm, avoid making swaps when the two locations
 being swapped are the exact same index." %}
 
-### Step 4.2 - Testing
+### Step 3.2 - Testing
 
 Run your code through the `SorterTester` suite to make sure your
 implementation has the correct behavior.
 
-## Step 5 - Evaluation
+## Step 4 - Evaluation
 
 Describe in your own words the strengths and weaknesses of each of the
-four implementations above. Use the `Sortimator` class to run each
+three implementations above. Use the `Sortimator` class to run each
 algorithm 3 times, on a list of size 20. Record the number of Array
 Updates that each method executes, as found through the GUI.
 
 ## What to Hand In
 
-Submit your `InsertionSorter.java`, `BubbleSorter.java`, `MergeSorter.java` and
+Submit your `InsertionSorter.java`, `MergeSorter.java` and
 `QuickSorter.java` implementations via Teams, along with a document for your
-evaluation in Step 5.
+evaluation in Step 4.
 
 ## Grading
 
-* To **Partially Complete** this lab, complete Steps 1 and 2, and either Step 3 or 4.
-* To **Complete** this lab, complete all 5 Steps.
+* To **Partially Complete** this lab, complete Step 1, and either Step 2 or 3.
+* To **Complete** this lab, complete all 4 Steps.

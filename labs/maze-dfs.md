@@ -110,8 +110,9 @@ these tests.
 
 ## Step 2 - ListStack\<E\>
 
-To implement the generic version of a Stack with nodes, your
-first task is to implement the generic `ListNode` class.
+Next we will implement the generic version of a Stack with nodes, called 
+`ListStack<E>`. This will need to implement the `Stack<E>` interface, and have 
+at least a `ListNode<E>` called `top` as a field., 
 
 ### Step 2.1 - ListNode
 
@@ -125,20 +126,13 @@ The second brings in both an `E value`, and a `ListNode next`, storing both.
 {% include note.html content="While the name of the file is `ListNode.java`, the name of the class when used
 will be `ListNode<E>`." %}
 
-### Step 2.2 - Implementation
-
-Write a class called `ListStack<E>`. This will need to implement the
-`Stack<E>` interface, and have at least a `ListNode<E>` called `top` as a
-field.
-
-### Step 2.3 - `public void push(E data)`
+### Step 2.2 - `public void push(E data)`
 
 Study the code provided. It will create a new `ListNode` that stores the `data`, 
-and has the current `top`as its `next`.
+has the current `top`as its `next`, and finally redirects `top` to 
+reference this new `ListNode`.
 
-Redirect `top` to reference this new `ListNode`.
-
-### Step 2.4 - `public E pop()`
+### Step 2.3 - `public E pop()`
 
 Call the `emptyCheck` method. This will throw an `IllegalStateException`
 if the stack is empty.
@@ -147,26 +141,26 @@ Save the value stored in `top`, and redirect `top` to point to the `next` `ListN
 
 Return the value you stored.
 
-### Step 2.5 - `public E peek()`
+### Step 2.4 - `public E peek()`
 
 Call the `emptyCheck` method. This will throw an `IllegalStateException`
 if the stack is empty.
 
 Return the value stored in the `top` `ListNode`.
 
-### Step 2.6 - `public int size()`
+### Step 2.5 - `public int size()`
 
 If `top` is `null`, return 0. Otherwise,
 return the number of `ListNode` that are chained from the `top` node.
 
-### Step 2.7 - `public String toString()`
+### Step 2.6 - `public String toString()`
 
 Return a `String` representing the elements in the stack separated
 by spaces. For example, a stack of integers with 3 on top of 2 on top of 1
 should return "1 2 3". The oldest element in the stack should be the first
 in the string.
 
-### Step 2.8 - Testing
+### Step 2.7 - Testing
 
 Run the `ListStackTest` suite, and ensure your above methods are passing
 these tests.

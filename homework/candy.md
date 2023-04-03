@@ -17,9 +17,9 @@ For example:
 
 You will need four additional methods:
 
-* `public boolean can_lick()` which returns `true` if the TootsiePop has licks remaining.
+* `public boolean canLick()` which returns `true` if the `TootsiePop` has licks remaining.
 
-* `public void lick()` which removes one lick from the TootsiePop if there are licks remaining.
+* `public void lick()` which removes one lick from the `TootsiePop` if there are licks remaining.
 
 * `public void bite()` which removes all licks.
 

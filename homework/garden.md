@@ -14,7 +14,7 @@ Assume you have a `Enum` available called `Dirt`, with three elements: `EMPTY`, 
          EMPTY, SEED, PLANT
     }
 
-You will have two components, an array of `Dirt` for the plots, and a `String` to hold the type of crop planted in this plot;
+You will have two components, an array of `Dirt` for the plots, and a `String` to hold the type of crop planted in this garden;
 
 Your constructor method will bring in an initial number of plots and a crop type.
 It should initialize the plots so there are the required available spaces, and set them all to EMPTY. Also save the crop type of plants grown.
