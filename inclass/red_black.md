@@ -19,8 +19,8 @@ Rivest, and Stein
         1.	Parent(K) is a left child. Let S be the right child of Parent(Parent(K)).
             1.	If S is Black or does not exist
                 1.	If K is a right child
-                    i.	Let K = Parent(K)
-                    ii.	Left-Rotate the new K
+                    1.	Let K = Parent(K)
+                    2.	Left-Rotate the new K
                 2.	Set Parent(K) to Black
                 3.	Set Parent(Parent(K)) to Red
                 4.	Right-Rotate Parent(Parent(K))
