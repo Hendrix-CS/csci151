@@ -87,7 +87,7 @@ Upon completing this course, our goal is for you to be able to:
 | 3/31 | Fri | Removal from Binary Search Trees                            |                      | Hw8
 |      |
 | 4/3  | Mon | Tree Traversals<br>Tree Balancing<br>Tree Rotations         | Hw9: Trees
-| 4/5  | Wed | Balanced Trees
+| 4/5  | Wed | [Balanced Trees]({{site.baseurl}}/inclass/red_black.html)   |
 | 4/7  | Fri | Hash Tables<br>Separate Chaining Implementation             |                      | Hw9
 |      |
 | 4/10 | Mon | Open Addressing Implementation                              | Hw10: Hash Tables    | Project 3
