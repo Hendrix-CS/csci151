@@ -95,6 +95,8 @@ removed node; it returns the node upon which it was invoked, and
 rebuilds the tree as it exits from its recursive calls. Follow the
 comments carefully.
 
+{% include note.html content="Somewhere in your method, you will probably write a line similar to `left = left.get().remove(target);`" %}
+
 It should pass its unit tests and again is testable
 on the GUI, by clicking on nodes you wish to remove.
 
