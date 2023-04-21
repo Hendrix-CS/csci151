@@ -3,8 +3,8 @@ layout: work
 type: Project
 num: 4
 worktitle: Final Project
-designdue: Tuesday, November 22nd
-finaldue: Thursday, December 8th, 8:00-11:00am
+designdue: Tuesday, April 25th
+finaldue: Thursday, May 4th, 8:30-11:30am
 ---
 
 ## Description
@@ -15,7 +15,7 @@ incorporating elements of data structures in your implementation.
 ## Materials
 
 -   IntelliJ, JavaFX and SceneBuilder
--   [Java 17 API](https://docs.oracle.com/en/java/javase/17/docs/api/index.html)
+-   [Java 19 API](https://docs.oracle.com/en/java/javase/19/docs/api/index.html)
 
 ## Description
 
@@ -70,8 +70,8 @@ You should be as detailed as possible for full credit in your
 description. Time spent on the design will pay off immensely as you
 implement your project.
 
-Feel free to use the [Java 17
-API](https://docs.oracle.com/en/java/javase/17/docs/api/index.html) as a
+Feel free to use the [Java 19
+API](https://docs.oracle.com/en/java/javase/19/docs/api/index.html) as a
 reference for any piece of Java you might need.
 
 ## What to Hand In
