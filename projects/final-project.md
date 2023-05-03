@@ -82,10 +82,21 @@ original submitted design, any unique
 and interesting features in your application, and any joys or struggles
 you encountered in creating your application.
 
-You will be presenting your final project to the rest of the students in
-the course. You will have at most **5 minutes** for your presentation,
-which must include a demonstration of your project. The final exam
-period for this course is {{page.finaldue}}.
+## Presentation
+
+* You will be presenting your final project to the rest of the students in
+the course. 
+* Your presentation should include the following 5 slides:
+  * Title slide
+    * Name of project
+    * Name(s) of students creating the project
+  * Project Goals
+  * Degree of Achievement of Goals
+  * Unique/Interesting Features
+  * Joys/Struggles encountered creating the application
+* After you present your slides, give a demonstration of
+  your project. The demonstration should run from 30-60 seconds.
+* The final exam period for this course is {{page.finaldue}}.
 
 ## Grading
 

@@ -14,7 +14,7 @@ Interface (GUI) and animation built using JavaFX and Scene Builder.
 
 -   IntelliJ, JavaFX and SceneBuilder
 -   **This project must be completed independently, without a partner**
--   [Java 11 API](https://docs.oracle.com/en/java/javase/11/docs/api/index.html)
+-   [Java 19 API](https://docs.oracle.com/en/java/javase/19/docs/api/index.html)
 -   [JavaFX Layout Tutorial](https://www.vojtechruzicka.com/javafx-layouts-basic/)
 <!-- -   [Sample Pig Game Project](../code/151-pig.zip) -->
 
@@ -30,12 +30,13 @@ to the following requirements
     various Shape classes.    
 -   The GUI should have some persistent state that is modeled by a class
     of your own creation. The class should represent an abstraction of
-    the underlying data representation.
+    the underlying data representation. The `Controller` will have an 
+    instance of this class as one of its attributes.
 -   The program should do something useful or interesting. It need not
     be complex, but it should be something that someone would
     conceivably want to use.
 
-Feel free to use the [Java 11 API](https://docs.oracle.com/en/java/javase/11/docs/api/index.html) as a reference for any
+Feel free to use the [Java 19 API](https://docs.oracle.com/en/java/javase/19/docs/api/index.html) as a reference for any
 piece of Java you might need.
 
 ## What to Hand In
