@@ -86,6 +86,7 @@ you encountered in creating your application.
 
 * You will be presenting your final project to the rest of the students in
 the course. 
+* The final exam period for this course is {{page.finaldue}}.
 * Your presentation should include the following 5 slides:
   * Title slide
     * Name of project
@@ -96,7 +97,7 @@ the course.
   * Joys/Struggles encountered creating the application
 * After you present your slides, give a demonstration of
   your project. The demonstration should run from 30-60 seconds.
-* The final exam period for this course is {{page.finaldue}}.
+* The presentation as a whole should last about 5 minutes.
 
 ## Grading
 
