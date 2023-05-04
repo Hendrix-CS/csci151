@@ -87,12 +87,13 @@ you encountered in creating your application.
 * You will be presenting your final project to the rest of the students in
 the course. 
 * The final exam period for this course is {{page.finaldue}}.
-* Your presentation should include the following 5 slides:
+* Your presentation should include the following 6 slides:
   * Title slide
     * Name of project
     * Name(s) of students creating the project
   * Project Goals
   * Degree of Achievement of Goals
+  * Featured Data Structure
   * Unique/Interesting Features
   * Joys/Struggles encountered creating the application
 * After you present your slides, give a demonstration of
