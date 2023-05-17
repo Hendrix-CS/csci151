@@ -28,12 +28,13 @@ to the following requirements
 -   At least two of the GUI components should have event handlers that
     produce visible changes in the GUI.
 -   The GUI should have some **persistent state** that is modeled by a class
-    of your own creation. The class should represent an abstraction of
-    the underlying data representation. The `Controller` will have an 
-    instance of this class as one of its attributes.
--   The program should do something useful or interesting. It need not
-    be complex, but it should be something that someone would
-    conceivably want to use.
+    of your own creation. 
+    - The class should represent an abstraction of the underlying data representation. 
+    - The class should have an array, `ArrayList`, linked list, stack, or queue as one of its attributes.
+    - The `Controller` will have an instance of this class as one of its attributes.
+-   The program should do something useful or interesting. 
+    - It need not be complex, but it should be something that someone would conceivably want to use. 
+    - It should be sufficiently complex that the use of an array, `ArrayList`, linked list, stack, or queue is natural in the context of the application.
 
 Feel free to use the [Java 19 API](https://docs.oracle.com/en/java/javase/19/docs/api/index.html) as a reference for any
 piece of Java you might need.
@@ -52,7 +53,7 @@ take effort to get all the GUI pieces working correctly. Work early and often!
 Your idea for a project will most likely involve using components that were not discussed in Lab 6. Please investigate what is possible in the
 [JavaFX API](https://openjfx.io/javadoc/19/) to see what is available.
 
-One option for a project would be to base your code on one of the Homework classes (Garden, TootsiePop, Toaster).
+One option for a project would be to base your code on one of the Homework classes (e.g. Garden, TootsiePop).
 
 Alternately, some students have found success revisiting their Project 1 classes and modifying them to use a GUI instead of command line text input.
 
@@ -85,9 +86,10 @@ To **Partially Complete** this project, your project must
 * include at least two GUI components with event handlers that visibly change the GUI, and                  
 * the GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.
   * the `Controller` has an instance of this class as an attribute.
+  * the class uses an array, `ArrayList`, linked list, stack, or queue in a useful and pertinent way.
   
 To **Complete** this project, the project must, 
 * work as intented (no bugs or missing elements)
-* be something that someone would conceivabley want to use,
+* be something that someone would conceivably want to use,
 * exhibit some creativity and have some interesting features, and
 * include an evaluation document that adequately describes the project.
