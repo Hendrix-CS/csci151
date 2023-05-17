@@ -34,61 +34,61 @@ Upon completing this course, our goal is for you to be able to:
 
 ## Peer Tutoring
 
-| Time | Sun | Mon | Tue | Wed | Thur |
+| Time | Sun | Mon   | Tue  | Wed  | Thur |
 |:----:|:---:|:-----:|:----:|:----:|:----:| 
-|6-8	|TBA	|TBA	|TBA |  |  |
-|8-10	| 	| TBA | | TBA |TBA |
+|6-8   |TBA	 | TBA   | TBA  |      |      |
+|8-10  |     | TBA   |      | TBA  | TBA  |
 
 # <a name="calendar">Calendar</a>
 
-| Date | Day | Topic                                                       | Assigned             | Due       |
-| ---  | --- | -----                                                       | ------------         | --------- |
+| Date | Day | Topic                                                       | Assigned               | Due       
+| ---  | --- | -----                                                       | ------------           | --------- 
 | 8/22 | Wed | Introduction to Java                                        | Hw0: Survey
-| 8/24 | Fri | Introduction to Java                                        |                      | HW0       |
+| 8/24 | Fri | Introduction to Java                                        |                        | Hw0       
 |      |
 | 8/28 | Mon | Arrays, Memory, Mutation     
 | 8/30 | Wed | Designing Classes            
-| 9/1  | Fri | Interfaces                                                  | Hw1: Eating Candy |
+| 9/1  | Fri | Interfaces                                                  | Hw1: Eating Candy      |
 |      |
 | 9/4  | Mon | Labor Day<br>No Class                    
-| 9/6  | Wed | User Input, 2D Arrays                                                 |                      | Hw1       |
-| 9/8  | Fri | Project 1                                      | Project 1            
+| 9/6  | Wed | User Input, 2D Arrays                                       |                        | Hw1       
+| 9/8  | Fri | Project 1                                                   | Project 1            
 |      |
-| 9/11 | Mon | Enums                                                       | Hw2: Garden          |
+| 9/11 | Mon | Enums                                                       | Hw2: Garden            |
 | 9/13 | Wed | Stack Abstraction<br>Array Implementation                   |                      
-| 9/15 | Fri | Linked List Implementation                                  | Hw3: ArrayStack Memory | Hw2     |
+| 9/15 | Fri | Linked List Implementation                                  | Hw3: ArrayStack Memory | Hw2       
 |      |
 | 9/18 | Mon | Generics                                  
-| 9/20 | Wed | Queue Abstraction<br>Linked List Implementation             |                      | Hw3       |
-| 9/22 | Fri | Array Implementation                                        | Hw4: ListNode Memory | Project 1 |
+| 9/20 | Wed | Queue Abstraction<br>Linked List Implementation             |                        | Hw3       
+| 9/22 | Fri | Array Implementation                                        | Hw4: ListNode Memory   | Project 1 
 |      |
-| 9/25 | Mon | ArrayList                                                            |
-| 9/27 | Wed | JavaFX GUI                                                    |                      |           |
-| 9/29 | Fri | JavaFX GUI                                                 |                      | Hw4
+| 9/25 | Mon | ArrayList                                                   |
+| 9/27 | Wed | JavaFX GUI                                                  |                        | Hw4          
+| 9/29 | Fri | JavaFX GUI                                                  | Hw5: ArrayQueue Memory                       
 |      |
-| 10/2 | Mon | Priority Queue Abstraction<br>Insertion Sort Implementation| Hw5: ArrayQueue Memory
-| 10/4 | Wed | Heap Abstraction | Project 2            |
-| 10/6 | Fri | Array Implementation of Heaps                                            |                      | Hw5
+| 10/2 | Mon | Priority Queue Abstraction<br>Insertion Sort Implementation | 
+| 10/4 | Wed | Heap Abstraction                                            | Project 2              | Hw5
+| 10/6 | Fri | Array Implementation of Heaps                               | Hw6: Heaps
 |      |
-| 10/9 | Mon | Selection Sort<br>Heapsort                               | Hw6: Heaps
-| 10/11| Wed | Bubble Sort<br>Merge Sort
-| 10/13| Fri | Fall Break<br>No Class                                    | Hw7: Sorting         | Hw6
+| 10/9 | Mon | Selection Sort<br>Heapsort                                  |                        
+| 10/11| Wed | Bubble Sort<br>Merge Sort                                   | Hw7: Sorting           | Hw6
+| 10/13| Fri | Fall Break<br>No Class                                      | 
 |      |
 | 10/16| Mon | Quicksort                                                   | 
-| 10/18| Wed | Big O                                                       |                      | Hw7
-| 10/20| Fri | Big Omega, Big Theta 
+| 10/18| Wed | Big O                                                       |                        | Hw7
+| 10/20| Fri | Big Omega, Big Theta                                        |                        | Project 2
 |      |
 | 10/23| Mon | Asymptotic Analysis                                         | Hw8: Big O
 | 10/25| Wed | Map and Set Interfaces<br>Binary Search Tree Implementation | Project 3
-| 10/27| Fri | Removal from Binary Search Trees                            |                      | Hw8
+| 10/27| Fri | Removal from Binary Search Trees                            |                        | Hw8
 |      |
 | 10/30| Mon | Tree Traversals<br>Tree Balancing<br>Tree Rotations         | Hw9: Trees
 | 11/1 | Wed | [Balanced Trees]({{site.baseurl}}/inclass/red_black.html)   |
-| 11/3 | Fri | Hash Tables<br>Separate Chaining Implementation             |                      | Hw9
+| 11/3 | Fri | Hash Tables<br>Separate Chaining Implementation             |                        | Hw9
 |      |
-| 11/6 | Mon | Hash Tables<br>Open Addressing Implementation                              | Hw10: Hash Tables    | Project 3
+| 11/6 | Mon | Hash Tables<br>Open Addressing Implementation               | Hw10: Hash Tables      | Project 3
 | 11/8 | Wed | Hash Tables<br>Cuckoo Implementation
-| 11/10| Fri | Tries                                                       |                      | Hw10
+| 11/10| Fri | Tries                                                       |                        | Hw10
 |      |
 | 11/13| Mon | Tries
 | 11/15| Wed | Designing the Final Project                                 | Project 4            
@@ -175,19 +175,19 @@ When we write code together in class, it will be posted here!
 
 | #  | Name                                                               | Date | Due  |
 |:--:|-----                                                               | ---- | ---- |
-|1 | [CodingBat]({{site.baseurl}}/labs/codingbat.html)                    | 1/24 | 1/31 |
-|2 | [How to Divide a Cake]({{site.baseurl}}/labs/cake.html)              | 1/31 | 2/7  |
-|3 | [Mazes: Enums and 2D Arrays]({{site.baseurl}}/labs/maze-enums.html)  | 2/7  | 2/14 |
-|4 | [Mazes: Depth First Search]({{site.baseurl}}/labs/maze-dfs.html)     | 2/14 | 2/21 |
-|5 | [Mazes: Breadth First Search]({{site.baseurl}}/labs/maze-bfs.html)   | 2/21 | 2/28 |
-|6 | [JavaFX GUI]({{site.baseurl}}/labs/javafx.html)                      | 2/28 | 3/7  |
-|7 | [Mazes: A* Search]({{site.baseurl}}/labs/maze-astar.html)            | 3/7  | 3/14 |
-|8 | [Sortimator]({{site.baseurl}}/labs/sortimator.html)                  | 3/14 | 3/28 |
-|9 | [JavaFX Animation]({{site.baseurl}}/labs/animation.html)             | 3/28 | 4/4  |
-|10 | [Binary Search Trees]({{site.baseurl}}/labs/binarysearchtrees.html) | 4/4  | 4/11 |
-|11 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html)       | 4/11 | 4/18 |
-|12 | [Text Prediction]({{site.baseurl}}/labs/text-prediction.html)       | 4/18 | 4/25 |
-|P  | Final Project work day                                              | 4/25 | 5/3  |
+|1 | [CodingBat]({{site.baseurl}}/labs/codingbat.html)                    | 8/29 | 9/5  |
+|2 | [How to Divide a Cake]({{site.baseurl}}/labs/cake.html)              | 9/5  | 9/12 |
+|3 | [Mazes: Enums and 2D Arrays]({{site.baseurl}}/labs/maze-enums.html)  | 9/12 | 9/19 |
+|4 | [Mazes: Depth First Search]({{site.baseurl}}/labs/maze-dfs.html)     | 9/19 | 9/26 |
+|5 | [Mazes: Breadth First Search]({{site.baseurl}}/labs/maze-bfs.html)   | 9/26 | 10/3 |
+|6 | [JavaFX GUI]({{site.baseurl}}/labs/javafx.html)                      | 10/3 | 10/10|
+|7 | [Mazes: A* Search]({{site.baseurl}}/labs/maze-astar.html)            | 10/10| 10/17|
+|8 | [Sortimator]({{site.baseurl}}/labs/sortimator.html)                  | 10/17| 10/24|
+|9 | [JavaFX Animation]({{site.baseurl}}/labs/animation.html)             | 10/24| 10/31|
+|10 | [Binary Search Trees]({{site.baseurl}}/labs/binarysearchtrees.html) | 10/31| 11/7 |
+|11 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html)       | 11/7 | 11/14|
+|12 | [Text Prediction]({{site.baseurl}}/labs/text-prediction.html)       | 11/14| 11/21|
+|P  | Final Project work day                                              | 11/28| 12/7 |
 
 Much of your experience with programming in this course will be through weekly labs. Each lab will be assigned in lab with time allotted to work through the materials, and will be due **by the start of the following lab**. 
 
