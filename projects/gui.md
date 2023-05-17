@@ -29,9 +29,10 @@ to the following requirements
     produce visible changes in the GUI.
 -   The GUI should have some **persistent state** that is modeled by a class
     of your own creation. 
+    - The `Controller` should have an instance of this class as one of its attributes.
     - The class should represent an abstraction of the underlying data representation. 
-    - The class should have an array, `ArrayList`, linked list, stack, or queue as one of its attributes.
-    - The `Controller` will have an instance of this class as one of its attributes.
+    - The class should have a central data structure as one of its attributes, used in a manner pertinent to the application and suitable to the data structure.
+    - The central data structure can be an array, linked list, `ArrayList`, `Stack`, or `ArrayDeque`.
 -   The program should do something useful or interesting. 
     - It need not be complex, but it should be something that someone would conceivably want to use. 
     - It should be sufficiently complex that the use of an array, `ArrayList`, linked list, stack, or queue is natural in the context of the application.
@@ -86,10 +87,12 @@ To **Partially Complete** this project, your project must
 * include at least two GUI components with event handlers that visibly change the GUI, and                  
 * the GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.
   * the `Controller` has an instance of this class as an attribute.
-  * the class uses an array, `ArrayList`, linked list, stack, or queue in a useful and pertinent way.
+  * the class uses an array, linked list, `ArrayList`, `Stack`, or `ArrayDeque` in a useful and pertinent way.
   
 To **Complete** this project, the project must, 
 * work as intented (no bugs or missing elements)
 * be something that someone would conceivably want to use,
 * exhibit some creativity and have some interesting features, and
-* include an evaluation document that adequately describes the project.
+* include an evaluation document that:
+  * adequately describes the project;
+  * discusses how data is incorporated into and retrieved from its central data structure.

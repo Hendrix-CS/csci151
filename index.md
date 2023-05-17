@@ -94,7 +94,7 @@ Upon completing this course, our goal is for you to be able to:
 | 11/15| Wed | Designing the Final Project                                 | Project 4            
 | 11/17| Fri | Building Large Programs
 |      |
-| 11/20| Mon | Building Large Programs
+| 11/20| Mon | Building Large Programs                                     |                        | Project 4 Design Document
 | 11/22| Wed | Thanksgiving Break<br>No Class
 | 11/24| Fri | Thanksgiving Break<br>No Class
 
