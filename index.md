@@ -200,7 +200,7 @@ stationed in the Snoddy Computer Lab in the library for our lab times." %}
 
 | #  | Name |
 |:--:|-----|
-|0 | [Survey](https://forms.gle/xwQESACLYUpc1i9R9) |
+|0 | [Survey](https://forms.gle/xBNGgkFY7pvg6tjP9) |
 |1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) |
 |2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) |
 |3 | [ArrayStack Memory]({{site.baseurl}}/homework/asmemory.html) |
@@ -294,19 +294,25 @@ Each assignment is assessed as **Complete**, **Partially Complete** or **Missing
 * Complete 1 of 3 Skills projects + 2 Partially Complete
 
 ## <a name="tokens">Tokens</a>
-* Each student starts the semester with three **tokens**.
+* Each student starts the semester with six **tokens**.
 * Send Dr. Ferrer a message on Teams to spend a token.
-* A student may spend one token in order to:
-  * Submit a project after the posted deadline.
-      * When you send the message to spend the token, specify a new
-      deadline for that project that you plan to meet.
-  * Submit a revised version of a project in the event the submission receives
-    a **Partial** assessment.
-* Scheduling and attending an office hours meeting with 
-[Dr. Ferrer](https://drferrer.youcanbook.me) or 
-[Dr. Goadrich](https://markgoadrich.youcanbook.me) earns one additional token.
+* Students may **spend tokens** as follows:
+  * Spend **one** token to submit a revised version of an assignment in the event the submission receives a **Partial** assessment.
+  * Spend **two** tokens to receive an extension to an assignment deadline. 
+    * When requesting an extension, specify the new deadline that you think will suffice.
+    * Most deadline requests will be approved, but the instructor reserves the right to limit extensions if he deems them unreasonable.
+  * Spend **three** tokens to submit an assignment after its deadline.
+* Students may **earn additional tokens** as follows:
+  * Scheduling and attending an **office hours** meeting with [Dr. Ferrer](https://drferrer.youcanbook.me) earns one additional token.
+  * Creating a **practice problem** for some topic covered in the course, along with a correct solution, earns two tokens.
+  * Creating some sort of **educational material** for the course earns 4 tokens.
+    * Examples of the sorts of things you might create include (but are not limited to):
+      * A video or animation explaining a concept from the course
+      * A document with explanation or examples of concepts from the course
+    * To earn a token the educational material must, in my judgment, be potentially helpful to other Data Structures students, present or future. If your educational material does not meet this criterion, I will work with you to revise it until it does.
+    * With your permission, and appropriate attribution, materials you create will be posted to the course website.
 * **Note**: All late submissions/revisions must be received before 5 pm on Tuesday, 
-  May 9, the last day of the semester.
+  December 12, the last day of the semester.
 
 <!--
 Assignments have due dates to help you make progress in the course and solidify your knowledge before moving on to something new. Your life and schedule may not perfectly coincide with the due dates I have chosen. Therefore, each student starts the course with **four late days** to spend throughout the semester as they wish. Simply inform me any time *prior* to the due date for an assignment that you wish to use a late day and the reason you need an extension; you may then turn in the assignment up to 24 hours late. Multiple late days may be used on the same assignment. There are no partial late days; turning in an assignment 2 hours late or 20 hours late will both use 1 late day. 
