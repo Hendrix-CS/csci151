@@ -43,8 +43,8 @@ Upon completing this course, our goal is for you to be able to:
 
 | Date | Day | Topic                                                       | Assigned               | Due       
 | ---  | --- | -----                                                       | ------------           | --------- 
-| 8/22 | Wed | Introduction to Java                                        | Hw0: Survey
-| 8/24 | Fri | Introduction to Java                                        |                        | Hw0       
+| 8/23 | Wed | Introduction to Java                                        | Hw0: Survey
+| 8/25 | Fri | Introduction to Java                                        |                        | Hw0       
 |      |
 | 8/28 | Mon | Arrays, Memory, Mutation     
 | 8/30 | Wed | Designing Classes            
@@ -305,7 +305,7 @@ Each assignment is assessed as **Complete**, **Partially Complete** or **Missing
 * Students may **earn additional tokens** as follows:
   * Scheduling and attending an **office hours** meeting with [Dr. Ferrer](https://drferrer.youcanbook.me) earns one additional token.
   * Creating a **practice problem** for some topic covered in the course, along with a correct solution, earns two tokens.
-  * Creating some sort of **educational material** for the course earns 4 tokens.
+  * Creating some sort of **educational material** for the course earns four tokens.
     * Examples of the sorts of things you might create include (but are not limited to):
       * A video or animation explaining a concept from the course
       * A document with explanation or examples of concepts from the course
