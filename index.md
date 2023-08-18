@@ -34,75 +34,75 @@ Upon completing this course, our goal is for you to be able to:
 
 ## Peer Tutoring
 
-| Time | Sun | Mon | Tue | Wed | Thur |
+| Time | Sun | Mon   | Tue  | Wed  | Thur |
 |:----:|:---:|:-----:|:----:|:----:|:----:| 
-|6-8	|Ted	|Simon	|Matthew |  |  |
-|8-10	| 	| Ryan | Riley | |Zoie |
+|6-8   |TBA	 | TBA   | TBA  |      |      |
+|8-10  |     | TBA   |      | TBA  | TBA  |
 
 # <a name="calendar">Calendar</a>
 
-| Date | Day | Topic                                                       | Assigned             | Due       |
-| ---  | --- | -----                                                       | ------------         | --------- |
-| 1/18 | Wed | Introduction to Java                                        | Hw0: Survey
-| 1/20 | Fri | Introduction to Java                                        |                      | HW0       |
+| Date | Day | Topic                                                       | Assigned               | Due       
+| ---  | --- | -----                                                       | ------------           | --------- 
+| 8/22 | Wed | Introduction to Java                                        | Hw0: Survey
+| 8/24 | Fri | Introduction to Java                                        |                        | Hw0       
 |      |
-| 1/23 | Mon | Arrays, Memory, Mutation     
-| 1/25 | Wed | Designing Classes            
-| 1/27 | Fri | Interfaces                                                  | Hw1: Eating Candy |
+| 8/28 | Mon | Arrays, Memory, Mutation     
+| 8/30 | Wed | Designing Classes            
+| 9/1  | Fri | Interfaces                                                  | Hw1: Eating Candy      |
 |      |
-| 1/30 | Mon | User Input, 2D Arrays                                
-| 2/1  | Wed | Ice-Pocalypse                                               |                      | Hw1       |
-| 2/3  | Fri | Project 1, Make-up Lab                                      | Project 1            
+| 9/4  | Mon | Labor Day<br>No Class                    
+| 9/6  | Wed | User Input, 2D Arrays                                       |                        | Hw1       
+| 9/8  | Fri | Project 1                                                   | Project 1            
 |      |
-| 2/6  | Mon | Enums                                                       | Hw2: Garden          |
-| 2/8  | Wed | Stack Abstraction<br>Array Implementation                   |                      
-| 2/10 | Fri | Linked List Implementation                                  | Hw3: ArrayStack Memory | Hw2     |
+| 9/11 | Mon | Enums                                                       | Hw2: Garden            |
+| 9/13 | Wed | Stack Abstraction<br>Array Implementation                   |                      
+| 9/15 | Fri | Linked List Implementation                                  | Hw3: ArrayStack Memory | Hw2       
 |      |
-| 2/13 | Mon | Generics                                  
-| 2/15 | Wed | Queue Abstraction<br>Linked List Implementation             |                      | Hw3       |
-| 2/17 | Fri | Array Implementation                                        | Hw4: ListNode Memory | Project 1 |
+| 9/18 | Mon | Generics                                  
+| 9/20 | Wed | Queue Abstraction<br>Linked List Implementation             |                        | Hw3       
+| 9/22 | Fri | Array Implementation                                        | Hw4: ListNode Memory   | Project 1 
 |      |
-| 2/20 | Mon | Winter Break<br>No Class |
-| 2/22 | Wed | ArrayList                                                   |                      |           |
-| 2/24 | Fri | JavaFX GUI                                                  |                      | Hw4
+| 9/25 | Mon | ArrayList                                                   |
+| 9/27 | Wed | JavaFX GUI                                                  |                        | Hw4          
+| 9/29 | Fri | JavaFX GUI                                                  | Hw5: ArrayQueue Memory                       
 |      |
-| 2/27 | Mon | JavaFX GUI                                                  | Hw5: ArrayQueue Memory
-| 3/1  | Wed | Priority Queue Abstraction<br>Insertion Sort Implementation | Project 2            |
-| 3/3  | Fri | Heap Abstraction                                            |                      | Hw5
+| 10/2 | Mon | Priority Queue Abstraction<br>Insertion Sort Implementation | 
+| 10/4 | Wed | Heap Abstraction                                            | Project 2              | Hw5
+| 10/6 | Fri | Array Implementation of Heaps                               | Hw6: Heaps
 |      |
-| 3/6  | Mon | Array Implementation of Heaps                               | Hw6: Heaps
-| 3/8  | Wed | Selection Sort<br>Heapsort
-| 3/10 | Fri | Bubble Sort<br>Merge Sort                                   | Hw7: Sorting         | Hw6
+| 10/9 | Mon | Selection Sort<br>Heapsort                                  |                        
+| 10/11| Wed | Bubble Sort<br>Merge Sort                                   | Hw7: Sorting           | Hw6
+| 10/13| Fri | Fall Break<br>No Class                                      | 
 |      |
-| 3/13 | Mon | Quicksort                                                   | 
-| 3/15 | Wed | Big O                                                       |                      | Hw7
-| 3/17 | Fri | Big Omega, Big Theta                                        |                      | Project 2
+| 10/16| Mon | Quicksort                                                   | 
+| 10/18| Wed | Big O                                                       |                        | Hw7
+| 10/20| Fri | Big Omega, Big Theta                                        |                        | Project 2
 |      |
-| 3/20 | Mon | Spring Break <br>No Class |
-| 3/22 | Wed | Spring Break <br>No Class |
-| 3/24 | Fri | Spring Break <br>No Class |
+| 10/23| Mon | Asymptotic Analysis                                         | Hw8: Big O
+| 10/25| Wed | Map and Set Interfaces<br>Binary Search Tree Implementation | Project 3
+| 10/27| Fri | Removal from Binary Search Trees                            |                        | Hw8
 |      |
-| 3/27 | Mon | Asymptotic Analysis                                         | Hw8: Big O
-| 3/29 | Wed | Map and Set Interfaces<br>Binary Search Tree Implementation | Project 3
-| 3/31 | Fri | Removal from Binary Search Trees                            |                      | Hw8
+| 10/30| Mon | Tree Traversals<br>Tree Balancing<br>Tree Rotations         | Hw9: Trees
+| 11/1 | Wed | [Balanced Trees]({{site.baseurl}}/inclass/red_black.html)   |
+| 11/3 | Fri | Hash Tables<br>Separate Chaining Implementation             |                        | Hw9
 |      |
-| 4/3  | Mon | Tree Traversals<br>Tree Balancing<br>Tree Rotations         | Hw9: Trees
-| 4/5  | Wed | Balanced Trees
-| 4/7  | Fri | Hash Tables<br>Separate Chaining Implementation             |                      | Hw9
+| 11/6 | Mon | Hash Tables<br>Open Addressing Implementation               | Hw10: Hash Tables      | Project 3
+| 11/8 | Wed | Hash Tables<br>Cuckoo Implementation
+| 11/10| Fri | Tries                                                       |                        | Hw10
 |      |
-| 4/10 | Mon | Open Addressing Implementation                              | Hw10: Hash Tables    | Project 3
-| 4/12 | Wed | Cuckoo Implementation
-| 4/14 | Fri | Tries                                                       |                      | Hw10
+| 11/13| Mon | Tries
+| 11/15| Wed | Designing the Final Project                                 | Project 4            
+| 11/17| Fri | Building Large Programs
 |      |
-| 4/17 | Mon | Tries
-| 4/19 | Wed | Designing the Final Project                                 | Project 4            
-| 4/21 | Fri | Bloom Filters
+| 11/20| Mon | Building Large Programs                                     |                        | Project 4 Design Document
+| 11/22| Wed | Thanksgiving Break<br>No Class
+| 11/24| Fri | Thanksgiving Break<br>No Class
+
+| 11/27| Mon | Building Large Programs
+| 11/29| Wed | Building Large Programs
+| 12/1 | Fri | Retrospective
 |      |
-| 4/24 | Mon | Skip Lists
-| 4/26 | Wed | B-Trees
-| 4/28 | Fri | Retrospective
-|      |
-| 5/3  | Thu 8:30-11:30 am | Project 4 Presentations
+| 12/7 | Thu 8:30-11:30 am | Project 4 Presentations
 
 <!--
 # <a name="inclasscode">In-Class Code</a>
@@ -175,19 +175,19 @@ When we write code together in class, it will be posted here!
 
 | #  | Name                                                               | Date | Due  |
 |:--:|-----                                                               | ---- | ---- |
-|1 | [CodingBat]({{site.baseurl}}/labs/codingbat.html)                    | 1/24 | 1/31 |
-|2 | [How to Divide a Cake]({{site.baseurl}}/labs/cake.html)              | 1/31 | 2/7  |
-|3 | [Mazes: Enums and 2D Arrays]({{site.baseurl}}/labs/maze-enums.html)  | 2/7  | 2/14 |
-|4 | [Mazes: Depth First Search]({{site.baseurl}}/labs/maze-dfs.html)     | 2/14 | 2/21 |
-|5 | [Mazes: Breadth First Search]({{site.baseurl}}/labs/maze-bfs.html)   | 2/21 | 2/28 |
-|6 | [JavaFX GUI]({{site.baseurl}}/labs/javafx.html)                      | 2/28 | 3/7  |
-|7 | [Mazes: A* Search]({{site.baseurl}}/labs/maze-astar.html)            | 3/7  | 3/14 |
-|8 | [Sortimator]({{site.baseurl}}/labs/sortimator.html)                  | 3/14 | 3/28 |
-|9 | [JavaFX Animation]({{site.baseurl}}/labs/animation.html)             | 3/28 | 4/4  |
-|10 | [Binary Search Trees]({{site.baseurl}}/labs/binarysearchtrees.html) | 4/4  | 4/11 |
-|11 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html)       | 4/11 | 4/18 |
-|12 | [Text Prediction]({{site.baseurl}}/labs/text-prediction.html)       | 4/18 | 4/25 |
-|P  | Final Project work day                                              | 4/25 | 5/3  |
+|1 | [CodingBat]({{site.baseurl}}/labs/codingbat.html)                    | 8/29 | 9/5  |
+|2 | [How to Divide a Cake]({{site.baseurl}}/labs/cake.html)              | 9/5  | 9/12 |
+|3 | [Mazes: Enums and 2D Arrays]({{site.baseurl}}/labs/maze-enums.html)  | 9/12 | 9/19 |
+|4 | [Mazes: Depth First Search]({{site.baseurl}}/labs/maze-dfs.html)     | 9/19 | 9/26 |
+|5 | [Mazes: Breadth First Search]({{site.baseurl}}/labs/maze-bfs.html)   | 9/26 | 10/3 |
+|6 | [JavaFX GUI]({{site.baseurl}}/labs/javafx.html)                      | 10/3 | 10/10|
+|7 | [Mazes: A* Search]({{site.baseurl}}/labs/maze-astar.html)            | 10/10| 10/17|
+|8 | [Sortimator]({{site.baseurl}}/labs/sortimator.html)                  | 10/17| 10/24|
+|9 | [JavaFX Animation]({{site.baseurl}}/labs/animation.html)             | 10/24| 10/31|
+|10 | [Binary Search Trees]({{site.baseurl}}/labs/binarysearchtrees.html) | 10/31| 11/7 |
+|11 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html)       | 11/7 | 11/14|
+|12 | [Text Prediction]({{site.baseurl}}/labs/text-prediction.html)       | 11/14| 11/21|
+|P  | Final Project work day                                              | 11/28| 12/7 |
 
 Much of your experience with programming in this course will be through weekly labs. Each lab will be assigned in lab with time allotted to work through the materials, and will be due **by the start of the following lab**. 
 
@@ -200,7 +200,7 @@ stationed in the Snoddy Computer Lab in the library for our lab times." %}
 
 | #  | Name |
 |:--:|-----|
-|0 | [Survey](https://forms.gle/xwQESACLYUpc1i9R9) |
+|0 | [Survey](https://forms.gle/xBNGgkFY7pvg6tjP9) |
 |1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) |
 |2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) |
 |3 | [ArrayStack Memory]({{site.baseurl}}/homework/asmemory.html) |
@@ -294,19 +294,25 @@ Each assignment is assessed as **Complete**, **Partially Complete** or **Missing
 * Complete 1 of 3 Skills projects + 2 Partially Complete
 
 ## <a name="tokens">Tokens</a>
-* Each student starts the semester with three **tokens**.
+* Each student starts the semester with six **tokens**.
 * Send Dr. Ferrer a message on Teams to spend a token.
-* A student may spend one token in order to:
-  * Submit a project after the posted deadline.
-      * When you send the message to spend the token, specify a new
-      deadline for that project that you plan to meet.
-  * Submit a revised version of a project in the event the submission receives
-    a **Partial** assessment.
-* Scheduling and attending an office hours meeting with 
-[Dr. Ferrer](https://drferrer.youcanbook.me) or 
-[Dr. Goadrich](https://markgoadrich.youcanbook.me) earns one additional token.
+* Students may **spend tokens** as follows:
+  * Spend **one** token to submit a revised version of an assignment in the event the submission receives a **Partial** assessment.
+  * Spend **two** tokens to receive an extension to an assignment deadline. 
+    * When requesting an extension, specify the new deadline that you think will suffice.
+    * Most deadline requests will be approved, but the instructor reserves the right to limit extensions if he deems them unreasonable.
+  * Spend **three** tokens to submit an assignment after its deadline.
+* Students may **earn additional tokens** as follows:
+  * Scheduling and attending an **office hours** meeting with [Dr. Ferrer](https://drferrer.youcanbook.me) earns one additional token.
+  * Creating a **practice problem** for some topic covered in the course, along with a correct solution, earns two tokens.
+  * Creating some sort of **educational material** for the course earns 4 tokens.
+    * Examples of the sorts of things you might create include (but are not limited to):
+      * A video or animation explaining a concept from the course
+      * A document with explanation or examples of concepts from the course
+    * To earn a token the educational material must, in my judgment, be potentially helpful to other Data Structures students, present or future. If your educational material does not meet this criterion, I will work with you to revise it until it does.
+    * With your permission, and appropriate attribution, materials you create will be posted to the course website.
 * **Note**: All late submissions/revisions must be received before 5 pm on Tuesday, 
-  May 9, the last day of the semester.
+  December 12, the last day of the semester.
 
 <!--
 Assignments have due dates to help you make progress in the course and solidify your knowledge before moving on to something new. Your life and schedule may not perfectly coincide with the due dates I have chosen. Therefore, each student starts the course with **four late days** to spend throughout the semester as they wish. Simply inform me any time *prior* to the due date for an assignment that you wish to use a late day and the reason you need an extension; you may then turn in the assignment up to 24 hours late. Multiple late days may be used on the same assignment. There are no partial late days; turning in an assignment 2 hours late or 20 hours late will both use 1 late day. 

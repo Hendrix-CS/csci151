@@ -3,8 +3,8 @@ layout: work
 type: Project
 num: 4
 worktitle: Final Project
-designdue: Tuesday, November 22nd
-finaldue: Thursday, December 8th, 8:00-11:00am
+designdue: Monday, November 20
+finaldue: Thursday, December 7, 8:30-11:30am
 ---
 
 ## Description
@@ -15,7 +15,7 @@ incorporating elements of data structures in your implementation.
 ## Materials
 
 -   IntelliJ, JavaFX and SceneBuilder
--   [Java 17 API](https://docs.oracle.com/en/java/javase/17/docs/api/index.html)
+-   [Java 19 API](https://docs.oracle.com/en/java/javase/19/docs/api/index.html)
 
 ## Description
 
@@ -34,9 +34,8 @@ subject to the following requirements
 -   Your model must incorporate numerous classes and enums in a sensible
     organization. Use the Maze or TicTacToe labs as a goal to strive for
     in your project.
--   You must incorporate at least one of the data structures discussed
-    in this course beyond a List (Stack, Queue, Set,
-    Map, Heap).
+-   You must incorporate a trie, `HashSet`, `HashMap`, `TreeSet`, `TreeMap`, `PriorityQueue`, `Stack`, or `ArrayDeque`
+    into your application in a useful and natural way. 
 
 Your project
 idea **must** be approved via email or conversation prior to the design submission.
@@ -60,6 +59,9 @@ Your design must include:
 *   A **description of the classes** you will use to decompose the
     information in your project, with a list of the variables and
     methods in each class.
+*   A discussion of **the data structure you are incorporating**, why you selected it,
+    and why the asymptotic time complexity of its operations is a good match for your
+    project requirements.
 *   A **sketch** of the JavaFX GUI for your project.
 *   A **timeline** of steps you will take to complete your project with
     deadlines for each step. Plan not just what you must do but the
@@ -70,8 +72,8 @@ You should be as detailed as possible for full credit in your
 description. Time spent on the design will pay off immensely as you
 implement your project.
 
-Feel free to use the [Java 17
-API](https://docs.oracle.com/en/java/javase/17/docs/api/index.html) as a
+Feel free to use the [Java 19
+API](https://docs.oracle.com/en/java/javase/19/docs/api/index.html) as a
 reference for any piece of Java you might need.
 
 ## What to Hand In
@@ -82,10 +84,23 @@ original submitted design, any unique
 and interesting features in your application, and any joys or struggles
 you encountered in creating your application.
 
-You will be presenting your final project to the rest of the students in
-the course. You will have at most **5 minutes** for your presentation,
-which must include a demonstration of your project. The final exam
-period for this course is {{page.finaldue}}.
+## Presentation
+
+* You will be presenting your final project to the rest of the students in
+the course. 
+* The final exam period for this course is {{page.finaldue}}.
+* Your presentation should include the following 6 slides:
+  * Title slide
+    * Name of project
+    * Name(s) of students creating the project
+  * Project Goals
+  * Degree of Achievement of Goals
+  * Featured Data Structure
+  * Unique/Interesting Features
+  * Joys/Struggles encountered creating the application
+* After you present your slides, give a demonstration of
+  your project. The demonstration should run from 30-60 seconds.
+* The presentation as a whole should last about 5 minutes.
 
 ## Grading
 
@@ -99,8 +114,12 @@ To **Partially Complete** this project, your project must
 
 To **Complete** this project, the project must, 
 * incorporate numerous classes and enums in a sensible organization, roughly at the level of the Maze or TicTacToe labs,
-* incorporate at least one data structure discussed in the course beyond a list,
+* incorporate at least one trie, `HashSet`, `HashMap`, `TreeSet`, `TreeMap`, `PriorityQueue`, `Stack`, or `ArrayDeque`,
 * work as intented (no bugs or missing elements)
 * be something that someone would conceivabley want to use,
 * exhibit some creativity and have some interesting features, and
-* include an evaluation document that adequately describes the project.
+* include an evaluation document that:
+  * adequately describes the project;
+  * discusses how data is incorporated into and retrieved from its central data structure;
+  * correctly states the asymptotic time complexity of each operation invoked on the central data structure;
+  * discusses why, in light of the time complexity of those operations, the data structure is a good choice for the application.
