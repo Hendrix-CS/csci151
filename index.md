@@ -314,18 +314,17 @@ Each assignment is assessed as **Complete**, **Partially Complete** or **Missing
 * **Note**: All late submissions/revisions must be received before 5 pm on Tuesday, 
   December 12, the last day of the semester.
 
-<!--
-Assignments have due dates to help you make progress in the course and solidify your knowledge before moving on to something new. Your life and schedule may not perfectly coincide with the due dates I have chosen. Therefore, each student starts the course with **four late days** to spend throughout the semester as they wish. Simply inform me any time *prior* to the due date for an assignment that you wish to use a late day and the reason you need an extension; you may then turn in the assignment up to 24 hours late. Multiple late days may be used on the same assignment. There are no partial late days; turning in an assignment 2 hours late or 20 hours late will both use 1 late day. 
 
-After you have used up your four late days, **you must schedule a meeting with me to earn more late days**, otherwise late assignments will not be accepted. 
+<!--Assignments have due dates to help you make progress in the course and solidify your knowledge before moving on to something new. Your life and schedule may not perfectly coincide with the due dates I have chosen. Therefore, each student starts the course with **four late days** to spend throughout the semester as they wish. Simply inform me any time *prior* to the due date for an assignment that you wish to use a late day and the reason you need an extension; you may then turn in the assignment up to 24 hours late. Multiple late days may be used on the same assignment. There are no partial late days; turning in an assignment 2 hours late or 20 hours late will both use 1 late day. -->
 
-{% include note.html content="Late days are intended to cover both normal circumstances (you simply want more time to work on the assignment) and exceptional circumstances (you get sick, travel for a game or family obligation, *etc.*)." %}
+<!-- After you have used up your four late days, **you must schedule a meeting with me to earn more late days**, otherwise late assignments will not be accepted. -->
 
-{% include important.html content="You must be in communication with me anytime an assignment is late." %}
+<!--{% include note.html content="Late days are intended to cover both normal circumstances (you simply want more time to work on the assignment) and exceptional circumstances (you get sick, travel for a game or family obligation, *etc.*)." %}-->
 
-If you would like to improve an assignment after it has been graded and improve your grade, you may revise and resubmit the assignment until you do. There is no deadline for resubmitted assignments.
+<!--{% include important.html content="You must be in communication with me anytime an assignment is late." %}-->
 
-However, the above only applies if you **made a reasonable attempt at the assignment the first time**. You cannot turn in a half-finished assignment before the deadline and then “revise” it by completing the rest. If your assignment is only half-finished, you must request use late days as described above.
+<!--If you would like to improve an assignment after it has been graded and improve your grade, you may revise and resubmit the assignment until you do. There is no deadline for resubmitted assignments.-->
 
--->
-{% include important.html content="All work and revisions must be completed the day of the final exam period for this course at 5pm." %}
+<!--However, the above only applies if you **made a reasonable attempt at the assignment the first time**. You cannot turn in a half-finished assignment before the deadline and then “revise” it by completing the rest. If your assignment is only half-finished, you must request use late days as described above.-->
+
+<!--{% include important.html content="All work and revisions must be completed the day of the final exam period for this course at 5pm." %}-->
