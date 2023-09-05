@@ -110,6 +110,6 @@ We will run a simulation competition during class the following Wednesday.
 
 * To **Partially Complete** this lab, write five strategies.
 * To **Complete** this lab, do the above and
-    * use an array in one of your strategies
+    * use an array in one of your strategies, or
     * place in the top *10* strategies in the tournament, or 
     * use a very creative strategy.
