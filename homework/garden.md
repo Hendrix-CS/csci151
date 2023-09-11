@@ -8,10 +8,11 @@ worktitle: Planting a Garden
 Write a class called `Garden` to represent a dividable plot of land that can be
 planted, watered, and harvested.
 
-Assume you have a `Enum` available called `Dirt`, with three elements: `EMPTY`, `SEED`, `PLANT`, as described here:
+Create an `Enum` called `Dirt`. Start with the code below. You
+are welcome to add methods to it if you would like.
 
     public enum Dirt {
-         EMPTY, SEED, PLANT
+         EMPTY, SEED, PLANT;
     }
 
 You will have two components, an array of `Dirt` for the plots, and a `String` to hold the type of crop planted in this garden;
@@ -37,4 +38,4 @@ return the string `"Needs Water!"`. Otherwise return `"Nothing but Dirt..."`.
 Also, write a `Main` class that includes a `public static void main(String[] args)` method that fully tests and demonstrates that your class is working.
 
 You may use IntelliJ to test your code. Turn in a copy of your
-`Garden.java` and `Main.java` files through Teams by the due date.
+`Garden.java`, `Dirt.java`, and `Main.java` files through Teams by the due date.
