@@ -88,7 +88,7 @@ subject to the following constraints:
 -   Each strategy should be named after the last names of the authors. For example,
     students named Mark Goadrich and Brent Yorgey would create `GoadrichYorgey1.java`,
     `GoadrichYorgey2.java`, and so forth.
--   To earn an "A", at least one strategy must use an array.
+-   To earn full credit, at least one strategy must use an array.
 
 Be sure to regularly run simulations with your strategies, by executing the `Simulator` class, to check on your syntax and semantics as well as performance.
 
