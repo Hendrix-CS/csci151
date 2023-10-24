@@ -54,11 +54,17 @@ the buttons to these functions. These functions should call `clock.start()` and
 
 ### Step 1.2
 
-Allow the `Pane` in DemoController to accept MousePressed events. When the
-pane is pressed, call the `makeBouncyBall` method. You will notice that new balls
-appear! However, they also appear when you try to pick up and move the
-other balls. To prevent this, both of the MousePressed callback methods will need
-to consume the events they handle, through calling `event.consume()`.
+Set up the `Pane` in `DemoController` to accept `MousePressed` events by adding the 
+following line to the `initialize()` method:
+```
+pane.setOnMousePressed(event -> {makeBouncyBall();});
+```
+
+When the pane is pressed, this will call the `makeBouncyBall` method. You will 
+notice that new balls appear! However, they also appear when you try to pick up 
+and move the other balls. To prevent this, both of the MousePressed callback 
+methods (in `DemoController` and `BouncyBallView`) will need
+to consume the events they handle by calling `event.consume()`.
 
 ### Step 1.3
 
@@ -66,7 +72,8 @@ Augment the `Movement` private class to slowly grow and shrink the
 balls. First, you should add a `setRadius(double radius)` method to the `BouncyBall`
 class that sets the radius. Then, add in two fields to the private `Movement` class,
 one for the current `radius`, initialized at 25, and one called `dr` for the rate of change,
-initialized at 0.1. In the for loop, set the radius of each `BouncyBall` b to the current radius. Following the for loop, add the following lines:
+initialized at 0.1. In the `for` loop (in the `Movement.handle()` method), set the radius 
+of each `BouncyBall` `b` to the current radius. Following the `for` loop, add the following lines:
 
 <!-- -->
 
