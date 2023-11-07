@@ -117,7 +117,7 @@ As we add more items to our Map, the efficiency will degrade. We need to revise
 the `put` method to account for this.
 
 When the load factor of the `HashTable`, determined by the size of the
-`HashTable` divided by the capacity of the array, exceeds 0.75, the `put`
+`HashTable` divided by the capacity of the array, exceeds `MAX_LOAD`, the `put`
 method should double the size of the array.
 
 Once the array is doubled, 'reput' all the entries into the new array
