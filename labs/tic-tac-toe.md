@@ -58,7 +58,7 @@ and abstracting this pattern into a private method.
 
 The first method we must implement for the `HashTable` is the `index`
 method. When passed a key, it will return the appropriate HashTable
-index for that key using the `hashcode()` of the key modded by the length
+index for that key using the `hashCode()` of the key modulo by the length
 of the array, **then taking the absolute value**.
 
 A successful solution
