@@ -72,19 +72,15 @@ allocated array must be found using the `index` method from Step 1.
 
 If there is no entry at the found location, a new `HashNode` is created to
 store the key and value. However, if there already exists a `HashNode` at
-that location, we first check to see if the keys match. If a match is
-found, the new value replaces the old value for that node. If the keys
-do not match, then a collision has occurred and must be resolved.
+that location, resolve the collision by walking the linked list of `HashNodes` 
+at that location, looking for either a matching key or the end of the chain. 
 
-To resolve the collision, use the separate chaining algorithm to walk
-the linked list of `HashNodes` at that location, looking for either a
-matching key or the end of the chain. If the end of the chain is
-reached without finding a match for the key, add a new `HashNode`
-at the beginning of the list, using the current array entry as the `next`
-in the constructor.
+If a match is found, replace the old value for that node with the new value 
+and exit the loop. If the end of the chain is reached without finding a match 
+for the key, add a new `HashNode` at the beginning of the list, using the 
+current array entry as the `next` in the constructor.
 
-Only when a new `HashNode` is created should the size counter be
-incremented.
+Only when a new `HashNode` is created should the size counter be incremented.
 
 {% include note.html content="You will not pass any tests at this point. Both `put` and `get` are needed to really test out your code." %}
 
@@ -116,11 +112,11 @@ A successful solution will pass `testKeys`.
 As we add more items to our Map, the efficiency will degrade. We need to revise
 the `put` method to account for this.
 
-When the load factor of the `HashTable`, determined by the size of the
-`HashTable` divided by the capacity of the array, exceeds `MAX_LOAD`, the `put`
-method should double the size of the array.
+When the load factor of the `HashTable`, determined by the number of items stored 
+in the `HashTable` divided by the capacity of the array, exceeds `MAX_LOAD`, the 
+`put` method should double the length of the array.
 
-Once the array is doubled, 'reput' all the entries into the new array
+Once the array length is doubled, 'reput' all the entries into the new array
 (you will need to `index()` them again since the length of
 the array has changed).
 
