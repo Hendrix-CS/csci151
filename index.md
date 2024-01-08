@@ -43,7 +43,7 @@ TBA
 |6-8   |	 | Chris Harvey   |  |      |      |
 
 --->
-
+<!--
 # <a name="calendar">Calendar</a>
 
 | Date | Day | Topic                                                       | Assigned               | Due       
@@ -108,6 +108,8 @@ TBA
 | 12/1 | Fri | Retrospective
 |      |
 | 12/7 | Thu 8:30-11:30 am | Project 4 Presentations
+
+-->
 
 <!--
 # <a name="inclasscode">In-Class Code</a>
@@ -284,7 +286,7 @@ You will be graded not only on correctness, but also technique, documentation an
 Three times throughout the semester, you are expected to
 make an office hours appointment and discuss your progress in the course. This will include conversation and feedback about your current progress and understanding.
 Ideally, these checkins should be scheduled during the weeks shown
-on the [course calendar](https://app.teamgantt.com/public/projects/calendar/?ids=3640161&projectIds=3640161&publicKeys=W0oCd2CLkupW&prefs=P2lkcz0zNjQwMTYxJnB1YmxpY19rZXlzPVcwb0NkMkNMa3VwVw%3D%3D).
+on the [course calendar](https://prod.teamgantt.com/gantt/schedule/?ids=3800427&public_keys=9EXxMLt23f63&zoom=d100&font_size=12&estimated_hours=0&assigned_resources=0&percent_complete=0&documents=0&comments=0&col_width=355&hide_header_tabs=0&menu_view=1&resource_filter=1&name_in_bar=0&name_next_to_bar=0&resource_names=1&resource_hours=1#user=&company=&custom=&date_filter=&hide_completed=&color_filter=).
 
 ## <a name="attendance">Attendance</a>
 
