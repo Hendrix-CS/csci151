@@ -34,9 +34,15 @@ Upon completing this course, our goal is for you to be able to:
 
 ## Peer Tutoring
 
+TBA
+
+<!--
+
 | Time | Sun | Mon   | Tue  | Wed  | Thur |
 |:----:|:---:|:-----:|:----:|:----:|:----:| 
 |6-8   |	 | Chris Harvey   |  |      |      |
+
+--->
 
 # <a name="calendar">Calendar</a>
 
@@ -170,6 +176,43 @@ When we write code together in class, it will be posted here!
 <hr>
 # Coursework
 
+[*Adapted from Spencer Bagley and David Clark, via [Robert
+Talbert](https://rtalbert.org/a-real-world-approach-to-deadlines/)*]
+
+CSCI 151 uses a **real-world policy** on due dates---but this may not
+mean what you think!  In the *real* real world, due dates exist but
+they are often not ironclad.  Assignments have due dates to help you 
+make progress in the course and solidify your knowledge before moving on 
+to something new. Your life and schedule may not perfectly coincide 
+with the due dates I have chosen. If you need more time to
+get the job done well, you email whoever set the deadline to ask if
+you can have more time.  Studies have shown that deadline extension
+requests---in moderation and when truly needed---often lead to
+*better* employee evaluations (not to mention better work). [*See [Go
+Ahead and Ask for More Time on that
+Deadline](https://hbr.org/2021/12/go-ahead-and-ask-for-more-time-on-that-deadline)
+by Ashley Williams*.]
+
+**If you need an extension on a due date, email me and explain what
+you need**, and it will probably be fine.  It helps if you propose a
+concrete new deadline (*e.g.* "I can get it done by 5pm on
+Wednesday").  If you ask for lots of extensions, we'll work together
+to find a way to help you keep up.  Note, however, that late
+submissions may not receive feedback as quickly as on-time
+submissions.
+
+If you have significant extenuating circumstances that cause you to
+miss multiple deadlines, please [come to office
+hours](markgoadrich.youcanbook.me) to discuss broader accommodations.  I'm
+happy to be flexible, but it helps to know what you need so I can
+figure out the best way to help.
+
+{% include important.html content="You must be in communication with me anytime an assignment is late." %}
+
+If you would like to improve an assignment after it has been graded and improve your grade, you may revise and resubmit the assignment until you do. This must be **within two weeks of receiving feedback**. If you need more than two weeks, *you must schedule a meeting with me to discuss your reasons for the delay*.
+
+{% include important.html content="All work and revisions must be completed the day of the final exam period for this course at 5pm." %}
+
 ## <a name="labs">Labs</a>
 
 | #  | Name                                                               | Date | Due  |
@@ -199,7 +242,7 @@ stationed in the Snoddy Computer Lab in the library for our lab times." %}
 
 | #  | Name |
 |:--:|-----|
-|0 | [Survey](https://forms.gle/xBNGgkFY7pvg6tjP9) |
+|0 | [Survey](https://forms.gle/VLRVHjUAisWP5R9J8) |
 |1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) |
 |2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) |
 |3 | [ArrayStack Memory]({{site.baseurl}}/homework/asmemory.html) |
@@ -236,15 +279,20 @@ You will be graded not only on correctness, but also technique, documentation an
 |:--:|-----||:------:|
 |4 | [Final Project]({{site.baseurl}}/projects/final-project.html) |
 
-<!--
 ## <a name="checkins">Checkins</a>
 
-Four times throughout the semester, you are expected to
-make an office hours appointment and check in with me about the course. 
-This will be conversation and feedback about your current progress and understanding.
-Ideally, these should be scheduled during the weeks shown
-on the [course calendar](https://app.teamgantt.com/public/projects/calendar/2022-08-23?&ids=3161216&projectIds=3161216&publicKeys=nxIJq9avVtbh&prefs=P2lkcz0zMTYxMjE2JnB1YmxpY19rZXlzPW54SUpxOWF2VnRiaCZ6b29tPWQxMDAmZm9udF9zaXplPTEyJmVzdGltYXRlZF9ob3Vycz0wJmFzc2lnbmVkX3Jlc291cmNlcz0wJnBlcmNlbnRfY29tcGxldGU9MCZkb2N1bWVudHM9MCZjb21tZW50cz0wJmNvbF93aWR0aD0zNTUmaGlkZV9oZWFkZXJfdGFicz0wJm1lbnVfdmlldz0xJnJlc291cmNlX2ZpbHRlcj0xJm5hbWVfaW5fYmFyPTAmbmFtZV9uZXh0X3RvX2Jhcj0wJnJlc291cmNlX25hbWVzPTEmcmVzb3VyY2VfaG91cnM9MQ%3D%3D).
--->
+Three times throughout the semester, you are expected to
+make an office hours appointment and discuss your progress in the course. This will include conversation and feedback about your current progress and understanding.
+Ideally, these checkins should be scheduled during the weeks shown
+on the [course calendar](https://app.teamgantt.com/public/projects/calendar/?ids=3640161&projectIds=3640161&publicKeys=W0oCd2CLkupW&prefs=P2lkcz0zNjQwMTYxJnB1YmxpY19rZXlzPVcwb0NkMkNMa3VwVw%3D%3D).
+
+## <a name="attendance">Attendance</a>
+
+Attending class and being an active participant in the class community
+is one of the [most important contributors to your learning at Hendrix](https://www.hendrix.edu/Catalog/2023-2024/Academic_Policies_and_Regulations/Policies_and_Appeals/D_6_e__Class_Attendance/).
+Attendance is especially important in this class since you will often engage in group learning activities. Active participation is expected in order to achieve higher grade levels in the course. 
+
+If you know that you will be absent, please email me so that we can find accomodations. If there is an emergency, please get in touch with me as soon as is possible once the emergency is resolved. I trust you to be honest with me about your reasons for the absence (I do not need details), and honest with yourself about if you truly need to be absent. **If you do not communicate with me about your absence, it will be unexcused.**
 
 ## <a name="scale">Specifications Grading</a>
 
@@ -256,6 +304,7 @@ Each assignment is assessed as **Complete**, **Partially Complete** or **Missing
 * Complete the Final Project
 * Complete 11 of 12 Labs + 1 Partially Complete
 * Complete 9 of 10 Homeworks
+* Abundant Participation in Classroom Activities (no unexcused absences)
 
 ### B Level Work
 
@@ -269,6 +318,7 @@ Each assignment is assessed as **Complete**, **Partially Complete** or **Missing
     * Complete the Final Project
     * Complete 10 of 12 Labs + 1 Partially Complete
     * Complete 8 of 10 Homeworks
+* Active Participation in Classroom Activities (at most one unexcused absence)
 
 ### C Level Work
 
@@ -285,12 +335,15 @@ Each assignment is assessed as **Complete**, **Partially Complete** or **Missing
     * Complete the Final Project
     * Complete 8 of 12 labs + 1 Partially Complete
     * Complete 6 of 10 Homeworks
+* Participation in Classroom Activities (at most three unexcused absences)
 
 ### D Level Work
 
 * Complete 6 of 12 Labs + 3 Partially Complete
 * Complete 5 of 10 Homeworks
 * Complete 1 of 3 Skills projects + 2 Partially Complete
+
+<!--
 
 ## <a name="tokens">Tokens</a>
 * Each student starts the semester with six **tokens**.
@@ -313,6 +366,7 @@ Each assignment is assessed as **Complete**, **Partially Complete** or **Missing
 * **Note**: All late submissions/revisions must be received before 5 pm on Tuesday, 
   December 12, the last day of the semester.
 
+-->
 
 <!--Assignments have due dates to help you make progress in the course and solidify your knowledge before moving on to something new. Your life and schedule may not perfectly coincide with the due dates I have chosen. Therefore, each student starts the course with **four late days** to spend throughout the semester as they wish. Simply inform me any time *prior* to the due date for an assignment that you wish to use a late day and the reason you need an extension; you may then turn in the assignment up to 24 hours late. Multiple late days may be used on the same assignment. There are no partial late days; turning in an assignment 2 hours late or 20 hours late will both use 1 late day. -->
 

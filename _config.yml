@@ -26,7 +26,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 number: CSCI 151
 title: Data Structures
-semester: Fall 2023
+semester: Spring 2024
 
 navigation:
   - title: Overview
@@ -64,21 +64,26 @@ instructors:
     email: ferrer@hendrix.edu
     web: https://gjf2a.github.io/
     officehours: https://drferrer.youcanbook.me/
+  - id: goadrich
+    name: Dr. Mark Goadrich
+    email: goadrich@hendrix.edu
+    web: http://mark.goadrich.com/
+    officehours: https://markgoadrich.youcanbook.me/
 
 offerings:
   - name: LECTURE 01
-    loc: MCReynolds 315
-    time: MWF 10:10am - 11:00am
-    instructor: ferrer
+    loc: MCReynolds 314
+    time: MWF 11:10am - 12:00pm
+    instructor: goadrich
   - name: LAB 01
     loc: Snoddy Lab
     time: T 1:10pm - 4:00pm
-    instructor: ferrer
+    instructor: goadrich
 
 resources:
   - name: Java 20
     image: assets/images/java-logo.png
-    url: https://www.oracle.com/java/technologies/downloads/#java19
+    url: https://www.oracle.com/java/technologies/downloads/#java20
   - name: IntelliJ IDEA Community
     image: assets/images/IntelliJ_IDEA_Logo.png
     url: https://www.jetbrains.com/idea/
