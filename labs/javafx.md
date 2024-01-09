@@ -210,29 +210,13 @@ On the left side, go to Document → Controller. Select
 
 Save the GUI in SceneBuilder and close SceneBuilder.
 
-### Step 1.6 module-info.java
-
-Run Tip and test the program. You should encounter a strange error!
-
-One final piece is needed to get the program ready to run.
-In the src folder, create a file called `module-info.java`. Add this code into that file.
-
-    module tip {
-        requires javafx.fxml;
-        requires javafx.controls;
-        exports tip;
-        opens tip;
-    }
-
-{% include warning.html content="This seems trivial, but is one of the most important steps in getting a JavaFX application to run! Do not forget this step when creating applications later!" %}
-
 Your GUI should look like this
 
 ![](../assets/images/tipgui2.png){: .img-fluid}
 
 Run Tip and test the program.
 
-### Step 1.7 - Tip Extensions
+### Step 1.6 - Tip Extensions
 
 Now, edit the program and interface as follows:
 
@@ -248,8 +232,6 @@ new JavaFX skills. Create a new project using JavaFX to make a program that reco
 ### Step 2.1 - Application
 
 Create a new Java project and package for your application. Copy/paste the template Application code above and alter it for your new project.
-
-Also, create a `module-info.java` file as described in Step 1.6 earlier.
 
 ### Step 2.2 - GUI View
 
@@ -281,8 +263,6 @@ The previous two apps introduced the Controller, View, and Application, but noti
 ### Step 3.1 - Application
 
 Create a new Java project and package for your application. Copy/paste the template Application code above and alter it for your new project.
-
-Also, create a `module-info.java` file as described in Step 1.6 earlier.
 
 ### Step 3.2 - GUI View
 

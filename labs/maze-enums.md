@@ -20,26 +20,7 @@ Enums, and test them with JUnit.
 
 1.  Download the [skeleton](../code/maze151.zip) for this project.
 2.  Unpack the code into a new IntelliJ Java project.
-3.  Also download [JavaFX](https://gluonhq.com/products/javafx).
-4.  To set up JavaFX:
-    -   Select Project Structure from the File menu.
-    -   Select Global Libraries.
-    -   Press the + sign to add a library. (Select "Java".)
-    -   Go to the "lib" directory within JavaFX.
-    -   Select all of the \*.jar files within that directory. Click OK.
-    -   Rename the library **javafx17** instead of javafx-sdk. Then Click
-        Apply and OK.
-5.  To set up JUnit:
-    -   Select Project Structure from the File menu.
-    -   Select Libraries
-    -   Press the + sign to add a library. (Select "Maven".)
-    -   Type "junit" and click the magnifying glass to Search
-    -   Scroll in the dropdown to find "junit:junit:4.13"
-    -   Click OK
-    -   Click OK on the popup window to Add this to the selected module.
-    -   Click OK to close Project Structure.
-6. Try running MazeApp. If a small window appears, everything
-        works!
+6. Try running MazeApp. If a small window appears, everything works!
 
 ## Description
 

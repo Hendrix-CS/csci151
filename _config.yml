@@ -81,16 +81,13 @@ offerings:
     instructor: goadrich
 
 resources:
-  - name: Java 20
+  - name: Azul Zulu Java 21
     image: assets/images/java-logo.png
-    url: https://www.oracle.com/java/technologies/downloads/#java20
-  - name: IntelliJ IDEA Community
+    url: https://www.azul.com/downloads/?package=jdk-fx#zulu
+  - name: IntelliJ IDEA
     image: assets/images/IntelliJ_IDEA_Logo.png
     url: https://www.jetbrains.com/idea/
-  - name: JavaFX 20
-    image: assets/images/javafx.png
-    url: https://openjfx.io/
-  - name: SceneBuilder 20
+  - name: SceneBuilder 21
     image: assets/images/SceneBuilderLogo.png
     url: https://gluonhq.com/products/scene-builder/
 
