@@ -102,21 +102,21 @@ If you would like to improve an assignment after it has been graded and improve 
 
 ## <a name="labs">Labs</a>
 
-| #  | Name                                                               | Date | Due  |
-|:--:|-----                                                               | ---- | ---- |
-|1 | [CodingBat]({{site.baseurl}}/labs/codingbat.html)                    | 8/29 | 9/5  |
-|2 | [How to Divide a Cake]({{site.baseurl}}/labs/cake.html)              | 9/5  | 9/12 |
-|3 | [Mazes: Enums and 2D Arrays]({{site.baseurl}}/labs/maze-enums.html)  | 9/12 | 9/19 |
-|4 | [Mazes: Depth First Search]({{site.baseurl}}/labs/maze-dfs.html)     | 9/19 | 9/26 |
-|5 | [Mazes: Breadth First Search]({{site.baseurl}}/labs/maze-bfs.html)   | 9/26 | 10/3 |
-|6 | [JavaFX GUI]({{site.baseurl}}/labs/javafx.html)                      | 10/3 | 10/10|
-|7 | [Mazes: A* Search]({{site.baseurl}}/labs/maze-astar.html)            | 10/10| 10/17|
-|8 | [Sortimator]({{site.baseurl}}/labs/sortimator.html)                  | 10/17| 10/24|
-|9 | [JavaFX Animation]({{site.baseurl}}/labs/animation.html)             | 10/24| 10/31|
-|10 | [Binary Search Trees]({{site.baseurl}}/labs/binarysearchtrees.html) | 10/31| 11/7 |
-|11 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html)       | 11/7 | 11/14|
-|12 | [Text Prediction]({{site.baseurl}}/labs/text-prediction.html)       | 11/14| 11/21|
-|P  | Final Project work day                                              | 11/28| 12/7 |
+| #  | Name                                                               
+|:--:|-----                                                               
+|1 | [CodingBat]({{site.baseurl}}/labs/codingbat.html)                    
+|2 | [How to Divide a Cake]({{site.baseurl}}/labs/cake.html)              
+|3 | [Mazes: Enums and 2D Arrays]({{site.baseurl}}/labs/maze-enums.html)  
+|4 | [Mazes: Depth First Search]({{site.baseurl}}/labs/maze-dfs.html)     
+|5 | [Mazes: Breadth First Search]({{site.baseurl}}/labs/maze-bfs.html)   
+|6 | [JavaFX GUI]({{site.baseurl}}/labs/javafx.html)                     
+|7 | [Mazes: A* Search]({{site.baseurl}}/labs/maze-astar.html)            
+|8 | [Sortimator]({{site.baseurl}}/labs/sortimator.html)                  
+|9 | [JavaFX Animation]({{site.baseurl}}/labs/animation.html)             
+|10 | [Binary Search Trees]({{site.baseurl}}/labs/binarysearchtrees.html) 
+|11 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html)       
+|12 | [Text Prediction]({{site.baseurl}}/labs/text-prediction.html)       
+|P  | Final Project work day                                              
 
 Much of your experience with programming in this course will be through weekly labs. Each lab will be assigned in lab with time allotted to work through the materials, and will be due **by the start of the following lab**. 
 
