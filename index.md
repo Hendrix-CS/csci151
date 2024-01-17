@@ -191,6 +191,7 @@ Each assignment is assessed as **Complete**, **Partially Complete** or **Missing
 * Complete the Final Project
 * Complete 11 of 12 Labs + 1 Partially Complete
 * Complete 9 of 10 Homeworks
+* Complete three office hours checkins
 * Abundant Participation in Classroom Activities (no unexcused absences)
 
 ### B Level Work
@@ -205,6 +206,7 @@ Each assignment is assessed as **Complete**, **Partially Complete** or **Missing
     * Complete the Final Project
     * Complete 10 of 12 Labs + 1 Partially Complete
     * Complete 8 of 10 Homeworks
+* Complete two office hours checkins
 * Active Participation in Classroom Activities (at most one unexcused absence)
 
 ### C Level Work
@@ -222,6 +224,7 @@ Each assignment is assessed as **Complete**, **Partially Complete** or **Missing
     * Complete the Final Project
     * Complete 8 of 12 labs + 1 Partially Complete
     * Complete 6 of 10 Homeworks
+* Complete one office hours checkin
 * Participation in Classroom Activities (at most three unexcused absences)
 
 ### D Level Work
