@@ -26,7 +26,8 @@ public class ConditionalLight implements Light{
         }
         else if (current.equals("BLUE")) {
             current = "ORANGE";
-        } else if (current.equals("ORANGE")) {
+        } 
+        else if (current.equals("ORANGE")) {
             current = "RED";
         }
     }

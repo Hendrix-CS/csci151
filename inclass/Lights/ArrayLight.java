@@ -3,16 +3,12 @@ package blinkers;
 public class ArrayLight implements Light{
 
     // Fields
-    public String[] colors;
+    private final String[] colors;
     private int current;
 
     // Constructor
     public ArrayLight() {
-        colors = new String[4];
-        colors[0] = "RED";
-        colors[1] = "GREEN";
-        colors[2] = "BLUE";
-        colors[3] = "ORANGE";
+        colors = new String[] {"RED", "GREEN", "BLUE", "ORANGE"};
         current = 0;
     }
 
