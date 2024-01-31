@@ -16,7 +16,7 @@ your own.
 
 -   IntelliJ
 -   **This project must be completed independently, without a partner.**
--   [Java 19 API](https://docs.oracle.com/en/java/javase/19/docs/api/index.html)
+-   [Java 21 API](https://docs.oracle.com/en/java/javase/21/docs/api/index.html)
 
 ## Description
 
@@ -29,8 +29,8 @@ Write a Java application. Your program can do anything you like, **except TicTac
     not be complex, but it should be something that someone would
     conceivably want to use.
 
-Feel free to use the [Java 19
-API](https://docs.oracle.com/en/java/javase/19/docs/api/index.html) as a
+Feel free to use the [Java 21
+API](https://docs.oracle.com/en/java/javase/21/docs/api/index.html) as a
 reference for any piece of Java you might need; you are not restricted
 to only things we have covered in class. You may incorporate any code
 you wish from previous projects, but the majority of your project should

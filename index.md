@@ -34,16 +34,9 @@ Upon completing this course, our goal is for you to be able to:
 
 ## Peer Tutoring
 
-TBA
-
-<!--
-
-| Time | Sun | Mon   | Tue  | Wed  | Thur |
-|:----:|:---:|:-----:|:----:|:----:|:----:| 
-|6-8   |	 | Chris Harvey   |  |      |      |
-
---->
-
+| Sun | Mon   | Tue  | Wed  | Thur |
+|:---:|:-----:|:----:|:----:|:----:| 
+|	Ted 6-8 | Ryan 6-8   | Ryan 6-9 |      |      |
 
 
 # <a name="inclasscode">In-Class Code</a>
@@ -58,7 +51,7 @@ When we write code together in class, it will be posted here!
 
 <!--
 
-| W 7 Sep | 2D Arrays User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut.java) [Main.java]({{site.baseurl}}/inclass/Main.java) |
+| W 31 Jan | 2D Arrays User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut.java) [Main.java]({{site.baseurl}}/inclass/Main.java) |
 | M 12 Sep | Enums | [Coin.java]({{site.baseurl}}/inclass/ChangeMaker/Coin.java) [BetterCoin.java]({{site.baseurl}}/inclass/ChangeMaker/BetterCoin.java) [ChangeMaker.java]({{site.baseurl}}/inclass/ChangeMaker/Main.java) |
 
 -->
