@@ -14,9 +14,9 @@ Interface (GUI) built using JavaFX and Scene Builder.
 
 -   IntelliJ, JavaFX and SceneBuilder
 -   **This project must be completed independently, without a partner**
--   [Java 19 API](https://docs.oracle.com/en/java/javase/19/docs/api/index.html)
+-   [Java 21 API](https://docs.oracle.com/en/java/javase/21/docs/api/index.html)
 -   [JavaFX Layout Tutorial](https://www.vojtechruzicka.com/javafx-layouts-basic/)
--   [JavaFX API](https://openjfx.io/javadoc/19/)
+-   [JavaFX API](https://openjfx.io/javadoc/21/)
 <!-- -   [Sample Pig Game Project](../code/151-pig.zip) -->
 
 ## Description
@@ -37,7 +37,7 @@ to the following requirements
     - It need not be complex, but it should be something that someone would conceivably want to use. 
     - It should be sufficiently complex that the use of an array, `ArrayList`, linked list, stack, or queue is natural in the context of the application.
 
-Feel free to use the [Java 19 API](https://docs.oracle.com/en/java/javase/19/docs/api/index.html) as a reference for any
+Feel free to use the [Java 21 API](https://docs.oracle.com/en/java/javase/21/docs/api/index.html) as a reference for any
 piece of Java you might need.
 
 ## Helpful Hints
@@ -52,7 +52,7 @@ the first time you will be creating a JavaFX GUI application by yourself and it 
 take effort to get all the GUI pieces working correctly. Work early and often!
 
 Your idea for a project will most likely involve using components that were not discussed in Lab 6. Please investigate what is possible in the
-[JavaFX API](https://openjfx.io/javadoc/19/) to see what is available.
+[JavaFX API](https://openjfx.io/javadoc/21/) to see what is available.
 
 One option for a project would be to base your code on one of the Homework classes (e.g. Garden, TootsiePop).
 
