@@ -48,10 +48,10 @@ When we write code together in class, it will be posted here!
 | F 19 Jan | Java Translation | [PythonTranslation.java]({{site.baseurl}}/code/PythonTranslation.java) |
 | F 26 Jan | Instantiable Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/Jack/JackInTheBox.java)  [Main.java]({{site.baseurl}}/inclass/Jack/Main.java) |
 | M 29 Jan | Interfaces | [Light.java]({{site.baseurl}}/inclass/Lights/Light.java) [ConditionalLight.java]({{site.baseurl}}/inclass/Lights/ConditionalLight.java) [ArrayLight.java]({{site.baseurl}}/inclass/Lights/ArrayLight.java) [Main.java]({{site.baseurl}}/inclass/Lights/Main.java) |
+| W 31 Jan | 2D Arrays User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut.java) [Main.java]({{site.baseurl}}/inclass/Main.java) |
 
 <!--
 
-| W 31 Jan | 2D Arrays User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut.java) [Main.java]({{site.baseurl}}/inclass/Main.java) |
 | M 12 Sep | Enums | [Coin.java]({{site.baseurl}}/inclass/ChangeMaker/Coin.java) [BetterCoin.java]({{site.baseurl}}/inclass/ChangeMaker/BetterCoin.java) [ChangeMaker.java]({{site.baseurl}}/inclass/ChangeMaker/Main.java) |
 
 -->
