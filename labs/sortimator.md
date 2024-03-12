@@ -54,6 +54,7 @@ be sorted from smallest to largest.
 consider implementing a `swap` method as you code below to make your life
 easier." %}
 
+<!--
 ## Step 1 - InsertionSorter
 
 Your first sorting algorithm to implement is Insertion Sort. You will be
@@ -81,18 +82,22 @@ InsertionSort can be implemented with the following algorithm.
 Run your code through the `SorterTester` suite to make sure your
 implementation has the correct behavior.
 
-<!--
-## Step 2 - BubbleSorter
+-->
+
+## Step 1 - BubbleSorter
 
 Bubble sort is known for its simplicity of code. Repeated passes through
 the data quickly push the largest elements to the end, and slowly drag
 the smallest elements to the front of the list.
 
-The name of your class should be
+Create a new class called `BubbleSorter`. To fit into the Sortimator
+hierarchy, it will need to extend the generic `Sorter` class. Also, the
+generic type `E` will need to extend the `Comparable` interface. The
+name of your class should be
 
 `BubbleSorter<E extends Comparable<E>> extends Sorter<E>`
 
-### Step 2.1 - Implementation
+### Step 1.1 - Implementation
 
 BubbleSort can be implemented with the following algorithm.
 
@@ -105,12 +110,11 @@ since on the first pass, we can guarantee that the highest element
 will be in the right location, and on the second pass, the second-highest
 element will be in the right location, etc.
 
-### Step 2.2 - Testing
+### Step 1.2 - Testing
 
 Run your code through the `SorterTester` suite to make sure your
 implementation has the correct behavior.
 
--->
 
 ## Step 2 - MergeSorter
 

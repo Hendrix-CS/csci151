@@ -7,5 +7,6 @@ worktitle: Sorting
 
 Demonstrate the following sorting algorithms using the CS2Mulch Acorn deck:
 * Insertion Sort
+* Bubble Sort
 * Merge Sort
 * Quicksort
