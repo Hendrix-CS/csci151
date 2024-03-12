@@ -129,7 +129,7 @@ The name of your class should be
 ### Step 2.1 - Implementation
 
 First, you will need to create a
-`mergeSortHelper(ArrayList<E> array, int start, int end)` method. In order to
+`void mergeSortHelper(ArrayList<E> array, int start, int end)` method. In order to
 do recursion, we will need to track the `start` and `end` indices of our
 subarrays. The `start` and `end` should be additional parameters along with
 the list. Use `end` as we have in other contexts, to be the stopping
@@ -148,9 +148,9 @@ So, our sortAlgorithm will call the `mergeSortHelper` method with
         and `midpoint` indices to structure the recursive calls properly.
     -   Merge together the two sorted subarrays.
 
-To complete this method, we need a `merge(ArrayList<E> array, int start, int end)` method.
+To complete this method, we need a `void merge(ArrayList<E> array, int start, int end)` method.
 The most straightforward implementation
-involves using a Queue. In Java 19, you should use the [ArrayDeque](https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/util/ArrayDeque.html) a double-ended queue which can be found in the `java.util` package:
+involves using a Queue. In Java 21, you should use the [ArrayDeque](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/ArrayDeque.html) a double-ended queue which can be found in the `java.util` package:
 
 -   `add()` each element of the first half of the subarray into a queue.
 -   `add()` each element of the second half of the subarray into a different
@@ -190,14 +190,14 @@ The name of your class should be
 ### Step 3.1 - Implementation
 
 Again, we will need a recursive helper function, augmenting with the
-start and end of the subarray. `quickSortHelper(ArrayList<E> array, int start, int end)`
+start and end of the subarray. `void quickSortHelper(ArrayList<E> array, int start, int end)`
 has the following structure:
 
 -   If the `start` and `end` are more than one element apart
     -   Partition the elements
     -   Recursively apply `quickSortHelper` to the partitioned subarrays
 
-The `partition(ArrayList<E> array, int start, int end)` method should have the
+The `int partition(ArrayList<E> array, int start, int end)` method should have the
 same parameters as the `quickSortHelper` method.
 
 -   Select the last element of the subarray as the `pivot` element.
@@ -212,7 +212,7 @@ same parameters as the `quickSortHelper` method.
             smaller than the `pivot`.
 -   Calculate the final position of the `pivot` using the total number of
     elements smaller than it.
--   Move the `pivot` to that final position, and then return that final
+-   Move the `pivot` to that final position, and then **return** that final
     position, as it represents the division point between the subarrays
     that must now be recursively sorted.
 
