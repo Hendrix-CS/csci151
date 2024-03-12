@@ -233,7 +233,7 @@ Updates that each method executes, as found through the GUI.
 
 ## What to Hand In
 
-Submit your `InsertionSorter.java`, `MergeSorter.java` and
+Submit your `BubbleSorter.java`, `MergeSorter.java` and
 `QuickSorter.java` implementations via Teams, along with a document for your
 evaluation in Step 4.
 
