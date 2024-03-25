@@ -25,7 +25,7 @@ then apply these lessons to make a rocket launch and land.
 
 ## Animation Demonstration
 
-1.  Download the [skeleton](../code/animationdemo.zip) for the next two steps.
+1.  Download the [skeleton](../code/animationdemo.zip) for this step.
 2.  Unpack the code into a new IntelliJ Java project.
 
 In this demo, you will find a `BouncyBall` class, the Model portion of our application,
