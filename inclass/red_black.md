@@ -20,7 +20,7 @@ worktitle: <span style="color:red">Red</span>-<strong>Black</strong> Trees
 *	Cases:
     1. *X is the root node?*
         * Color X **black**.
-    2. *Parent is <span style="color:red">red</span>, pibling is <span style="color:red">red</span>,?*
+    2. *Parent is <span style="color:red">red</span>, pibling is <span style="color:red">red</span>?*
         1. Color parent and pibling **black**.
         2. Color grandparent <span style="color:red">red</span>.
         3. X now refers to the grandparent, and repeat the Cases section.
