@@ -27,6 +27,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 number: CSCI 151
 title: Data Structures
 semester: Spring 2024
+hypothesis: false
+
+jumbotext: wikimedia CC BY 2.0
+jumbourl: https://en.wikipedia.org/wiki/Crown_shyness#/media/File:River_of_Blue.jpg
 
 navigation:
   - title: Overview
