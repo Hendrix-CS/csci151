@@ -68,7 +68,7 @@ For our first application we will create a tip calculator. We will include all o
 Now, we need to add in the View, describing how the GUI will look on the
 screen and the components available to the program.
 
--   Select File → New → New FXML Document
+-   Select File → New → New FXML File
 -   For "Name" enter `TipGUI`
 -   Then click "Finish".
 
@@ -77,11 +77,14 @@ a extension called SceneBuilder that you can use to graphically add
 components.
 
 -   Right-click on the `TipGUI.fxml` file, and select "Open in SceneBuilder".
--   Right-click and delete the default `AnchorPane` layout.
+    - If "Open in SceneBuilder" is not present, select "Open in Associated 
+      Application" and navigate to where SceneBuilder is installed on your machine.
+-   In the left-hand column under Document → Hierarchy, right-click and delete the 
+    default `AnchorPane` layout.
 -   Go to Containers and drag a `BorderPane` into the center.
-    -   Select the `BorderPane` and pick the Layout menu.
+    -   Select the `BorderPane` and pick the Layout menu in the right-hand column.
     -   Change Pref Width and Pref Height to USE\_COMPUTED\_SIZE.
--   Drag a `VBox` into "insert CENTER".
+-   Drag a `VBox` from Containers into "insert CENTER".
     -   Select the `VBox` and pick the Layout menu.
     -   Change Pref Width and Pref Height to USE\_COMPUTED\_SIZE.
 -   Drag an `HBox` into the `VBox`.
@@ -111,7 +114,7 @@ Now, save the GUI and close SceneBuilder.
 
 We would like to tip based on three perceived levels of service. This is
 an excellent opportunity for an Enum. Create a new Enum called
-`Service`. Add the following code:
+`Service` within the `tip` package. Add the following code:
 
     package tip;
 

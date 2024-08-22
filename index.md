@@ -35,67 +35,59 @@ Upon completing this course, our goal is for you to be able to:
 
 ## Peer Tutoring
 
-| Sun | Mon   | Tue  | Wed  | Thur |
-|:---:|:-----:|:----:|:----:|:----:| 
-|	Ted 6-8 | Ryan 6-8   | Ryan 6-9 |      |      |
+| Sun   | Mon   | Tue  | Wed  | Thur |
+|:-----:|:-----:|:----:|:----:|:----:| 
+|	TBA | TBA   | TBA  |      |      |
 
 
 # <a name="inclasscode">In-Class Code</a>
 
 When we write code together in class, it will be posted here!
 
-| Date | Topic | Code |
-|:----:|------||-----||
-| F 19 Jan | Java Translation | [PythonTranslation.java]({{site.baseurl}}/code/PythonTranslation.java) |
-| F 26 Jan | Instantiable Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/Jack/JackInTheBox.java)  [Main.java]({{site.baseurl}}/inclass/Jack/Main.java) |
-| M 29 Jan | Interfaces | [Light.java]({{site.baseurl}}/inclass/Lights/Light.java) [ConditionalLight.java]({{site.baseurl}}/inclass/Lights/ConditionalLight.java) [ArrayLight.java]({{site.baseurl}}/inclass/Lights/ArrayLight.java) [Main.java]({{site.baseurl}}/inclass/Lights/Main.java) |
-| W 31 Jan | 2D Arrays User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut.java) [Main.java]({{site.baseurl}}/inclass/Main.java) |
-
-<!--
-
-| M 12 Sep | Enums | [Coin.java]({{site.baseurl}}/inclass/ChangeMaker/Coin.java) [BetterCoin.java]({{site.baseurl}}/inclass/ChangeMaker/BetterCoin.java) [ChangeMaker.java]({{site.baseurl}}/inclass/ChangeMaker/Main.java) |
-
--->
+| Date     | Topic        | Code |
+|:--------:|--------------|------|
+| W 28 Aug | Introduction | TBA  |
 
 <hr>
 # Coursework
 
-[*Adapted from Spencer Bagley and David Clark, via [Robert
-Talbert](https://rtalbert.org/a-real-world-approach-to-deadlines/)*]
+## <a name="hw">Formative Assessments</a>
 
-CSCI 151 uses a **real-world policy** on due dates---but this may not
-mean what you think!  In the *real* real world, due dates exist but
-they are often not ironclad.  Assignments have due dates to help you 
-make progress in the course and solidify your knowledge before moving on 
-to something new. Your life and schedule may not perfectly coincide 
-with the due dates I have chosen. If you need more time to
-get the job done well, you email whoever set the deadline to ask if
-you can have more time.  Studies have shown that deadline extension
-requests---in moderation and when truly needed---often lead to
-*better* employee evaluations (not to mention better work). [*See [Go
-Ahead and Ask for More Time on that
-Deadline](https://hbr.org/2021/12/go-ahead-and-ask-for-more-time-on-that-deadline)
-by Ashley Williams*.]
+Each formative assessment involves doing some preparatory work followed by visiting the instructor's office hours
+for a demonstration of understanding. There are three types of formative assessments:
+* **Java Programming**: For these assessments, you will begin by creating a Java program as directed below. 
+  During your office hours visit, you will demonstrate it to the instructor, followed by modifying the program
+  as the instructor directs.
+* **Memory Manipulation**: For these assessments, you will study a memory management puzzle. Prior 
+  to your office hours visit, you are welcome to experiment with the code in the puzzle. During the visit, you
+  will give an answer to the puzzle along with an explanation as to why the answer is correct.
+* **Data Structure Demonstration**: For these assessments, you will demonstrate the operation of a data structure
+  using the [CS2 Mulch Manipulatives](https://mgoadric.github.io/cs2mulch/). To prepare for your demonstration,
+  review Java programs you write in lab in which you built the data structure. Also review the appropriate
+  [demonstration](https://mgoadric.github.io/cs2mulch/tree/)
+  [videos](https://mgoadric.github.io/cs2mulch/hash/) and practice using 
+  [Tabletopia](https://tabletopia.com/games/cs2-mulch-fq1guf/play-now) prior to your office hours visit.
 
-**If you need an extension on a due date, email me and explain what
-you need**, and it will probably be fine.  It helps if you propose a
-concrete new deadline (*e.g.* "I can get it done by 5pm on
-Wednesday").  If you ask for lots of extensions, we'll work together
-to find a way to help you keep up.  Note, however, that late
-submissions may not receive feedback as quickly as on-time
-submissions.
+| #  | Name | Assessment Type | Deadline |
+|:--:|------| ----------------| -------- |
+|0 | [Survey](https://forms.gle/VLRVHjUAisWP5R9J8) | n/a |
+|1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) | Java Programming |
+|2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) | Java Programming |
+|3 | [ArrayStack Memory]({{site.baseurl}}/homework/asmemory.html) | Memory Manipulation |
+|4 | [ListNode Memory]({{site.baseurl}}/homework/lnmemory.html) | Memory Manipulation |
+|5 | [ArrayQueue Memory]({{site.baseurl}}/homework/aqmemory.html) | Memory Manipulation |
+|6 | [Heaps]({{site.baseurl}}/homework/heaps.html) | Data Structure Demonstration |
+|7 | [Sorting]({{site.baseurl}}/homework/sorting.html) | Data Structure Demonstration |
+|8 | [Asymptotic Analysis]({{site.baseurl}}/homework/bigo.html) | Data Structure Demonstration |
+|9 | [Binary Search Trees]({{site.baseurl}}/homework/trees.html) | Data Structure Demonstration |
+|10 | [Hash Tables]({{site.baseurl}}/homework/hashtables.html) | Data Structure Demonstration |
 
-If you have significant extenuating circumstances that cause you to
-miss multiple deadlines, please [come to office
-hours](markgoadrich.youcanbook.me) to discuss broader accommodations.  I'm
-happy to be flexible, but it helps to know what you need so I can
-figure out the best way to help.
-
-{% include important.html content="You must be in communication with me anytime an assignment is late." %}
-
-If you would like to improve an assignment after it has been graded and improve your grade, you may revise and resubmit the assignment until you do. This must be **within two weeks of receiving feedback**. If you need more than two weeks, *you must schedule a meeting with me to discuss your reasons for the delay*.
-
-{% include important.html content="All work and revisions must be completed the day of the final exam period for this course at 5pm." %}
+**Credit**:
+* A successful demonstration earns two credits.
+* A sincere attempt at a demonstration that is lacking in some manner earns one credit.
+  * A student is welcome to schedule a follow-up meeting to make an additional attempt 
+    to earn full credit.
+* Attempting the demonstration by the deadline earns one additional credit.
 
 ## <a name="labs">Labs</a>
 
@@ -117,31 +109,14 @@ If you would like to improve an assignment after it has been graded and improve 
 
 Much of your experience with programming in this course will be through weekly labs. Each lab will be assigned in lab with time allotted to work through the materials, and will be due **by the start of the following lab**. 
 
-On these labs, you will work with a partner on the lab assignments. Their name must be listed on any code you hand in as joint work. A partnership should only turn in a **single copy** of the assignment. If students working as partners wish to turn in a lab late, all students must use a late day.
+On these labs, you will work with a partner on the lab assignments. Their name must be listed on any code you hand in as joint work. A partnership should only turn in a **single copy** of the assignment. 
 
 {% include important.html content="Lab attendance is required. We will be
 stationed in the Snoddy Computer Lab in the library for our lab times." %}
 
-## <a name="hw">Homework</a>
-
-| #  | Name |
-|:--:|-----|
-|0 | [Survey](https://forms.gle/VLRVHjUAisWP5R9J8) |
-|1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) |
-|2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) |
-|3 | [ArrayStack Memory]({{site.baseurl}}/homework/asmemory.html) |
-|4 | [ListNode Memory]({{site.baseurl}}/homework/lnmemory.html) |
-|5 | [ArrayQueue Memory]({{site.baseurl}}/homework/aqmemory.html) |
-|6 | [Heaps]({{site.baseurl}}/homework/heaps.html) |
-|7 | [Sorting]({{site.baseurl}}/homework/sorting.html) |
-|8 | [Asymptotic Analysis]({{site.baseurl}}/homework/bigo.html) |
-|9 | [Binary Search Trees]({{site.baseurl}}/homework/trees.html) |
-|10 | [Hash Tables]({{site.baseurl}}/homework/hashtables.html) |
-
-There will often be short homework assignments to be completed individually, due in one week. These will be practice to
-help you solidify the concepts from class before labs and projects.
-
-{% include warning.html content="You must work individually on the homeworks. You may discuss concepts and ideas with your classmates, but the **code or work you turn in must be your own**. Use of any resources (TA, Stackoverflow, ChatGPT, etc) must be cited, and an overreliance on those resources can be counterproductive to developing your own ability to make progress in this and other courses." %}
+**Credit**:
+* Submitting the completed lab check-off sheet by the start of the next lab earns two credits.
+* Submitting the completed lab check-off sheet at a later date earns one credit.
 
 ## <a name="projects">Skills Projects</a>
 
@@ -153,8 +128,6 @@ help you solidify the concepts from class before labs and projects.
 
 You will have three skills projects in this course, one about every four weeks. These projects will cover concepts we have discussed in class and in labs, and will be due approximately two weeks after they are assigned.
 
-You will be graded not only on correctness, but also technique, documentation and evaluation of your solution. Further details on the grading standards and handin instructions for each project will be given when they are assigned.
-
 {% include warning.html content="You must work individually on the projects. You may discuss concepts and ideas with your classmates, but the **code or work you turn in must be your own**. Use of any resources (TA, Stackoverflow, ChatGPT, etc) must be cited, and an overreliance on those resources can be counterproductive to developing your own ability to make progress in this and other courses." %}
 
 ## <a name="finalproject">Final Project</a>
@@ -163,12 +136,22 @@ You will be graded not only on correctness, but also technique, documentation an
 |:--:|-----||:------:|
 |4 | [Final Project]({{site.baseurl}}/projects/final-project.html) |
 
-## <a name="checkins">Checkins</a>
+Each project will be assessed as **Level 1 Complete** or **Level 2 Complete**, with criteria specified individually
+for each project. You will be graded not only on correctness, but also technique, documentation and evaluation of 
+your solution. 
 
-Three times throughout the semester, you are expected to
-make an office hours appointment and discuss your progress in the course. This will include conversation and feedback about your current progress and understanding.
-Ideally, these checkins should be scheduled during the weeks shown
-on the [course calendar](https://prod.teamgantt.com/gantt/schedule/?ids=3800427&public_keys=9EXxMLt23f63&zoom=d100&font_size=12&estimated_hours=0&assigned_resources=0&percent_complete=0&documents=0&comments=0&col_width=355&hide_header_tabs=0&menu_view=1&resource_filter=1&name_in_bar=0&name_next_to_bar=0&resource_names=1&resource_hours=1#user=&company=&custom=&date_filter=&hide_completed=&color_filter=).
+Note that the final project must be submitted on-time to earn credit - no final projects
+will be accepted late. Projects earn **credits** as follows:
+
+| Project | Level 1 Complete | Level 2 Complete | On-time Bonus | Maximum Credit |
+| ------: | ---------:       | ----------:      | ------------: | -------------: |
+| 1       | 2                |  4               | 1             |  5             |
+| 2       | 2                |  4               | 1             |  5             |
+| 3       | 2                |  4               | 1             |  5             |
+| 4       | 6                | 12               | None          | 12             |
+
+If a project receives less than Level 2 Complete, a student may submit a revised version of the project after an
+office hours meeting with the instructor to discuss how the project should be improved.
 
 ## <a name="attendance">Attendance</a>
 
@@ -180,52 +163,43 @@ If you know that you will be absent, please email me so that we can find accomod
 
 ## <a name="scale">Specifications Grading</a>
 
-Each assignment is assessed as **Complete**, **Partially Complete** or **Missing**. Criteria for the first two categories will be specified for each assignment. Final course grades are earned based on cumulative assignment outcomes:
+Final course grades are earned based on cumulative assignment outcomes. For each
+category of assessment, there are three levels of mastery: **Basic**, **Intermediate**, and **Advanced**.
 
-### A Level Work
+### Formative Assessments
+From the 10 formative assessments, 30 total credits are available:
+* **Basic**: Earn 16 formative assessment credits
+* **Intermediate**: Earn 22 formative assessment credits
+* **Advanced**: Earn 28 formative assessment credits
 
-* Complete all 3 Skills projects
-* Complete the Final Project
-* Complete 11 of 12 Labs + 1 Partially Complete
-* Complete 9 of 10 Homeworks
-* Complete three office hours checkins
-* Abundant Participation in Classroom Activities (no unexcused absences)
+### Labs
+From the 12 labs, 24 total credits are available:
+* **Basic**: Earn 15 lab credits, maximum of two unexcused absences
+* **Intermediate**: Earn 19 lab credits, maximum of one unexcused absence
+* **Advanced**: Earn 23 lab credits, no unexcused absences
 
-### B Level Work
+**Remember**: For an absence to be **excused**, the student must discuss the 
+circumstances with the lab instructor.
 
-* Complete all 3 Skills Projects
-* One of these two options:
-  * Option 1:
-    * Partially Complete the Final Project
-    * Complete 11 of 12 Labs + 1 Partially Complete
-    * Complete 9 of 10 Homeworks
-  * Option 2:
-    * Complete the Final Project
-    * Complete 10 of 12 Labs + 1 Partially Complete
-    * Complete 8 of 10 Homeworks
-* Complete two office hours checkins
-* Active Participation in Classroom Activities (at most one unexcused absence)
+### Projects
+From the four projects, 27 total credits are available:
+* **Basic**: Earn 12 project credits
+* **Intermediate**: Earn 19 project credits
+* **Advanced**: Earn 26 project credits
 
-### C Level Work
-
-* Complete 2 of 3 Skills projects + 1 Partially Complete
-* One of these three options:
-  * Option 1:
-    * Complete 11 of 12 Labs + 1 Partially Complete
-    * Complete 9 of 10 Homeworks
-  * Option 2: 
-    * Partially Complete the Final Project
-    * Complete 10 of 12 Labs + 1 Partially Complete
-    * Complete 8 of 10 Homeworks
-  * Option 3:
-    * Complete the Final Project
-    * Complete 8 of 12 labs + 1 Partially Complete
-    * Complete 6 of 10 Homeworks
-* Complete one office hours checkin
-* Participation in Classroom Activities (at most three unexcused absences)
-
-### D Level Work
-
-* Complete 6 of 12 Labs + 3 Partially Complete
-* Complete 5 of 10 Homeworks
-* Complete 1 of 3 Skills projects + 2 Partially Complete
+### Final Course Grade
+* To earn an A in the course, a student will:
+  * Complete the course survey.
+  * Achieve **Advanced** in all three categories
+* To earn a B in the course, a student will:
+  * Complete the course survey.
+  * Achieve at least **Intermediate** in all three categories.
+  * Achieve **Advanced** in at least one category.
+* To earn a C in the course, a student will:
+  * Complete the course survey
+  * Achieve at least **Basic** in all three categories.
+  * Achieve one of:
+    * **Advanced** in at least one category.
+    * **Intermediate** in at least two categories.
+* To earn a D in the course, a student will:
+  * Achieve at least **Basic** in all three categories.
