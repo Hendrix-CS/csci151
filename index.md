@@ -49,6 +49,72 @@ When we write code together in class, it will be posted here!
 | W 28 Aug | Introduction | TBA  |
 
 <hr>
+# <a name="calendar">Calendar</a>
+
+| Date | Day | Topic                                                       | Assigned               | Due       
+| ---  | --- | -----                                                       | ------------           | --------- 
+| 8/28 | Wed | Introduction to Java                                        | Survey
+| 8/30 | Fri | Introduction to Java                                        |                        | 
+|      |
+| 9/2  | Mon | Labor Day<br>No Class     
+| 9/4  | Wed | Arrays, Memory, Mutation            
+| 9/6  | Fri | Designing Classes                                           | FA1: Eating Candy      |
+|      |
+| 9/9  | Mon | Interfaces                    
+| 9/11 | Wed | User Input, 2D Arrays                                       |                        | FA1       
+| 9/13 | Fri | Project 1                                                   | Project 1            
+|      |
+| 9/16 | Mon | Enums                                                       | FA2: Garden            |
+| 9/18 | Wed | Stack Abstraction<br>Array Implementation                   |                      
+| 9/20 | Fri | Linked List Implementation                                  | FA3: ArrayStack Memory | FA2       
+|      |
+| 9/23 | Mon | Generics                                  
+| 9/25 | Wed | Queue Abstraction<br>Linked List Implementation             |                        | FA3       
+| 9/27 | Fri | Array Implementation                                        | FA4: ListNode Memory   | Project 1 
+|      |
+| 9/30 | Mon | ArrayList                                                   |
+| 10/2 | Wed | JavaFX GUI                                                  |                        | FA4          
+| 10/4 | Fri | JavaFX GUI                                                  | FA5: ArrayQueue Memory                       
+|      |
+| 10/7 | Mon | Priority Queue Abstraction<br>Insertion Sort Implementation | 
+| 10/9 | Wed | Heap Abstraction                                            | Project 2              | FA5
+| 10/11| Fri | Array Implementation of Heaps                               | FA6: Heaps
+|      |
+| 10/14| Mon | Selection Sort<br>Heapsort                                  |                        
+| 10/16| Wed | Bubble Sort<br>Merge Sort                                   | FA7: Sorting           | FA6
+| 10/18| Fri | Fall Break<br>No Class                                      | 
+|      |
+| 10/21| Mon | Quicksort                                                   | 
+| 10/23| Wed | Big O                                                       |                        | FA7
+| 10/25| Fri | Big Omega, Big Theta                                        |                        | Project 2
+|      |
+| 10/28| Mon | Asymptotic Analysis                                         | FA8: Big O
+| 10/30| Wed | Map and Set Interfaces<br>Binary Search Tree Implementation | Project 3
+| 11/1 | Fri | Removal from Binary Search Trees                            |                        | FA8
+|      |
+| 11/4 | Mon | Tree Traversals<br>Tree Balancing<br>Tree Rotations         | FA9: Trees
+| 11/6 | Wed | [Balanced Trees]({{site.baseurl}}/inclass/red_black.html)   |
+| 11/8 | Fri | Hash Tables<br>Separate Chaining Implementation             |                        | FA9
+|      |
+| 11/11| Mon | Hash Tables<br>Open Addressing Implementation               | FA10: Hash Tables      | Project 3
+| 11/13| Wed | Hash Tables<br>Cuckoo Implementation
+| 11/15| Fri | Tries                                                       |                        | FA10
+|      |
+| 11/18| Mon | Tries
+| 11/20| Wed | Designing the Final Project                                 | Project 4            
+| 11/22| Fri | Building Large Programs
+|      |
+| 11/25| Mon | Building Large Programs                                     |                        | Project 4 Design Document
+| 11/27| Wed | Thanksgiving Break<br>No Class
+| 11/29| Fri | Thanksgiving Break<br>No Class
+
+| 12/2 | Mon | Building Large Programs
+| 12/4 | Wed | Building Large Programs
+| 12/6 | Fri | Retrospective
+|      |
+| 12/12| Thu 8:30-11:30 am | Project 4 Presentations
+
+<hr>
 # Coursework
 
 ## <a name="hw">Formative Assessments</a>
@@ -68,8 +134,8 @@ for a demonstration of understanding. There are three types of formative assessm
   [videos](https://mgoadric.github.io/cs2mulch/hash/) and practice using 
   [Tabletopia](https://tabletopia.com/games/cs2-mulch-fq1guf/play-now) prior to your office hours visit.
 
-| #  | Name | Assessment Type | Deadline |
-|:--:|------| ----------------| -------- |
+| #  | Name | Assessment Type | 
+|:--:|------| ----------------| 
 |0 | [Survey](https://forms.gle/VLRVHjUAisWP5R9J8) | n/a |
 |1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) | Java Programming |
 |2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) | Java Programming |
