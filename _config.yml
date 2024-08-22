@@ -106,6 +106,8 @@ extra-resources:
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
 theme: minima
 plugins:
   - jekyll-feed
