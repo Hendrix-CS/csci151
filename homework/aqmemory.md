@@ -20,4 +20,4 @@ Here is an initial memory diagram of an ArrayQueue. Choose the final state from 
 
 ![ArrayQueue Choices](../assets/images/exam1/arrayqueue.png){: .img-fluid}
 
-Write a paragraph justifying your choice.
+Come to office hours ready to explain your choice.

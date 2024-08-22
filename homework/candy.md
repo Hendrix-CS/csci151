@@ -27,5 +27,4 @@ You will need four additional methods:
 
 Also, write a `Main` class that includes a `public static void main(String[] args)` method that fully tests and demonstrates that your class is working.
 
-You may use IntelliJ to test your code. Turn in a copy of your
-`TootsiePop.java` and `Main.java` files through Teams by the due date.
+Feel free to use IntelliJ to test your code. Be ready to demonstrate your program to the instructor by the due date.
