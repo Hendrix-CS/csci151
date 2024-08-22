@@ -1,6 +1,6 @@
 ---
 layout: work
-type: Homework
+type: Formative Assessment
 num: 1
 worktitle: Eating Candy
 ---

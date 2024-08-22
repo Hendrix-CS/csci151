@@ -1,6 +1,6 @@
 ---
 layout: work
-type: Homework
+type: Formative Assessment
 num: 5
 worktitle: ArrayQueue Memory Diagram
 ---
