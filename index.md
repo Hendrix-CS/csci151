@@ -88,6 +88,7 @@ for a demonstration of understanding. There are three types of formative assessm
   * A student is welcome to schedule a follow-up meeting to make an additional attempt 
     to earn full credit.
 * Attempting the demonstration by the deadline earns one additional credit.
+* All demonstrations must be completed by Tuesday, December 17 at 5 pm.
 
 ## <a name="labs">Labs</a>
 
@@ -117,6 +118,7 @@ stationed in the Snoddy Computer Lab in the library for our lab times." %}
 **Credit**:
 * Submitting the completed lab check-off sheet by the start of the next lab earns two credits.
 * Submitting the completed lab check-off sheet at a later date earns one credit.
+* All check-off sheets must be submitted by Tuesday, December 17 at 5 pm.
 
 ## <a name="projects">Skills Projects</a>
 
@@ -151,7 +153,8 @@ will be accepted late. Projects earn **credits** as follows:
 | 4       | 6                | 12               | None          | 12             |
 
 If a project receives less than Level 2 Complete, a student may submit a revised version of the project after an
-office hours meeting with the instructor to discuss how the project should be improved.
+office hours meeting with the instructor to discuss how the project should be improved. All project revisions must
+be submitted by Tuesday, December 17 at 5 pm.
 
 ## <a name="attendance">Attendance</a>
 
