@@ -21,4 +21,4 @@ Here is an initial memory diagram of an ArrayStack. Choose the final state from 
 
 ![ArrayStack Choices](../assets/images/exam1/arraystack.png){: .img-fluid}
 
-Come to office hours ready to explain your choice.
+Come to office hours ready to explain your choice. Be prepared to analyze a similar memory diagram.

@@ -124,12 +124,10 @@ for a demonstration of understanding. There are three types of formative assessm
 * **Java Programming**: For these assessments, you will begin by creating a Java program as directed below. 
   During your office hours visit, you will demonstrate it to the instructor, followed by modifying the program
   as the instructor directs.
-* **Memory Manipulation**: For these assessments, you will study a memory management puzzle. Prior 
-  to your office hours visit, you are welcome to experiment with the code in the puzzle. During the visit, you
-  will give an answer to the puzzle along with an explanation as to why the answer is correct.
-* **Analysis**: For these assessments, you will mathematically analyze a function. Prior to your office hours visit, 
-  practice the example so that you are comfortable demonstrating the requested properties. During the visit, you 
-  will be given a new example to analyze for the instructor.
+* **Problem Solving**: For these assessments, you will study a problem prior to your office hours visit. During 
+  the visit, you will demonstrate and explain your solution to the problem. If it is not correct, you and the 
+  instructor will discuss the correct solution. Following this conversation, you will be given a closely related
+  problem to solve. If you solve it correctly, you will receive full credit.
 * **Data Structure Demonstration**: For these assessments, you will demonstrate the operation of a data structure
   using the [CS2 Mulch Manipulatives](https://mgoadric.github.io/cs2mulch/). To prepare for your demonstration,
   review Java programs you write in lab in which you built the data structure. Also review the appropriate
@@ -142,12 +140,12 @@ for a demonstration of understanding. There are three types of formative assessm
 |0 | [Survey](https://forms.gle/VLRVHjUAisWP5R9J8) | n/a |
 |1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) | Java Programming |
 |2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) | Java Programming |
-|3 | [ArrayStack Memory]({{site.baseurl}}/homework/asmemory.html) | Memory Manipulation |
-|4 | [ListNode Memory]({{site.baseurl}}/homework/lnmemory.html) | Memory Manipulation |
-|5 | [ArrayQueue Memory]({{site.baseurl}}/homework/aqmemory.html) | Memory Manipulation |
+|3 | [ArrayStack Memory]({{site.baseurl}}/homework/asmemory.html) | Problem Solving |
+|4 | [ListNode Memory]({{site.baseurl}}/homework/lnmemory.html) | Problem Solving |
+|5 | [ArrayQueue Memory]({{site.baseurl}}/homework/aqmemory.html) | Problem Solving |
 |6 | [Heaps]({{site.baseurl}}/homework/heaps.html) | Data Structure Demonstration |
 |7 | [Sorting]({{site.baseurl}}/homework/sorting.html) | Data Structure Demonstration |
-|8 | [Asymptotic Analysis]({{site.baseurl}}/homework/bigo.html) | Analysis |
+|8 | [Asymptotic Analysis]({{site.baseurl}}/homework/bigo.html) | Problem Solving |
 |9 | [Binary Search Trees]({{site.baseurl}}/homework/trees.html) | Data Structure Demonstration |
 |10 | [Hash Tables]({{site.baseurl}}/homework/hashtables.html) | Data Structure Demonstration |
 
