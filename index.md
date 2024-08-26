@@ -61,34 +61,34 @@ When we write code together in class, it will be posted here!
 | 9/6  | Fri | Designing Classes                                           | FA1: Eating Candy      |
 |      |
 | 9/9  | Mon | Interfaces                    
-| 9/11 | Wed | User Input, 2D Arrays                                       |                        | FA1       
-| 9/13 | Fri | Project 1                                                   | Project 1            
+| 9/11 | Wed | User Input, 2D Arrays                                       |                        |       
+| 9/13 | Fri | Project 1                                                   |Project 1<br>FA2: Garden| FA1 
 |      |
-| 9/16 | Mon | Enums                                                       | FA2: Garden            |
-| 9/18 | Wed | Stack Abstraction<br>Array Implementation                   |                      
+| 9/16 | Mon | Enums                                                       |                        |
+| 9/18 | Wed | Stack Abstraction<br>Array Implementation                   |                        |
 | 9/20 | Fri | Linked List Implementation                                  | FA3: ArrayStack Memory | FA2       
 |      |
 | 9/23 | Mon | Generics                                  
-| 9/25 | Wed | Queue Abstraction<br>Linked List Implementation             |                        | FA3       
-| 9/27 | Fri | Array Implementation                                        | FA4: ListNode Memory   | Project 1 
+| 9/25 | Wed | Queue Abstraction<br>Linked List Implementation             |                        |       
+| 9/27 | Fri | Array Implementation                                        | FA4: ListNode Memory   | FA3 
 |      |
-| 9/30 | Mon | ArrayList                                                   |
-| 10/2 | Wed | JavaFX GUI                                                  |                        | FA4          
-| 10/4 | Fri | JavaFX GUI                                                  | FA5: ArrayQueue Memory                       
+| 9/30 | Mon | ArrayList                                                   |                        | Project 1
+| 10/2 | Wed | JavaFX GUI                                                  |                        |           
+| 10/4 | Fri | JavaFX GUI                                                  | FA5: ArrayQueue Memory | FA4                      
 |      |
 | 10/7 | Mon | Priority Queue Abstraction<br>Insertion Sort Implementation | 
-| 10/9 | Wed | Heap Abstraction                                            | Project 2              | FA5
-| 10/11| Fri | Array Implementation of Heaps                               | FA6: Heaps
+| 10/9 | Wed | Heap Abstraction                                            | Project 2              
+| 10/11| Fri | Array Implementation of Heaps                               | FA6: Heaps             | FA5
 |      |
 | 10/14| Mon | Selection Sort<br>Heapsort                                  |                        
 | 10/16| Wed | Bubble Sort<br>Merge Sort                                   | FA7: Sorting           | FA6
 | 10/18| Fri | Fall Break<br>No Class                                      | 
 |      |
 | 10/21| Mon | Quicksort                                                   | 
-| 10/23| Wed | Big O                                                       |                        | FA7
-| 10/25| Fri | Big Omega, Big Theta                                        |                        | Project 2
+| 10/23| Wed | Big O                                                       |                        
+| 10/25| Fri | Big Omega, Big Theta                                        |                        | FA7
 |      |
-| 10/28| Mon | Asymptotic Analysis                                         | FA8: Big O
+| 10/28| Mon | Asymptotic Analysis                                         | FA8: Big O             | Project 2
 | 10/30| Wed | Map and Set Interfaces<br>Binary Search Tree Implementation | Project 3
 | 11/1 | Fri | Removal from Binary Search Trees                            |                        | FA8
 |      |
@@ -156,6 +156,9 @@ for a demonstration of understanding. There are three types of formative assessm
     to earn full credit.
 * Attempting the demonstration by the deadline earns one additional credit.
 * All demonstrations must be completed by Tuesday, December 17 at 5 pm.
+  
+Each formative assessment will be assigned on a Friday. To receive credit for an on-time
+demonstration, the office hours visit will need to occur by the following Friday at 5 pm.
 
 ## <a name="labs">Labs</a>
 
