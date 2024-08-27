@@ -192,7 +192,7 @@ stationed in the Snoddy Computer Lab in the library for our lab times." %}
 
 You will have three skills projects in this course, one about every four weeks. These projects will cover concepts we have discussed in class and in labs, and will be due approximately two weeks after they are assigned.
 
-{% include warning.html content="You must work individually on the projects. You may discuss concepts and ideas with your classmates, but the **code or work you turn in must be your own**. Use of any resources (TA, Stackoverflow, ChatGPT, etc) must be cited, and an overreliance on those resources can be counterproductive to developing your own ability to make progress in this and other courses." %}
+{% include warning.html content="You must work individually on the projects. You may discuss concepts and ideas with your classmates, but the **code or work you turn in must be your own**. Use of any resources (TA, StackOverflow, ChatGPT, etc) must be cited, and an overreliance on those resources can be counterproductive to developing your own ability to make progress in this and other courses." %}
 
 ## <a name="finalproject">Final Project</a>
 
