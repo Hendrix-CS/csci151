@@ -40,21 +40,13 @@ Upon completing this course, our goal is for you to be able to:
 |	TBA | TBA   | TBA  |      |      |
 
 
-# <a name="inclasscode">In-Class Code</a>
-
-When we write code together in class, it will be posted here!
-
-| Date     | Topic        | Code |
-|:--------:|--------------|------|
-| W 28 Aug | Introduction | TBA  |
-
 <hr>
 # <a name="calendar">Calendar</a>
 
 | Date | Day | Topic                                                       | Assigned               | Due       
 | ---  | --- | -----                                                       | ------------           | --------- 
 | 8/28 | Wed | Introduction to Java                                        | Survey
-| 8/30 | Fri | Introduction to Java                                        |                        | 
+| 8/30 | Fri | Introduction to Java                                        |                        | Survey
 |      |
 | 9/2  | Mon | Labor Day<br>No Class     
 | 9/4  | Wed | Arrays, Memory, Mutation            
