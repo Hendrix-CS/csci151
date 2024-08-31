@@ -170,9 +170,11 @@ demonstration, the office hours visit will need to occur by the following Friday
 |12 | [Text Prediction]({{site.baseurl}}/labs/text-prediction.html)       
 |P  | Final Project work day                                              
 
-Much of your experience with programming in this course will be through weekly labs. Each lab will be assigned in lab with time allotted to work through the materials, and will be due **by the start of the following lab**. 
+Each lab consists of a series of milestones. At the start of each lab, you will receive a sheet of paper listing the milestones for that lab. As you achieve each milestone, you will demonstrate to the instructor or TA that you have met the milestone, and they will record this achievement on your checklist. When you complete all of the lab milestones, you will submit the milestone checklist.
 
-On these labs, you will work with a partner on the lab assignments. Their name must be listed on any code you hand in as joint work. A partnership should only turn in a **single copy** of the assignment. 
+If you complete the lab during the lab period, hand your checklist to your lab instructor before you leave the lab. If you require additional time beyond the lab period to complete the lab, either the instructor or the lab TA can check off the remaining milestones during office hours. You can then submit the completed checklist to the instructor at the start of the next lab.
+
+You will work with a partner on each lab assignment. Each partner will have their own milestone checklist. If they do not complete the milestones during the lab period, they should find time outside of lab to work together to complete them. If they are unable to do so, only the instructor is authorized to record milestones for students working alone.
 
 {% include important.html content="Lab attendance is required. We will be
 stationed in the Snoddy Computer Lab in the library for our lab times." %}
