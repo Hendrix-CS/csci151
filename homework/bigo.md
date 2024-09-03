@@ -1,12 +1,15 @@
 ---
 layout: work
-type: Homework
+type: Formative Assessment
 num: 8
 worktitle: Asymptotic Analysis
 ---
 
 Compare the following functions using asymptotic analysis. Prove they are
-in the same linear equivalency class by finding values for c and n_0.
+in the same linear equivalency class by finding values for `$c$` and `$n_0$`. 
 
-* f(n) = 32 n + 12
-* g(n) = 5 n + 40
+* `$f(n) = 32 n + 12$`
+* `$g(n) = 5 n + 40$`
+
+Come to office hours ready to demonstrate their equivalency. 
+Be prepared to make a similar demonstration with a different pair of functions.

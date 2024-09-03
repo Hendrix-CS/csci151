@@ -1,6 +1,6 @@
 ---
 layout: work
-type: Homework
+type: Formative Assessment
 num: 4
 worktitle: ListNode Memory Diagram
 ---
@@ -18,4 +18,4 @@ Choose the memory diagram below to show the result of executing the following li
 
 ![ListNode Choices](../assets/images/exam1/linkedoptions.png){: .img-fluid}
 
-Write a paragraph justifying your choice.
+Come to office hours ready to explain your choice. Be prepared to analyze a similar memory diagram.
