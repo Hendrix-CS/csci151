@@ -87,12 +87,12 @@ In Teams, write a one-paragraph reflection on your comfort level programming in 
 
 ## Grading
 
-* To **Partially Complete** this lab, complete **five** Warmup-1 problems
+* To **Complete** this lab, complete **five** Warmup-1 problems
 * and **seven** problems in **each** of
     * [Logic-1](http://codingbat.com/java/Logic-1)
     * [String-1](http://codingbat.com/java/String-1)
     * [Array-1](http://codingbat.com/java/Array-1)
-* To **Complete** this lab, do the above and **five** problems in **each** of
+* and **five** problems in **each** of
     * [Logic-2](http://codingbat.com/java/Logic-2)
     * [String-2](http://codingbat.com/java/String-2)
     * [Array-2](http://codingbat.com/java/Array-2)
