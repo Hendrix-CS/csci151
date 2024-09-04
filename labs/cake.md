@@ -108,8 +108,8 @@ We will run a simulation competition during class the following Wednesday.
 
 ## Grading
 
-* To **Partially Complete** this lab, write five strategies.
-* To **Complete** this lab, do the above and
+* To **Complete** this lab, 
+    * write five strategies,
     * use an array in one of your strategies, or
     * place in the top *10* strategies in the tournament, or 
     * use a very creative strategy.

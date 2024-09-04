@@ -262,5 +262,4 @@ implementations.
 
 ## Grading
 
-* To **Partially Complete** this lab, complete Steps 1, 2, and 3
-* To **Complete** this lab, do the above and Steps 4 and 5
+* To **Complete** this lab, complete all the steps.

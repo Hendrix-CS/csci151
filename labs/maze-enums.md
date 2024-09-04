@@ -312,5 +312,4 @@ implementations via Teams, along with any additional files you created for your 
 ## Grading
 
 
-* To **Partially Complete** this lab, complete Steps 1, 2, and 3.
-* To **Complete** this lab, do the above and Step 4.
+* To **Complete** this lab, complete all steps.
