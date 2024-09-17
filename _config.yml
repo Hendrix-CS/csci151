@@ -83,9 +83,9 @@ offerings:
     instructor: goadrich
 
 resources:
-  - name: Azul Zulu Java 22
+  - name: Azul Zulu Java 21 LTS
     image: assets/images/java-logo.png
-    url: https://www.azul.com/downloads/?package=jdk-fx#zulu
+    url: https://www.azul.com/downloads/?version=java-21-lts&package=jdk-fx#zulu
   - name: IntelliJ IDEA Community Edition
     image: assets/images/IntelliJ_IDEA_Logo.png
     url: https://www.jetbrains.com/idea/
