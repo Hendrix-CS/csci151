@@ -37,7 +37,7 @@ Upon completing this course, our goal is for you to be able to:
 
 | Sunday           | Monday         | Tuesday     | Wednesday     | Thursday
 |------------------|----------------|-------------|---------------|--------- 
-| 6-8 PM           | 5:30-7:30      | 7-9 PM      | 7-9 PM        | 6-8 PM
+| 6-8 PM           | 5-7 PM         | 7-9 PM      | 7-9 PM        | 6-8 PM
 | Katherine Reid   | Leigh Johnston | Ted Bjurlin | Joseph Washum | Jauss Favorite
 
 
