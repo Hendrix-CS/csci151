@@ -102,7 +102,7 @@ Submit a zip file via Teams containing
 
 ## Grading
 
-To **Partially Complete** this project, your project must 
+To receive **Level 1 Credit** for this project, your project must 
 * be free of syntactic errors preventing compilation,
 * have a `Main` class that:
   * receives input from the keyboard and
@@ -111,7 +111,7 @@ To **Partially Complete** this project, your project must
 * use at least one class besides `Main` that has a natural mapping to the problem 
   domain.
 
-To **Complete** this project, the project must, 
+To receive **Level 2 Credit** for this project, the project must, 
 * work as intented (no bugs or missing elements)
 * correctly instantiate an object of a class besides `Main`,
 * be something that someone would conceivably want to use,
