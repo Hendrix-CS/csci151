@@ -231,12 +231,6 @@ three implementations above. Use the `Sortimator` class to run each
 algorithm 3 times, on a list of size 20. Record the number of Array
 Updates that each method executes, as found through the GUI.
 
-## What to Hand In
-
-Submit your `BubbleSorter.java`, `MergeSorter.java` and
-`QuickSorter.java` implementations via Teams, along with a document for your
-evaluation in Step 4.
-
 ## Grading
 
 * To **Partially Complete** this lab, complete Step 1, and either Step 2 or 3.

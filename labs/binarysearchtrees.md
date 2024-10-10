@@ -116,10 +116,6 @@ balanced tree. Record in your evaluation document the number of
 rotations you needed to perform to balance each tree. Discuss how you
 identified the need for a rotation when examining each tree.
 
-## What to Hand In
-
-Submit `TreeNode.java` and your evaluation document via Teams.
-
 ## Grading
 
 * To **Partially Complete** this lab, complete Steps 1, 2, and 3.

@@ -253,13 +253,6 @@ percentage of the total number of open spaces in the initial maze. Also,
 record the number of steps used by your solver.
 You can choose either implementation for each data type.
 
-## What to Hand In
-
-Submit your `Maze.java`, `Puzzle.java`, `ArrayStack.java`, `ListNode.java`, and
-`ListStack.java`
-implementations via Teams, along with your evaluation document and any additional files you created for your
-implementations.
-
 ## Grading
 
 * To **Complete** this lab, complete all the steps.

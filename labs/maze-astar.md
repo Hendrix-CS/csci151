@@ -145,10 +145,6 @@ strategy (Stack, Queue, and Heap), record the number of visited nodes as
 a percentage of the total number of open spaces in the initial maze.
 Discuss the differences you see between the Stack, Queue, and Heap.
 
-## What to Hand In
-
-Submit your `TrailEstimator.java` and `MinHeap.java` implementations via Teams, along with your evaluation document.
-
 ## Grading
 
 * To **Partially Complete** this lab, complete Steps 1, 2, 3, 4, 5, and 6

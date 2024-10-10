@@ -310,15 +310,6 @@ Create a Controller class. The controller should
 
 Run the GUI and test your program.
 
-## What to Hand In
-
-Create a zip file of your Tip project. Submit the zip file via Teams. (To
-create the zip file, select File -\> Export to Zipfile..)
-
-Create a zip file of your Button project. Submit the zip via Teams.
-
-Create a zip file of your TootsiePop project. Submit the zip via Teams.
-
 ## Grading
 
 * To **Partially Complete** this lab, complete Steps 1 and 2

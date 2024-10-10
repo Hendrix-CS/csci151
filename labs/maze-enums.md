@@ -304,11 +304,6 @@ Run the GUI to interact with your code.
 
 ![](../assets/images/mazegui4.png){: .img-fluid}
 
-## What to Hand In
-
-Submit your `Maze.java`, `Puzzle.java`, `Direction.java` and `Move.java`
-implementations via Teams, along with any additional files you created for your implementations.
-
 ## Grading
 
 

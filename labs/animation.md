@@ -107,11 +107,6 @@ from the animation demonstration above. Below is a rough guide, it is vague on p
 
 I recommend you start by deleting the if/else in the beginning of `update` in `RocketView`. Copy in the `Movement` class to the controller, and start slicing it up. It will be helpful to store a speed for the rocket, and a current Y value for the rocket, so you can update these variables in the `handle` loop. Be sure to make the buttons inactive while the rocket is moving.
 
-## What to Hand In
-
-Create a zip file of your edited AnimationDemo project. Submit the zip via Teams.
-Create a zip file of your edited RocketLauncher project. Submit the zip via Teams.
-
 ## Grading
 
 * To **Partially Complete** this lab, complete Step 1.

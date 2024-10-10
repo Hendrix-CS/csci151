@@ -131,11 +131,6 @@ necessary for the AI to never be defeated when you play against it.
 *  Discuss the strategy you attempted to use to defeat the AI.
 *  Characterize the strategy the AI manifests.
 
-## What to Hand In
-
-Submit your `HashTable.java` implementation via Teams, along with your
-Evaluation Document.
-
 ## Grading
 
 * To **Partially Complete** this lab, complete Steps 1, 2, 3, and 4.
