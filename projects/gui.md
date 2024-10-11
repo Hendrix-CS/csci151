@@ -81,7 +81,7 @@ you encountered in creating your application.
 
 ## Grading
 
-To **Partially Complete** this project, your project must 
+To achieve **Level 1 Complete**, your project must 
 * incorporate a GUI built with JavaFX and SceneBuilder,
 * be free of syntactic errors preventing compilation,
 * include at least two GUI components with event handlers that visibly change the GUI, and                  
@@ -89,7 +89,7 @@ To **Partially Complete** this project, your project must
   * the `Controller` has an instance of this class as an attribute.
   * the class uses an array, linked list, `ArrayList`, `Stack`, or `ArrayDeque` in a useful and pertinent way.
   
-To **Complete** this project, the project must, 
+To achieve **Level 2 Complete**, your project must
 * work as intented (no bugs or missing elements)
 * be something that someone would conceivably want to use,
 * exhibit some creativity and have some interesting features, and

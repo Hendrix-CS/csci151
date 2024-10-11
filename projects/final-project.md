@@ -104,7 +104,7 @@ the course.
 
 ## Grading
 
-To **Partially Complete** this project, your project must 
+To achieve **Level 1 Complete**, your project must 
 * be structured based on a design document that includes an overview, a description, a sketch, and a timeline,
 * incorporate a GUI built with JavaFX and SceneBuilder,
 * incorporate at least two original classes or enums,
@@ -112,7 +112,7 @@ To **Partially Complete** this project, your project must
 * include at least one GUI components with event handlers that visibly change the GUI, 
 * the GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.
 
-To **Complete** this project, the project must, 
+To achieve **Level 2 Complete**, your project must
 * incorporate numerous classes and enums in a sensible organization, roughly at the level of the Maze or TicTacToe labs,
 * incorporate at least one trie, `HashSet`, `HashMap`, `TreeSet`, `TreeMap`, `PriorityQueue`, `Stack`, or `ArrayDeque`,
 * work as intented (no bugs or missing elements)

@@ -52,11 +52,10 @@ verify that each element is *smaller* than its children elements.
 
 To compare elements, we will be using the
 [Comparator](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Comparator.html)
-class in Java. You can assume a call to `comparator.compare(t, t1)` will return -1 if `t` is less than `t1`,
-0 if they are equal, and 1 if `t` is
-greater than `t1`.
+class in Java. You can assume a call to `comparator.compare(t1, t2)` will return -1 if `t1` is 
+less than `t2`, 0 if they are equal, and 1 if `t1` is greater than `t2`.
 
-Because of our use of an ArrayList to track the elements, we will always assume
+Because of our use of an `ArrayList` to track the elements, we will always assume
 that the elements form a Heap that is as compact as possible.
 
 If your implementation is correct, it should pass all four `testIsHeap`
@@ -72,7 +71,7 @@ useful for both adding and removing elements from a heap. Implement the
 
 The next method to implement is `element`. This should return the **root**
 element, which will always be stored in the first position of the
-ArrayList. Make sure to do the `emptyCheck` to throw an exception if there are no elements in the heap.
+ArrayList. <!--Make sure to do the `emptyCheck` to throw an exception if there are no elements in the heap.-->
 
 Then, you should implement the `add` method. New elements are added to
 the end of the ArrayList, and then filtered up repeatedly when the
@@ -85,24 +84,24 @@ implementation of `add`." %}
 Once these methods are implemented, the `testAdd1()` and `testAdd2()`
 test cases should pass.
 
-## Step 5 - `indexOfLowestInFamily`
+## Step 5 - `hasSmallerChild` and `smallestChildOf`
 
-This method considers a parent index and its two children. Given the
-index of a parent, this method checks the value at that index against
-the values of its children. If either child is smaller than the parent,
-the index of the smallest child is returned. If no children are present,
-or the parent has the lowest value among the three, the parent's own
-index is returned.
+Each of these methods consider a parent index. The `hasSmallerChild`
+method returns `true` if one of its children is smaller in value than
+the parent. It returns `false` if the parent's value is smaller than 
+both of its children, or if it does not have any children.
 
-Once this method is implemented the six `testLowestInFamily` tests
+The `smallestChildOf` method returns the index of the right child of the
+parent if the right child is present and its value is smaller than that
+of the left child. Otherwise, it returns the index of the left child.
+
+Once these two methods are implemented the six `testSmallestChild` tests
 should all pass.
 
 ## Step 6 - `remove`
-
+<!--Make sure to do the `emptyCheck` to throw an exception if there are no elements in the heap.-->
 Elements can be removed from the heap through a filtering process
-similar to adding to a heap. First, perform the emptyCheck, which will
-throw an exception if there are no elements to be removed.
-Then, swap the first and last elements.
+similar to adding to a heap. First, swap the first and last elements.
 Next, remove the last element, and save its value to be returned at the
 end of the method. The swap could cause a violation of the Heap property
 that all parents must be smaller than their children. If the element is
@@ -115,8 +114,8 @@ descendants to guarantee that the Heap property is always preserved.
 Once this method is implemented, the `testRemove()` test case should
 pass.
 
-{% include note.html content="Using the `indexOfLowestInFamily()` method makes it **much**
-easier to write this method correctly!" %}
+{% include note.html content="Using the `hasSmallerChild()` and 
+`smallestChildOf()` methods makes it **much** easier to write this method correctly!" %}
 
 ## Step 7 - `TrailEstimator`
 
