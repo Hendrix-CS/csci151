@@ -86,10 +86,10 @@ test cases should pass.
 
 ## Step 5 - `hasSmallerChild` and `smallestChildOf`
 
-Each of these methods consider a parent index. The `hasSmallerChild`
-method returns `true` if one of its children is smaller in value than
-the parent. It returns `false` if the parent's value is smaller than 
-both of its children, or if it does not have any children.
+Each of these methods considers a parent index. The `hasSmallerChild`
+method returns `true` if either or both of its children is smaller in 
+value than the parent. It returns `false` if the parent's value is smaller 
+than both of its children, or if it does not have any children.
 
 The `smallestChildOf` method returns the index of the right child of the
 parent if the right child is present and its value is smaller than that
