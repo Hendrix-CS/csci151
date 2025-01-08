@@ -36,6 +36,7 @@ Upon completing this course, our goal is for you to be able to:
 ## Peer Tutoring
 
 TBA
+
 <!--
 
 | Sunday           | Monday         | Tuesday     | Wednesday     | Thursday
