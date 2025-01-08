@@ -35,80 +35,51 @@ Upon completing this course, our goal is for you to be able to:
 
 ## Peer Tutoring
 
+TBA
+<!--
 | Sunday           | Monday         | Tuesday     | Wednesday     | Thursday
 |------------------|----------------|-------------|---------------|--------- 
 | 6-8 PM           | 5-7 PM         | 7-9 PM      | 7-9 PM        | 6-8 PM
 | Katherine Reid   | Leigh Johnston | Ted Bjurlin | Joseph Washum | Jauss Favorite
 
+-->
 
-<hr>
-# <a name="calendar">Calendar</a>
-
-| Date | Day | Topic                                                       | Assigned               | Due       
-| ---  | --- | -----                                                       | ------------           | --------- 
-| 8/28 | Wed | Introduction to Java                                        | Survey
-| 8/30 | Fri | Introduction to Java                                        |                        | Survey
-|      |
-| 9/2  | Mon | Labor Day<br>No Class     
-| 9/4  | Wed | Arrays, Memory, Mutation            
-| 9/6  | Fri | Designing Classes                                           | FA1: Eating Candy      |
-|      |
-| 9/9  | Mon | Interfaces                    
-| 9/11 | Wed | User Input, 2D Arrays                                       |                        |       
-| 9/13 | Fri | Project 1                                                   |Project 1<br>FA2: Garden| FA1 
-|      |
-| 9/16 | Mon | Enums                                                       |                        |
-| 9/18 | Wed | Stack Abstraction<br>Array Implementation                   |                        |
-| 9/20 | Fri | Linked List Implementation                                  | FA3: ArrayStack Memory | FA2       
-|      |
-| 9/23 | Mon | Generics                                  
-| 9/25 | Wed | Queue Abstraction<br>Linked List Implementation             |                        |       
-| 9/27 | Fri | Array Implementation                                        | FA4: ListNode Memory   | FA3 
-|      |
-| 9/30 | Mon | ArrayList                                                   |                        | Project 1
-| 10/2 | Wed | JavaFX GUI                                                  |                        |           
-| 10/4 | Fri | JavaFX GUI                                                  | FA5: ArrayQueue Memory | FA4                      
-|      |
-| 10/7 | Mon | Priority Queue Abstraction<br>Insertion Sort Implementation | 
-| 10/9 | Wed | Heap Abstraction                                            | Project 2              
-| 10/11| Fri | Array Implementation of Heaps                               | FA6: Heaps             | FA5
-|      |
-| 10/14| Mon | Selection Sort<br>Heapsort                                  |                        
-| 10/16| Wed | Bubble Sort<br>Merge Sort                                   | FA7: Sorting           | FA6
-| 10/18| Fri | Fall Break<br>No Class                                      | 
-|      |
-| 10/21| Mon | Quicksort                                                   | 
-| 10/23| Wed | Big O                                                       |                        
-| 10/25| Fri | Big Omega, Big Theta                                        |                        | FA7
-|      |
-| 10/28| Mon | Asymptotic Analysis                                         | FA8: Big O             | Project 2
-| 10/30| Wed | Map and Set Interfaces<br>Binary Search Tree Implementation | Project 3
-| 11/1 | Fri | Removal from Binary Search Trees                            |                        | FA8
-|      |
-| 11/4 | Mon | Tree Traversals<br>Tree Balancing<br>Tree Rotations         | FA9: Trees
-| 11/6 | Wed | [Balanced Trees]({{site.baseurl}}/inclass/red_black.html)   |
-| 11/8 | Fri | Hash Tables<br>Separate Chaining Implementation             |                        | FA9
-|      |
-| 11/11| Mon | Hash Tables<br>Open Addressing Implementation               | FA10: Hash Tables      | Project 3
-| 11/13| Wed | Hash Tables<br>Cuckoo Implementation
-| 11/15| Fri | Tries                                                       |                        | FA10
-|      |
-| 11/18| Mon | Tries
-| 11/20| Wed | Designing the Final Project                                 | Project 4            
-| 11/22| Fri | Building Large Programs
-|      |
-| 11/25| Mon | Building Large Programs                                     |                        | Project 4 Design Document
-| 11/27| Wed | Thanksgiving Break<br>No Class
-| 11/29| Fri | Thanksgiving Break<br>No Class
-
-| 12/2 | Mon | Building Large Programs
-| 12/4 | Wed | Building Large Programs
-| 12/6 | Fri | Retrospective
-|      |
-| 12/12| Thu 8:30-11:30 am | Project 4 Presentations
 
 <hr>
 # Coursework
+
+[*Adapted from Spencer Bagley and David Clark, via [Robert
+Talbert](https://rtalbert.org/a-real-world-approach-to-deadlines/)*]
+
+CSCI 370 uses a **real-world policy** on due dates---but this may not
+mean what you think!  In the *real* real world, due dates exist but
+they are often not ironclad.  Assignments have due dates to help you 
+make progress in the course and solidify your knowledge before moving on 
+to something new. Your life and schedule may not perfectly coincide 
+with the due dates I have chosen. If you need more time to
+get the job done well, you email whoever set the deadline to ask if
+you can have more time.  Studies have shown that deadline extension
+requests---in moderation and when truly needed---often lead to
+*better* employee evaluations (not to mention better work). [*See [Go
+Ahead and Ask for More Time on that
+Deadline](https://hbr.org/2021/12/go-ahead-and-ask-for-more-time-on-that-deadline)
+by Ashley Williams*.]
+
+**If you need an extension on a due date, email me and explain what
+you need**, and it will probably be fine.  It helps if you propose a
+concrete new deadline (*e.g.* "I can get it done by 5pm on
+Wednesday").  If you ask for lots of extensions, we'll work together
+to find a way to help you keep up.  Note, however, that late
+submissions may not receive feedback as quickly as on-time
+submissions.
+
+If you have significant extenuating circumstances that cause you to
+miss multiple deadlines, please [come to office hours](markgoadrich.youcanbook.me) 
+to discuss broader accommodations.  I'm
+happy to be flexible, but it helps to know what you need so I can
+figure out the best way to help.
+
+{% include important.html content="You must be in communication with me anytime an assignment is late." %}
 
 ## <a name="hw">Formative Assessments</a>
 
@@ -130,7 +101,7 @@ for a demonstration of understanding. There are three types of formative assessm
 
 | #  | Name | Assessment Type | 
 |:--:|------| ----------------| 
-|0 | [Survey](https://forms.gle/VLRVHjUAisWP5R9J8) | n/a |
+|0 | [Survey](https://forms.gle/brYNvuWqYEEcXq3A7) | n/a |
 |1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) | Java Programming |
 |2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) | Java Programming |
 |3 | [ArrayStack Memory]({{site.baseurl}}/homework/asmemory.html) | Problem Solving |
@@ -183,7 +154,7 @@ stationed in the Snoddy Computer Lab in the library for our lab times." %}
 **Credit**:
 * Submitting the completed lab check-off sheet by the start of the next lab earns two credits.
 * Submitting the completed lab check-off sheet at a later date earns one credit.
-* All check-off sheets must be submitted by Tuesday, December 17 at 5 pm.
+* All check-off sheets must be submitted by Thursday, May 8 at 5 pm.
 
 ## <a name="projects">Skills Projects</a>
 
@@ -210,16 +181,16 @@ your solution.
 Note that the final project must be submitted on-time to earn credit - no final projects
 will be accepted late. Projects earn **credits** as follows:
 
-| Project | Level 1 Complete | Level 2 Complete | On-time Bonus | Maximum Credit |
+| Project | Level 1 Complete | Level 2 Complete | Unexcused Late | Maximum Credit |
 | ------: | ---------:       | ----------:      | ------------: | -------------: |
-| 1       | 2                |  4               | 1             |  5             |
-| 2       | 2                |  4               | 1             |  5             |
-| 3       | 2                |  4               | 1             |  5             |
+| 1       | 2                |  5               | -1             |  5             |
+| 2       | 2                |  5               | -1             |  5             |
+| 3       | 2                |  5               | -1             |  5             |
 | 4       | 6                | 12               | None          | 12             |
 
 If a project receives less than Level 2 Complete, a student may submit a revised version of the project after an
 office hours meeting with the instructor to discuss how the project should be improved. All project revisions must
-be submitted by Tuesday, December 17 at 5 pm.
+be submitted by Thursday, May 8 at 5 pm.
 
 ## <a name="attendance">Attendance</a>
 
@@ -247,7 +218,7 @@ From the 12 labs, 24 total credits are available:
 * **Advanced**: Earn 23 lab credits, no unexcused absences
 
 **Remember**: For an absence to be **excused**, the student must discuss the 
-circumstances with the lab instructor.
+circumstances with the lab instructor prior to missing the lab.
 
 ### Projects
 From the four projects, 27 total credits are available:
@@ -259,15 +230,18 @@ From the four projects, 27 total credits are available:
 * To earn an A in the course, a student will:
   * Complete the course survey.
   * Achieve **Advanced** in all three categories
+  * No more than one unexcused absence
 * To earn a B in the course, a student will:
   * Complete the course survey.
   * Achieve at least **Intermediate** in all three categories.
   * Achieve **Advanced** in at least one category.
+  * No more than two unexcused absence
 * To earn a C in the course, a student will:
   * Complete the course survey
   * Achieve at least **Basic** in all three categories.
   * Achieve one of:
     * **Advanced** in at least one category.
     * **Intermediate** in at least two categories.
+  * No more than three unexcused absence
 * To earn a D in the course, a student will:
   * Achieve at least **Basic** in all three categories.
