@@ -74,7 +74,7 @@ instructors:
 
 offerings:
   - name: LECTURE 01
-    loc: MCReynolds 315
+    loc: MCReynolds 316
     time: MWF 10:10am - 11:00am
     instructor: goadrich
   - name: LAB 01
