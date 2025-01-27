@@ -48,9 +48,6 @@ section of CodingBat. Click on
 the desired function behavior, and fill in a suitable function
 definition.
 
-{% include note.html content="Unfortunately, CodingBat does not like it if you
-use the Tab key. You will have to use spaces to indent your code." %}
-
 Once you have filled in a definition for the function, click "Go". CodingBat
 will automatically run your function on a number of test inputs and
 check whether it has the required behavior. If your function passes all
@@ -65,14 +62,16 @@ the grading section.
 
 ## Academic Integrity
 
-You must write the solutions with your partners and
-work together. You may ask other students for advice, but remember
-that
+The goal of this lab is for you to get repeated practice writing small programs in 
+Java. You must write the solutions with your partners and
+work together. You may ask the instructors, teaching assistants, and other students for 
+advice, but remember that
 
 *   You **may not look at any other groups's code**.
 *   You **may not show your code to any other students**.
 *   You **may not look at or copy any solutions you find on the
     Internet**. This includes solutions on the CodingBat site itself.
+*   You **may not use ChatGPT or other similar LLM AI Agents**
 
 {% include warning.html content="Evidence of any of the above will be treated as a potential violation of
 the Hendrix Academic Integrity Policy." %}
@@ -87,16 +86,16 @@ Write a one-paragraph reflection on your comfort level programming in Java after
 
 ## Grading
 
-* To **Complete** this lab, complete **five** Warmup-1 problems
-* and **seven** problems in **each** of
+* To **Complete** this lab, complete **six** Warmup-1 problems
+* and **five** problems in **each** of
     * [Logic-1](http://codingbat.com/java/Logic-1)
     * [String-1](http://codingbat.com/java/String-1)
     * [Array-1](http://codingbat.com/java/Array-1)
-* and **five** problems in **each** of
+* and **four** problems in **each** of
     * [Logic-2](http://codingbat.com/java/Logic-2)
     * [String-2](http://codingbat.com/java/String-2)
     * [Array-2](http://codingbat.com/java/Array-2)
-* and **three** problems in
+* and **two** problems in
     * [AP-1](http://codingbat.com/java/AP-1).
 
 Your Progress Graph is the checklist for this lab. Meet with one of your professors to review your progress graph and your reflection paragraph.
