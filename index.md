@@ -47,6 +47,15 @@ TBA
 -->
 
 
+# <a name="inclasscode">In-Class Code</a>
+
+| Date | Topic | Code |
+|:----:|------||-----||
+| W 29 Jan | Classes and Interfaces | [Main.java]({{site.baseurl}}/code/2025Sp/Main.java) |
+|  | | [HolidayLight.java]({{site.baseurl}}/code/2025Sp/HolidayLight.java) |
+|  | | [Light.java]({{site.baseurl}}/code/2025Sp/Light.java) |
+|  | | [MemoryLight.java]({{site.baseurl}}/code/2025Sp/MemoryLight.java) |
+
 <hr>
 # Coursework
 
