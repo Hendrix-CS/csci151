@@ -55,6 +55,9 @@ TBA
 |  | | [HolidayLight.java]({{site.baseurl}}/code/2025Sp/HolidayLight.java) |
 |  | | [Light.java]({{site.baseurl}}/code/2025Sp/Light.java) |
 |  | | [MemoryLight.java]({{site.baseurl}}/code/2025Sp/MemoryLight.java) |
+| F 31 Jan | Fountain | [Class Description]({{site.baseurl}}/homework/fountain.html) |
+|  | | [Fountain.java]({{site.baseurl}}/code/2025Sp/Fountain.java) |
+| M 3 Feb | Toaster | [Class Description]({{site.baseurl}}/homework/toaster.html) |
 
 <hr>
 # Coursework
