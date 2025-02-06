@@ -58,6 +58,8 @@ TBA
 | F 31 Jan | Fountain | [Class Description]({{site.baseurl}}/homework/fountain.html) |
 |  | | [Fountain.java]({{site.baseurl}}/code/2025Sp/Fountain.java) |
 | M 3 Feb | Toaster | [Class Description]({{site.baseurl}}/homework/toaster.html) |
+| W 5 Feb | 2D Arrays | [Main.java]({{site.baseurl}}/code/2025Sp/LightsOut/Main.java) |
+|  | | [LightsOut.java]({{site.baseurl}}/code/2025Sp/LightsOut/LightsOut.java) |
 
 <hr>
 # Coursework
