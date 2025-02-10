@@ -60,6 +60,8 @@ TBA
 | M 3 Feb | Toaster | [Class Description]({{site.baseurl}}/homework/toaster.html) |
 | W 5 Feb | 2D Arrays | [Main.java]({{site.baseurl}}/code/2025Sp/LightsOut/Main.java) |
 |  | | [LightsOut.java]({{site.baseurl}}/code/2025Sp/LightsOut/LightsOut.java) |
+| M 10 Feb | Enums | [Currency.java]({{site.baseurl}}/inclass/Currency.java) |
+|   | Enums | [Currency.java]({{site.baseurl}}/inclass/ChangeMaker.java) |
 
 <hr>
 # Coursework
