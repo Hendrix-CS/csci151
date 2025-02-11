@@ -37,14 +37,13 @@ Upon completing this course, our goal is for you to be able to:
 
 TBA
 
-<!--
 
-| Sunday           | Monday         | Tuesday     | Wednesday     | Thursday
-|------------------|----------------|-------------|---------------|--------- 
-| 6-8 PM           | 5-7 PM         | 7-9 PM      | 7-9 PM        | 6-8 PM
-| Katherine Reid   | Leigh Johnston | Ted Bjurlin | Joseph Washum | Jauss Favorite
+| Monday         | Tuesday       | Wednesday      | Thursday
+|----------------|---------------|----------------|--------- 
+| 7-9 PM         | 6-10 PM       | 8-10 PM        | 7-10 PM
+| Sarah Graham   | Jauss Favorite| Katherine Reid | Ted Bjurlin
+|                | Ted Bjurlin   |                |
 
--->
 
 
 # <a name="inclasscode">In-Class Code</a>
