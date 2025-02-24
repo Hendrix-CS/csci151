@@ -44,7 +44,7 @@ this functionality." %}
 
 ## Step 1 - ListQueue\<E\>
 
-To implement the generic version of a Stack with nodes, you
+To implement the generic version of a Queue with nodes, you
 should use the generic `ListNode<E>` class we implemented last lab.
 
 {% include important.html content="All of your
