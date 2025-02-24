@@ -172,7 +172,6 @@ these tests.
 # Queues 
 
 
-
 ## Step 3 - ListQueue\<E\>
 
 To implement the generic version of a Queue with nodes, you
@@ -225,37 +224,10 @@ Otherwise, return the number of `ListNode<E>` that are chained from the `front` 
 Run the `ListQueueTest` suite, and ensure your above methods are passing
 these tests.
 
-### Step 3.7 - GUI
-
-Run the GUI to interact with your code.
-
-
 
 ### Step 4 - Creating Random Mazes
 
-Uncomment code labeled for this portion in
-
--   MazeController
-
-First, you will be creating random mazes by implementing the
-`tunnelRandomly` function in the `Puzzle` class.
-
-### Step 4.1 - `public void tunnelRandomly()`
-
-Create an `ArrayStack` of `Positions`, and push `new Position(0,0)` onto the stack.
-
-While the stack still has Positions:
-
--   Pop the top `Position` from the stack.
--   Try to `clear` this `Position`.
--   If the clear was successful (returned `true`):
-    -   Add the `CLOSED` neighbors of this `Position` to the stack in a **random** order.
-
-{% include tip.html content="You should
-    use the `randomDirections` method of
-    `Direction` in the code above." %}
-
-### Step 4.2 - GUI
+You should now be able see new mazes when you click the Randomize button.
 
 Run the GUI to interact with your code and make random mazes. You should
 see mazes similar to the image below.
@@ -264,12 +236,6 @@ see mazes similar to the image below.
 
 ### Step 5 - Solving Mazes
 
-Uncomment code labeled for this portion in
-
--   Trail
--   PuzzleTest
--   MazeController
-
 A `Trail` is another recursive data structure, similar to a `ListNode`. The
 two fields of a `Trail` are a `Position`, denoting the `end` of the trail, and
 a link to another `Trail` called `prev`, which is a record of how you
@@ -277,26 +243,28 @@ arrived at the current `Trail`. For the first step of a `Trail`, the `prev` is
 left as `null`.
 
 In this step, you will use `Trails` to write an algorithm in the
-`Puzzle` class that solves a maze using depth-first search (DFS).
+`Puzzle` class that solves a maze using either a Stack or a Queue. This is
+because the behavior of both is abstracted into a `Searcher` class. The `Searcher`
+class has method names like the `Queue`.
 
-### Step 5.1 - `public Trail solve(Stack<Trail> solver)`
+### Step 5.1 - `public Trail solve(Searcher<Trail> solver)`
 
 If there is no `Explorer` in the maze or no goal in the maze, then return
 `null`.
 
-Otherwise, push a new `Trail` starting at the `Explorer`'s
-position onto the `solver` stack.
+Otherwise, add a new `Trail` starting at the `Explorer`'s
+position onto the `solver`.
 
-While the stack still has potential `Trails`:
+While the solver still has potential `Trails`:
 
--   Pop the top `Trail` from the stack.
+-   Remove the next `Trail` from the solver.
 -   If the `Trail` end is the goal `Position`, return this `Trail`
 -   If the `Cell` in the `Maze` at the `Trail` end is `OPEN`
     -   Mark it as a `VISITED` `Cell`
     -   Add new `Trails` based on this `Trail` for each of the neighbors to
-        the stack.
+        the solver.
 
-If you empty the stack and have still not found the goal, then return `null`.
+If you empty the `solver` and have still not found the goal, then return `null`.
 
 ### Step 5.2 - Testing
 
