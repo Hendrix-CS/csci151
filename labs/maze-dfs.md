@@ -8,7 +8,7 @@ worktitle: Mazes - Depth First Search
 ## Overview
 
 In this lab, we will implement a generic version of the Stack
-data type within the context of searching a maze.
+data type within the context of creating a maze.
 
 ## Materials
 
@@ -23,13 +23,13 @@ data type within the context of searching a maze.
 
 ## Description
 
-In this lab, we will explore searching a maze for a goal using a stack to
-organize our potential Trails. The stack allows us to search in a
-depth-first search manner. In other words, we can explore down a trail
+In this lab, we will explore creating a maze using a stack to
+organize our potential Positions. The stack allows us to create in a
+depth-first search manner. In other words, we can carve out a trail
 as far as possible, and backtrack if we reached a dead end in our
-journey, because we search the youngest potential trail next.
+journey, because we search the youngest potential position next.
 
-In this lab, you will create the necessary data structures to search a
+In this lab, you will create the necessary data structures to create a
 maze in this depth-first search manner.
 
 To start, run the code in `MazeApp`. You
@@ -171,10 +171,32 @@ Uncomment code labeled for this portion in
 
 -   MazeController
 
-First, you will be creating random mazes by implementing the
-`tunnelRandomly` function in the `Puzzle` class.
+We will explore two different algorithms for creating random mazes, by implementing the
+`tunnelRandomly` function in the `Puzzle` class, defined as
 
-### Step 3.1 - `public void tunnelRandomly()`
+`public void tunnelRandomly(boolean perfect)`
+
+### Step 3.1 - Perfect Mazes
+
+A perfect maze is [one without any loops or closed circuts](https://www.astrolog.org/labyrnth/algrithm.htm). We can achieve this with the following algorithm by preventing the opening of nodes with more than one neighbor, using the `numOpenNeighbors(Position p)` method in the `Maze`.
+
+Create an `ArrayStack` of `Positions`, and push `new Position(0,0)` onto the stack.
+
+While the stack still has Positions:
+
+-   Pop the top `Position` from the stack.
+-   If this `Position` is in the maze, is filled, and has no more than one open neighbor,
+    -   Clear this `Position`
+    -   Add the neighbors to the stack in a **random** order.
+
+{% include tip.html content="You should
+    use the `randomDirections` method of
+    `Direction` in the code above." %}
+
+### Step 3.2 - Braided Mazes
+
+A braided maze is one without any dead ends. With a slightly different algorithm for opening cells, we can create these mazes. Use the `boolean perfect` parameter to allow for both algorithms to be run
+in this one `tunnelRandomly` method.
 
 Create an `ArrayStack` of `Positions`, and push `new Position(0,0)` onto the stack.
 
@@ -185,73 +207,13 @@ While the stack still has Positions:
 -   If the clear was successful (returned `true`):
     -   Add the `CLOSED` neighbors of this `Position` to the stack in a **random** order.
 
-{% include tip.html content="You should
-    use the `randomDirections` method of
-    `Direction` in the code above." %}
-
-### Step 3.2 - GUI
+### Step 3.3 - GUI
 
 Run the GUI to interact with your code and make random mazes. You should
-see mazes similar to the image below.
+see mazes similar to the image below when making **Perfect** mazes.
 
 ![](../assets/images/mazegui6.png){: .img-fluid}
 
-### Step 4 - Solving Mazes
-
-Uncomment code labeled for this portion in
-
--   Trail
--   PuzzleTest
--   MazeController
-
-A `Trail` is another recursive data structure, similar to a `ListNode`. The
-two fields of a `Trail` are a `Position`, denoting the `end` of the trail, and
-a link to another `Trail` called `prev`, which is a record of how you
-arrived at the current `Trail`. For the first step of a `Trail`, the `prev` is
-left as `null`.
-
-In this step, you will use `Trails` to write an algorithm in the
-`Puzzle` class that solves a maze using depth-first search (DFS).
-
-### Step 4.1 - `public Trail solve(Stack<Trail> solver)`
-
-If there is no `Explorer` in the maze or no goal in the maze, then return
-`null`.
-
-Otherwise, push a new `Trail` starting at the `Explorer`'s
-position onto the `solver` stack.
-
-While the stack still has potential `Trails`:
-
--   Pop the top `Trail` from the stack.
--   If the `Trail` end is the goal `Position`, return this `Trail`
--   If the `Cell` in the `Maze` at the `Trail` end is `OPEN`
-    -   Mark it as a `VISITED` `Cell`
-    -   Add new `Trails` based on this `Trail` for each of the neighbors to
-        the stack.
-
-If you empty the stack and have still not found the goal, then return `null`.
-
-### Step 4.2 - Testing
-
-Run the `PuzzleTest` suite, and ensure your above methods are passing
-these tests.
-
-### Step 4.3 - GUI
-
-Run the GUI to interact with your code. When you <kbd>Randomize</kbd> to
-create a random maze, add an `Explorer` and goal,
-and then click the <kbd>Solve</kbd> button, you should see something
-similar to the following image.
-
-![]({{site.baseurl}}/assets/images/mazegui7.png){: .img-fluid}
-
-## Step 5 - Evaluation
-
-Create 10 mazes of size 30x30 and record the number of visited nodes as a
-percentage of the total number of open spaces in the initial maze. Also,
-record the number of steps used by your solver.
-You can choose either implementation for each data type.
 
 ## Grading
 

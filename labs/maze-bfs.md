@@ -164,7 +164,44 @@ array when all positions are full of valid elements in the queue." %}
 
 Run the GUI to interact with your code.
 
-## Step 3 - Evaluation
+### Step 3 - Solving Mazes
+
+A `Trail` is another recursive data structure, similar to a `ListNode`. The
+two fields of a `Trail` are a `Position`, denoting the `end` of the trail, and
+a link to another `Trail` called `prev`, which is a record of how you
+arrived at the current `Trail`. For the first step of a `Trail`, the `prev` is
+left as `null`.
+
+In this step, you will use `Trails` to write an algorithm in the
+`Puzzle` class that solves a maze using either a Stack or a Queue. This is
+because the behavior of both is abstracted into a `Searcher` class. The `Searcher`
+class has method names like the `Queue`.
+
+### Step 3.1 - `public Trail solve(Searcher<Trail> solver)`
+
+If there is no `Explorer` in the maze or no goal in the maze, then return
+`null`.
+
+Otherwise, add a new `Trail` starting at the `Explorer`'s
+position onto the `solver`.
+
+While the solver still has potential `Trails`:
+
+-   Remove the next `Trail` from the solver.
+-   If the `Trail` end is the goal `Position`, return this `Trail`
+-   If the `Cell` in the `Maze` at the `Trail` end is `OPEN`
+    -   Mark it as a `VISITED` `Cell`
+    -   Add new `Trails` based on this `Trail` for each of the neighbors to
+        the solver.
+
+If you empty the `solver` and have still not found the goal, then return `null`.
+
+### Step 3.2 - Testing
+
+Run the `PuzzleTest` suite, and ensure your above methods are passing
+these tests.
+
+## Step 4 - Evaluation
 
 Create 10 mazes of size 30x30 and for each maze, record the number of visited
 nodes as a percentage of the total
@@ -175,5 +212,4 @@ either strategy have any clear strengths or weaknesses?
 
 ## Grading
 
-* To **Partially Complete** this lab, complete Step 1 or Step 2.
-* To **Complete** this lab, complete Steps 1, 2, and 3.
+* To **Complete** this lab, complete all the steps.
