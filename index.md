@@ -61,11 +61,11 @@ TBA
 |  | | [LightsOut.java]({{site.baseurl}}/code/2025Sp/LightsOut/LightsOut.java) |
 | M 10 Feb | Enums | [Currency.java]({{site.baseurl}}/inclass/Currency.java) |
 |   | Enums | [Currency.java]({{site.baseurl}}/inclass/ChangeMaker.java) |
-| M 3 Mar | GUI Lights Out | [LightsOut.java]({{site.baseurl}}/code/2025Sp/LightsOut.java) |
-|  | | [LightsOutController.java]({{site.baseurl}}/code/2025Sp/LightsOutController.java) |
-|  | | [Position.java]({{site.baseurl}}/code/2025Sp/Position.java) |
-|  | | [LightsOutApp.java]({{site.baseurl}}/code/2025Sp/LightsOutApp.java) |
-|  | | [LightsOutGUI.fxml]({{site.baseurl}}/code/2025Sp/LightsOutGUI.fxml) |
+| M 3 Mar | GUI Lights Out | [LightsOut.java]({{site.baseurl}}/code/2025Sp/LightsOutGUI/LightsOut.java) |
+|  | | [LightsOutController.java]({{site.baseurl}}/code/2025Sp/LightsOutGUI/LightsOutController.java) |
+|  | | [Position.java]({{site.baseurl}}/code/2025Sp/LightsOutGUI/Position.java) |
+|  | | [LightsOutApp.java]({{site.baseurl}}/code/2025Sp/LightsOutGUI/LightsOutApp.java) |
+|  | | [LightsOutGUI.fxml]({{site.baseurl}}/code/2025Sp/LightsOutGUI/LightsOutGUI.fxml) |
 
 <hr>
 # Coursework
