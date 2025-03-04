@@ -30,7 +30,7 @@ For our first application we will create a tip calculator. We will include all o
 
 -   Create a new Java project named "tip".
 -   Create a new package within the project also called "tip".
--   Create a new class called `Tip`. This will hold the overview code
+-   Create a new class called `TipApp`. This will hold the overview code
     for the Application. Then enter the following code:
 
 <!-- -->
@@ -43,7 +43,7 @@ For our first application we will create a tip calculator. We will include all o
     import javafx.scene.Scene;
     import javafx.scene.layout.BorderPane;
 
-    public class Tip extends Application {
+    public class TipApp extends Application {
       @Override
       public void start(Stage primaryStage) {
         try {
@@ -234,7 +234,7 @@ new JavaFX skills. Create a new project using JavaFX to make a program that reco
 
 ### Step 2.1 - Application
 
-Create a new Java project and package for your application. Copy/paste the template Application code above and alter it for your new project.
+Create a new Java project and package for your application. Copy/paste the template Application code above and alter it for your new project in a class called `ClickerApp`.
 
 ### Step 2.2 - GUI View
 
@@ -265,7 +265,7 @@ The previous two apps introduced the Controller, View, and Application, but noti
 
 ### Step 3.1 - Application
 
-Create a new Java project and package for your application. Copy/paste the template Application code above and alter it for your new project.
+Create a new Java project and package for your application. Copy/paste the template Application code above and alter it for your new project in a class called `TootsiePopApp`.
 
 ### Step 3.2 - GUI View
 
@@ -312,5 +312,4 @@ Run the GUI and test your program.
 
 ## Grading
 
-* To **Partially Complete** this lab, complete Steps 1 and 2
-* To **Complete** this lab, do the above and Step 3
+* To **Complete** this lab, do all of the steps
