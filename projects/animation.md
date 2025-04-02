@@ -27,7 +27,7 @@ to the following requirements
 -   You must incorporate a GUI built with JavaFX and SceneBuilder.
 -   At least one of the GUI components should have an event handler that
     produces visible changes in the GUI.
--   The program should include an interactive animation that makes use of the
+-   The program should include an interactive animation using the JavaFX AnimationTimer class that makes use of the
     various Shape classes.  
 -   The GUI should have some **persistent state** that is modeled by a class
     of your own creation. 
@@ -39,7 +39,7 @@ to the following requirements
     be complex, but it should be something that someone would
     conceivably want to use.
 
-Feel free to use the [Java 19 API](https://docs.oracle.com/en/java/javase/19/docs/api/index.html) as a reference for any
+Feel free to use the [Java 21 API](https://docs.oracle.com/en/java/javase/21/docs/api/index.html) as a reference for any
 piece of Java you might need.
 
 ## What to Hand In
@@ -55,7 +55,7 @@ To achieve **Level 1 Complete**, your project must
 * incorporate a GUI built with JavaFX and SceneBuilder,
 * be free of syntactic errors preventing compilation,
 * include at least one GUI component with event handlers that visibly change the GUI, 
-* use an interactive animation that makes use of the various Shape classes, and                  
+* use an interactive animation using the JavaFX AnimationTimer that makes use of the various Shape classes, and                  
 * the GUI has persistent state modeled by a pertinent class of the student’s creation, representing an abstraction of the underlying data representation.
   * the `Controller` has an instance of this class as an attribute.
   * the class uses an array, linked list, `PriorityQueue`, `ArrayList`, `Stack`, or `ArrayDeque` in a useful and pertinent way.
