@@ -161,7 +161,7 @@ demonstration, the office hours visit will need to occur by the following Friday
 |9 | [JavaFX Animation]({{site.baseurl}}/labs/animation.html)             
 |10 | [Binary Search Trees]({{site.baseurl}}/labs/binarysearchtrees.html) 
 |11 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html)       
-|12 | [Text Prediction]({{site.baseurl}}/labs/text-prediction.html)       
+|12 | [Splay Trees]({{site.baseurl}}/labs/splaytrees.html)       
 |P  | Final Project work day                                              
 
 Each lab consists of a series of milestones. At the start of each lab, you will receive a sheet of paper listing the milestones for that lab. As you achieve each milestone, you will demonstrate to the instructor or TA that you have met the milestone, and they will record this achievement on your checklist. When you complete all of the lab milestones, you will submit the milestone checklist.
