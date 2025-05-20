@@ -108,9 +108,10 @@ extra-resources:
 markdown: kramdown
 kramdown:
   math_engine: mathjax
-theme: minima
+remote_theme: hendrix-cs/csci000
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
