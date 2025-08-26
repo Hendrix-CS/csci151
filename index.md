@@ -134,6 +134,7 @@ for a demonstration of understanding. There are three types of formative assessm
   [videos](https://mgoadric.github.io/cs2mulch/hash/) and practice using 
   [Tabletopia](https://tabletopia.com/games/cs2-mulch-fq1guf/play-now) prior to your office hours visit.
 
+
 | #  | Name | Assessment Type | 
 |:--:|------| ----------------| 
 |0 | [Survey](https://docs.google.com/forms/d/e/1FAIpQLSeQGqE8Y764GekmoTdWrZ7WcYmZRVbO4pel1EeX2GqR7yA4TA/viewform) | n/a |
