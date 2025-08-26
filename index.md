@@ -35,68 +35,81 @@ Upon completing this course, our goal is for you to be able to:
 
 ## Peer Tutoring
 
-TBA
-
-
 | Monday         | Tuesday       | Wednesday      | Thursday
 |----------------|---------------|----------------|--------- 
-| 7-9 PM         | 6-10 PM       | 8-10 PM        | 7-10 PM
-| Sarah Graham   | Jauss Favorite| Katherine Reid | Ted Bjurlin
-|                | Ted Bjurlin   |                |
+| TBA            | TBA           | TBA            | TBA
 
 
+# <a name="calendar">Calendar</a>
 
-# <a name="inclasscode">In-Class Code</a>
+| Date | Day | Topic                                                       | Assigned               | Due       
+| ---  | --- | -----                                                       | ------------           | --------- 
+| 8/27 | Wed | Introduction to Java                                        | Survey
+| 8/29 | Fri | Introduction to Java                                        |                        | Survey
+|      |
+| 9/1  | Mon | Labor Day<br>No Class     
+| 9/3  | Wed | Arrays, Memory, Mutation            
+| 9/5  | Fri | Designing Classes                                           | FA1: Eating Candy      |
+|      |
+| 9/8  | Mon | Interfaces                    
+| 9/10 | Wed | User Input, 2D Arrays                                       |                        |       
+| 9/12 | Fri | Project 1                                                   |Project 1<br>FA2: Garden| FA1 
+|      |
+| 9/15 | Mon | Enums                                                       |                        |
+| 9/17 | Wed | Stack Abstraction<br>Array Implementation                   |                        |
+| 9/19 | Fri | Linked List Implementation                                  | FA3: ArrayStack Memory | FA2       
+|      |
+| 9/22 | Mon | Generics                                  
+| 9/24 | Wed | Queue Abstraction<br>Linked List Implementation             |                        |       
+| 9/26 | Fri | Array Implementation                                        | FA4: ListNode Memory   | FA3 
+|      |
+| 9/29 | Mon | ArrayList                                                   |                        | Project 1
+| 10/1 | Wed | JavaFX GUI                                                  |                        |           
+| 10/3 | Fri | JavaFX GUI                                                  | FA5: ArrayQueue Memory | FA4                      
+|      |
+| 10/6 | Mon | Priority Queue Abstraction<br>Insertion Sort Implementation | 
+| 10/8 | Wed | Heap Abstraction                                            | Project 2              
+| 10/10| Fri | Array Implementation of Heaps                               | FA6: Heaps             | FA5
+|      |
+| 10/13| Mon | Selection Sort<br>Heapsort                                  |                        
+| 10/15| Wed | Bubble Sort<br>Merge Sort                                   | FA7: Sorting           | FA6
+| 10/17| Fri | Fall Break<br>No Class                                      | 
+|      |
+| 10/20| Mon | Quicksort                                                   | 
+| 10/22| Wed | Big O                                                       |                        
+| 10/24| Fri | Big Omega, Big Theta                                        |                        | FA7
+|      |
+| 10/27| Mon | Asymptotic Analysis                                         | FA8: Big O             | Project 2
+| 10/29| Wed | Map and Set Interfaces<br>Binary Search Tree Implementation | Project 3
+| 10/31| Fri | Removal from Binary Search Trees                            |                        | FA8
+|      |
+| 11/3 | Mon | Tree Traversals<br>Tree Balancing<br>Tree Rotations         | FA9: Trees
+| 11/5 | Wed | [Balanced Trees]({{site.baseurl}}/inclass/red_black.html)   |
+| 11/7 | Fri | Hash Tables<br>Separate Chaining Implementation             |                        | FA9
+|      |
+| 11/10| Mon | Hash Tables<br>Open Addressing Implementation               | FA10: Hash Tables      | Project 3
+| 11/12| Wed | Hash Tables<br>Cuckoo Implementation
+| 11/14| Fri | Splay Trees                                                 |                        | FA10
+|      |
+| 11/17| Mon | Splay Trees
+| 11/19| Wed | Designing the Final Project                                 | Project 4            
+| 11/21| Fri | Building Large Programs
+|      |
+| 11/24| Mon | Building Large Programs                                     |                        | Project 4 Design Document
+| 11/26| Wed | Thanksgiving Break<br>No Class
+| 11/28| Fri | Thanksgiving Break<br>No Class
 
-| Date | Topic | Code |
-|:----:|------||-----||
-| W 29 Jan | Classes and Interfaces | [Main.java]({{site.baseurl}}/code/2025Sp/Main.java) |
-|  | | [HolidayLight.java]({{site.baseurl}}/code/2025Sp/HolidayLight.java) |
-|  | | [Light.java]({{site.baseurl}}/code/2025Sp/Light.java) |
-|  | | [MemoryLight.java]({{site.baseurl}}/code/2025Sp/MemoryLight.java) |
-| F 31 Jan | Fountain | [Class Description]({{site.baseurl}}/homework/fountain.html) |
-|  | | [Fountain.java]({{site.baseurl}}/code/2025Sp/Fountain.java) |
-| M 3 Feb | Toaster | [Class Description]({{site.baseurl}}/homework/toaster.html) |
-| W 5 Feb | 2D Arrays | [Main.java]({{site.baseurl}}/code/2025Sp/LightsOut/Main.java) |
-|  | | [LightsOut.java]({{site.baseurl}}/code/2025Sp/LightsOut/LightsOut.java) |
-| M 10 Feb | Enums | [Currency.java]({{site.baseurl}}/inclass/Currency.java) |
-|   | Enums | [Currency.java]({{site.baseurl}}/inclass/ChangeMaker.java) |
-| M 3 Mar | GUI Lights Out | [LightsOut.java]({{site.baseurl}}/code/2025Sp/LightsOutGUI/LightsOut.java) |
-|  | | [LightsOutController.java]({{site.baseurl}}/code/2025Sp/LightsOutGUI/LightsOutController.java) |
-|  | | [Position.java]({{site.baseurl}}/code/2025Sp/LightsOutGUI/Position.java) |
-|  | | [LightsOutApp.java]({{site.baseurl}}/code/2025Sp/LightsOutGUI/LightsOutApp.java) |
-|  | | [LightsOutGUI.fxml]({{site.baseurl}}/code/2025Sp/LightsOutGUI/LightsOutGUI.fxml) |
+| 12/1 | Mon | Building Large Programs
+| 12/3 | Wed | Building Large Programs
+| 12/5 | Fri | Retrospective
+|      |
+| 12/11| Thu 8:30-11:30 am | Project 4 Presentations
 
 <hr>
 # Coursework
 
-[*Adapted from Spencer Bagley and David Clark, via [Robert
-Talbert](https://rtalbert.org/a-real-world-approach-to-deadlines/)*]
-
-CSCI 151 uses a **real-world policy** on due dates---but this may not
-mean what you think!  In the *real* real world, due dates exist but
-they are often not ironclad.  Assignments have due dates to help you 
-make progress in the course and solidify your knowledge before moving on 
-to something new. Your life and schedule may not perfectly coincide 
-with the due dates I have chosen. If you need more time to
-get the job done well, you email whoever set the deadline to ask if
-you can have more time.  Studies have shown that deadline extension
-requests---in moderation and when truly needed---often lead to
-*better* employee evaluations (not to mention better work). [*See [Go
-Ahead and Ask for More Time on that
-Deadline](https://hbr.org/2021/12/go-ahead-and-ask-for-more-time-on-that-deadline)
-by Ashley Williams*.]
-
-**If you need an extension on a due date, email me and explain what
-you need**, and it will probably be fine.  It helps if you propose a
-concrete new deadline (*e.g.* "I can get it done by 5pm on
-Wednesday").  If you ask for lots of extensions, we'll work together
-to find a way to help you keep up.  Note, however, that late
-submissions may not receive feedback as quickly as on-time
-submissions.
-
 If you have significant extenuating circumstances that cause you to
-miss multiple deadlines, please [come to office hours](markgoadrich.youcanbook.me) 
+miss multiple deadlines, please [come to office hours](drferrer.youcanbook.me) 
 to discuss broader accommodations.  I'm
 happy to be flexible, but it helps to know what you need so I can
 figure out the best way to help.
@@ -123,7 +136,7 @@ for a demonstration of understanding. There are three types of formative assessm
 
 | #  | Name | Assessment Type | 
 |:--:|------| ----------------| 
-|0 | [Survey](https://forms.gle/brYNvuWqYEEcXq3A7) | n/a |
+|0 | [Survey](https://docs.google.com/forms/d/e/1FAIpQLSeQGqE8Y764GekmoTdWrZ7WcYmZRVbO4pel1EeX2GqR7yA4TA/viewform) | n/a |
 |1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) | Java Programming |
 |2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) | Java Programming |
 |3 | [ArrayStack Memory]({{site.baseurl}}/homework/asmemory.html) | Problem Solving |
@@ -150,15 +163,15 @@ demonstration, the office hours visit will need to occur by the following Friday
 
 | #  | Name                                                               
 |:--:|-----                                                               
-|1 | [CodingBat]({{site.baseurl}}/labs/codingbat.html)                    
-|2 | [How to Divide a Cake]({{site.baseurl}}/labs/cake.html)              
-|3 | [Mazes: Enums and 2D Arrays]({{site.baseurl}}/labs/maze-enums.html)  
-|4 | Mazes: Depth First Search   
-|5 | [Mazes: Depth and Breadth First Search]({{site.baseurl}}/labs/maze-dfs-bfs.html)   
-|6 | [JavaFX GUI]({{site.baseurl}}/labs/javafx.html)                     
-|7 | [Mazes: A* Search]({{site.baseurl}}/labs/maze-astar.html)            
-|8 | [Sortimator]({{site.baseurl}}/labs/sortimator.html)                  
-|9 | [JavaFX Animation]({{site.baseurl}}/labs/animation.html)             
+|1  | [CodingBat]({{site.baseurl}}/labs/codingbat.html)                    
+|2  | [How to Divide a Cake]({{site.baseurl}}/labs/cake.html)              
+|3  | [Mazes: Enums and 2D Arrays]({{site.baseurl}}/labs/maze-enums.html)  
+|4  | Mazes: Depth First Search   
+|5  | [Mazes: Depth and Breadth First Search]({{site.baseurl}}/labs/maze-dfs-bfs.html)   
+|6  | [JavaFX GUI]({{site.baseurl}}/labs/javafx.html)                     
+|7  | [Mazes: A* Search]({{site.baseurl}}/labs/maze-astar.html)            
+|8  | [Sortimator]({{site.baseurl}}/labs/sortimator.html)                  
+|9  | [JavaFX Animation]({{site.baseurl}}/labs/animation.html)             
 |10 | [Binary Search Trees]({{site.baseurl}}/labs/binarysearchtrees.html) 
 |11 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html)       
 |12 | [Splay Trees]({{site.baseurl}}/labs/splaytrees.html)       
@@ -176,7 +189,7 @@ stationed in the Snoddy Computer Lab in the library for our lab times." %}
 **Credit**:
 * Submitting the completed lab check-off sheet by the start of the next lab earns two credits.
 * Submitting the completed lab check-off sheet at a later date earns one credit.
-* All check-off sheets must be submitted by Thursday, May 8 at 5 pm.
+* All check-off sheets must be submitted by Tuesday, December 16 at 5 pm.
 
 ## <a name="projects">Skills Projects</a>
 
@@ -186,9 +199,16 @@ stationed in the Snoddy Computer Lab in the library for our lab times." %}
 |2 | [GUI]({{site.baseurl}}/projects/gui.html) |
 |3 | [Animation]({{site.baseurl}}/projects/animation.html) |
 
-You will have three skills projects in this course, one about every four weeks. These projects will cover concepts we have discussed in class and in labs, and will be due approximately two weeks after they are assigned.
+You will have three skills projects in this course, one about every four weeks. 
+These projects will cover concepts we have discussed in class and in labs, and 
+will be due approximately two weeks after they are assigned.
 
-{% include warning.html content="You must work individually on the projects. You may discuss concepts and ideas with your classmates, but the **code or work you turn in must be your own**. Use of any resources (TA, StackOverflow, ChatGPT, etc) must be cited, and an overreliance on those resources can be counterproductive to developing your own ability to make progress in this and other courses." %}
+{% include warning.html content="You must work individually on the projects. 
+You may discuss concepts and ideas with your classmates, but the 
+**code or work you turn in must be your own**. Use of any resources 
+(TA, StackOverflow, ChatGPT, etc) must be cited, and an overreliance on those 
+resources can be counterproductive to developing your own ability to make 
+progress in this and other courses." %}
 
 ## <a name="finalproject">Final Project</a>
 
@@ -203,16 +223,16 @@ your solution.
 Note that the final project must be submitted on-time to earn credit - no final projects
 will be accepted late. Projects earn **credits** as follows:
 
-| Project | Level 1 Complete | Level 2 Complete | Unexcused Late | Maximum Credit |
+| Project | Level 1 Complete | Level 2 Complete | On-time Bonus | Maximum Credit |
 | ------: | ---------:       | ----------:      | ------------: | -------------: |
-| 1       | 2                |  5               | -1             |  5             |
-| 2       | 2                |  5               | -1             |  5             |
-| 3       | 2                |  5               | -1             |  5             |
+| 1       | 2                |  4               | 1             |  5             |
+| 2       | 2                |  4               | 1             |  5             |
+| 3       | 2                |  4               | 1             |  5             |
 | 4       | 6                | 12               | None          | 12             |
 
 If a project receives less than Level 2 Complete, a student may submit a revised version of the project after an
 office hours meeting with the instructor to discuss how the project should be improved. All project revisions must
-be submitted by Thursday, May 8 at 5 pm.
+be submitted by Tuesday, December 16 at 5 pm.
 
 ## <a name="attendance">Attendance</a>
 
@@ -257,13 +277,13 @@ From the four projects, 27 total credits are available:
   * Complete the course survey.
   * Achieve at least **Intermediate** in all three categories.
   * Achieve **Advanced** in at least one category.
-  * No more than two unexcused absence
+  * No more than two unexcused absences
 * To earn a C in the course, a student will:
   * Complete the course survey
   * Achieve at least **Basic** in all three categories.
   * Achieve one of:
     * **Advanced** in at least one category.
     * **Intermediate** in at least two categories.
-  * No more than three unexcused absence
+  * No more than three unexcused absences
 * To earn a D in the course, a student will:
   * Achieve at least **Basic** in all three categories.

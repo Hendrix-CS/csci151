@@ -26,7 +26,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 number: CSCI 151
 title: Data Structures
-semester: Spring 2025
+semester: Fall 2025
 hypothesis: false
 
 jumbotext: wikimedia CC BY 2.0
@@ -74,13 +74,13 @@ instructors:
 
 offerings:
   - name: LECTURE 01
-    loc: MCReynolds 316
+    loc: MCReynolds 315
     time: MWF 10:10am - 11:00am
-    instructor: goadrich
+    instructor: ferrer
   - name: LAB 01
     loc: Snoddy Lab
     time: T 1:10pm - 4:00pm
-    instructor: goadrich
+    instructor: ferrer
 
 resources:
   - name: Azul Zulu Java 21 LTS
