@@ -99,9 +99,9 @@ Upon completing this course, our goal is for you to be able to:
 | 11/26| Wed | Thanksgiving Break<br>No Class
 | 11/28| Fri | Thanksgiving Break<br>No Class
 
-| 12/1 | Mon | Building Large Programs
-| 12/3 | Wed | Building Large Programs
-| 12/5 | Fri | Retrospective
+| 12/1 | Mon | Building Large Programs |
+| 12/3 | Wed | Building Large Programs |
+| 12/5 | Fri | Retrospective           |
 |      |
 | 12/11| Thu 8:30-11:30 am | Project 4 Presentations
 
