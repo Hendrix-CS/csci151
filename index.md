@@ -122,7 +122,8 @@ Each formative assessment involves doing some preparatory work followed by visit
 for a demonstration of understanding. There are three types of formative assessments:
 * **Java Programming**: For these assessments, you will begin by creating a Java program as directed below. 
   During your office hours visit, you will demonstrate it to the instructor, followed by modifying the program
-  as the instructor directs.
+  as the instructor directs. Incorporating code from a generative AI coding assistant 
+  is considered **plagiarism** and is not allowed.
 * **Problem Solving**: For these assessments, you will study a problem prior to your office hours visit. During 
   the visit, you will demonstrate and explain your solution to the problem. If it is not correct, you and the 
   instructor will discuss the correct solution. Following this conversation, you will be given a closely related
@@ -178,11 +179,26 @@ demonstration, the office hours visit will need to occur by the following Friday
 |12 | [Splay Trees]({{site.baseurl}}/labs/splaytrees.html)       
 |P  | Final Project work day                                              
 
-Each lab consists of a series of milestones. At the start of each lab, you will receive a sheet of paper listing the milestones for that lab. As you achieve each milestone, you will demonstrate to the instructor or TA that you have met the milestone, and they will record this achievement on your checklist. When you complete all of the lab milestones, you will submit the milestone checklist.
+Each lab consists of a series of milestones. At the start of each lab, you will 
+receive a sheet of paper listing the milestones for that lab. As you achieve each 
+milestone, you will demonstrate to the instructor or TA that you have met the 
+milestone, and they will record this achievement on your checklist. When you 
+complete all of the lab milestones, you will submit the milestone checklist.
 
-If you complete the lab during the lab period, hand your checklist to your lab instructor before you leave the lab. If you require additional time beyond the lab period to complete the lab, either the instructor or the lab TA can check off the remaining milestones during office hours. You can then submit the completed checklist to the instructor at the start of the next lab.
+If you complete the lab during the lab period, hand your checklist to your lab 
+instructor before you leave the lab. If you require additional time beyond the 
+lab period to complete the lab, either the instructor or the lab TA can check 
+off the remaining milestones during office hours. You can then submit the completed 
+checklist to the instructor at the start of the next lab.
 
-You will work with a partner on each lab assignment. Each partner will have their own milestone checklist. If they do not complete the milestones during the lab period, they should find time outside of lab to work together to complete them. If they are unable to do so, only the instructor is authorized to record milestones for students working alone.
+You will work with a partner on each lab assignment. Each partner will have their 
+own milestone checklist. If they do not complete the milestones during the lab 
+period, they should find time outside of lab to work together to complete them. 
+If they are unable to do so, only the instructor is authorized to record milestones 
+for students working alone.
+
+Incorporating code from a generative AI coding assistant is considered 
+**plagiarism** and is not allowed.
 
 {% include important.html content="Lab attendance is required. We will be
 stationed in the Snoddy Computer Lab in the library for our lab times." %}
@@ -207,9 +223,10 @@ will be due approximately two weeks after they are assigned.
 {% include warning.html content="You must work individually on the projects. 
 You may discuss concepts and ideas with your classmates, but the 
 **code or work you turn in must be your own**. Use of any resources 
-(TA, StackOverflow, ChatGPT, etc) must be cited, and an overreliance on those 
+(TA, StackOverflow, etc) must be cited, and an overreliance on those 
 resources can be counterproductive to developing your own ability to make 
-progress in this and other courses." %}
+progress in this and other courses. Incorporating code from a generative AI 
+coding assistant is considered **plagiarism** and is not allowed." %}
 
 ## <a name="finalproject">Final Project</a>
 
