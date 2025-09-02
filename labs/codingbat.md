@@ -33,7 +33,7 @@ and choose a password.
 
 Once you are logged in, click on "prefs" in the top right. In the box at the
 bottom labelled "Share To", fill in the Hendrix email address of your
-lab instructor (`goadrich@hendrix.edu`), then click "Share". This will
+lab instructor (`ferrer@hendrix.edu`), then click "Share". This will
 allow your instructor to see your progress.
 
 Fill all of your names in the Memo section.
