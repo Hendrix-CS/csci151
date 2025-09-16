@@ -37,7 +37,7 @@ Upon completing this course, our goal is for you to be able to:
 
 | Monday         | Tuesday       | Wednesday      | Thursday
 |----------------|---------------|----------------|--------- 
-| TBA            | TBA           | TBA            | TBA
+| 7-9 pm Henry Spayde | 7-9 pm Vincent Twidwell | 5-7 pm Leigh Johnston<br>7-9 pm Jauss Favorite | 6-8 pm Sanskruti Ghanti            | TBA
 
 
 # <a name="calendar">Calendar</a>
