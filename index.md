@@ -168,8 +168,8 @@ demonstration, the office hours visit will need to occur by the following Friday
 |1  | [CodingBat]({{site.baseurl}}/labs/codingbat.html)                    
 |2  | [How to Divide a Cake]({{site.baseurl}}/labs/cake.html)              
 |3  | [Mazes: Enums and 2D Arrays]({{site.baseurl}}/labs/maze-enums.html)  
-|4  | Mazes: Depth First Search   
-|5  | [Mazes: Depth and Breadth First Search]({{site.baseurl}}/labs/maze-dfs-bfs.html)   
+|4  | [Mazes: Depth First Search]({{site.baseurl}}/labs/maze-dfs.html)
+|5  | [Mazes: Breadth First Search]({{site.baseurl}}/labs/maze-bfs.html)   
 |6  | [JavaFX GUI]({{site.baseurl}}/labs/javafx.html)                     
 |7  | [Mazes: A* Search]({{site.baseurl}}/labs/maze-astar.html)            
 |8  | [Sortimator]({{site.baseurl}}/labs/sortimator.html)                  
