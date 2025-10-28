@@ -109,5 +109,4 @@ I recommend you start by deleting the if/else in the beginning of `update` in `R
 
 ## Grading
 
-* To **Partially Complete** this lab, complete Step 1.
-* To **Complete** this lab, do the above and complete Step 2.
+* To **Complete** this lab, complete Steps 1 and 2.
