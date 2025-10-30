@@ -84,16 +84,16 @@ Upon completing this course, our goal is for you to be able to:
 | 10/31| Fri | Removal from Binary Search Trees                            |                        | FA8
 |      |
 | 11/3 | Mon | Tree Traversals<br>Tree Balancing<br>Tree Rotations         | FA9: Trees
-| 11/5 | Wed | [Balanced Trees]({{site.baseurl}}/inclass/red_black.html)   |
-| 11/7 | Fri | Hash Tables<br>Separate Chaining Implementation             |                        | FA9
+| 11/5 | Wed | [Red-Black Trees]({{site.baseurl}}/inclass/red_black.html)  |
+| 11/7 | Fri | Splay Trees                                                 |                        | FA9
 |      |
-| 11/10| Mon | Hash Tables<br>Open Addressing Implementation               | FA10: Hash Tables      | Project 3
-| 11/12| Wed | Hash Tables<br>Cuckoo Implementation
-| 11/14| Fri | Splay Trees                                                 |                        | FA10
+| 11/10| Mon | Splay Trees                                                 |                        | Project 3
+| 11/12| Wed | Hash Tables<br>Separate Chaining Implementation             
+| 11/14| Fri | Hash Tables<br>Open Addressing Implementation               | FA10: Hash Tables      |                        |
 |      |
-| 11/17| Mon | Splay Trees
+| 11/17| Mon | Hash Tables<br>Cuckoo Implementation                        |       
 | 11/19| Wed | Designing the Final Project                                 | Project 4            
-| 11/21| Fri | Building Large Programs
+| 11/21| Fri | Building Large Programs                                     |                        | FA10
 |      |
 | 11/24| Mon | Building Large Programs                                     |                        | Project 4 Design Document
 | 11/26| Wed | Thanksgiving Break<br>No Class
@@ -175,8 +175,8 @@ demonstration, the office hours visit will need to occur by the following Friday
 |8  | [Sortimator]({{site.baseurl}}/labs/sortimator.html)                  
 |9  | [JavaFX Animation]({{site.baseurl}}/labs/animation.html)             
 |10 | [Binary Search Trees]({{site.baseurl}}/labs/binarysearchtrees.html) 
-|11 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html)       
-|12 | [Splay Trees]({{site.baseurl}}/labs/splaytrees.html)       
+|11 | [Splay Trees]({{site.baseurl}}/labs/splaytrees.html)       
+|12 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html)       
 |P  | Final Project work day                                              
 
 Each lab consists of a series of milestones. At the start of each lab, you will 
