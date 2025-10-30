@@ -1,7 +1,7 @@
 ---
 layout: work
 type: Lab
-num: 11
+num: 12
 worktitle: Playing Tic-Tac-Toe
 ---
 

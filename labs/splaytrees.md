@@ -1,7 +1,7 @@
 ---
 layout: work
 type: Lab
-num: 12
+num: 11
 worktitle: Splay Trees
 ---
 
