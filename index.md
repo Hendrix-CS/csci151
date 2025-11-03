@@ -85,11 +85,11 @@ Upon completing this course, our goal is for you to be able to:
 |      |
 | 11/3 | Mon | Tree Traversals<br>Tree Balancing<br>Tree Rotations         | FA9: Trees
 | 11/5 | Wed | [Red-Black Trees]({{site.baseurl}}/inclass/red_black.html)  |
-| 11/7 | Fri | Splay Trees                                                 |                        | FA9
+| 11/7 | Fri | Splay Trees                                                 |                        | 
 |      |
 | 11/10| Mon | Splay Trees                                                 |                        | Project 3
 | 11/12| Wed | Hash Tables<br>Separate Chaining Implementation             
-| 11/14| Fri | Hash Tables<br>Open Addressing Implementation               | FA10: Hash Tables      |                        |
+| 11/14| Fri | Hash Tables<br>Open Addressing Implementation               | FA10: Hash Tables      | FA9                       |
 |      |
 | 11/17| Mon | Hash Tables<br>Cuckoo Implementation                        |       
 | 11/19| Wed | Designing the Final Project                                 | Project 4            
