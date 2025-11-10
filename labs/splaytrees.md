@@ -30,7 +30,8 @@ become the root.
 A new button is available in the GUI to call the `contains` method of the tree, which
 will return `true` or `false` in the message window to the right.
 
-The unit tests have been rewritten to expect the splay operation as part of the containsHelper method. Mostly everything should be failing at the beginning of the lab.
+The unit tests have been rewritten to expect the splay operation as part of the 
+`contains` method in the `SplayTree` class. Mostly everything should be failing at the beginning of the lab.
 
 {% include note.html content="Data entry has been updated, so that the input string
 is divided into the component characters. This makes it much easier to build large trees and test the splay operation." %}
@@ -55,33 +56,70 @@ saying `left.get()`.
 {% include important.html content="To make a new child, we would say something like
 `left = Optional.of(new TreeNode(value))`." %}
 
-Methods that remain to be implemented in the `TreeNode` class have been
-marked with TODO for easy identification.
+Methods that remain to be implemented in the `TreeNode` and `SplayTree` classes have 
+been marked with TODO for easy identification.
 
-## Step 1: Rotations
+## Step 1: Contains, with ancestry
 
-Implement left and right rotations. As with `remove()`, these methods return
-the rebuilt tree nodes.
+Implement the `containsAncestry()` method in the `TreeNode` class. When correct,
+`testContainsAncestry()` should pass.
 
-When correct, they should pass their unit tests.
+## Step 2: Checking child sides
 
-Also test them in the GUI by clicking on the node that you wish to rotate. 
+Determining the correct rotation to employ depends heavily on knowing which side
+of the parent a child is on. Implement the `childSide()` method in the `TreeNode`
+class. Note that it returns an `Optional` - if the parameter is not a child of this
+node, it will return `Optional.empty()`. When correct, `testChildSide()` should pass.
 
-## Step 2: Adding splay to `containsHelper`
+## Step 3: Rotate left, Rotate right
 
-Follow the pseudocode listed in the `containsHelper` method, which will return 
-a splayed tree when the target element is found, and `Optional.empty()` when 
-the target element is not found. Once this is working properly, you should pass
-all of the unit tests.
+These methods implement the left and right rotations we saw last week. The difference
+here is that we are not searching for a node containing a value that we will rotate - 
+instead, we will always rotate the node on which the method is invoked, as long as it
+has the pertinent child. When correct, `testRotateLeft()` and `testRotateRight()` 
+should pass.
 
-## Step 3: Evaluation
+## Step 4: Zigs and Zags
+
+These methods implement the zigzig, zigzag, zagzig, and zagzag rotations. Note that they
+can all be implemented using carefully selected left and right rotations - ideas for
+doing so are given in the comments. When correct, `testZigZig()`, `testZigZag()`,
+`testZagZig()`, and `testZagZag()` should all pass.
+
+## Step 5: Splaying
+
+The `splayed()` method is in the `SplayTree` class. It will be given an `ArrayList` of
+nodes created by `containsAncestry()`. It will traverse the array from end to start, 
+going two nodes at a time, performing the pertinent rotations. It will return the first
+node in the array when finished, which will serve as the new root of the splay tree.
+
+
+## Step 6: Evaluation
+
+### Step 6a: Understanding small-scale behavior
+
+Paste the following string into the input box and select `Insert`:
+
+`abcdefg`.
+
+Find the deepest child, type it into the input box, and select `Contains`. What is the
+effect?
+
+Continue to do this for a while, always selecting one of the deepest possible children.
+
+What patterns do you see in the tree layout? 
+
+On average, how many comparisons is it performing to find the node?
+
+### Step 6b: Understanding large-scale behavior
 
 Paste the following string into the input box and select `Insert`. Discuss the shape of the tree created.
 
 `qazxswedcvfrtgbnhyujmkiolp`
 
 Then paste the below text (the first chapter from [Pride and Prejudice by Jane Austin](https://www.gutenberg.org/cache/epub/1342/pg1342.txt)) into the input box and select `Contains`. Discuss the shape of the new tree and how the distribution of letters
-in the text has affected the tree shape.
+in the text has affected the tree shape. Also discuss the average number of 
+comparisons it is performing to find each node.
 
 >
 It is a truth universally acknowledged, that a single man in possession
