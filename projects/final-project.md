@@ -19,8 +19,8 @@ incorporating elements of data structures in your implementation.
 
 ## Description
 
-<!--Unlike the other projects, you may work with one partner for the final
-project. You can also work individually if you wish.-->
+Unlike the other projects, you may work with one partner for the final
+project. You can also work individually if you wish.
 
 You have wide latitude in choosing what to do for your final project.
 Your program can be anything you like,
