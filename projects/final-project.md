@@ -3,8 +3,8 @@ layout: work
 type: Project
 num: 4
 worktitle: Final Project
-designdue: Friday, April 25
-finaldue: Thursday, May 8th, 8:30-11:30am
+designdue: Monday, November 24
+finaldue: Thursday, December 11th, 8:30-11:30am
 ---
 
 ## Description
