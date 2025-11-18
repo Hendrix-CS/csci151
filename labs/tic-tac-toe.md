@@ -133,5 +133,4 @@ necessary for the AI to never be defeated when you play against it.
 
 ## Grading
 
-* To **Partially Complete** this lab, complete Steps 1, 2, 3, and 4.
-* To **Complete** this lab, do the above and Steps 5 and 6.
+* To **Complete** this lab, do Steps 1 through 6.
