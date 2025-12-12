@@ -34,7 +34,7 @@ subject to the following requirements
 -   Your model must incorporate numerous classes and enums in a sensible
     organization. Use the Maze or TicTacToe labs as a goal to strive for
     in your project.
--   You must incorporate a trie, `HashSet`, `HashMap`, `TreeSet`, `TreeMap`, `PriorityQueue`, `Stack`, or `ArrayDeque`
+-   You must incorporate a `HashSet`, `HashMap`, `TreeSet`, `TreeMap`, `PriorityQueue`, `Stack`, or `ArrayDeque`
     into your application in a useful and natural way. 
 
 Your project
@@ -114,7 +114,7 @@ To achieve **Level 1 Complete**, your project must
 
 To achieve **Level 2 Complete**, your project must
 * incorporate numerous classes and enums in a sensible organization, roughly at the level of the Maze or TicTacToe labs,
-* incorporate at least one trie, `HashSet`, `HashMap`, `TreeSet`, `TreeMap`, `PriorityQueue`, `Stack`, or `ArrayDeque`,
+* incorporate at least one `HashSet`, `HashMap`, `TreeSet`, `TreeMap`, `PriorityQueue`, `Stack`, or `ArrayDeque` in a useful and natural way,
 * work as intented (no bugs or missing elements)
 * be something that someone would conceivabley want to use,
 * exhibit some creativity and have some interesting features, and
