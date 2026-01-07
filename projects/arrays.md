@@ -98,6 +98,9 @@ As a reminder:
     code with another student. If you need help debugging your code, see
     an instructor or a TA.
 
+{% include warning.html content="Incorporating code from a generative AI coding assistant 
+  is considered **plagiarism** and is not allowed." %}
+  
 ## What to Hand In
 
 Submit a zip file via Teams containing

@@ -49,6 +49,23 @@ via email on or before April 6th. This design idea should be at least two senten
 discussing your plan for the project. You will receive feedback and approval of your 
 design idea within 1 day.
 
+## Academic Integrity
+
+As a reminder:
+
+-   You **may** consult online resources (Java tutorials, StackOverflow
+    questions, ...), and you may even use snippets of code you find
+    there, but you **must** clearly cite them in your project, by adding
+    a comment with the URL of the resource you used along with a short
+    explanation of how you used it.
+-   You **may** discuss your project with other students in the class,
+    but you **may not** look at another student's code, or share your
+    code with another student. If you need help debugging your code, see
+    an instructor or a TA.
+
+{% include warning.html content="Incorporating code from a generative AI coding assistant 
+  is considered **plagiarism** and is not allowed." %}
+  
 ## What to Hand In
 
 Submit a zip file containing your whole project via Teams, and an
