@@ -40,6 +40,13 @@ to the following requirements
 Feel free to use the [Java 21 API](https://docs.oracle.com/en/java/javase/21/docs/api/index.html) as a reference for any
 piece of Java you might need.
 
+## Design Idea
+
+To help you make progress on your project, you will need to submit a design idea 
+via email on or before March 6th. This design idea should be at least two sentences,
+discussing your plan for the project. You will receive feedback and approval of your 
+design idea within 1 day.
+
 ## Helpful Hints
 
 This project requires the use of a *persistent state*, as did Project 1, to

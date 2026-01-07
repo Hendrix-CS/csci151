@@ -36,6 +36,13 @@ to only things we have covered in class. You may incorporate any code
 you wish from previous projects, but the majority of your project should
 be new code.
 
+## Design Idea
+
+To help you make progress on your project, you will need to submit a design idea 
+via email on or before February 13th. This design idea should be at least two sentences,
+discussing your plan for the project. You will receive feedback and approval of your 
+design idea within 1 day.
+
 ## Suggestions
 
 Here are a few suggestions to get you thinking, if you need them. Even
