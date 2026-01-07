@@ -35,13 +35,23 @@ Upon completing this course, our goal is for you to be able to:
 
 ## Peer Tutoring
 
+TBA
+
+<!--
 | Monday         | Tuesday       | Wednesday      | Thursday
 |----------------|---------------|----------------|--------- 
 | Henry (7-9)    | Vincent (7-9) | Leigh (5-7)<br>Jauss (7-9) | Sanskruti (6-8)   | 
+-->
 
+# <a name="schedule">Schedule</a>
 
-# <a name="calendar">Calendar</a>
+This is where you will find all of your assignment due dates.
 
+<div id='calendar'></div>
+
+<hr>
+
+<!--
 | Date | Day | Topic                                                       | Assigned               | Due       
 | ---  | --- | -----                                                       | ------------           | --------- 
 | 8/27 | Wed | Introduction to Java                                        | Survey
@@ -104,12 +114,12 @@ Upon completing this course, our goal is for you to be able to:
 | 12/5 | Fri | Retrospective           |
 |      |
 | 12/11| Thu 8:30-11:30 am | Project 4 Presentations
+-->
 
-<hr>
 # Coursework
 
 If you have significant extenuating circumstances that cause you to
-miss multiple deadlines, please [come to office hours](drferrer.youcanbook.me) 
+miss multiple deadlines, please come to office hours
 to discuss broader accommodations.  I'm
 happy to be flexible, but it helps to know what you need so I can
 figure out the best way to help.
@@ -122,8 +132,7 @@ Each formative assessment involves doing some preparatory work followed by visit
 for a demonstration of understanding. There are three types of formative assessments:
 * **Java Programming**: For these assessments, you will begin by creating a Java program as directed below. 
   During your office hours visit, you will demonstrate it to the instructor, followed by modifying the program
-  as the instructor directs. Incorporating code from a generative AI coding assistant 
-  is considered **plagiarism** and is not allowed.
+  as the instructor directs. 
 * **Problem Solving**: For these assessments, you will study a problem prior to your office hours visit. During 
   the visit, you will demonstrate and explain your solution to the problem. If it is not correct, you and the 
   instructor will discuss the correct solution. Following this conversation, you will be given a closely related
@@ -133,21 +142,23 @@ for a demonstration of understanding. There are three types of formative assessm
   review Java programs you write in lab in which you built the data structure. Also review the appropriate
   [demonstration](https://mgoadric.github.io/cs2mulch/tree/)
   [videos](https://mgoadric.github.io/cs2mulch/hash/) and practice using 
-  [Tabletopia](https://tabletopia.com/games/cs2-mulch-fq1guf/play-now) prior to your office hours visit.
+  [Screentop](https://screentop.gg/@goadrich/cs2mulch) prior to your office hours visit.
 
+{% include warning.html content="Incorporating code from a generative AI coding assistant 
+  is considered **plagiarism** and is not allowed." %}
 
 | #  | Name | Assessment Type | 
 |:--:|------| ----------------| 
 |0 | [Survey](https://docs.google.com/forms/d/e/1FAIpQLSeQGqE8Y764GekmoTdWrZ7WcYmZRVbO4pel1EeX2GqR7yA4TA/viewform) | n/a |
 |1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) | Java Programming |
 |2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) | Java Programming |
-|3 | [ArrayStack Memory]({{site.baseurl}}/homework/asmemory.html) | Problem Solving |
-|4 | [ListNode Memory]({{site.baseurl}}/homework/lnmemory.html) | Problem Solving |
-|5 | [ArrayQueue Memory]({{site.baseurl}}/homework/aqmemory.html) | Problem Solving |
-|6 | [Heaps]({{site.baseurl}}/homework/heaps.html) | Data Structure Demonstration |
-|7 | [Sorting]({{site.baseurl}}/homework/sorting.html) | Data Structure Demonstration |
-|8 | [Asymptotic Analysis]({{site.baseurl}}/homework/bigo.html) | Problem Solving |
-|9 | [Binary Search Trees]({{site.baseurl}}/homework/trees.html) | Data Structure Demonstration |
+|3 | [Memory Diagrams]({{site.baseurl}}/homework/memory.html) | Problem Solving |
+|4 | [ArrayQueue Memory]({{site.baseurl}}/homework/aqmemory.html) | Problem Solving |
+|5 | [Heaps]({{site.baseurl}}/homework/heaps.html) | Data Structure Demonstration |
+|6 | [Sorting]({{site.baseurl}}/homework/sorting.html) | Data Structure Demonstration |
+|7 | [Asymptotic Analysis]({{site.baseurl}}/homework/bigo.html) | Problem Solving |
+|8 | [Binary Search Trees]({{site.baseurl}}/homework/trees.html) | Data Structure Demonstration |
+|9 | [Balanced Trees]({{site.baseurl}}/homework/balancing.html) | Data Structure Demonstration |
 |10 | [Hash Tables]({{site.baseurl}}/homework/hashtables.html) | Data Structure Demonstration |
 
 **Credit**:
@@ -156,7 +167,7 @@ for a demonstration of understanding. There are three types of formative assessm
   * A student is welcome to schedule a follow-up meeting to make an additional attempt 
     to earn full credit.
 * Attempting the demonstration by the deadline earns one additional credit.
-* All demonstrations must be completed by Tuesday, December 17 at 5 pm.
+* All demonstrations must be completed by Friday, May 8th at 5 pm.
   
 Each formative assessment will be assigned on a Friday. To receive credit for an on-time
 demonstration, the office hours visit will need to occur by the following Friday at 5 pm.
@@ -169,8 +180,8 @@ demonstration, the office hours visit will need to occur by the following Friday
 |2  | [How to Divide a Cake]({{site.baseurl}}/labs/cake.html)              
 |3  | [Mazes: Enums and 2D Arrays]({{site.baseurl}}/labs/maze-enums.html)  
 |4  | [Mazes: Depth First Search]({{site.baseurl}}/labs/maze-dfs.html)
-|5  | [Mazes: Breadth First Search]({{site.baseurl}}/labs/maze-bfs.html)   
-|6  | [JavaFX GUI]({{site.baseurl}}/labs/javafx.html)                     
+|5  | [JavaFX GUI]({{site.baseurl}}/labs/javafx.html)                     
+|6  | [Mazes: Breadth First Search]({{site.baseurl}}/labs/maze-bfs.html)   
 |7  | [Mazes: A* Search]({{site.baseurl}}/labs/maze-astar.html)            
 |8  | [Sortimator]({{site.baseurl}}/labs/sortimator.html)                  
 |9  | [JavaFX Animation]({{site.baseurl}}/labs/animation.html)             
@@ -197,8 +208,8 @@ period, they should find time outside of lab to work together to complete them.
 If they are unable to do so, only the instructor is authorized to record milestones 
 for students working alone.
 
-Incorporating code from a generative AI coding assistant is considered 
-**plagiarism** and is not allowed.
+{% include warning.html content="Incorporating code from a generative AI coding assistant 
+  is considered **plagiarism** and is not allowed." %}
 
 {% include important.html content="Lab attendance is required. We will be
 stationed in the Snoddy Computer Lab in the library for our lab times." %}
@@ -206,7 +217,7 @@ stationed in the Snoddy Computer Lab in the library for our lab times." %}
 **Credit**:
 * Submitting the completed lab check-off sheet by the start of the next lab earns two credits.
 * Submitting the completed lab check-off sheet at a later date earns one credit.
-* All check-off sheets must be submitted by Tuesday, December 16 at 5 pm.
+* All check-off sheets must be submitted by Friday, May 8th at 5 pm.
 
 ## <a name="projects">Skills Projects</a>
 
@@ -225,8 +236,10 @@ You may discuss concepts and ideas with your classmates, but the
 **code or work you turn in must be your own**. Use of any resources 
 (TA, StackOverflow, etc) must be cited, and an overreliance on those 
 resources can be counterproductive to developing your own ability to make 
-progress in this and other courses. Incorporating code from a generative AI 
-coding assistant is considered **plagiarism** and is not allowed." %}
+progress in this and other courses." %}
+
+{% include warning.html content="Incorporating code from a generative AI coding assistant 
+  is considered **plagiarism** and is not allowed." %}
 
 ## <a name="finalproject">Final Project</a>
 
@@ -255,7 +268,7 @@ be submitted by Tuesday, December 16 at 5 pm.
 ## <a name="attendance">Attendance</a>
 
 Attending class and being an active participant in the class community
-is one of the [most important contributors to your learning at Hendrix](https://www.hendrix.edu/Catalog/2023-2024/Academic_Policies_and_Regulations/Policies_and_Appeals/D_6_e__Class_Attendance/).
+is one of the [most important contributors to your learning at Hendrix](https://www.hendrix.edu/Catalog/2025-2026/Academic_Policies_and_Regulations/Policies_and_Appeals/D_6_e__Class_Attendance/).
 Attendance is especially important in this class since you will often engage in group learning activities. Active participation is expected in order to achieve higher grade levels in the course. 
 
 If you know that you will be absent, please email me so that we can find accomodations. If there is an emergency, please get in touch with me as soon as is possible once the emergency is resolved. I trust you to be honest with me about your reasons for the absence (I do not need details), and honest with yourself about if you truly need to be absent. **If you do not communicate with me about your absence, it will be unexcused.**

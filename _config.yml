@@ -27,7 +27,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 number: CSCI 151
 title: Data Structures
-semester: Fall 2025
+semester: Spring 2026
 hypothesis: false
 
 jumbotext: wikimedia CC BY 2.0
@@ -45,7 +45,7 @@ navigation:
   - page: In-Class Code
     url: '#inclasscode'
   - page: Calendar
-    url: 'https://app.teamgantt.com/public/projects/calendar/?projectIds=4170796&publicKeys=S80tLK4hjmV7&ids=4170796'
+    url: '#schedule'
   - title: Coursework
     subfolderitems:
       - page: Labs
@@ -75,9 +75,9 @@ instructors:
 
 offerings:
   - name: LECTURE 01
-    loc: MCReynolds 315
-    time: MWF 10:10am - 11:00am
-    instructor: ferrer
+    loc: MCReynolds 314
+    time: MWF 11:10am - 12:00pm
+    instructor: goadrich
   - name: LAB 01
     loc: Snoddy Lab
     time: T 1:10pm - 4:00pm

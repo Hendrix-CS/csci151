@@ -1,0 +1,12 @@
+[
+    {"title": "FA 1: Eating Candy",      "start": "2026-01-30", "end": "2026-02-05T00:00:01"},
+    {"title": "FA 2: Planting a Garden", "start": "2026-02-06", "end": "2026-02-11T00:00:01"},
+    {"title": "FA 3: Memory Diagrams",   "start": "2026-02-13", "end": "2026-02-26T00:00:01"},
+    {"title": "FA 4: ArrayQueue Memory", "start": "2026-02-27", "end": "2026-03-05T00:00:01"},
+    {"title": "FA 5: Heaps",             "start": "2026-03-06", "end": "2026-03-12T00:00:01"},
+    {"title": "FA 6: Sorting",           "start": "2026-03-13", "end": "2026-03-19T00:00:01"},
+    {"title": "FA 7: Big O",             "start": "2026-03-20", "end": "2026-04-02T00:00:01"},
+    {"title": "FA 8: Trees",             "start": "2026-04-03", "end": "2026-04-09T00:00:01"},
+    {"title": "FA 9: Rotations",         "start": "2026-04-10", "end": "2026-04-16T00:00:01"},
+    {"title": "FA 10: Hash Tables",      "start": "2026-04-17", "end": "2026-04-23T00:00:01"}
+]
