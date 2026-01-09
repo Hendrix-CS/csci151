@@ -170,7 +170,7 @@ for a demonstration of understanding. There are three types of formative assessm
 * All demonstrations must be completed by Friday, May 8th at 5 pm.
   
 Each formative assessment will be assigned on a Friday. To receive credit for an on-time
-demonstration, the office hours visit will need to occur by the following Friday at 5 pm.
+demonstration, the office hours visit will need to occur by the following Thursday at 5 pm.
 
 ## <a name="labs">Labs</a>
 
