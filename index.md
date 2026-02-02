@@ -43,6 +43,15 @@ TBA
 | Henry (7-9)    | Vincent (7-9) | Leigh (5-7)<br>Jauss (7-9) | Sanskruti (6-8)   | 
 -->
 
+# In-Class Code
+
+
+| Date | Topic | Code |
+|:----:|------||-----||
+| F 30 Jan | Java Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/Jack/JackInTheBox.java) | 
+|  |  | [Main.java]({{site.baseurl}}/inclass/Jack/Main.java) | 
+
+
 # <a name="schedule">Schedule</a>
 
 This is where you will find all of your assignment due dates.
@@ -50,71 +59,6 @@ This is where you will find all of your assignment due dates.
 <div id='calendar'></div>
 
 <hr>
-
-<!--
-| Date | Day | Topic                                                       | Assigned               | Due       
-| ---  | --- | -----                                                       | ------------           | --------- 
-| 8/27 | Wed | Introduction to Java                                        | Survey
-| 8/29 | Fri | Introduction to Java                                        |                        | Survey
-|      |
-| 9/1  | Mon | Labor Day<br>No Class     
-| 9/3  | Wed | Arrays, Memory, Mutation            
-| 9/5  | Fri | Designing Classes                                           | FA1: Eating Candy      |
-|      |
-| 9/8  | Mon | Interfaces                    
-| 9/10 | Wed | User Input, 2D Arrays                                       |                        |       
-| 9/12 | Fri | Project 1                                                   |Project 1<br>FA2: Garden| FA1 
-|      |
-| 9/15 | Mon | Enums                                                       |                        |
-| 9/17 | Wed | Stack Abstraction<br>Array Implementation                   |                        |
-| 9/19 | Fri | Linked List Implementation                                  | FA3: ArrayStack Memory | FA2       
-|      |
-| 9/22 | Mon | Generics                                  
-| 9/24 | Wed | Queue Abstraction<br>Linked List Implementation             |                        |       
-| 9/26 | Fri | Array Implementation                                        | FA4: ListNode Memory   | FA3 
-|      |
-| 9/29 | Mon | ArrayList                                                   |                        | Project 1
-| 10/1 | Wed | JavaFX GUI                                                  |                        |           
-| 10/3 | Fri | JavaFX GUI                                                  | FA5: ArrayQueue Memory | FA4                      
-|      |
-| 10/6 | Mon | Priority Queue Abstraction<br>Insertion Sort Implementation | 
-| 10/8 | Wed | Heap Abstraction                                            | Project 2              
-| 10/10| Fri | Array Implementation of Heaps                               | FA6: Heaps             | FA5
-|      |
-| 10/13| Mon | Selection Sort<br>Heapsort                                  |                        
-| 10/15| Wed | Bubble Sort<br>Merge Sort                                   | FA7: Sorting           | FA6
-| 10/17| Fri | Fall Break<br>No Class                                      | 
-|      |
-| 10/20| Mon | Quicksort                                                   | 
-| 10/22| Wed | Big O                                                       |                        
-| 10/24| Fri | Big Omega, Big Theta                                        |                        | FA7
-|      |
-| 10/27| Mon | Asymptotic Analysis                                         | FA8: Big O             | Project 2
-| 10/29| Wed | Map and Set Interfaces<br>Binary Search Tree Implementation | Project 3
-| 10/31| Fri | Removal from Binary Search Trees                            |                        | FA8
-|      |
-| 11/3 | Mon | Tree Traversals<br>Tree Balancing<br>Tree Rotations         | FA9: Trees
-| 11/5 | Wed | [Red-Black Trees]({{site.baseurl}}/inclass/red_black.html)  |
-| 11/7 | Fri | Splay Trees                                                 |                        | 
-|      |
-| 11/10| Mon | Splay Trees                                                 |                        | Project 3
-| 11/12| Wed | Hash Tables<br>Separate Chaining Implementation             
-| 11/14| Fri | Hash Tables<br>Open Addressing Implementation               | FA10: Hash Tables      | FA9                       |
-|      |
-| 11/17| Mon | Hash Tables<br>Cuckoo Implementation                        |       
-| 11/19| Wed | Designing the Final Project                                 | Project 4            
-| 11/21| Fri | Building Large Programs                                     |                        | FA10
-|      |
-| 11/24| Mon | Building Large Programs                                     |                        | Project 4 Design Document
-| 11/26| Wed | Thanksgiving Break<br>No Class
-| 11/28| Fri | Thanksgiving Break<br>No Class
-
-| 12/1 | Mon | Building Large Programs |
-| 12/3 | Wed | Building Large Programs |
-| 12/5 | Fri | Retrospective           |
-|      |
-| 12/11| Thu 8:30-11:30 am | Project 4 Presentations
--->
 
 # Coursework
 

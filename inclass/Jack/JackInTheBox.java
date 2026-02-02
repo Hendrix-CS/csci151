@@ -24,13 +24,12 @@ public class JackInTheBox {
     public String crank() {
         if (!isOpen()) {
             cranks++;
-            if (!isOpen()) {
-                return "DoBeDoBeDo...";
-            } else {
-                return "BOO!";
-            }
         }
-        return "";
+        if (!isOpen()) {
+            return "DoBeDoBeDo...";
+        } else {
+            return "BOO!";
+        }
     }
 
     /*
