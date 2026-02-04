@@ -50,6 +50,10 @@ TBA
 |:----:|------||-----||
 | F 30 Jan | Java Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/Jack/JackInTheBox.java) | 
 |  |  | [Main.java]({{site.baseurl}}/inclass/Jack/Main.java) | 
+| M 2 Feb | Interfaces | [ArrayLight.java]({{site.baseurl}}/inclass/Lights/ArrayLight.java) | 
+|  |  | [ConditionalLight.java]({{site.baseurl}}/inclass/Lights/ConditionalLight.java) | 
+|  |  | [Light.java]({{site.baseurl}}/inclass/Lights/Light.java) | 
+|  |  | [Main.java]({{site.baseurl}}/inclass/Lights/Main.java) | 
 
 
 # <a name="schedule">Schedule</a>
