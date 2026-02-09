@@ -54,7 +54,10 @@ TBA
 |  |  | [ConditionalLight.java]({{site.baseurl}}/inclass/Lights/ConditionalLight.java) | 
 |  |  | [Light.java]({{site.baseurl}}/inclass/Lights/Light.java) | 
 |  |  | [Main.java]({{site.baseurl}}/inclass/Lights/Main.java) | 
-
+| F 6 Feb | User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut.java) | 
+|  |  | [Main.java]({{site.baseurl}}/inclass/Main.java) | 
+| M 9 Feb | Enums | [Currency.java]({{site.baseurl}}/inclass/Currency.java) | 
+|  |  | [ChangeMaker.java]({{site.baseurl}}/inclass/ChangeMaker.java) | 
 
 # <a name="schedule">Schedule</a>
 
