@@ -167,10 +167,6 @@ these tests.
 
 ### Step 3 - Creating Random Mazes
 
-Uncomment code labeled for this portion in
-
--   MazeController
-
 We will explore two different algorithms for creating random mazes, by implementing the
 `tunnelRandomly` function in the `Puzzle` class, defined as
 
