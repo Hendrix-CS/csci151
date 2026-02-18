@@ -20,29 +20,30 @@ worktitle: <span style="color:red">Red</span>-<strong>Black</strong> Trees
 *	Cases:
     1. *X is the root node?*
         * Color X **black**.
-    2. *Parent is <span style="color:red">red</span>, pibling is <span style="color:red">red</span>?*
-        1. Color parent and pibling **black**.
-        2. Color grandparent <span style="color:red">red</span>.
-        3. X now refers to the grandparent, and repeat the Cases section.
-    3. *Parent is <span style="color:red">red</span>, pibling is **black**?*
-        1. *X is left-child and parent is right-child? (zig-zag)*
-            1. Color grandparent <span style="color:red">red</span>.
-            2. Color X **black**.
-            3. Rotate right on parent.
-            4. Rotate left on grandparent.
-        2. *X is right-child and parent is left-child? (zag-zig)*
-            1. Color grandparent <span style="color:red">red</span>.
-            2. Color X **black**.
-            3. Rotate left on parent.
-            4. Rotate right on grandparent.       
-        3. *X and parent are both left children? (zig-zig)*
-            1. Color grandparent <span style="color:red">red</span>.
-            2. Color parent **black**.
-            4. Rotate right on grandparent.
-        4. *X and parent are both right children? (zag-zag)*
-            1. Color grandparent <span style="color:red">red</span>.
-            2. Color parent **black**.
-            4. Rotate left on grandparent.
+    2. *Parent is <span style="color:red">red</span>*?
+        1. Color grandparent <span style="color:red">red</span>.
+        2. *Pibling is <span style="color:red">red</span>?*
+            1. Color parent and pibling **black**.
+            2. X now refers to the grandparent, and repeat the Cases section.
+        3. *Pibling is **black**?*
+            1. *X is left-child and parent is right-child? (zig-zag)*
+
+                1. Color X **black**.
+                2. Rotate right on parent.
+                3. Rotate left on grandparent.
+            2. *X is right-child and parent is left-child? (zag-zig)*
+
+                1. Color X **black**.
+                2. Rotate left on parent.
+                3. Rotate right on grandparent.       
+            3. *X and parent are both left children? (zig-zig)*
+
+                1. Color parent **black**.
+                2. Rotate right on grandparent.
+            4. *X and parent are both right children? (zag-zag)*
+
+                1. Color parent **black**.
+                2. Rotate left on grandparent.
 
 
 Adapted from Chapter 13 of *Introduction to Algorithms, 2nd Edition* by Cormen, Leiserson,
