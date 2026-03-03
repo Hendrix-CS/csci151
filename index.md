@@ -58,6 +58,7 @@ TBA
 |  |  | [Main.java]({{site.baseurl}}/inclass/Main.java) | 
 | M 9 Feb | Enums | [Currency.java]({{site.baseurl}}/inclass/Currency.java) | 
 |  |  | [ChangeMaker.java]({{site.baseurl}}/inclass/ChangeMaker.java) | 
+| W 4 Mar | GUI Example | [LightsOut](https://github.com/Hendrix-CS/csci151/tree/master/code/2025Sp/LightsOutGUI) |
 
 # <a name="schedule">Schedule</a>
 
