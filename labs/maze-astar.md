@@ -146,5 +146,4 @@ Discuss the differences you see between the Stack, Queue, and Heap.
 
 ## Grading
 
-* To **Partially Complete** this lab, complete Steps 1, 2, 3, 4, 5, and 6
-* To **Complete** this lab, do the above and Steps 7 and 8
+* To **Complete** this lab, finish Steps 1 through 8
