@@ -1,7 +1,7 @@
 ---
 layout: work
 type: Formative Assessment
-num: 7
+num: 6
 worktitle: Sorting
 ---
 

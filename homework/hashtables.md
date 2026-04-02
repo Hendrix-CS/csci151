@@ -1,7 +1,7 @@
 ---
 layout: work
 type: Formative Assessment
-num: 10
+num: 9
 worktitle: Hash Tables
 ---
 

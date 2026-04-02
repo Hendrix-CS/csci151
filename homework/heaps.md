@@ -1,7 +1,7 @@
 ---
 layout: work
 type: Formative Assessment
-num: 6
+num: 5
 worktitle: Heaps
 ---
 
