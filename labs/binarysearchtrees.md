@@ -99,6 +99,7 @@ comments carefully.
 
 It should pass its unit tests and again is testable
 on the GUI, by clicking on nodes you wish to remove.
+<!--
 
 ## Step 5: Rotations
 
@@ -115,7 +116,8 @@ linear. Then, use rotations to transform each linear tree into a
 balanced tree. Record in your evaluation document the number of
 rotations you needed to perform to balance each tree. Discuss how you
 identified the need for a rotation when examining each tree.
+-->
 
 ## Grading
 
-* To **Complete** this lab, complete Steps 1-6.
+* To **Complete** this lab, complete Steps 1-4.
