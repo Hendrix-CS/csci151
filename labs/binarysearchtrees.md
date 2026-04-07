@@ -99,6 +99,7 @@ comments carefully.
 
 It should pass its unit tests and again is testable
 on the GUI, by clicking on nodes you wish to remove.
+
 <!--
 
 ## Step 5: Rotations
