@@ -138,7 +138,7 @@ demonstration, the office hours visit will need to occur by the following Thursd
 |8  | [Sortimator]({{site.baseurl}}/labs/sortimator.html)                  
 |9  | [JavaFX Animation]({{site.baseurl}}/labs/animation.html)             
 |10 | [Binary Search Trees]({{site.baseurl}}/labs/binarysearchtrees.html) 
-|11 | [Splay Trees]({{site.baseurl}}/labs/splaytrees.html)       
+|11 | [Red-Black Trees]({{site.baseurl}}/labs/red_black_insert.html)       
 |12 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html)       
 |P  | Final Project work day                                              
 
