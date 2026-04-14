@@ -7,24 +7,36 @@ import java.util.Collections;
 
 public class RBTest {
     @Test
-    public void randomTrees() {
+    public void smallRandomTrees() {
         for (int test = 0; test < 30; test++) {
-            randomTree(256);
+            ArrayList<Character> chars = new ArrayList<>();
+            for (char c = 'a'; c <= 'z'; c++) {
+                chars.add(c);
+            }
+            Collections.shuffle(chars);
+            System.out.println(chars);
+            makeTestTreeFrom(chars);
         }
     }
 
-    public RedBlackTree<Integer> randomTree(int size) {
-        ArrayList<Integer> values = new ArrayList<>();
-        for (int i = 0; i < size; i++) {
-            values.add(i);
+    @Test
+    public void bigRandomTrees() {
+        for (int test = 0; test < 30; test++) {
+            ArrayList<Integer> values = new ArrayList<>();
+            for (int i = 0; i < 256; i++) {
+                values.add(i);
+            }
+            Collections.shuffle(values);
+            makeTestTreeFrom(values);
         }
-        Collections.shuffle(values);
-        RedBlackTree<Integer> t = new RedBlackTree<>();
-        for (int i = 0; i < size; i++) {
+    }
+
+    public <T extends Comparable<T>> void makeTestTreeFrom(ArrayList<T> values) {
+        RedBlackTree<T> t = new RedBlackTree<>();
+        for (int i = 0; i < values.size(); i++) {
             t.insert(values.get(i));
             t.getRoot().get().assertParentChildSymmetry();
         }
         t.assertInvariants();
-        return t;
     }
 }

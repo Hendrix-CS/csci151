@@ -78,8 +78,9 @@ public class RedBlackTree<K extends Comparable<K>> implements RBParent<K> {
             root.asNode().get().assertSearchTree();
             assert root.getColor() == RedBlack.BLACK;
             root.asNode().get().assertNoRedRed();
-            int height = root.blackHeight();
+            int height = root.height();
             assert height <= (int)(2 * Math.log(root.size())) + 1;
+            assert root.blackHeight() <= height;
         }
     }
 
@@ -95,7 +96,7 @@ public class RedBlackTree<K extends Comparable<K>> implements RBParent<K> {
 
     public ArrayList<ArrayList<ArrayList<NodeColor<K>>>> levelOrder() {
         ArrayList<ArrayList<ArrayList<NodeColor<K>>>> levels = new ArrayList<>();
-        if (!root.asNode().isPresent()) {return levels;}
+        if (root.asNode().isEmpty()) {return levels;}
 
         levels.add(new ArrayList<>());
         Queue<TreeQueueEntry> q = new ArrayDeque<>();
@@ -104,13 +105,13 @@ public class RedBlackTree<K extends Comparable<K>> implements RBParent<K> {
         for (;;) {
             TreeQueueEntry node = q.remove();
             if (node.level != levels.size() - 1) {
-                if (allSentinels(levels.get(levels.size() - 1))) {
-                    levels.remove(levels.size() - 1);
+                if (allSentinels(levels.getLast())) {
+                    levels.removeLast();
                     return levels;
                 }
                 levels.add(new ArrayList<>());
             }
-            levels.get(levels.size() - 1).add(createEntryFrom(node, q));
+            levels.getLast().add(createEntryFrom(node, q));
         }
     }
 
