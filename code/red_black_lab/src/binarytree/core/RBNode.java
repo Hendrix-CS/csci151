@@ -167,9 +167,6 @@ public class RBNode<K extends Comparable<K>> implements RBChild<K> {
     }
 
     private void redPiblingFixup() {
-        assert color == RedBlack.BLACK;
-        assert left.getColor() == RedBlack.RED;
-        assert right.getColor() == RedBlack.RED;
         // TODO: Your code here
     }
 
