@@ -35,13 +35,9 @@ Upon completing this course, our goal is for you to be able to:
 
 # Peer Tutoring
 
-TBA
-
-<!--
-| Monday         | Tuesday       | Wednesday      | Thursday
-|----------------|---------------|----------------|--------- 
-| Henry (7-9)    | Vincent (7-9) | Leigh (5-7)<br>Jauss (7-9) | Sanskruti (6-8)   | 
--->
+| Sunday         | Monday         | Tuesday       | Wednesday      | Thursday
+|----------------|----------------|---------------|----------------|--------- 
+| Luke 6-8       | Vincent 7-9    | Meem 6-8      | Leigh 6-8      | Rachel 7-9   | 
 
 # In-Class Code
 
