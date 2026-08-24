@@ -243,7 +243,19 @@ Computer Science Academic Integrity Policy](http://ozark.hendrix.edu/~yorgey/ac-
 
 ## <a name="aiuse">AI Policy</a>
 
-TBD on Thursday
+Learning to write computer programs doesn't only develop programming skill - it also 
+develops broader skills in formal reasoning. Using AI coding assistants disrupts the
+development of these essential formal reasoning skills. As one of the goals of this course
+is for you to further develop your programming and formal reasoning skills, the use of
+AI coding assistants is prohibited for all programming assignments submitted for credit 
+in this course.
+
+Learning to write prose is also an essential skill that we seek to develop in this course
+through writing design documents and reflections on projects. Your prose need not be perfect - I 
+want to read your own authentic voice, not that of an AI writing assistant. I want you to
+develop your own authentic voice, not that of a machine. Thus, the use of generative AI
+writing assistants is also prohibited for all writing assignments submitted for credit
+in this course.
 
 ## <a name="attendance">Attendance</a>
 
