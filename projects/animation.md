@@ -94,4 +94,4 @@ To achieve **Level 2 Complete**, your project must
   * correctly states the asymptotic time complexity of each operation invoked on the central data structure;
   * discusses why, in light of the time complexity of those operations, the data structure is a good choice for the application.
   
-  In addition to the above specifications, you must schedule a **one-on-one meeting** with me to discuss your app. In this meeting, I will be asking you to *explain your coding decisions* and *make a modification to your code base*. If your explanation or code modification is not completed satisfactorily, this project will remain Level 1. This meeting requirement can be reattempted two more times before the grade of Level 1 is permanent.
+In addition to the above specifications, you must schedule a **one-on-one meeting** with me to discuss your app. In this meeting, I will be asking you to *explain your coding decisions* and *make a modification to your code base*. If your explanation or code modification is not completed satisfactorily, this project will remain Level 1. This meeting requirement can be reattempted two more times before the grade of Level 1 is permanent.

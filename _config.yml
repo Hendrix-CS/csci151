@@ -56,10 +56,22 @@ navigation:
         url: '#projects'
       - page: Final Project
         url: '#finalproject'
+      - page: Checkins
+        url: '#checkins'
+  - title: Policies
+    subfolderitems:
+      - page: Due Dates
+        url: '#duedates'
+      - page: Academic Integrity
+        url: '#integrity'
+      - page: AI Usage
+        url: '#aiuse'
+      - page: Attendance
+        url: '#attendance'
       - page: Grading
         url: '#scale'
-  - page: Commitments
-    url: '#commitments'
+      - page: External
+        url: '#external'
 
 instructors:
   - id: ferrer
@@ -101,9 +113,9 @@ extra-resources:
   - name: Algorithms
     image: assets/images/algorithms.png
     url: https://algs4.cs.princeton.edu/
-  - name: CUVids
-    image: assets/images/cuvids.png
-    url: https://cuvids.io/app/course/2/
+  - name: DAIADS
+    image: assets/images/daiads.png
+    url: https://cusack.hope.edu/DAIADS/?book=ds&path=Start+Here%2FAbout
 
 # Build settings
 markdown: kramdown

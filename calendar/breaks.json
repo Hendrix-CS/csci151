@@ -1,6 +1,6 @@
 [
-    {"title": "Labor Day",       "start": "2026-09-07"                              },
-    {"title": "Fall Break",      "start": "2026-10-15", "end": "2026-10-18T00:00:01"                            },
-    {"title": "Thanskgiving",    "start": "2026-11-25", "end": "2026-11-29T00:00:01"},
-    {"title": "Reading Day",     "start": "2026-12-07"                              }
+    {"title": "Labor Day",    "start": "2026-09-07"                              },
+    {"title": "Fall Break",   "start": "2026-10-15", "end": "2026-10-18T00:00:01"},
+    {"title": "Thanskgiving", "start": "2026-11-25", "end": "2026-11-29T00:00:01"},
+    {"title": "Reading Day",  "start": "2026-12-07"                              }
 ]

@@ -8,7 +8,9 @@ layout: course-multi
 
 # <a name="description">Overview</a>
 
+<p class="course-desc">
 {{ site.description }}
+</p>
 
 ## <a name="goals">Learning Goals</a>
 
@@ -31,9 +33,7 @@ Upon completing this course, our goal is for you to be able to:
 
 {% include resources.html content=site.extra-resources %}
 
-<hr>
-
-## Peer Tutoring
+# Peer Tutoring
 
 TBA
 
@@ -65,8 +65,6 @@ TBA
 This is where you will find all of your assignment due dates.
 
 <div id='calendar'></div>
-
-<hr>
 
 # Coursework
 
@@ -101,7 +99,7 @@ for a demonstration of understanding. There are three types of formative assessm
 
 | #  | Name | Assessment Type | 
 |:--:|------| ----------------| 
-|0 | [Survey](https://docs.google.com/forms/d/e/1FAIpQLSfFYzOOUaE3CCT3ocnDDentzhdEujBtAPeywT_SukFLyvKJxg/viewform) | n/a |
+|0 | [Survey](https://docs.google.com/forms/d/e/1FAIpQLSe4AM1ePv0m4hrfe5MJpcfFv97GFVKjb36tRm1WlvM4SfEOaA/viewform) | n/a |
 |1 | [Eating Candy]({{site.baseurl}}/homework/candy.html) | Java Programming |
 |2 | [Planting a Garden]({{site.baseurl}}/homework/garden.html) | Java Programming |
 |3 | [Memory Diagrams]({{site.baseurl}}/homework/memory.html) | Problem Solving |
@@ -119,12 +117,15 @@ for a demonstration of understanding. There are three types of formative assessm
   * A student is welcome to schedule a follow-up meeting to make an additional attempt 
     to earn full credit.
 * Attempting the demonstration by the deadline earns one additional credit.
-* All demonstrations must be completed by Friday, May 8th at 5 pm.
+* All demonstrations must be completed by the finals period.
   
 Each formative assessment will be assigned on a Friday. To receive credit for an on-time
 demonstration, the office hours visit will need to occur by the following Thursday at 5 pm.
 
 ## <a name="labs">Labs</a>
+
+Labs let you engage further with the material from class, getting first-hand programming experience with Java implementing data structures and ensuring correctness
+using unit tests.
 
 | #  | Name                                                               
 |:--:|-----                                                               
@@ -140,6 +141,7 @@ demonstration, the office hours visit will need to occur by the following Thursd
 |10 | [Binary Search Trees]({{site.baseurl}}/labs/binarysearchtrees.html) 
 |11 | [Red-Black Trees]({{site.baseurl}}/labs/red_black_insert.html)       
 |12 | [Playing Tic-Tac-Toe]({{site.baseurl}}/labs/tic-tac-toe.html)       
+|D  | Final Project design day                                              
 |P  | Final Project work day                                              
 
 Each lab consists of a series of milestones. At the start of each lab, you will 
@@ -173,22 +175,22 @@ stationed in the Snoddy Computer Lab in the library for our lab times." %}
 
 ## <a name="projects">Skills Projects</a>
 
+You will have three skills projects in this course, one about every four weeks. 
+These projects will cover concepts we have discussed in class and in labs, and 
+will be due approximately two weeks after they are assigned.
+
 | #  | Name | 
 |:--:|-----|
 |1 | [Java and Arrays]({{site.baseurl}}/projects/arrays.html)  |
 |2 | [GUI]({{site.baseurl}}/projects/gui.html) |
 |3 | [Animation]({{site.baseurl}}/projects/animation.html) |
 
-You will have three skills projects in this course, one about every four weeks. 
-These projects will cover concepts we have discussed in class and in labs, and 
-will be due approximately two weeks after they are assigned.
-
-{% include warning.html content="You must work individually on the projects. 
+You must work individually on the projects. 
 You may discuss concepts and ideas with your classmates, but the 
 **code or work you turn in must be your own**. Use of any resources 
 (TA, StackOverflow, etc) must be cited, and an overreliance on those 
 resources can be counterproductive to developing your own ability to make 
-progress in this and other courses." %}
+progress in this and other courses.
 
 {% include warning.html content="Incorporating code from a generative AI coding assistant 
   is considered **plagiarism** and is not allowed." %}
@@ -215,7 +217,33 @@ will be accepted late. Projects earn **credits** as follows:
 
 If a project receives less than Level 2 Complete, a student may submit a revised version of the project after an
 office hours meeting with the instructor to discuss how the project should be improved. All project revisions must
-be submitted by Tuesday, December 16 at 5 pm.
+be submitted by the finals period for this course.
+
+## <a name="checkins">Checkins</a>
+
+Three times throughout the semester, you are expected to
+make an [office hours appointment](https://markgoadrich.youcanbook.me) and check in with me about the course.
+This will be conversation and feedback about your current progress and understanding.
+Ideally, these should be scheduled during the weeks shown
+on the course calendar.
+
+# Policies
+
+## <a name="integrity">Academic Integricy</a>
+
+Hendrix College is committed to high standards of honesty and fairness in academic pursuits. Such standards are central to the process of intellectual inquiry, the development of character, and the preservation of the integrity of the community.
+
+This commitment can be understood in the following ways:
+
+* A student should not gain an unfair advantage or violate other students’ commitment to honest work and genuine effort.  The amount of cooperation undertaken with other students, the consistency and accuracy of work, and the test-taking procedure should adhere to the guidelines that the classroom teacher provides.
+* Members of the Hendrix community value and uphold academic integrity because we recognize that scholarly pursuits are aimed at increasing the shared body of knowledge.  The full disclosure of sources is the most effective way to ensure accountability to both ourselves and our colleagues.
+
+More details can be found in the [Hendrix Academic Integrity Policy](https://www.hendrix.edu/Catalog/2026-2027/Academic_Policies_and_Regulations/Policies_and_Appeals/D_6_c__Academic_Integrity/) and the [Hendrix
+Computer Science Academic Integrity Policy](http://ozark.hendrix.edu/~yorgey/ac-integrity-policy.html).
+
+## <a name="aiuse">AI Policy</a>
+
+TBD on Thursday
 
 ## <a name="attendance">Attendance</a>
 
@@ -223,7 +251,9 @@ Attending class and being an active participant in the class community
 is one of the [most important contributors to your learning at Hendrix](https://www.hendrix.edu/Catalog/2025-2026/Academic_Policies_and_Regulations/Policies_and_Appeals/D_6_e__Class_Attendance/).
 Attendance is especially important in this class since you will often engage in group learning activities. Active participation is expected in order to achieve higher grade levels in the course. 
 
-If you know that you will be absent, please email me so that we can find accomodations. If there is an emergency, please get in touch with me as soon as is possible once the emergency is resolved. I trust you to be honest with me about your reasons for the absence (I do not need details), and honest with yourself about if you truly need to be absent. **If you do not communicate with me about your absence, it will be unexcused.**
+If you know that you will be absent, please email me so that we can find accomodations. If there is an emergency, please get in touch with me as soon as is possible once the emergency is resolved. I trust you to be honest with me about your reasons for the absence (I do not need details), and honest with yourself about if you truly need to be absent.
+
+{% include important.html content="If you do not communicate with me about your absence, or if your reason for absence is not listed on the Hendrix Attendance Policy, it will likely be unexcused." %}
 
 ## <a name="scale">Specifications Grading</a>
 
