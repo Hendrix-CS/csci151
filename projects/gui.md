@@ -106,3 +106,5 @@ To achieve **Level 2 Complete**, your project must
 * include an evaluation document that:
   * adequately describes the project;
   * discusses how data is incorporated into and retrieved from its central data structure.
+
+In addition to the above specifications, you must schedule a **one-on-one meeting** with me to discuss your app. In this meeting, I will be asking you to *explain your coding decisions* and *make a modification to your code base*. If your explanation or code modification is not completed satisfactorily, this project will remain Level 1. This meeting requirement can be reattempted two more times before the grade of Level 1 is permanent.
