@@ -44,6 +44,9 @@ Upon completing this course, our goal is for you to be able to:
 
 | Date | Topic | Code |
 |:----:|------||-----||
+| W 26 Aug | Java Intro | [Main.java]({{site.baseurl}}/code/FirstDay/Main.java) |
+
+<!--
 | F 30 Jan | Java Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/Jack/JackInTheBox.java) | 
 |  |  | [Main.java]({{site.baseurl}}/inclass/Jack/Main.java) | 
 | M 2 Feb | Interfaces | [ArrayLight.java]({{site.baseurl}}/inclass/Lights/ArrayLight.java) | 
@@ -55,6 +58,7 @@ Upon completing this course, our goal is for you to be able to:
 | M 9 Feb | Enums | [Currency.java]({{site.baseurl}}/inclass/Currency.java) | 
 |  |  | [ChangeMaker.java]({{site.baseurl}}/inclass/ChangeMaker.java) | 
 | W 4 Mar | GUI Example | [LightsOut](https://github.com/Hendrix-CS/csci151/tree/master/code/2025Sp/LightsOutGUI) |
+-->
 
 # <a name="schedule">Schedule</a>
 
