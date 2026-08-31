@@ -45,6 +45,7 @@ Upon completing this course, our goal is for you to be able to:
 | Date | Topic | Code |
 |:----:|------||-----||
 | W 26 Aug | Java Intro | [Main.java]({{site.baseurl}}/code/FirstDay/Main.java) |
+| M 31 Aug | More Java Functions | [Main.java]({{site.baseurl}}/code/FirstDay/Main2.java) |
 
 <!--
 | F 30 Jan | Java Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/Jack/JackInTheBox.java) | 
