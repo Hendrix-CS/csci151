@@ -46,10 +46,10 @@ Upon completing this course, our goal is for you to be able to:
 |:----:|------||-----||
 | W 26 Aug | Java Intro | [Main.java]({{site.baseurl}}/code/FirstDay/Main.java) |
 | M 31 Aug | More Java Functions | [Main.java]({{site.baseurl}}/code/FirstDay/Main2.java) |
+| W 2 Sep | Java Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/Jack/JackInTheBox.java) | 
+|  |  | [Main.java]({{site.baseurl}}/inclass/Jack/Main.java) | 
 
 <!--
-| F 30 Jan | Java Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/Jack/JackInTheBox.java) | 
-|  |  | [Main.java]({{site.baseurl}}/inclass/Jack/Main.java) | 
 | M 2 Feb | Interfaces | [ArrayLight.java]({{site.baseurl}}/inclass/Lights/ArrayLight.java) | 
 |  |  | [ConditionalLight.java]({{site.baseurl}}/inclass/Lights/ConditionalLight.java) | 
 |  |  | [Light.java]({{site.baseurl}}/inclass/Lights/Light.java) | 
