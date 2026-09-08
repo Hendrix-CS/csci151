@@ -48,12 +48,13 @@ Upon completing this course, our goal is for you to be able to:
 | M 31 Aug | More Java Functions | [Main.java]({{site.baseurl}}/code/FirstDay/Main2.java) |
 | W 2 Sep | Java Classes | [JackInTheBox.java]({{site.baseurl}}/inclass/Jack/JackInTheBox.java) | 
 |  |  | [Main.java]({{site.baseurl}}/inclass/Jack/Main.java) | 
-
-<!--
-| M 2 Feb | Interfaces | [ArrayLight.java]({{site.baseurl}}/inclass/Lights/ArrayLight.java) | 
+| F 4 Sep | Interfaces | [ArrayLight.java]({{site.baseurl}}/inclass/Lights/ArrayLight.java) | 
 |  |  | [ConditionalLight.java]({{site.baseurl}}/inclass/Lights/ConditionalLight.java) | 
 |  |  | [Light.java]({{site.baseurl}}/inclass/Lights/Light.java) | 
 |  |  | [Main.java]({{site.baseurl}}/inclass/Lights/Main.java) | 
+
+
+<!--
 | F 6 Feb | User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut.java) | 
 |  |  | [Main.java]({{site.baseurl}}/inclass/Main.java) | 
 | M 9 Feb | Enums | [Currency.java]({{site.baseurl}}/inclass/Currency.java) | 
