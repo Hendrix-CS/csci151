@@ -52,11 +52,11 @@ Upon completing this course, our goal is for you to be able to:
 |  |  | [ConditionalLight.java]({{site.baseurl}}/inclass/Lights/ConditionalLight.java) | 
 |  |  | [Light.java]({{site.baseurl}}/inclass/Lights/Light.java) | 
 |  |  | [Main.java]({{site.baseurl}}/inclass/Lights/Main.java) | 
-
+| F 11 Sep | User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut2026F/LightsOut.java) | 
+|  |  | [LightState.java]({{site.baseurl}}/inclass/LightsOut2026F/LightState.java) | 
+|  |  | [Main.java]({{site.baseurl}}/inclass/LightsOut2026F/Main.java) | 
 
 <!--
-| F 6 Feb | User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut.java) | 
-|  |  | [Main.java]({{site.baseurl}}/inclass/Main.java) | 
 | M 9 Feb | Enums | [Currency.java]({{site.baseurl}}/inclass/Currency.java) | 
 |  |  | [ChangeMaker.java]({{site.baseurl}}/inclass/ChangeMaker.java) | 
 | W 4 Mar | GUI Example | [LightsOut](https://github.com/Hendrix-CS/csci151/tree/master/code/2025Sp/LightsOutGUI) |

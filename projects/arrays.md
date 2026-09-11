@@ -3,7 +3,7 @@ layout: work
 type: Project
 num: 1
 worktitle: Arrays
-designdue: February 13th
+designdue: September 18th
 ---
 
 ## Overview
