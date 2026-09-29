@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LightsOutController">
+   <top>
+      <Button fx:id="button" mnemonicParsing="false" onAction="#reset" text="New Game" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <Label fx:id="label" text="Label" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <Pane fx:id="pane" maxHeight="300.0" maxWidth="300.0" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

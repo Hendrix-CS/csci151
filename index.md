@@ -55,6 +55,15 @@ Upon completing this course, our goal is for you to be able to:
 | F 11 Sep | User Input | [LightsOut.java]({{site.baseurl}}/inclass/LightsOut2026F/LightsOut.java) | 
 |  |  | [LightState.java]({{site.baseurl}}/inclass/LightsOut2026F/LightState.java) | 
 |  |  | [Main.java]({{site.baseurl}}/inclass/LightsOut2026F/Main.java) | 
+| F 25 Sep | GUI Example | [ExampleController.java]({{site.baseurl}}/inclass/DemoGUI2026F/ExampleController.java) | 
+|  |  | [ExampleGUI.fxml]({{site.baseurl}}/inclass/DemoGUI2026F/ExampleGUI.fxml) | 
+|  |  | [Main.java]({{site.baseurl}}/inclass/DemoGUI2026F/Main.java) | 
+| M 28 Sep | GUI Model Example | [LightsOut.java]({{site.baseurl}}/inclass/LightsOutGUI2026F/LightsOut.java) | 
+|  |  | [LightState.java]({{site.baseurl}}/inclass/LightsOutGUI2026F/LightState.java) | 
+|  |  | [LightsOutController.java]({{site.baseurl}}/inclass/LightsOutGUI2026F/LightsOutController.java) | 
+|  |  | [Position.java]({{site.baseurl}}/inclass/LightsOutGUI2026F/Position.java) | 
+|  |  | [LightsOutGUI.fxml]({{site.baseurl}}/inclass/LightsOutGUI2026F/LightsOutGUI.fxml) | 
+|  |  | [LightsOutApp.java]({{site.baseurl}}/inclass/LightsOutGUI2026F/LightsOutApp.java) | 
 
 <!--
 | M 9 Feb | Enums | [Currency.java]({{site.baseurl}}/inclass/Currency.java) | 
