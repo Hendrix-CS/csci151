@@ -25,21 +25,22 @@ Setup
 Description
 -----------
 
-In Lab 4, we explored searching a maze for a goal using a stack to
-organize our potential Trails. The stack allowed us to search in a
-depth-first search manner. In other words, we would explore down a trail
-as far as possible, and backtracked if we reached a dead end in our
-journey, because we were search the youngest potential trail next.
+In Lab 4, we explored creating a maze using a stack to
+organize our potential spots to open. The stack allowed us to search in a
+depth-first search manner for possible next Cells to open. 
+In other words, we would explore 
+as far as possible, and backttrack if we reached a dead end in our
+journey, because we were search the youngest potential Cell next.
 
 But there are other ways to search. We now want to investigate a
-breadth-first search approach, where the oldest potential trail is
-expanded next.
+breadth-first search approach, where the oldest potential Cell is
+expanded next, and do so within the context of searching rather than creating.
 
 In this lab, you will create the necessary data structures to search a
-maze with breadth-first search.
+maze with breadth-first search, and compare this to a depth-first search technique.
 
 {% include note.html content="This project contains a working implementation of the Maze
-Enum and Array Lab, so you do not have to revise any of your earlier code to add
+Enum and Array and Stack Labs, so you do not have to revise any of your earlier code to add
 this functionality." %}
 
 ## Step 1 - ListQueue\<E\>
