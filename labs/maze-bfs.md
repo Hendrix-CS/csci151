@@ -58,9 +58,9 @@ Write a class called `ListQueue<E>`. This will need to implement the
 `Queue<E>` interface, and have at least a `ListNode<E>` called `front`
 and another called `back` as fields.
 
-### Step 1.2 - `public void add(E item)`
+### Step 1.2 - `public void add(E value)`
 
-Create a new `ListNode<E>` that stores the `item`.
+Create a new `ListNode<E>` that stores the `value`.
 
 If the queue `isEmpty`, then set `front` to this new `ListNode<E>`.
 
@@ -106,7 +106,7 @@ starting with `front` and `size` both equal to 0.
 fields of front and size, you can always
 calculate the back of the queue using (front + size) % stuff.length ." %}
 
-### Step 2.1 - `public void add(E item)`
+### Step 2.1 - `public void add(E value)`
 
 If there is no more room in the `stuff` array, you will need to **resize**.
 
@@ -116,7 +116,7 @@ is at index 0*.
 * Redirect the `stuff` reference to the new array.
 * Reset `front` to be 0.
 
-Now, you can always add the new item to the `back` spot in the `stuff` array,
+Now, you can always add the `value` to the `back` spot in the `stuff` array,
 and increment the `size`.
 
 ### Step 2.2 - `public E remove()`
