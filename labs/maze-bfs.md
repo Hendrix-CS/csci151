@@ -95,10 +95,6 @@ Otherwise, return the number of `ListNode<E>` that are chained from the `front` 
 Run the `ListQueueTest` suite, and ensure your above methods are passing
 these tests.
 
-### Step 1.7 - GUI
-
-Run the GUI to interact with your code.
-
 ## Step 2 - ArrayQueue\<E\>
 
 Write a class called `ArrayQueue<E>`. This will need to implement the
@@ -160,10 +156,6 @@ these tests.
 {% include important.html content="Your code needs to be efficient in terms of the space used. You should
 treat your array of elements as a circular array, and only resize the
 array when all positions are full of valid elements in the queue." %}
-
-### Step 2.6 - GUI
-
-Run the GUI to interact with your code.
 
 ### Step 3 - Solving Mazes
 
