@@ -64,6 +64,7 @@ Upon completing this course, our goal is for you to be able to:
 |  |  | [Position.java]({{site.baseurl}}/inclass/LightsOutGUI2026F/Position.java) | 
 |  |  | [LightsOutGUI.fxml]({{site.baseurl}}/inclass/LightsOutGUI2026F/LightsOutGUI.fxml) | 
 |  |  | [LightsOutApp.java]({{site.baseurl}}/inclass/LightsOutGUI2026F/LightsOutApp.java) | 
+| M 19 Oct | Animation Model Example | [LightsOut]({{site.baseurl}}/inclass/LightsOut2026.zip) | 
 
 <!--
 | M 9 Feb | Enums | [Currency.java]({{site.baseurl}}/inclass/Currency.java) | 
