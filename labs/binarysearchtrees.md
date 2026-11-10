@@ -52,7 +52,7 @@ ask 'left.isPresent()'. If `left` exists, then we can get the `TreeNode` by
 saying `left.get()`.
 
 {% include important.html content="To make a new child, we would say something like
-`left = Optional.of(new TreeNode(value))`." %}
+`left = Optional.of(new TreeNode(target))`." %}
 
 Methods that remain to be implemented in the `TreeNode` class have been
 marked with TODO for easy identification.
@@ -60,7 +60,7 @@ marked with TODO for easy identification.
 ## Step 1: `insert()` and `contains()`
 
 Use recursion to complete the `insert()` and `contains()` methods in the `TreeNode`
-class. Both of them will need to use the result of `value.compareTo(this.value)` method
+class. Both of them will need to use the result of `target.compareTo(value)` method
 to determine if the parameter is less than, equal to, or greater than the value
 at the current `TreeNode`.
 
