@@ -82,11 +82,15 @@ To complete this step, you must pass the `zigZigInvariant()` test.
 
 Zig Zag is the case where X is a left child and X's parent is a right child. When this happens, you must color X black, rotate X's parent to the right and rotate X's grandparent to the left.
 
+{% include warning.html content="A rotation will cause the grandparent of a node to change! Save the grandparent first." %}
+
 To complete this step, you must pass the `zigZagInvariant()` test.
 
 ### Step 4.3: `zagZig()`
 
 Zag Zig is the case where X is a right child, and X's parent is a left child. When this happens, you must color X black, rotate X's parent to the left and rotate X's grandparent to the right.
+
+{% include warning.html content="A rotation will cause the grandparent of a node to change! Save the grandparent first." %}
 
 To complete this step, you must pass the `zagZigInvariant()` test.
 
@@ -102,7 +106,7 @@ Finally, using all of the zig and zag functions, determine the cases mentioned a
 
 ## Step 5: `insertFixup()`
 
-Whenever an item is insert, it is important to see if it needs to be moved around. We do this through the `insertFixup()` function. It is called every time an item is inserted into the tree, on that item. Follow the flow chart, and make sure to use your `redPiblingFixup()` and `blackPiblingFixup()` functions!
+Whenever an item is inserted, it is important to see if it needs to be moved around. We do this through the `insertFixup()` function. It is called every time an item is inserted into the tree, on that item. Follow the flow chart, and make sure to use your `redPiblingFixup()` and `blackPiblingFixup()` functions!
 
 {% include note.html content="You should use `getGrandparent()` and `getPibling()` to make things a little bit easier!" %}
 
