@@ -28,11 +28,11 @@ A Red Black Tree is a peculiar data structure, crossing the bridge color theory 
 
 ![](../assets/images/rbtlab.png){: .img-fluid}
 
-When opening the project, you will see `core` and `gui`. You will only need to write code in core. You will need to **write** code in two classes `TreeNode` and `RBNode`. Open these files, and scroll down until you see **TODO**.
+When opening the project, you will see `core` and `gui`. You will only need to write code in core. You will need to only **write** code in one class: `RBNode`. Open this file, and scroll down until you see **TODO**.
 
 Each node has a left, right, parent, and a color. You can get and set these at your will.
 
-We will start by writing some helper functions in `TreeNode`, to introduce you to the elements needed for this lab.
+We will start by writing some helper functions to introduce you to the elements needed for this lab.
 
 ### Step 0.1: `getGrandParent()`
 
@@ -46,7 +46,7 @@ First get a reference to the grandparent, and then ask `whichChild` the parent i
 
 ## Step 1: `redRedViolation()`
 
-Now, move to the `RBNode.java` file, where you will write the rest of your code.
+Now you will write the rest of your code.
 
 This is one of the first invariants of a Red Black Tree. It states that "A red node cannot have a red child." To prevent this from happening, write a check to alert if this invariant in violated, where a red node also has a red child.
 
