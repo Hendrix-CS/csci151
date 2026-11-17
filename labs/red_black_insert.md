@@ -82,7 +82,7 @@ To complete this step, you must pass the `zigZigInvariant()` test.
 
 Zig Zag is the case where X is a left child and X's parent is a right child. When this happens, you must color X black, rotate X's parent to the right and rotate X's grandparent to the left.
 
-{% include warning.html content="A rotation will cause the grandparent of a node to change! Save the grandparent first." %}
+{% include warning.html content="A rotation will cause the grandparent of a node to change! Because we have two rotations going up the tree, save the grandparent first." %}
 
 To complete this step, you must pass the `zigZagInvariant()` test.
 
@@ -90,7 +90,7 @@ To complete this step, you must pass the `zigZagInvariant()` test.
 
 Zag Zig is the case where X is a right child, and X's parent is a left child. When this happens, you must color X black, rotate X's parent to the left and rotate X's grandparent to the right.
 
-{% include warning.html content="A rotation will cause the grandparent of a node to change! Save the grandparent first." %}
+{% include warning.html content="A rotation will cause the grandparent of a node to change! Because we have two rotations going up the tree, save the grandparent first." %}
 
 To complete this step, you must pass the `zagZigInvariant()` test.
 
